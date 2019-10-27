@@ -56,6 +56,9 @@ def _refresh(ctx, *args, **kwargs):
             city=event["city"],
             state=event["state"],
             country=event["country"],
+            cfp_open=event["cfp_open"],
+            cfp_start_date=dt.datetime.strptime(event["cfp_start_date"], "%Y-%m-%d"),
+            cfp_end_date=dt.datetime.strptime(event["cfp_end_date"], "%Y-%m-%d"),
             start_date=dt.datetime.strptime(event["start_date"], "%Y-%m-%d"),
             end_date=dt.datetime.strptime(event["end_date"], "%Y-%m-%d"),
             source=event["source"],
@@ -175,7 +178,7 @@ def _remind(ctx, *args, **kwargs):
                 start = dt.datetime.now()
                 if reminder.cfp_open:
                     delta_days = (reminder.cfp_end_date - start).days
-                    days_left = "{} days left (cfp)!".format(delta_days)
+                    days_left = "{} days left to cfp deadline!".format(delta_days)
                 else:
                     delta_days = (reminder.start_date - start).days
                     days_left = "{} days left!".format(delta_days)

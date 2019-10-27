@@ -7,6 +7,7 @@
 Here's how it works:
 
 <pre>
+$ conrad refresh
 $ conrad show
 </pre>
 
@@ -14,52 +15,147 @@ $ conrad show
 |--------|--------------------|-----------------------------------|------------------|--------|---------|------------|------------|
 | c987a6 | Python Brasil 2019 | https://2019.pythonbrasil.org.br/ | S達o Paulo       |        | Brazil  | 2019-10-23 | 2019-10-29 |
 | 3ae4f9 | PyCon Fr 2019      | https://www.pycon.fr/             | Bordeaux         |        | France  | 2019-10-31 | 2019-11-04 |
-| 68bf57 | PyCon Sweden       | http://www.pycon.se/              | Stockholm        |        | Sweden  | 2019-10-31 | 2019-11-02 |
 
 and more.
 
 ## Features
 
-### Filters
+### Set reminders
+
+You can set CFP reminders so that you never miss a deadline! The color changes based on date proximity; <span style="color:green">**> 30 days**</span>, <span style="color:yellow">**>10 and < 30 days**</span> and <span style="color:red">**< 10 days**</span>.
+
+**Protip**: Add `conrad remind` to your shell startup file so that you get a reminder every time you open a new terminal!
+
+<pre>
+$ conrad remind -i 6bb714
+$ conrad remind
+</pre>
+
+| name     | start_date | days_left                                                          |
+|----------|------------|--------------------------------------------------------------------|
+| PyCon US | 2020-04-15 | <span style="color:green">**52 days left to cfp deadline!**</span> |
+
+### Explore
+
+You can explore the conference database using various filters.
+
+Look at conferences which have an open call for proposals (cfp):
 
 <pre>
 $ conrad show --cfp
 </pre>
 
+| id     | name     | url                  | city       | state        | country | start_date | end_date   |
+|--------|----------|----------------------|------------|--------------|---------|------------|------------|
+| 6bb714 | PyCon US | https://us.pycon.org | Pittsburgh | Pennsylvania | USA     | 2020-04-15 | 2020-04-23 |
+
+Look at conferences using a tag:
+
 <pre>
 $ conrad show --tag python
 </pre>
+
+| id     | name               | url                               | city             | state  | country | start_date | end_date   |
+|--------|--------------------|-----------------------------------|------------------|--------|---------|------------|------------|
+| c987a6 | Python Brasil 2019 | https://2019.pythonbrasil.org.br/ | S達o Paulo       |        | Brazil  | 2019-10-23 | 2019-10-29 |
+| 3ae4f9 | PyCon Fr 2019      | https://www.pycon.fr/             | Bordeaux         |        | France  | 2019-10-31 | 2019-11-04 |
+
+and more.
+
+Look at conferences using a name:
 
 <pre>
 $ conrad show --name pycon
 </pre>
 
+| id     | name               | url                               | city             | state  | country | start_date | end_date   |
+|--------|--------------------|-----------------------------------|------------------|--------|---------|------------|------------|
+| 3ae4f9 | PyCon Fr 2019      | https://www.pycon.fr/             | Bordeaux         |        | France  | 2019-10-31 | 2019-11-04 |
+| 68bf57 | PyCon Sweden       | http://www.pycon.se/              | Stockholm        |        | Sweden  | 2019-10-31 | 2019-11-02 |
+
+and more.
+
+Look at conferences in a city, state or country:
+
 <pre>
 $ conrad show --location usa
 </pre>
+
+| id     | name               | url                               | city             | state  | country | start_date | end_date   |
+|--------|--------------------|-----------------------------------|------------------|--------|---------|------------|------------|
+| 66867c | PyCascades 2020      | https://2020.pycascades.com             | Portland         | Oregon | USA  | 2020-02-08 | 2020-02-10 |
+| 6bb714 | PyCon US | https://us.pycon.org | Pittsburgh | Pennsylvania | USA     | 2020-04-15 | 2020-04-23 |
+
+and more.
+
+Look at conferences based on when they're happening:
 
 <pre>
 $ conrad show --date ">= 2019-10-01" --date "<= 2020-01-01"
 </pre>
 
-### Reminders
+| id     | name               | url                               | city             | state  | country | start_date | end_date   |
+|--------|--------------------|-----------------------------------|------------------|--------|---------|------------|------------|
+| c987a6 | Python Brasil 2019 | https://2019.pythonbrasil.org.br/ | S達o Paulo       |        | Brazil  | 2019-10-23 | 2019-10-29 |
+| 3ae4f9 | PyCon Fr 2019      | https://www.pycon.fr/             | Bordeaux         |        | France  | 2019-10-31 | 2019-11-04 |
 
-Colored reminders.
+and more.
+
+### Continuous updates (upcoming)
+
+The event list is maintained in `data/events.json`. This list is continuously updated using the available `scrapers`.
+
+You can get the latest events using:
 
 <pre>
-$ conrad remind -i 68bf57
-$ conrad remind
+$ conrad refresh
 </pre>
 
-| name         | start_date | days_left                                       |
-|--------------|------------|-------------------------------------------------|
-| PyCon Sweden | 2019-10-31 | <span style="color:red">**2 days left!**</span> |
+To add new events to the list, you can start by creating a `new_events.json` file containing the list of events you want to add, with the following fields:
 
-Add to `.bashrc`!
+<pre>
+[
+    {
+        "name": "PyCon US",
+        "url": "https://us.pycon.org",
+        "city": "Pittsburgh",
+        "state": "Pennsylvania",
+        "country": "USA",
+        "cfp_open": true,
+        "cfp_start_date": "2019-09-12",
+        "cfp_end_date": "2019-12-20",
+        "start_date": "2020-04-15",
+        "end_date": "2020-04-23",
+        "source": "https://www.python.org/events/",
+        "tags": "['python']",
+        "kind": "conference"
+    }
+]
+"new_events.json" 17L, 436C
+</pre>
 
-### Automated and community-driven updates
+After that, clone this repository and create a new branch:
 
-See contributing.
+<pre>
+$ git clone https://www.github.com/vinayak-mehta/conrad
+$ cd conrad
+$ git checkout -b add-new-event
+</pre>
+
+Import the new events:
+
+<pre>
+$ conrad import -f ../new_events.json
+</pre>
+
+Push your changes:
+<pre>
+$ git add .
+$ git commit -m "Add new events"
+$ git push origin add-new-event
+</pre>
+
+And just raise a PR!
 
 ## Installation
 
