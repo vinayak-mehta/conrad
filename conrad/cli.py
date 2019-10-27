@@ -101,7 +101,6 @@ def _show(ctx, *args, **kwargs):
                 __ = dt.datetime.strptime(date, "%Y-%m-%d")
             except ValueError:
                 raise click.UsageError("Wrong date format!")
-
             if ">" in cmp:
                 date_filters.append(Event.start_date >= date)
             elif "<" in cmp:
