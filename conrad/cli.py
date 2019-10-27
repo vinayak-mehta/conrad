@@ -1,27 +1,45 @@
-#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
+import os
+
+import git
 import click
 
-from conrad import CONRAD_HOME
-from conrad.utils import mkdir
-from conrad.prettytable import PrettyTable
+from . import __version__, CONRAD_HOME
+from .prettytable import PrettyTable
 
 
-def _refresh():
-    mkdir(CONRAD_HOME)
-
-
-def _show():
+@click.group(name="conrad")
+@click.version_option(version=__version__)
+@click.pass_context
+def cli(ctx, *args, **kwargs):
     pass
 
 
-def _remind():
+@cli.command("refresh")
+@click.pass_context
+def _refresh(ctx, *args, **kwargs):
+    if not os.path.exists(CONRAD_HOME):
+        os.makedirs(CONRAD_HOME)
+        git.Repo.clone_from("https://github.com/vinayak-mehta/conrad", CONRAD_HOME)
+    else:
+        g = git.cmd.Git(CONRAD_HOME)
+        g.pull()
+
+
+@cli.command("show")
+@click.pass_context
+def _show(ctx, *args, **kwargs):
     pass
 
 
-def _import():
+@cli.command("remind")
+@click.pass_context
+def _remind(ctx, *args, **kwargs):
     pass
 
 
-def cli():
+@cli.command("import")
+@click.pass_context
+def _import(ctx, *args, **kwargs):
     pass
