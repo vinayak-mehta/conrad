@@ -15,7 +15,9 @@ with open('README.md', 'r') as f:
 
 requires = [
     "Click==7.0",
-    "GitPython==3.0.4"
+    "colorama==0.4.1",
+    "GitPython==3.0.4",
+    "SQLAlchemy==1.3.10"
 ]
 dev_requires = []
 
