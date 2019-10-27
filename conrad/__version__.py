@@ -15,7 +15,7 @@ def generate_version(version, prerelease=None, revision=None):
 
 
 __title__ = "conference-radar"
-__description__ = "Conference and meetup updates on your terminal!"
+__description__ = "Track conferences and meetups on your terminal!"
 __url__ = "https://github.com/vinayak-mehta/conrad"
 __version__ = generate_version(VERSION, prerelease=PRERELEASE, revision=REVISION)
 __author__ = "Vinayak Mehta"
