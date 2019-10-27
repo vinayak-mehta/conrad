@@ -31,7 +31,9 @@ def _refresh(ctx, *args, **kwargs):
     if not os.path.exists(CONRAD_HOME):
         os.makedirs(CONRAD_HOME)
 
-    response = requests.get("https://raw.githubusercontent.com/vinayak-mehta/conrad/master/data/events.json")
+    response = requests.get(
+        "https://raw.githubusercontent.com/vinayak-mehta/conrad/master/data/events.json"
+    )
     with open(os.path.join(CONRAD_HOME, "events.json"), "w") as f:
         f.write(json.dumps(response.json()))
 
