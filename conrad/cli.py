@@ -78,6 +78,7 @@ def _refresh(ctx, *args, **kwargs):
 @click.option("--date", "-d", default=[], multiple=True)
 @click.pass_context
 def _show(ctx, *args, **kwargs):
+    # TODO: conrad show --new
     cfp = kwargs["cfp"]
     tag = kwargs["tag"]
     name = kwargs["name"]
@@ -129,22 +130,27 @@ def _show(ctx, *args, **kwargs):
     t.align = "l"
 
     session = Session()
-    for event in session.query(Event).filter(*filters).order_by(Event.start_date).all():
-        t.add_row(
-            [
-                event.id,
-                event.name,
-                event.url,
-                event.city,
-                event.state,
-                event.country,
-                event.start_date.strftime("%Y-%m-%d"),
-                event.end_date.strftime("%Y-%m-%d"),
-            ]
-        )
-    session.close()
-
-    click.echo(t)
+    events = list(
+        session.query(Event).filter(*filters).order_by(Event.start_date).all()
+    )
+    if len(events):
+        for event in events:
+            t.add_row(
+                [
+                    event.id,
+                    event.name,
+                    event.url,
+                    event.city,
+                    event.state,
+                    event.country,
+                    event.start_date.strftime("%Y-%m-%d"),
+                    event.end_date.strftime("%Y-%m-%d"),
+                ]
+            )
+        session.close()
+        click.echo(t)
+    else:
+        click.echo("No events found!")
 
 
 @cli.command("remind")
@@ -157,23 +163,25 @@ def _remind(ctx, *args, **kwargs):
 
     if _id is None:
         session = Session()
-        reminders = (
+        reminders = list(
             session.query(Event, Reminder)
             .filter(Event.id == Reminder.id)
             .order_by(Event.start_date)
             .all()
         )
-        for reminder, __ in reminders:
-            t.add_row(
-                [
-                    reminder.name,
-                    reminder.start_date.strftime("%Y-%m-%d"),
-                    Fore.RED + Style.BRIGHT + "10 days left!" + Style.RESET_ALL,
-                ]
-            )
-        session.close()
-
-        click.echo(t)
+        if len(reminders):
+            for reminder, __ in reminders:
+                t.add_row(
+                    [
+                        reminder.name,
+                        reminder.start_date.strftime("%Y-%m-%d"),
+                        Fore.RED + Style.BRIGHT + "10 days left!" + Style.RESET_ALL,
+                    ]
+                )
+            session.close()
+            click.echo(t)
+        else:
+            click.echo("No reminders found!")
     else:
         try:
             session = Session()
