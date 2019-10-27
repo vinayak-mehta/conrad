@@ -159,7 +159,8 @@ def _show(ctx, *args, **kwargs):
 def _remind(ctx, *args, **kwargs):
     _id = kwargs["id"]
     t = PrettyTable()
-    t.field_names = ["name", "start_date", "time_left"]
+    t.field_names = ["name", "start_date", "days_left"]
+    t.align = "l"
 
     if _id is None:
         session = Session()
@@ -171,12 +172,21 @@ def _remind(ctx, *args, **kwargs):
         )
         if len(reminders):
             for reminder, __ in reminders:
+                start = dt.datetime.now()
+                if reminder.cfp_open:
+                    delta_days = (reminder.cfp_end_date - start).days
+                    days_left = "{} days left (cfp)!".format(delta_days)
+                else:
+                    delta_days = (reminder.start_date - start).days
+                    days_left = "{} days left!".format(delta_days)
+                if delta_days > 30:
+                    days_left = Fore.GREEN + Style.BRIGHT + days_left + Style.RESET_ALL
+                elif delta_days < 30 and delta_days > 10:
+                    days_left = Fore.YELLOW + Style.BRIGHT + days_left + Style.RESET_ALL
+                elif delta_days < 10:
+                    days_left = Fore.RED + Style.BRIGHT + days_left + Style.RESET_ALL
                 t.add_row(
-                    [
-                        reminder.name,
-                        reminder.start_date.strftime("%Y-%m-%d"),
-                        Fore.RED + Style.BRIGHT + "10 days left!" + Style.RESET_ALL,
-                    ]
+                    [reminder.name, reminder.start_date.strftime("%Y-%m-%d"), days_left]
                 )
             session.close()
             click.echo(t)

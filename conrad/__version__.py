@@ -20,4 +20,4 @@ __url__ = "https://github.com/vinayak-mehta/conrad"
 __version__ = generate_version(VERSION, prerelease=PRERELEASE, revision=REVISION)
 __author__ = "Vinayak Mehta"
 __author_email__ = "vmehta94@gmail.com"
-__license__ = "MIT License"
+__license__ = "Apache 2.0"
