@@ -174,8 +174,6 @@ $ cd conrad
 $ pip install .
 </pre>
 
-## Contributing
-
 ## Versioning
 
 `conrad` uses [Semantic Versioning](https://semver.org/). For the available versions, see the tags on this repository.
