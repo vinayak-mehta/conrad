@@ -178,6 +178,7 @@ def _import(ctx, *args, **kwargs):
 
     new_events = []
     for ie in input_events:
+        match = False
         for e in events:
             if (
                 ie["name"].replace(" ", "").lower()
@@ -185,8 +186,9 @@ def _import(ctx, *args, **kwargs):
             ):
                 click.echo("Updating {}".format(e["name"]))
                 e.update(ie)
-            else:
-                new_events.append(ie)
+                match = True
+        if not match:
+            new_events.append(ie)
 
     events.extend(new_events)
     with open(EVENTS_PATH, "w") as f:
