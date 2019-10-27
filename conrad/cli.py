@@ -14,7 +14,7 @@ from . import __version__, CONRAD_HOME, SQL_ALCHEMY_CONN
 from .db import engine, Session
 from .prettytable import PrettyTable
 from .models import Base, Event, Reminder
-from .utils import initialize_database, validate_import
+from .utils import initialize_database, validate
 
 
 @click.group(name="conrad")
@@ -172,6 +172,17 @@ def _import(ctx, *args, **kwargs):
 
     with open(file, "r") as f:
         input_events = json.load(f)
+
+    failures = validate(input_events)
+    if len(failures):
+        raise click.UsageError(
+            "The following validations failed!\n{}".format(
+                "".join(
+                    list(map(lambda x: "- " + x + "\n", failures[:-1]))
+                    + list(map(lambda x: "- " + x, failures[-1:]))
+                )
+            )
+        )
 
     with open(EVENTS_PATH, "r") as f:
         events = json.load(f)

@@ -18,7 +18,31 @@ def reset_database():
     initialize_database()
 
 
-def validate_import():
+def validate(input_events):
+    failures = []
+
+    keys = [
+        "name",
+        "url",
+        "city",
+        "state",
+        "country",
+        "start_date",
+        "end_date",
+        "source",
+        "tags",
+        "kind",
+    ]
+
     # check for duplicates
+    ie_names = [ie["name"].replace(" ", "").lower() for ie in input_events]
+    if list(set(ie_names)) != ie_names:
+        failures.append("Duplicate events found")
+
     # check if keys exist
-    pass
+    for ie in input_events:
+        if set(keys).difference(set(ie.keys())):
+            failures.append("Required fields not found")
+            break
+
+    return failures
