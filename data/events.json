@@ -1,1 +1,110 @@
-[{"name": "Python Brasil 2019", "url": "https://2019.pythonbrasil.org.br/", "city": "S\u00e3o Paulo", "state": "", "country": "Brazil", "start_date": "2019-10-23", "end_date": "2019-10-29", "source": "https://www.python.org/events/", "tags": "['python']", "kind": "conference"}, {"name": "PyCon Fr 2019", "url": "https://www.pycon.fr/", "city": "Bordeaux", "state": "", "country": "France", "start_date": "2019-10-31", "end_date": "2019-11-04", "source": "https://www.python.org/events/", "tags": "['python']", "kind": "conference"}, {"name": "PyCon Sweden", "url": "http://www.pycon.se/", "city": "Stockholm", "state": "", "country": "Sweden", "start_date": "2019-10-31", "end_date": "2019-11-02", "source": "https://www.python.org/events/", "tags": "['python']", "kind": "conference"}, {"name": "PiterPy 2019", "url": "https://piterpy.com/en", "city": "Saint Petersburg", "state": "", "country": "Russia", "start_date": "2019-11-01", "end_date": "2019-11-02", "source": "https://www.python.org/events/", "tags": "['python']", "kind": "conference"}, {"name": "PyCascades 2020", "url": "https://2020.pycascades.com", "city": "Portland", "state": "Oregon", "country": "USA", "start_date": "2020-02-08", "end_date": "2020-02-10", "source": "https://www.python.org/events/", "tags": "['python']", "kind": "conference"}, {"name": "SciPy 2020", "url": "https://www.scipy2020.scipy.org/", "city": "Austin", "state": "Texas", "country": "USA", "start_date": "2020-07-06", "end_date": "2020-07-13", "source": "https://www.python.org/events/", "tags": "['python']", "kind": "conference"}, {"name": "EuroPython 2020", "url": "https://www.europython.eu/", "city": "TBA", "state": "", "country": "TBA", "start_date": "2020-07-20", "end_date": "2020-07-27", "source": "https://www.python.org/events/", "tags": "['python']", "kind": "conference"}, {"name": "EuroSciPy 2020", "url": "https://www.euroscipy.org/", "city": "Bilbao", "state": "", "country": "Spain", "start_date": "2020-07-27", "end_date": "2020-08-01", "source": "https://www.python.org/events/", "tags": "['python']", "kind": "conference"}, {"name": "SciPy 2021", "url": "https://www.scipy2021.scipy.org/", "city": "Austin", "state": "Texas", "country": "USA", "start_date": "2021-07-12", "end_date": "2021-07-19", "source": "https://www.python.org/events/", "tags": "['python']", "kind": "conference"}]
+[
+    {
+        "name": "Python Brasil 2019",
+        "url": "https://2019.pythonbrasil.org.br/",
+        "city": "São Paulo",
+        "state": "",
+        "country": "Brazil",
+        "start_date": "2019-10-23",
+        "end_date": "2019-10-29",
+        "source": "https://www.python.org/events/",
+        "tags": "['python']",
+        "kind": "conference"
+    },
+    {
+        "name": "PyCon Fr 2019",
+        "url": "https://www.pycon.fr/",
+        "city": "Bordeaux",
+        "state": "",
+        "country": "France",
+        "start_date": "2019-10-31",
+        "end_date": "2019-11-04",
+        "source": "https://www.python.org/events/",
+        "tags": "['python']",
+        "kind": "conference"
+    },
+    {
+        "name": "PyCon Sweden",
+        "url": "http://www.pycon.se/",
+        "city": "Stockholm",
+        "state": "",
+        "country": "Sweden",
+        "start_date": "2019-10-31",
+        "end_date": "2019-11-02",
+        "source": "https://www.python.org/events/",
+        "tags": "['python']",
+        "kind": "conference"
+    },
+    {
+        "name": "PiterPy 2019",
+        "url": "https://piterpy.com/en",
+        "city": "Saint Petersburg",
+        "state": "",
+        "country": "Russia",
+        "start_date": "2019-11-01",
+        "end_date": "2019-11-02",
+        "source": "https://www.python.org/events/",
+        "tags": "['python']",
+        "kind": "conference"
+    },
+    {
+        "name": "PyCascades 2020",
+        "url": "https://2020.pycascades.com",
+        "city": "Portland",
+        "state": "Oregon",
+        "country": "USA",
+        "start_date": "2020-02-08",
+        "end_date": "2020-02-10",
+        "source": "https://www.python.org/events/",
+        "tags": "['python']",
+        "kind": "conference"
+    },
+    {
+        "name": "SciPy 2020",
+        "url": "https://www.scipy2020.scipy.org/",
+        "city": "Austin",
+        "state": "Texas",
+        "country": "USA",
+        "start_date": "2020-07-06",
+        "end_date": "2020-07-13",
+        "source": "https://www.python.org/events/",
+        "tags": "['python']",
+        "kind": "conference"
+    },
+    {
+        "name": "EuroPython 2020",
+        "url": "https://www.europython.eu/",
+        "city": "TBA",
+        "state": "",
+        "country": "TBA",
+        "start_date": "2020-07-20",
+        "end_date": "2020-07-27",
+        "source": "https://www.python.org/events/",
+        "tags": "['python']",
+        "kind": "conference"
+    },
+    {
+        "name": "EuroSciPy 2020",
+        "url": "https://www.euroscipy.org/",
+        "city": "Bilbao",
+        "state": "",
+        "country": "Spain",
+        "start_date": "2020-07-27",
+        "end_date": "2020-08-01",
+        "source": "https://www.python.org/events/",
+        "tags": "['python']",
+        "kind": "conference"
+    },
+    {
+        "name": "SciPy 2021",
+        "url": "https://www.scipy2021.scipy.org/",
+        "city": "Austin",
+        "state": "Texas",
+        "country": "USA",
+        "start_date": "2021-07-12",
+        "end_date": "2021-07-19",
+        "source": "https://www.python.org/events/",
+        "tags": "['python']",
+        "kind": "conference"
+    }
+]
