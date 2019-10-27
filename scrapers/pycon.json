@@ -1,0 +1,304 @@
+{
+    "items": [
+        {
+            "kind": "calendar#event",
+            "etag": "\"3138129347396000\"",
+            "id": "_c8s3ip9pc5h6cb9g6dgjib9kcpgmcbb1cdgm8b9lc8r6ad1nc4rj0e9h6s",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=X2M4czNpcDlwYzVoNmNiOWc2ZGdqaWI5a2NwZ21jYmIxY2RnbThiOWxjOHI2YWQxbmM0cmowZTloNnMgajdnb3YxY21ucXI5dHZnMTRrNjIxajd0NWNAZw",
+            "created": "2019-09-21T11:17:53.000Z",
+            "updated": "2019-09-21T11:17:53.698Z",
+            "summary": "Python Brasil 2019",
+            "description": "<a href=\"https://2019.pythonbrasil.org.br/\">Python Brasil 2019</a>",
+            "location": "Ribeirão Preto, São Paulo, Brazil",
+            "creator": {
+                "email": "google-psf@egenix.com"
+            },
+            "organizer": {
+                "email": "j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com",
+                "displayName": "Python Events Calendar",
+                "self": true
+            },
+            "start": {
+                "date": "2019-10-23"
+            },
+            "end": {
+                "date": "2019-10-29"
+            },
+            "transparency": "transparent",
+            "iCalUID": "b89e9abf-03a9-4faf-acad-5b6e47a70917",
+            "sequence": 0,
+            "reminders": {
+                "useDefault": true
+            }
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3120511254084000\"",
+            "id": "64li0h8o7mvui70rpikqd9pui9",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=NjRsaTBoOG83bXZ1aTcwcnBpa3FkOXB1aTkgajdnb3YxY21ucXI5dHZnMTRrNjIxajd0NWNAZw",
+            "created": "2019-06-11T12:20:27.000Z",
+            "updated": "2019-06-11T12:20:27.042Z",
+            "summary": "PyCon Fr",
+            "description": "<a href=\"https://www.pycon.fr/\" id=\"ow2430\" __is_owner=\"true\">PyCon Fr 2019</a>",
+            "location": "Bordeaux, France",
+            "creator": {
+                "email": "dmemory7@ya.ru"
+            },
+            "organizer": {
+                "email": "j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com",
+                "displayName": "Python Events Calendar",
+                "self": true
+            },
+            "start": {
+                "date": "2019-10-31"
+            },
+            "end": {
+                "date": "2019-11-04"
+            },
+            "transparency": "transparent",
+            "iCalUID": "64li0h8o7mvui70rpikqd9pui9@google.com",
+            "sequence": 0,
+            "extendedProperties": {
+                "private": {
+                    "everyoneDeclinedDismissed": "-1"
+                }
+            },
+            "reminders": {
+                "useDefault": true
+            }
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3138129551416000\"",
+            "id": "_60q3gp9n68pm6b9o60om8b9kcgs38b9o6pgjabb561i66e1i6dh38pb5c8",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=XzYwcTNncDluNjhwbTZiOW82MG9tOGI5a2NnczM4YjlvNnBnamFiYjU2MWk2NmUxaTZkaDM4cGI1Yzggajdnb3YxY21ucXI5dHZnMTRrNjIxajd0NWNAZw",
+            "created": "2019-09-21T11:19:35.000Z",
+            "updated": "2019-09-21T11:19:35.708Z",
+            "summary": "PyCon Sweden 2019",
+            "description": "<a href=\"http://www.pycon.se/\">PyCon Sweden</a>",
+            "location": "Stockholm, Sweden",
+            "creator": {
+                "email": "google-psf@egenix.com"
+            },
+            "organizer": {
+                "email": "j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com",
+                "displayName": "Python Events Calendar",
+                "self": true
+            },
+            "start": {
+                "date": "2019-10-31"
+            },
+            "end": {
+                "date": "2019-11-02"
+            },
+            "transparency": "transparent",
+            "iCalUID": "048e723c-801d-4d84-86a5-e0dc823b4eeb",
+            "sequence": 0,
+            "reminders": {
+                "useDefault": true
+            }
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3118265568346000\"",
+            "id": "0jrrvfrp1ke61bid749gjm34ak",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=MGpycnZmcnAxa2U2MWJpZDc0OWdqbTM0YWsgajdnb3YxY21ucXI5dHZnMTRrNjIxajd0NWNAZw",
+            "created": "2019-05-29T12:26:24.000Z",
+            "updated": "2019-05-29T12:26:24.173Z",
+            "summary": "PiterPy 2019",
+            "description": "<a href=\"https://piterpy.com/en\" id=\"ow359\" __is_owner=\"true\">PiterPy 2019</a>",
+            "location": "Saint Petersburg, St Petersburg, Russia",
+            "creator": {
+                "email": "dmemory7@ya.ru"
+            },
+            "organizer": {
+                "email": "j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com",
+                "displayName": "Python Events Calendar",
+                "self": true
+            },
+            "start": {
+                "date": "2019-11-01"
+            },
+            "end": {
+                "date": "2019-11-02"
+            },
+            "transparency": "transparent",
+            "iCalUID": "0jrrvfrp1ke61bid749gjm34ak@google.com",
+            "sequence": 0,
+            "extendedProperties": {
+                "private": {
+                    "everyoneDeclinedDismissed": "-1"
+                }
+            },
+            "reminders": {
+                "useDefault": true
+            }
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3134361473390000\"",
+            "id": "_6cqjiohi75j3gb9ocpj62b9k69h34bb2c4q68bb16cpj6dhp75h3goho64",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=XzZjcWppb2hpNzVqM2diOW9jcGo2MmI5azY5aDM0YmIyYzRxNjhiYjE2Y3BqNmRocDc1aDNnb2hvNjQgajdnb3YxY21ucXI5dHZnMTRrNjIxajd0NWNAZw",
+            "created": "2019-08-30T15:58:56.000Z",
+            "updated": "2019-08-30T15:58:56.695Z",
+            "summary": "PyCascades 2020",
+            "description": "<a href=\"https://2020.pycascades.com”>PyCascades 2020</a>",
+            "location": "Portland, Oregon, USA",
+            "creator": {
+                "email": "google-psf@egenix.com"
+            },
+            "organizer": {
+                "email": "j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com",
+                "displayName": "Python Events Calendar",
+                "self": true
+            },
+            "start": {
+                "date": "2020-02-08"
+            },
+            "end": {
+                "date": "2020-02-10"
+            },
+            "transparency": "transparent",
+            "iCalUID": "359b29f8-8ffa-42b2-ba4d-a333699b8b81",
+            "sequence": 0,
+            "reminders": {
+                "useDefault": true
+            }
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3103115989496000\"",
+            "id": "_cdhm6d346ko36b9h74smcb9k74r66bb16lij8bb2cop38chm64p3ceb26o",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG02ZDM0NmtvMzZiOWg3NHNtY2I5azc0cjY2YmIxNmxpajhiYjJjb3AzOGNobTY0cDNjZWIyNm8gajdnb3YxY21ucXI5dHZnMTRrNjIxajd0NWNAZw",
+            "created": "2019-03-02T20:19:54.000Z",
+            "updated": "2019-03-02T20:19:54.748Z",
+            "summary": "SciPy 2020",
+            "description": "<a href=\"https://www.scipy2020.scipy.org/\">SciPy 2020</a>",
+            "location": "Austin, TX, US",
+            "creator": {
+                "email": "google-psf@egenix.com",
+                "displayName": "Marketing Python"
+            },
+            "organizer": {
+                "email": "j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com",
+                "displayName": "Python Events Calendar",
+                "self": true
+            },
+            "start": {
+                "date": "2020-07-06"
+            },
+            "end": {
+                "date": "2020-07-13"
+            },
+            "transparency": "transparent",
+            "iCalUID": "ccc4d503-199f-496c-a5e4-bf24261269b6",
+            "sequence": 0,
+            "reminders": {
+                "useDefault": true
+            }
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3140782054784000\"",
+            "id": "3otabt7tpb801ftccgsbm9mb24",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=M290YWJ0N3RwYjgwMWZ0Y2Nnc2JtOW1iMjQgajdnb3YxY21ucXI5dHZnMTRrNjIxajd0NWNAZw",
+            "created": "2019-10-06T19:43:47.000Z",
+            "updated": "2019-10-06T19:43:47.392Z",
+            "summary": "EuroPython 2020",
+            "description": "&lt;a href=\"https://www.europython.eu/\"&gt;EuroPython 2020&lt;/a&gt;",
+            "location": "TBA",
+            "creator": {
+                "email": "google-psf@egenix.com"
+            },
+            "organizer": {
+                "email": "j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com",
+                "displayName": "Python Events Calendar",
+                "self": true
+            },
+            "start": {
+                "date": "2020-07-20"
+            },
+            "end": {
+                "date": "2020-07-27"
+            },
+            "transparency": "transparent",
+            "iCalUID": "3otabt7tpb801ftccgsbm9mb24@google.com",
+            "sequence": 0,
+            "reminders": {
+                "useDefault": true
+            }
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3138128535120000\"",
+            "id": "_6co62oj16sr66b9kc4s66b9k74s3gb9o6th30bb26gq3gchkcgrm6p9l60",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=XzZjbzYyb2oxNnNyNjZiOWtjNHM2NmI5azc0czNnYjlvNnRoMzBiYjI2Z3EzZ2Noa2Nncm02cDlsNjAgajdnb3YxY21ucXI5dHZnMTRrNjIxajd0NWNAZw",
+            "created": "2019-09-21T11:11:07.000Z",
+            "updated": "2019-09-21T11:11:07.560Z",
+            "summary": "EuroSciPy 2020",
+            "description": "<a href=\"https://www.euroscipy.org/\">EuroSciPy 2020</a>",
+            "location": "Bilbao, Spain",
+            "creator": {
+                "email": "google-psf@egenix.com"
+            },
+            "organizer": {
+                "email": "j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com",
+                "displayName": "Python Events Calendar",
+                "self": true
+            },
+            "start": {
+                "date": "2020-07-27"
+            },
+            "end": {
+                "date": "2020-08-01"
+            },
+            "transparency": "transparent",
+            "iCalUID": "30aba76c-4a8c-4988-87b0-b44824d7ce50",
+            "sequence": 0,
+            "reminders": {
+                "useDefault": true
+            }
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3103116084858000\"",
+            "id": "_cdhmac1nc4qjcbb2clhj6b9k6hgjibb2cli68b9ncko6adhg68p3cdb6co",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1hYzFuYzRxamNiYjJjbGhqNmI5azZoZ2ppYmIyY2xpNjhiOW5ja282YWRoZzY4cDNjZGI2Y28gajdnb3YxY21ucXI5dHZnMTRrNjIxajd0NWNAZw",
+            "created": "2019-03-02T20:20:42.000Z",
+            "updated": "2019-03-02T20:20:42.429Z",
+            "summary": "SciPy 2021",
+            "description": "<a href=\"https://www.scipy2021.scipy.org/\">SciPy 2021</a>",
+            "location": "Austin, TX, US",
+            "creator": {
+                "email": "google-psf@egenix.com",
+                "displayName": "Marketing Python"
+            },
+            "organizer": {
+                "email": "j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com",
+                "displayName": "Python Events Calendar",
+                "self": true
+            },
+            "start": {
+                "date": "2021-07-12"
+            },
+            "end": {
+                "date": "2021-07-19"
+            },
+            "transparency": "transparent",
+            "iCalUID": "cce07a56-bec3-44a9-bedd-7e0e602265ff",
+            "sequence": 0,
+            "reminders": {
+                "useDefault": true
+            }
+        }
+    ]
+}
