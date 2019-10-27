@@ -5,8 +5,8 @@ import json
 import hashlib
 import datetime as dt
 
-import git
 import click
+import requests
 import sqlalchemy
 from colorama import Fore, Style
 
@@ -30,10 +30,10 @@ def cli(ctx, *args, **kwargs):
 def _refresh(ctx, *args, **kwargs):
     if not os.path.exists(CONRAD_HOME):
         os.makedirs(CONRAD_HOME)
-        git.Repo.clone_from("https://github.com/vinayak-mehta/conrad", CONRAD_HOME)
-    else:
-        g = git.cmd.Git(CONRAD_HOME)
-        g.pull()
+
+    response = requests.get("https://raw.githubusercontent.com/vinayak-mehta/conrad/master/data/events.json")
+    with open(os.path.join(CONRAD_HOME, "events.json"), "w") as f:
+        f.write(json.dumps(response.json()))
 
     if not os.path.exists(os.path.join(CONRAD_HOME, "conrad.db")):
         initialize_database()
@@ -41,7 +41,7 @@ def _refresh(ctx, *args, **kwargs):
         Event.__table__.drop(engine)
         Base.metadata.tables["event"].create(bind=engine)
 
-    with open(os.path.join(CONRAD_HOME, "data/events.json"), "r") as f:
+    with open(os.path.join(CONRAD_HOME, "events.json"), "r") as f:
         events = json.load(f)
 
     session = Session()
