@@ -1,5 +1,8 @@
 [
     {
+        "cfp_open": false,
+        "cfp_start_date": "2019-10-01",
+        "cfp_end_date": "2019-10-01",
         "city": "S\u00e3o Paulo",
         "country": "Brazil",
         "end_date": "2019-10-29",
@@ -12,6 +15,9 @@
         "url": "https://2019.pythonbrasil.org.br/"
     },
     {
+        "cfp_open": false,
+        "cfp_start_date": "2019-10-01",
+        "cfp_end_date": "2019-10-01",
         "city": "Bordeaux",
         "country": "France",
         "end_date": "2019-11-04",
@@ -24,6 +30,9 @@
         "url": "https://www.pycon.fr/"
     },
     {
+        "cfp_open": false,
+        "cfp_start_date": "2019-10-01",
+        "cfp_end_date": "2019-10-01",
         "city": "Stockholm",
         "country": "Sweden",
         "end_date": "2019-11-02",
@@ -36,6 +45,9 @@
         "url": "http://www.pycon.se/"
     },
     {
+        "cfp_open": false,
+        "cfp_start_date": "2019-10-01",
+        "cfp_end_date": "2019-10-01",
         "city": "Saint Petersburg",
         "country": "Russia",
         "end_date": "2019-11-02",
@@ -48,6 +60,9 @@
         "url": "https://piterpy.com/en"
     },
     {
+        "cfp_open": false,
+        "cfp_start_date": "2019-10-01",
+        "cfp_end_date": "2019-10-02",
         "city": "Portland",
         "country": "USA",
         "end_date": "2020-02-10",
@@ -60,6 +75,9 @@
         "url": "https://2020.pycascades.com"
     },
     {
+        "cfp_open": false,
+        "cfp_start_date": "2019-10-01",
+        "cfp_end_date": "2019-10-01",
         "city": "Austin",
         "country": "USA",
         "end_date": "2020-07-13",
@@ -72,6 +90,9 @@
         "url": "https://www.scipy2020.scipy.org/"
     },
     {
+        "cfp_open": false,
+        "cfp_start_date": "2019-10-01",
+        "cfp_end_date": "2019-10-01",
         "city": "TBA",
         "country": "TBA",
         "end_date": "2020-07-27",
@@ -84,6 +105,9 @@
         "url": "https://www.europython.eu/"
     },
     {
+        "cfp_open": false,
+        "cfp_start_date": "2019-10-01",
+        "cfp_end_date": "2019-10-01",
         "city": "Bilbao",
         "country": "Spain",
         "end_date": "2020-08-01",
@@ -96,6 +120,9 @@
         "url": "https://www.euroscipy.org/"
     },
     {
+        "cfp_open": false,
+        "cfp_start_date": "2019-10-01",
+        "cfp_end_date": "2019-10-01",
         "city": "Austin",
         "country": "USA",
         "end_date": "2021-07-19",
