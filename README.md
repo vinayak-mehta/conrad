@@ -16,8 +16,6 @@ $ conrad show
 | c987a6 | Python Brasil 2019 | https://2019.pythonbrasil.org.br/ | S達o Paulo       |        | Brazil  | 2019-10-23 | 2019-10-29 |
 | 3ae4f9 | PyCon Fr 2019      | https://www.pycon.fr/             | Bordeaux         |        | France  | 2019-10-31 | 2019-11-04 |
 
-and more.
-
 ## Features
 
 ### Set reminders
@@ -60,8 +58,6 @@ $ conrad show --tag python
 | c987a6 | Python Brasil 2019 | https://2019.pythonbrasil.org.br/ | S達o Paulo       |        | Brazil  | 2019-10-23 | 2019-10-29 |
 | 3ae4f9 | PyCon Fr 2019      | https://www.pycon.fr/             | Bordeaux         |        | France  | 2019-10-31 | 2019-11-04 |
 
-and more.
-
 Look at conferences using a name:
 
 <pre>
@@ -72,8 +68,6 @@ $ conrad show --name pycon
 |--------|--------------------|-----------------------------------|------------------|--------|---------|------------|------------|
 | 3ae4f9 | PyCon Fr 2019      | https://www.pycon.fr/             | Bordeaux         |        | France  | 2019-10-31 | 2019-11-04 |
 | 68bf57 | PyCon Sweden       | http://www.pycon.se/              | Stockholm        |        | Sweden  | 2019-10-31 | 2019-11-02 |
-
-and more.
 
 Look at conferences in a city, state or country:
 
@@ -86,8 +80,6 @@ $ conrad show --location usa
 | 66867c | PyCascades 2020      | https://2020.pycascades.com             | Portland         | Oregon | USA  | 2020-02-08 | 2020-02-10 |
 | 6bb714 | PyCon US | https://us.pycon.org | Pittsburgh | Pennsylvania | USA     | 2020-04-15 | 2020-04-23 |
 
-and more.
-
 Look at conferences based on when they're happening:
 
 <pre>
@@ -98,8 +90,6 @@ $ conrad show --date ">= 2019-10-01" --date "<= 2020-01-01"
 |--------|--------------------|-----------------------------------|------------------|--------|---------|------------|------------|
 | c987a6 | Python Brasil 2019 | https://2019.pythonbrasil.org.br/ | S達o Paulo       |        | Brazil  | 2019-10-23 | 2019-10-29 |
 | 3ae4f9 | PyCon Fr 2019      | https://www.pycon.fr/             | Bordeaux         |        | France  | 2019-10-31 | 2019-11-04 |
-
-and more.
 
 ### Continuous updates (upcoming)
 
