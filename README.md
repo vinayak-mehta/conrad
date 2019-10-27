@@ -4,6 +4,8 @@
 
 `conrad` helps you track conferences and meetups on your terminal!
 
+---
+
 Here's how it works:
 
 <pre>
@@ -101,7 +103,9 @@ You can get the latest events using:
 $ conrad refresh
 </pre>
 
-To add new events to the list, you can start by creating a `new_events.json` file containing the list of events you want to add, with the following fields:
+---
+
+You can add new events to the list! To do so, create a `new_events.json` file containing the list of events you want to add, with the following fields:
 
 <pre>
 [
@@ -132,20 +136,18 @@ $ cd conrad
 $ git checkout -b add-new-event
 </pre>
 
-Import the new events:
+Then import the new events:
 
 <pre>
 $ conrad import -f ../new_events.json
 </pre>
 
-Push your changes:
+And finally push your changes and raise a PR!
 <pre>
 $ git add .
 $ git commit -m "Add new events"
 $ git push origin add-new-event
 </pre>
-
-And just raise a PR!
 
 ## Installation
 
