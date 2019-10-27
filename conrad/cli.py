@@ -71,12 +71,50 @@ def _refresh(ctx, *args, **kwargs):
 
 
 @cli.command("show")
+@click.option("--cfp", "-c", is_flag=True)
+@click.option("--tag", "-t", default="")
+@click.option("--name", "-n", default="")
+@click.option("--location", "-l", default="")
+@click.option("--date", "-d", default=[], multiple=True)
 @click.pass_context
 def _show(ctx, *args, **kwargs):
-    # TODO: conrad show -c
-    # TODO: conrad show -t python
-    # TODO: conrad show -l city/country
-    # TODO: conrad show -d >= 2019-08-01 AND <= 2019-10-01
+    cfp = kwargs["cfp"]
+    tag = kwargs["tag"]
+    name = kwargs["name"]
+    date = list(kwargs["date"])
+    location = kwargs["location"]
+
+    filters = []
+    if cfp:
+        filters.append(Event.cfp_open.is_(cfp))
+    if tag:
+        filters.append(Event.tags.contains(tag))
+    if name:
+        filters.append(Event.name.ilike("%{}%".format(name)))
+    if date:
+        date_filters = []
+        for d in date:
+            cmp, date = d.split(" ")
+            if not (">" in cmp or "<" in cmp):
+                raise click.UsageError("Wrong comparison operator!")
+            try:
+                __ = dt.datetime.strptime(date, "%Y-%m-%d")
+            except ValueError:
+                raise click.UsageError("Wrong date format!")
+
+            if ">" in cmp:
+                date_filters.append(Event.start_date >= date)
+            elif "<" in cmp:
+                date_filters.append(Event.start_date <= date)
+        filters.append(sqlalchemy.and_(*date_filters))
+    if location:
+        filters.append(
+            sqlalchemy.or_(
+                Event.city.ilike("%{}%".format(location)),
+                Event.state.ilike("%{}%".format(location)),
+                Event.country.ilike("%{}%".format(location)),
+            )
+        )
 
     t = PrettyTable()
     t.field_names = [
@@ -92,7 +130,7 @@ def _show(ctx, *args, **kwargs):
     t.align = "l"
 
     session = Session()
-    for event in session.query(Event).order_by(Event.start_date).all():
+    for event in session.query(Event).filter(*filters).order_by(Event.start_date).all():
         t.add_row(
             [
                 event.id,
