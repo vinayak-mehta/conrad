@@ -20,7 +20,7 @@ $ conrad show
 
 ### Set reminders
 
-You can set CFP reminders so that you never miss a deadline! The color changes based on date proximity; <span style="color:green">**> 30 days**</span>, <span style="color:yellow">**>10 and < 30 days**</span> and <span style="color:red">**< 10 days**</span>.
+You can set CFP reminders so that you never miss a deadline! The color changes based on date proximity; **> 30 days** ![#008000](https://placehold.it/15/008000/000000?text=+), **>10 and < 30 days** ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) and **< 10 days** ![#ff0000](https://placehold.it/15/ff0000/000000?text=+).
 
 **Protip**: Add `conrad remind` to your shell startup file so that you get a reminder every time you open a new terminal!
 
