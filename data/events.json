@@ -145,9 +145,9 @@
         "name": "PyConDE & PyData Berlin",
         "source": "https://de.pycon.org/",
         "start_date": "2020-10-14",
-        "state": "",
+        "state": "https://github.com/python-organizers/conferences",
         "tags": "['python']",
-        "url": "http://2020.geopython.net"
+        "url": "https://de.pycon.org/"
     },
     {
         "cfp_end_date": "2019-10-01",
@@ -178,5 +178,20 @@
         "state": "Ohio",
         "tags": "['python']",
         "url": "https://www.pyohio.org/2020/"
+    },
+     {
+        "cfp_end_date": "2019-09-02",
+        "cfp_open": false,
+        "cfp_start_date": "2019-10-13",
+        "city": "Nashville",
+        "country": "USA",
+        "end_date": "2020-03-08",
+        "kind": "conference",
+        "name": "PyTennessee",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-03-07",
+        "state": "Tennessee",
+        "tags": "['python']",
+        "url": "https://2020.pytennessee.org/"
     }
 ]
