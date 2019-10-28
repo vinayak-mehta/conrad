@@ -179,7 +179,7 @@
         "tags": "['python']",
         "url": "https://www.pyohio.org/2020/"
     },
-     {
+    {
         "cfp_end_date": "2019-09-02",
         "cfp_open": false,
         "cfp_start_date": "2019-10-13",
@@ -193,5 +193,20 @@
         "state": "Tennessee",
         "tags": "['python']",
         "url": "https://2020.pytennessee.org/"
+    },
+    {
+        "cfp_end_date": "2019-10-31",
+        "cfp_open": true,
+        "cfp_start_date": "2019-10-01",
+        "city": "Hyderabad",
+        "country": "India",
+        "end_date": "2019-12-08",
+        "kind": "conference",
+        "name": "PyConf Hyderabad",
+        "source": "https://www.python.org/events/",
+        "start_date": "2019-12-07",
+        "state": "Telangana",
+        "tags": "['python']",
+        "url": "https://pyconf.hydpy.org/2019/"
     }
 ]
