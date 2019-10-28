@@ -104,7 +104,9 @@ $ conrad refresh
 
 ---
 
-You can add new events to the list! To do so, create a `new_events.json` file containing the list of events you want to add, with the following fields:
+You can add new events to the list! The [Contributor's Guide](CONTRIBUTING.md) has detailed information about contributions.
+
+To do so, create a `new_events.json` file containing the list of events you want to add, with the following fields:
 
 <pre>
 [
