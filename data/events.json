@@ -143,9 +143,9 @@
         "end_date": "2020-10-16",
         "kind": "conference",
         "name": "PyConDE & PyData Berlin",
-        "source": "https://de.pycon.org/",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2020-10-14",
-        "state": "https://github.com/python-organizers/conferences",
+        "state": "",
         "tags": "['python']",
         "url": "https://de.pycon.org/"
     },
