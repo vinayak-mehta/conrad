@@ -157,6 +157,7 @@ def _show(ctx, *args, **kwargs):
         session.query(Event).filter(*filters).order_by(Event.start_date).all()
     )
     if len(events):
+        
         for event in events:
             t.add_row(
                 [
@@ -282,3 +283,61 @@ def _import(ctx, *args, **kwargs):
     events.extend(new_events)
     with open(EVENTS_PATH, "w") as f:
         f.write(json.dumps(events, indent=4, sort_keys=True))
+
+@cli.command("list")
+@click.option("--tags", "-T", default=None)
+@click.option("--locations", "-T", default=None)
+@click.pass_context
+def list_tag_location(ctx, *args, **kwargs):
+    if not os.path.exists(CONRAD_HOME):
+        os.makedirs(CONRAD_HOME)
+
+    if not os.path.exists(os.path.join(CONRAD_HOME, "conrad.db")):
+        click.echo("Event database not found, fetching it!")
+        get_events()
+        initialize_database()
+
+        with open(os.path.join(CONRAD_HOME, "events.json"), "r") as f:
+            events = json.load(f)
+        refresh_database(events)
+        
+    tag = kwargs["tags"]
+    location = kwargs["locations"]
+    t = PrettyTable()
+    session = Session()
+    events = list(session.query(Event).all())
+    if location:
+        if len(events):
+            t.field_names = [
+        "id",
+        "city",
+        "state",
+        "country",
+       
+    ]
+            for event in events:
+                t.add_row([
+                        event.id,
+                        event.city,
+                        event.state,
+                        event.country,
+                        ])
+                
+               
+        session.close()
+        click.echo(t)
+    if tag:
+        if len(events):
+            t.field_names = [
+        "id",
+        "tags",
+    ]
+            for event in events:
+                t.add_row([
+                        event.id,
+                        event.tags,
+                        ])
+                
+               
+        session.close()
+        click.echo(t)
