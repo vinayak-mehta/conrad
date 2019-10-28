@@ -128,11 +128,13 @@ You can get the latest events using:
 $ conrad refresh
 </pre>
 
-## Contributing events and more
+### Contributing events
 
 The [Contributor's Guide](CONTRIBUTING.md) has detailed information about guidelines around contributions.
 
-You can add new events to the list! To do so, create a `new_events.json` file containing the list of events you want to add, with the following fields:
+You can add new events to the list! To do so:
+
+1. Create a `new_events.json` file containing the list of events you want to add, with the following fields:
 
 <pre>
 [
@@ -155,25 +157,31 @@ You can add new events to the list! To do so, create a `new_events.json` file co
 "new_events.json" 17L, 436C
 </pre>
 
-After that, clone this repository and create a new branch:
+2. Fork the project repository. Click on the ‘Fork’ button near the top of the page. This creates a copy of the code under your account on the GitHub. Clone your fork of conrad from your GitHub account:
 
 <pre>
-$ git clone https://www.github.com/vinayak-mehta/conrad
+$ git clone https://www.github.com/[username]/conrad
 $ cd conrad
+</pre>
+
+3. Create a branch to hold your changes:
+
+<pre>
 $ git checkout -b add-new-event
 </pre>
 
-Then import the new events:
+4. Import the new events:
 
 <pre>
 $ conrad import -f ../new_events.json
 </pre>
 
-And finally push your changes and raise a PR!
+5. Finally push your changes and [raise a PR](https://help.github.com/articles/creating-a-pull-request-from-a-fork/!
+
 <pre>
 $ git add .
 $ git commit -m "Add new events"
-$ git push origin add-new-event
+$ git push -u origin add-new-event
 </pre>
 
 ## Versioning
