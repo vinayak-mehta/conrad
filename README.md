@@ -9,7 +9,6 @@
 Here's how it works:
 
 <pre>
-$ conrad refresh
 $ conrad show
 </pre>
 

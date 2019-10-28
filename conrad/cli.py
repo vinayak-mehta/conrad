@@ -17,35 +17,15 @@ from .models import Base, Event, Reminder
 from .utils import initialize_database, validate
 
 
-@click.group(name="conrad")
-@click.version_option(version=__version__)
-@click.pass_context
-def cli(ctx, *args, **kwargs):
-    pass
-
-
-@cli.command("refresh")
-@click.confirmation_option(prompt="Would you like conrad to look for new events?")
-@click.pass_context
-def _refresh(ctx, *args, **kwargs):
-    if not os.path.exists(CONRAD_HOME):
-        os.makedirs(CONRAD_HOME)
-
+def get_events():
     response = requests.get(
         "https://raw.githubusercontent.com/vinayak-mehta/conrad/master/data/events.json"
     )
     with open(os.path.join(CONRAD_HOME, "events.json"), "w") as f:
         f.write(json.dumps(response.json()))
 
-    if not os.path.exists(os.path.join(CONRAD_HOME, "conrad.db")):
-        initialize_database()
-    else:
-        Event.__table__.drop(engine)
-        Base.metadata.tables["event"].create(bind=engine)
 
-    with open(os.path.join(CONRAD_HOME, "events.json"), "r") as f:
-        events = json.load(f)
-
+def refresh_database(events):
     session = Session()
     for event in events:
         event_id = hashlib.md5(
@@ -71,6 +51,32 @@ def _refresh(ctx, *args, **kwargs):
         session.commit()
     session.close()
 
+
+@click.group(name="conrad")
+@click.version_option(version=__version__)
+@click.pass_context
+def cli(ctx, *args, **kwargs):
+    pass
+
+
+@cli.command("refresh")
+@click.confirmation_option(prompt="Would you like conrad to look for new events?")
+@click.pass_context
+def _refresh(ctx, *args, **kwargs):
+    if not os.path.exists(CONRAD_HOME):
+        os.makedirs(CONRAD_HOME)
+
+    get_events()
+    if not os.path.exists(os.path.join(CONRAD_HOME, "conrad.db")):
+        initialize_database()
+    else:
+        Event.__table__.drop(engine)
+        Base.metadata.tables["event"].create(bind=engine)
+
+    with open(os.path.join(CONRAD_HOME, "events.json"), "r") as f:
+        events = json.load(f)
+    refresh_database(events)
+
     # TODO: print("10 new events found!")
     click.echo("Event database updated!")
 
@@ -84,6 +90,18 @@ def _refresh(ctx, *args, **kwargs):
 @click.pass_context
 def _show(ctx, *args, **kwargs):
     # TODO: conrad show --new
+    if not os.path.exists(CONRAD_HOME):
+        os.makedirs(CONRAD_HOME)
+
+    if not os.path.exists(os.path.join(CONRAD_HOME, "conrad.db")):
+        click.echo("Event database not found, fetching it!")
+        get_events()
+        initialize_database()
+
+        with open(os.path.join(CONRAD_HOME, "events.json"), "r") as f:
+            events = json.load(f)
+        refresh_database(events)
+
     cfp = kwargs["cfp"]
     tag = kwargs["tag"]
     name = kwargs["name"]
