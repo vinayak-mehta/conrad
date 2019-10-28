@@ -141,14 +141,14 @@ def _show(ctx, *args, **kwargs):
 
     t = PrettyTable()
     t.field_names = [
-        "id",
-        "name",
-        "url",
-        "city",
-        "state",
-        "country",
-        "start_date",
-        "end_date",
+        "Id",
+        "Name",
+        "Url",
+        "City",
+        "State",
+        "Country",
+        "Start Date",
+        "End Date",
     ]
     t.align = "l"
 
