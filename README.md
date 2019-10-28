@@ -136,53 +136,53 @@ You can add new events to the list! To do so:
 
 1. Create a `new_events.json` file containing the list of events you want to add, with the following fields:
 
-<pre>
-[
-    {
-        "name": "PyCon US",
-        "url": "https://us.pycon.org",
-        "city": "Pittsburgh",
-        "state": "Pennsylvania",
-        "country": "USA",
-        "cfp_open": true,
-        "cfp_start_date": "2019-09-12",
-        "cfp_end_date": "2019-12-20",
-        "start_date": "2020-04-15",
-        "end_date": "2020-04-23",
-        "source": "https://www.python.org/events/",
-        "tags": "['python']",
-        "kind": "conference"
-    }
-]
-"new_events.json" 17L, 436C
-</pre>
+    <pre>
+    [
+        {
+            "name": "PyCon US",
+            "url": "https://us.pycon.org",
+            "city": "Pittsburgh",
+            "state": "Pennsylvania",
+            "country": "USA",
+            "cfp_open": true,
+            "cfp_start_date": "2019-09-12",
+            "cfp_end_date": "2019-12-20",
+            "start_date": "2020-04-15",
+            "end_date": "2020-04-23",
+            "source": "https://www.python.org/events/",
+            "tags": "['python']",
+            "kind": "conference"
+        }
+    ]
+    "new_events.json" 17L, 436C
+    </pre>
 
 2. Fork the project repository. Click on the ‘Fork’ button near the top of the page. This creates a copy of the code under your account on the GitHub. Clone your fork of conrad from your GitHub account:
 
-<pre>
-$ git clone https://www.github.com/[username]/conrad
-$ cd conrad
-</pre>
+    <pre>
+    $ git clone https://www.github.com/[username]/conrad
+    $ cd conrad
+    </pre>
 
 3. Create a branch to hold your changes:
 
-<pre>
-$ git checkout -b add-new-event
-</pre>
+    <pre>
+    $ git checkout -b add-new-event
+    </pre>
 
 4. Import the new events:
 
-<pre>
-$ conrad import -f ../new_events.json
-</pre>
+    <pre>
+    $ conrad import -f ../new_events.json
+    </pre>
 
 5. Finally push your changes and [raise a PR](https://help.github.com/articles/creating-a-pull-request-from-a-fork/!
 
-<pre>
-$ git add .
-$ git commit -m "Add new events"
-$ git push -u origin add-new-event
-</pre>
+    <pre>
+    $ git add .
+    $ git commit -m "Add new events"
+    $ git push -u origin add-new-event
+    </pre>
 
 ## Versioning
 
