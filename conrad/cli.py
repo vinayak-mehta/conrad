@@ -84,6 +84,13 @@ def _refresh(ctx, *args, **kwargs):
 @click.pass_context
 def _show(ctx, *args, **kwargs):
     # TODO: conrad show --new
+    
+    if not os.path.exists(CONRAD_HOME):
+        os.makedirs(CONRAD_HOME)
+
+    if not os.path.exists(os.path.join(CONRAD_HOME, "conrad.db")):
+        initialize_database()
+
     cfp = kwargs["cfp"]
     tag = kwargs["tag"]
     name = kwargs["name"]
