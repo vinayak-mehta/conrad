@@ -162,7 +162,7 @@ def _show(ctx, *args, **kwargs):
         session.close()
         click.echo(t)
     else:
-        click.echo("No events found!")
+        click.echo("No events found, refresh to pull events!")
 
 
 @cli.command("remind")
