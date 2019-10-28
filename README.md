@@ -54,8 +54,6 @@ $ conrad remind
 
 You can query and explore the event database using various filters.
 
----
-
 Look at events which have an open call for proposals (cfp):
 
 <pre>
