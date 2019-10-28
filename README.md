@@ -25,6 +25,14 @@ $ conrad show
 - ⛏️ You can manually add events using `conrad import -f events.json` and raise a PR!
 - 🔄 Run `conrad refresh` to get the latest events!
 
+## Installation
+
+You can simply use pip to install `conrad`:
+
+<pre>
+$ pip install conference-radar
+</pre>
+
 ## Features
 
 ### Set reminders
@@ -166,31 +174,6 @@ And finally push your changes and raise a PR!
 $ git add .
 $ git commit -m "Add new events"
 $ git push origin add-new-event
-</pre>
-
-## Installation
-
-### Using pip
-
-You can simply use pip to install `conrad`:
-
-<pre>
-$ pip install conference-radar
-</pre>
-
-### From source code
-
-Or you can clone the repo:
-
-<pre>
-$ git clone https://www.github.com/vinayak-mehta/conrad
-</pre>
-
-And install `conrad`:
-
-<pre>
-$ cd conrad
-$ pip install .
 </pre>
 
 ## Versioning
