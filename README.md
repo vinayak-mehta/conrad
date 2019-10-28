@@ -62,6 +62,7 @@ $ conrad show --cfp
 
 | id     | name     | url                  | city       | state        | country | start_date | end_date   |
 |--------|----------|----------------------|------------|--------------|---------|------------|------------|
+| 34994e | PyConf Hyderabad | https://pyconf.hydpy.org/2019/ | Hyderabad | Telangana | India     | 2019-12-07 | 2019-12-08 |
 | 6bb714 | PyCon US | https://us.pycon.org | Pittsburgh | Pennsylvania | USA     | 2020-04-15 | 2020-04-23 |
 
 ---
