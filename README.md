@@ -128,11 +128,11 @@ You can get the latest events using:
 $ conrad refresh
 </pre>
 
----
+## Contributing events and more
 
-You can add new events to the list! The [Contributor's Guide](CONTRIBUTING.md) has detailed information about guidelines around contributions.
+The [Contributor's Guide](CONTRIBUTING.md) has detailed information about guidelines around contributions.
 
-To add new events, create a `new_events.json` file containing the list of events you want to add, with the following fields:
+You can add new events to the list! To do so, create a `new_events.json` file containing the list of events you want to add, with the following fields:
 
 <pre>
 [
