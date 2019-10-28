@@ -280,5 +280,6 @@ def _import(ctx, *args, **kwargs):
             new_events.append(ie)
 
     events.extend(new_events)
+    click.echo("Added {} new events!".format(len(new_events)))
     with open(EVENTS_PATH, "w") as f:
         f.write(json.dumps(events, indent=4, sort_keys=True))

@@ -39,7 +39,7 @@ def validate(input_events):
 
     # check for duplicates
     ie_names = [ie["name"].replace(" ", "").lower() for ie in input_events]
-    if list(set(ie_names)) != ie_names:
+    if sorted(list(set(ie_names))) != sorted(ie_names):
         failures.append("Duplicate events found")
 
     # check if keys exist
