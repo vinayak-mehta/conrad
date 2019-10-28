@@ -176,7 +176,7 @@ You can add new events to the list! To do so:
     $ conrad import -f ../new_events.json
     </pre>
 
-5. Finally push your changes and [raise a PR](https://help.github.com/articles/creating-a-pull-request-from-a-fork/!
+5. Finally push your changes and [raise a PR](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)!
 
     <pre>
     $ git add .
