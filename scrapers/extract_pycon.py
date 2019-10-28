@@ -41,8 +41,8 @@ def main():
     now = datetime.datetime.utcnow().isoformat() + "Z"  # 'Z' indicates UTC time
     print("Getting the upcoming 10 events")
 
-    cal_id_python_events = "j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com"
-    cal_id_user_group = "3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com"
+    cal_id_python_events = os.environ['calendar_id']
+    cal_id_user_group = os.environ['group_id']
 
     items = []
 
@@ -79,4 +79,10 @@ def main():
     json.dump(data, open('pycon.json', 'w'))
 
 if __name__ == "__main__":
-    main()
+    
+    if os.environ.get('calendar_id') == None:
+        print("Something went wrong. You may not have exported correctly the environment variable \'calendar_id\'")
+    elif os.environ.get('group_id') == None:
+        print("Something went wrong. You may not have exported correctly the environment variable \'group_id\'")
+    else:
+        main()
