@@ -1,6 +1,6 @@
 # Contributor's Guide
 
-If you're reading this, you're probably looking to contributing to conrad. *Time is the only real currency*, and the fact that you're considering spending some here is *very* generous of you. Thank you very much!
+If you're reading this, you're probably looking to contribute to conrad. *Time is the only real currency*, and the fact that you're considering spending some here is *very* generous of you. Thank you very much!
 
 This document will help you get started with contributing code, testing (future) and filing issues. If you have any questions, feel free to reach out to [Vinayak Mehta](https://vinayak-mehta.github.io), the author and maintainer.
 
