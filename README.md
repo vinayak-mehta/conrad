@@ -14,8 +14,8 @@ $ conrad show
 
 | id     | name               | url                               | city             | state  | country | start_date | end_date   |
 |--------|--------------------|-----------------------------------|------------------|--------|---------|------------|------------|
-| c987a6 | Python Brasil 2019 | https://2019.pythonbrasil.org.br/ | S達o Paulo       |        | Brazil  | 2019-10-23 | 2019-10-29 |
 | 3ae4f9 | PyCon Fr 2019      | https://www.pycon.fr/             | Bordeaux         |        | France  | 2019-10-31 | 2019-11-04 |
+| 68bf57 | PyCon Sweden       | http://www.pycon.se/              | Stockholm        |        | Sweden  | 2019-10-31 | 2019-11-02 |
 
 ## Features
 
@@ -23,16 +23,16 @@ $ conrad show
 
 You can set CFP reminders so that you never miss a deadline! The color changes based on date proximity; **> 30 days** ![#008000](https://placehold.it/15/008000/000000?text=+), **>10 and < 30 days** ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) and **< 10 days** ![#ff0000](https://placehold.it/15/ff0000/000000?text=+).
 
-**Protip**: Add `conrad remind` to your shell startup file so that you get a reminder every time you open a new terminal!
-
 <pre>
 $ conrad remind -i 6bb714
 $ conrad remind
 </pre>
 
-| name     | start_date | days_left                                                          |
-|----------|------------|--------------------------------------------------------------------|
-| PyCon US | 2020-04-15 | <span style="color:green">**52 days left to cfp deadline!**</span> |
+| name     | start_date | days_left                         |
+|----------|------------|-----------------------------------|
+| PyCon US | 2020-04-15 | **52 days left to cfp deadline!** |
+
+**Protip**: Add `conrad remind` to your shell startup file so that you get a reminder every time you open a new terminal!
 
 ### Explore
 
@@ -56,8 +56,8 @@ $ conrad show --tag python
 
 | id     | name               | url                               | city             | state  | country | start_date | end_date   |
 |--------|--------------------|-----------------------------------|------------------|--------|---------|------------|------------|
-| c987a6 | Python Brasil 2019 | https://2019.pythonbrasil.org.br/ | S達o Paulo       |        | Brazil  | 2019-10-23 | 2019-10-29 |
 | 3ae4f9 | PyCon Fr 2019      | https://www.pycon.fr/             | Bordeaux         |        | France  | 2019-10-31 | 2019-11-04 |
+| 68bf57 | PyCon Sweden       | http://www.pycon.se/              | Stockholm        |        | Sweden  | 2019-10-31 | 2019-11-02 |
 
 Look at conferences using a name:
 
@@ -89,8 +89,8 @@ $ conrad show --date ">= 2019-10-01" --date "<= 2020-01-01"
 
 | id     | name               | url                               | city             | state  | country | start_date | end_date   |
 |--------|--------------------|-----------------------------------|------------------|--------|---------|------------|------------|
-| c987a6 | Python Brasil 2019 | https://2019.pythonbrasil.org.br/ | S達o Paulo       |        | Brazil  | 2019-10-23 | 2019-10-29 |
 | 3ae4f9 | PyCon Fr 2019      | https://www.pycon.fr/             | Bordeaux         |        | France  | 2019-10-31 | 2019-11-04 |
+| 68bf57 | PyCon Sweden       | http://www.pycon.se/              | Stockholm        |        | Sweden  | 2019-10-31 | 2019-11-02 |
 
 ### Continuous updates (upcoming)
 
