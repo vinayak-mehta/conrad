@@ -126,7 +126,9 @@ $ conrad refresh
 
 ### Continuous updates (upcoming)
 
-The event list is maintained in `data/events.json`. This list is continuously updated using the available `scrapers`. We use events from the following sources:
+The event list is maintained in `data/events.json`. This list is continuously updated using the available `scrapers`.
+
+Sources:
 
 - https://www.python.org/events
 - https://github.com/python-organizers/conferences
