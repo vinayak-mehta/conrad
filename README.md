@@ -152,35 +152,30 @@ You can add new events to the list! To do so:
             "kind": "conference"
         }
     ]
-    "new_events.json" 17L, 436C
-    </pre>
+    "new_events.json" 17L, 436C</pre>
 
 2. Fork the project repository. Click on the ‘Fork’ button near the top of the page. This creates a copy of the code under your account on the GitHub. Clone your fork of conrad from your GitHub account:
 
     <pre>
     $ git clone https://www.github.com/[username]/conrad
-    $ cd conrad
-    </pre>
+    $ cd conrad</pre>
 
 3. Create a branch to hold your changes:
 
     <pre>
-    $ git checkout -b add-new-event
-    </pre>
+    $ git checkout -b add-new-event</pre>
 
 4. Import the new events:
 
     <pre>
-    $ conrad import -f ../new_events.json
-    </pre>
+    $ conrad import -f ../new_events.json</pre>
 
 5. Finally push your changes and [raise a PR](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)!
 
     <pre>
     $ git add .
     $ git commit -m "Add new events"
-    $ git push -u origin add-new-event
-    </pre>
+    $ git push -u origin add-new-event</pre>
 
 ## Versioning
 
