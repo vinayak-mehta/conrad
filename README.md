@@ -21,9 +21,9 @@ $ conrad show
 
 - 📅 Never miss CFP deadlines again. `conrad remind` can remind you every time you open a terminal!
 - 📊 Query and explore events using tags, names, locations, and dates. `conrad show --cfp` will tell you about events where the cfp is open!
+- 🔄 Run `conrad refresh` to get the latest events!
 - 🤖 ([upcoming](https://github.com/vinayak-mehta/conrad/issues/17)) The event database updates automatically with events curated by the community.
 - ⛏️ You can manually add events using `conrad import -f events.json` and raise a PR!
-- 🔄 Run `conrad refresh` to get the latest events!
 
 ## Installation
 
@@ -116,15 +116,17 @@ $ conrad show --date ">= 2019-10-01" --date "<= 2020-01-01"
 | 3ae4f9 | PyCon Fr 2019      | https://www.pycon.fr/             | Bordeaux         |        | France  | 2019-10-31 | 2019-11-04 |
 | 68bf57 | PyCon Sweden       | http://www.pycon.se/              | Stockholm        |        | Sweden  | 2019-10-31 | 2019-11-02 |
 
-### Continuous updates (upcoming)
-
-The event list is maintained in `data/events.json`. This list is continuously updated using the available `scrapers`.
+### Refresh event database
 
 You can get the latest events using:
 
 <pre>
 $ conrad refresh
 </pre>
+
+### Continuous updates (upcoming)
+
+The event list is maintained in `data/events.json`. This list is continuously updated using the available `scrapers`.
 
 ### Contributing events
 
