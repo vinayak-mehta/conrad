@@ -182,7 +182,7 @@ def _show(ctx, *args, **kwargs):
 def _remind(ctx, *args, **kwargs):
     _id = kwargs["id"]
     t = PrettyTable()
-    t.field_names = ["name", "start_date", "days_left"]
+    t.field_names = ["id", "name", "start_date", "days_left"]
     t.align = "l"
 
     if _id is None:
@@ -209,7 +209,7 @@ def _remind(ctx, *args, **kwargs):
                 elif delta_days < 10:
                     days_left = Fore.RED + Style.BRIGHT + days_left + Style.RESET_ALL
                 t.add_row(
-                    [reminder.name, reminder.start_date.strftime("%Y-%m-%d"), days_left]
+                    [reminder.id, reminder.name, reminder.start_date.strftime("%Y-%m-%d"), days_left]
                 )
             session.close()
             click.echo(t)
