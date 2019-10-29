@@ -6,8 +6,6 @@
 conrad — Conference Radar
 =========================
 
-Release v\ |version|.
-
 .. image:: https://readthedocs.org/projects/conference-radar/badge/?version=latest
     :target: https://conference-radar.readthedocs.io/en/latest/
     :alt: Documentation Status
