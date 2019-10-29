@@ -218,12 +218,15 @@ def _remind(ctx, *args, **kwargs):
     else:
         try:
             session = Session()
-            reminder = Reminder(id=_id)
-            session.add(reminder)
-            session.commit()
-            session.close()
+            if session.query(Event).filter(Event.id == _id) is None:
+                click.echo("Conference not found!")
+            else:
+                reminder = Reminder(id=_id)
+                session.add(reminder)
+                session.commit()
+                session.close()
 
-            click.echo("Reminder set!")
+                click.echo("Reminder set!")
         except sqlalchemy.exc.IntegrityError:
             session.rollback()
 
