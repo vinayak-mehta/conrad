@@ -1,10 +1,15 @@
 # -*- coding: utf-8 -*-
 
-from sqlalchemy import Boolean, Column, DateTime, Integer, String, Text, ForeignKey
+from sqlalchemy import Boolean, Column, DateTime, Integer, String, Text, ForeignKey, TIMESTAMP
 from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import func
 
+class Base(object):
+    def __tablename__(self):
+        return self.__name__
+    last_updated_at = Column(TIMESTAMP, server_default=func.now(), onupdate=func.current_timestamp())    
 
-Base = declarative_base()
+Base = declarative_base(cls=Base)
 ID_LEN = 100
 STR_LEN = 1024
 

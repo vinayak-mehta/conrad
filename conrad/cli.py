@@ -15,6 +15,7 @@ from .db import engine, Session
 from .prettytable import PrettyTable
 from .models import Base, Event, Reminder
 from .utils import initialize_database, validate
+from datetime import datetime, timedelta
 
 
 def get_events():
@@ -97,7 +98,12 @@ def _show(ctx, *args, **kwargs):
         click.echo("Event database not found, fetching it!")
         get_events()
         initialize_database()
+    
+    session = Session()
 
+    last_updated_event = session.query(Event).order_by(Event.last_updated_at.desc()).first()
+
+    if datetime.utcnow() > (last_updated_event.last_updated_at + timedelta(hours=2)):
         with open(os.path.join(CONRAD_HOME, "events.json"), "r") as f:
             events = json.load(f)
         refresh_database(events)
@@ -152,7 +158,6 @@ def _show(ctx, *args, **kwargs):
     ]
     t.align = "l"
 
-    session = Session()
     events = list(
         session.query(Event).filter(*filters).order_by(Event.start_date).all()
     )
