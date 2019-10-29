@@ -59,7 +59,7 @@ def cli(ctx, *args, **kwargs):
     pass
 
 
-@cli.command("refresh", short_help="refresh event database")
+@cli.command("refresh", short_help="Refresh event database")
 @click.confirmation_option(prompt="Would you like conrad to look for new events?")
 @click.pass_context
 def _refresh(ctx, *args, **kwargs):
@@ -81,12 +81,12 @@ def _refresh(ctx, *args, **kwargs):
     click.echo("Event database updated!")
 
 
-@cli.command("show", short_help="show all saved events")
-@click.option("--cfp", "-c", is_flag=True, help="show only events which have an open Call For Proposals")
-@click.option("--tag", "-t", default="", help="look at conferences with a specific tag")
-@click.option("--name", "-n", default="", help="look at conferences containing a specific word in their name")
-@click.option("--location", "-l", default="", help="look at conferences in a specific city, state or country")
-@click.option("--date", "-d", default=[], multiple=True, help="look at conferences based on when they're happening. i.e conrad show --date \">= 2019-10-01\" --date \"<= 2020-01-01\"")
+@cli.command("show", short_help="Show all saved events")
+@click.option("--cfp", "-c", is_flag=True, help="Show only events which have an open Call For Proposals")
+@click.option("--tag", "-t", default="", help="Look at conferences with a specific tag")
+@click.option("--name", "-n", default="", help="Look at conferences containing a specific word in their name")
+@click.option("--location", "-l", default="", help="Look at conferences in a specific city, state or country")
+@click.option("--date", "-d", default=[], multiple=True, help="Look at conferences based on when they're happening. i.e conrad show --date \">= 2019-10-01\" --date \"<= 2020-01-01\"")
 @click.pass_context
 def _show(ctx, *args, **kwargs):
     # TODO: conrad show --new
@@ -176,8 +176,8 @@ def _show(ctx, *args, **kwargs):
         click.echo("No events found!")
 
 
-@cli.command("remind", short_help="set and display reminders")
-@click.option("--id", "-i", default=None)
+@cli.command("remind", short_help="Set and display reminders")
+@click.option("--id", "-i", default=None, help="Conference identifier")
 @click.pass_context
 def _remind(ctx, *args, **kwargs):
     _id = kwargs["id"]
@@ -236,8 +236,8 @@ def _remind(ctx, *args, **kwargs):
                 click.echo("Reminder removed!")
 
 
-@cli.command("import", short_help="import new events into conrad")
-@click.option("--file", "-f", default=None, help="json file to import")
+@cli.command("import", short_help="Import new events into conrad")
+@click.option("--file", "-f", default=None, help="Json file to import")
 @click.pass_context
 def _import(ctx, *args, **kwargs):
     file = kwargs["file"]
