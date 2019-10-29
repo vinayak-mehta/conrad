@@ -6,6 +6,21 @@
 conrad — Conference Radar
 =========================
 
+Release v\ |version|.
+
+.. image:: https://readthedocs.org/projects/conference-radar/badge/?version=master
+    :target: https://conference-radar.readthedocs.io/en/master/
+    :alt: Documentation Status
+
+.. image:: https://img.shields.io/pypi/v/conference-radar.svg
+    :target: https://pypi.org/project/conference-radar/
+
+.. image:: https://img.shields.io/pypi/pyversions/conference-radar.svg
+    :target: https://pypi.org/project/conference-radar/
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/ambv/black
+
 ``conrad`` helps you track conferences and meetups on your terminal!
 
 ---
