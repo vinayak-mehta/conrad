@@ -87,6 +87,8 @@ def _refresh(ctx, *args, **kwargs):
 @click.option("--name", "-n", default="")
 @click.option("--location", "-l", default="")
 @click.option("--date", "-d", default=[], multiple=True)
+@click.option("--head", "-h", is_flag=True)
+@click.option("--tail", "-t", is_flag=True)
 @click.pass_context
 def _show(ctx, *args, **kwargs):
     # TODO: conrad show --new
@@ -107,6 +109,8 @@ def _show(ctx, *args, **kwargs):
     name = kwargs["name"]
     date = list(kwargs["date"])
     location = kwargs["location"]
+    head = kwargs["head"]
+    tail = kwargs["tail"]
 
     filters = []
     if cfp:
@@ -153,8 +157,26 @@ def _show(ctx, *args, **kwargs):
     t.align = "l"
 
     session = Session()
+
+    result = []
+
+    if head or tail:
+        if head:
+            result = []
+            result.append(
+                session.query(Event).filter(*filters).order_by(Event.start_date).first()
+            )
+
+        if tail:
+            result = []
+            result.append(
+                session.query(Event).filter(*filters).order_by(Event.start_date.desc()).first()
+            )
+    else:
+        result = session.query(Event).filter(*filters).order_by(Event.start_date).all()
+
     events = list(
-        session.query(Event).filter(*filters).order_by(Event.start_date).all()
+        result
     )
     if len(events):
         for event in events:
