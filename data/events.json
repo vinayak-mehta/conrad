@@ -253,5 +253,20 @@
         "state": "",
         "tags": "['python']",
         "url": "https://eventos.python.org.ar/events/pyconar2019/"
+    },
+    {
+        "cfp_end_date": "2019-10-01",
+        "cfp_open": false,
+        "cfp_start_date": "2019-10-01",
+        "city": "Austin",
+        "country": "USA",
+        "end_date": "2020-05-17",
+        "kind": "conference",
+        "name": "PyTexas 2020",
+        "source": "https://www.python.org/events/",
+        "start_date": "2020-05-16",
+        "state": "Texas",
+        "tags": "['python']",
+        "url": "https://www.pytexas.org/2020/"
     }
 ]
