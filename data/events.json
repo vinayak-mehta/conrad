@@ -223,5 +223,35 @@
         "state": "",
         "tags": "['python']",
         "url": "https://pycon.id/"
+    },
+    {
+        "cfp_end_date": "2019-10-01",
+        "cfp_open": false,
+        "cfp_start_date": "2019-10-01",
+        "city": "Toronto",
+        "country": "Canada",
+        "end_date": "2019-11-19",
+        "kind": "conference",
+        "name": "PyCon Canada",
+        "source": "https://www.python.org/events/",
+        "start_date": "2019-11-16",
+        "state": "Ontario",
+        "tags": "['python']",
+        "url": "https://2019.pycon.ca/"
+    },
+    {
+        "cfp_end_date": "2019-10-01",
+        "cfp_open": false,
+        "cfp_start_date": "2019-10-01",
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "end_date": "2019-12-06",
+        "kind": "conference",
+        "name": "PyCon Argentina",
+        "source": "https://www.python.org/events/",
+        "start_date": "2019-12-04",
+        "state": "",
+        "tags": "['python']",
+        "url": "https://eventos.python.org.ar/events/pyconar2019/"
     }
 ]
