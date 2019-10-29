@@ -1,3 +1,7 @@
+<p align="center">
+   <img src="https://raw.githubusercontent.com/vinayak-mehta/conrad/master/docs/_static/mozilla-satellite-antenna.png" width="200">
+</p>
+
 # conrad — Conference Radar 📡
 
 [![Documentation Status](https://readthedocs.org/projects/conference-radar/badge/?version=latest)](https://conference-radar.readthedocs.io/en/latest/) [![image](https://img.shields.io/pypi/v/conference-radar.svg)](https://pypi.org/project/conference-radar/) [![image](https://img.shields.io/pypi/pyversions/conference-radar.svg)](https://pypi.org/project/conference-radar/) [![image](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
@@ -136,7 +140,7 @@ Sources:
 
 ### Contributing events
 
-The [Contributor's Guide](CONTRIBUTING.md) has detailed information about guidelines around contributions.
+The [Contributor's Guide](https://github.com/vinayak-mehta/conrad/blob/master/CONTRIBUTING.md) has detailed information about guidelines around contributions.
 
 You can add new events to the list! To do so:
 
