@@ -208,5 +208,20 @@
         "state": "Telangana",
         "tags": "['python']",
         "url": "https://pyconf.hydpy.org/2019/"
+    },
+    {
+        "cfp_end_date": "2019-10-31",
+        "cfp_open": true,
+        "cfp_start_date": "2019-10-01",
+        "city": "Surabaya",
+        "country": "Indonesia",
+        "end_date": "2019-11-25",
+        "kind": "conference",
+        "name": "PyCon Indonesia",
+        "source": "https://tulu.la",
+        "start_date": "2019-11-23",
+        "state": "",
+        "tags": "['python']",
+        "url": "https://pycon.id/"
     }
 ]
