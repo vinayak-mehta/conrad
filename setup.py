@@ -19,7 +19,10 @@ requires = [
     "requests==2.22.0",
     "SQLAlchemy==1.3.10"
 ]
-dev_requires = requires
+dev_requires = [
+    "Sphinx==2.2.1"
+]
+dev_requires = dev_requires + requires
 
 
 def setup_package():
