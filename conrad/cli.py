@@ -27,6 +27,7 @@ def get_events():
 
 def refresh_database(events):
     session = Session()
+    count = 0
     for event in events:
         event_id = hashlib.md5(
             (event["name"] + event["start_date"]).encode("utf-8")
@@ -49,7 +50,9 @@ def refresh_database(events):
         )
         session.add(e)
         session.commit()
+        count = count + 1
     session.close()
+    return count
 
 
 @click.group(name="conrad")
@@ -75,9 +78,10 @@ def _refresh(ctx, *args, **kwargs):
 
     with open(os.path.join(CONRAD_HOME, "events.json"), "r") as f:
         events = json.load(f)
-    refresh_database(events)
+    added = refresh_database(events)
 
     # TODO: print("10 new events found!")
+    print( added + " new events found!")
     click.echo("Event database updated!")
 
 
