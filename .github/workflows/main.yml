@@ -7,6 +7,11 @@ jobs:
     name: Get events
     runs-on: ubuntu-latest
     steps:
+      - id: PyData
+        name: Get PyData events
+        uses: ./.github/actions/get-events-action
+        with:
+          crawler-name: 'PyDataCrawler'
     # - uses: actions/checkout@v1
     # - id: pycon
     #   name: Get PyCon events action step
