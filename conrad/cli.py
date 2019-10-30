@@ -11,7 +11,7 @@ import sqlalchemy
 from colorama import Fore, Style
 from cli_helpers import tabular_output
 
-from . import __version__, CONRAD_HOME, SQL_ALCHEMY_CONN
+from . import __version__, CONRAD_HOME
 from .db import engine, Session
 from .models import Base, Event, Reminder
 from .utils import initialize_database, validate

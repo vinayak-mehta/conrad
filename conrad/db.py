@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import os
 import atexit
 
 from sqlalchemy import create_engine
