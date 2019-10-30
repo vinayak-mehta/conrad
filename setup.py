@@ -9,7 +9,7 @@ about = {}
 with open(os.path.join(here, 'conrad', '__version__.py'), 'r') as f:
     exec(f.read(), about)
 
-with open('README.md', 'r') as f:
+with open('README.md', 'r', encoding="utf8") as f:
     readme = f.read()
 
 
