@@ -196,6 +196,15 @@ def _remind(ctx, *args, **kwargs):
         if len(reminders):
             for reminder, __ in reminders:
                 start = dt.datetime.now()
+
+                if dt.datetime.strptime(reminder.start_date, "%Y-%m-%d") <= start:
+                    click.echo(
+                        "Removing reminder for event {} which has started in {}"
+                        .format(reminder.name, reminder.start_date.strftime("%Y-%m-%d"))
+                    )
+                    reminders.remove(reminder)
+                    continue
+
                 if reminder.cfp_open:
                     delta_days = (reminder.cfp_end_date - start).days
                     days_left = "{} days left to cfp deadline!".format(delta_days)
