@@ -9,10 +9,10 @@ import click
 import requests
 import sqlalchemy
 from colorama import Fore, Style
+from cli_helpers import tabular_output
 
 from . import __version__, CONRAD_HOME, SQL_ALCHEMY_CONN
 from .db import engine, Session
-from .prettytable import PrettyTable
 from .models import Base, Event, Reminder
 from .utils import initialize_database, validate
 
@@ -56,10 +56,11 @@ def refresh_database(events):
 @click.version_option(version=__version__)
 @click.pass_context
 def cli(ctx, *args, **kwargs):
+    """conrad: Track conferences and meetups on your terminal!"""
     pass
 
 
-@cli.command("refresh", short_help="Refresh event database")
+@cli.command("refresh", short_help="Refresh event database.")
 @click.confirmation_option(prompt="Would you like conrad to look for new events?")
 @click.pass_context
 def _refresh(ctx, *args, **kwargs):
@@ -81,12 +82,33 @@ def _refresh(ctx, *args, **kwargs):
     click.echo("Event database updated!")
 
 
-@cli.command("show", short_help="Show all saved events")
-@click.option("--cfp", "-c", is_flag=True, help="Show only events which have an open Call For Proposals")
-@click.option("--tag", "-t", default="", help="Look at conferences with a specific tag")
-@click.option("--name", "-n", default="", help="Look at conferences containing a specific word in their name")
-@click.option("--location", "-l", default="", help="Look at conferences in a specific city, state or country")
-@click.option("--date", "-d", default=[], multiple=True, help="Look at conferences based on when they're happening. i.e conrad show --date \">= 2019-10-01\" --date \"<= 2020-01-01\"")
+@cli.command("show", short_help="Show all saved events.")
+@click.option(
+    "--cfp",
+    "-c",
+    is_flag=True,
+    help="Show only events which have an open CFP (call for proposals).",
+)
+@click.option("--tag", "-t", default="", help="Look at conferences with a specific tag.")
+@click.option(
+    "--name",
+    "-n",
+    default="",
+    help="Look at conferences containing a specific word in their name.",
+)
+@click.option(
+    "--location",
+    "-l",
+    default="",
+    help="Look at conferences in a specific city, state or country.",
+)
+@click.option(
+    "--date",
+    "-d",
+    default=[],
+    multiple=True,
+    help='Look at conferences based on when they\'re happening. For example: conrad show --date ">= 2019-10-01" --date "<= 2020-01-01".',
+)
 @click.pass_context
 def _show(ctx, *args, **kwargs):
     # TODO: conrad show --new
@@ -139,26 +161,25 @@ def _show(ctx, *args, **kwargs):
             )
         )
 
-    t = PrettyTable()
-    t.field_names = [
-        "id",
-        "name",
-        "url",
-        "city",
-        "state",
-        "country",
-        "start_date",
-        "end_date",
-    ]
-    t.align = "l"
-
     session = Session()
     events = list(
         session.query(Event).filter(*filters).order_by(Event.start_date).all()
     )
     if len(events):
+        header = [
+            "id",
+            "name",
+            "url",
+            "city",
+            "state",
+            "country",
+            "start_date",
+            "end_date",
+        ]
+        events_output = []
+
         for event in events:
-            t.add_row(
+            events_output.append(
                 [
                     event.id,
                     event.name,
@@ -171,19 +192,23 @@ def _show(ctx, *args, **kwargs):
                 ]
             )
         session.close()
-        click.echo(t)
+
+        click.echo_via_pager(
+            "\n".join(
+                tabular_output.format_output(
+                    events_output, header, format_name="ascii"
+                )
+            )
+        )
     else:
         click.echo("No events found!")
 
 
-@cli.command("remind", short_help="Set and display reminders")
-@click.option("--id", "-i", default=None, help="Conference identifier")
+@cli.command("remind", short_help="Set and display reminders.")
+@click.option("--id", "-i", default=None, help="Conference identifier.")
 @click.pass_context
 def _remind(ctx, *args, **kwargs):
     _id = kwargs["id"]
-    t = PrettyTable()
-    t.field_names = ["id", "name", "start_date", "days_left"]
-    t.align = "l"
 
     if _id is None:
         session = Session()
@@ -194,6 +219,9 @@ def _remind(ctx, *args, **kwargs):
             .all()
         )
         if len(reminders):
+            header = ["id", "name", "start_date", "days_left"]
+            reminders_output = []
+
             for reminder, __ in reminders:
                 start = dt.datetime.now()
                 if reminder.cfp_open:
@@ -208,11 +236,22 @@ def _remind(ctx, *args, **kwargs):
                     days_left = Fore.YELLOW + Style.BRIGHT + days_left + Style.RESET_ALL
                 elif delta_days < 10:
                     days_left = Fore.RED + Style.BRIGHT + days_left + Style.RESET_ALL
-                t.add_row(
-                    [reminder.id, reminder.name, reminder.start_date.strftime("%Y-%m-%d"), days_left]
+                reminders_output.append(
+                    [
+                        reminder.id,
+                        reminder.name,
+                        reminder.start_date.strftime("%Y-%m-%d"),
+                        days_left,
+                    ]
                 )
             session.close()
-            click.echo(t)
+            click.echo(
+                "\n".join(
+                    tabular_output.format_output(
+                        reminders_output, header, format_name="ascii"
+                    )
+                )
+            )
         else:
             click.echo("No reminders found!")
     else:
@@ -236,8 +275,8 @@ def _remind(ctx, *args, **kwargs):
                 click.echo("Reminder removed!")
 
 
-@cli.command("import", short_help="Import new events into conrad")
-@click.option("--file", "-f", default=None, help="Json file to import")
+@cli.command("import", short_help="Import new events into conrad.")
+@click.option("--file", "-f", default=None, help="JSON file to import.")
 @click.pass_context
 def _import(ctx, *args, **kwargs):
     file = kwargs["file"]
