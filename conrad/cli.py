@@ -103,6 +103,9 @@ def _show(ctx, *args, **kwargs):
 
     last_updated_event = session.query(Event).order_by(Event.last_updated_at.desc()).first()
 
+    if datetime.utcnow() > (last_updated_event.last_updated_at + timedelta(minutes=20)):
+        click.echo("Last refreshed: 20 mins ago")
+
     if datetime.utcnow() > (last_updated_event.last_updated_at + timedelta(hours=2)):
         with open(os.path.join(CONRAD_HOME, "events.json"), "r") as f:
             events = json.load(f)
