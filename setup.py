@@ -17,7 +17,8 @@ requires = [
     "Click==7.0",
     "colorama==0.4.1",
     "requests==2.22.0",
-    "SQLAlchemy==1.3.10"
+    "SQLAlchemy==1.3.10",
+    "jsonschema==3.1.1"
 ]
 dev_requires = [
     "Sphinx==2.2.1"

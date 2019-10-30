@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import json
+import os
+import operator
+from jsonschema import Draft4Validator
 
 from .db import engine
 
@@ -20,32 +23,19 @@ def reset_database():
 
 def validate(input_events):
     failures = []
+    with open(os.path.join(os.path.dirname(__file__), "default_event_schema.json")) as f:
+        schema = json.load(f)
+    validator = Draft4Validator(schema)
 
-    keys = [
-        "name",
-        "url",
-        "city",
-        "state",
-        "country",
-        "cfp_open",
-        "cfp_start_date",
-        "cfp_end_date",
-        "start_date",
-        "end_date",
-        "source",
-        "tags",
-        "kind",
-    ]
+    _errors = sorted(validator.iter_errors(input_events), key=operator.attrgetter('path'))
+    error_messages = []
+    for err in _errors:
+        err_msg = []
+        err_msg.append("[%s] -> %s" % ("][".join(repr(index)
+                                                 for index in err.absolute_path), err.message))
+        for suberror in sorted(err.context, key=operator.attrgetter('schema_path')):
+            err_msg.append("  %s" % suberror.message)
 
-    # check for duplicates
-    ie_names = [ie["name"].replace(" ", "").lower() for ie in input_events]
-    if sorted(list(set(ie_names))) != sorted(ie_names):
-        failures.append("Duplicate events found")
+        error_messages.append("\n".join(err_msg))
 
-    # check if keys exist
-    for ie in input_events:
-        if set(keys).difference(set(ie.keys())):
-            failures.append("Required fields not found")
-            break
-
-    return failures
+    return error_messages

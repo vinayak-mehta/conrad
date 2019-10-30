@@ -1,0 +1,42 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "title": "List of Events",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/event"
+    },
+    "definitions": {
+        "event": {
+            "title": "Event",
+            "type": "object",
+            "required": [
+                "source",
+                "name",
+                "cfp_start_date",
+                "cfp_end_date",
+                "kind"
+            ],
+            "properties": {
+                "cfp_end_date": {"type": "string"},
+                "cfp_open": {"type": "boolean"},
+                "cfp_start_date": {"type": "string"},
+                "city": {"type": "string"},
+                "country": {"type": "string"},
+                "end_date": {"type": "string"},
+                "kind": {"type": "string",
+                    "enum": ["conference", "event"]
+                },
+                "name": {"type": "string"},
+                "source": {"type": "string"},
+                "start_date": {"type": "string"},
+                "state": {"type": "string"},
+                "tags": {"type": "array",
+                        "uniqueItems": true,
+                        "items": {"type":"string"}
+                },
+                "url": {"type": "string"}
+            },
+            "additionalProperties": false
+        }
+    }
+}
