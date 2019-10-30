@@ -1,5 +1,9 @@
 version = 1
 
+exclude_patterns = [
+  "conrad/prettytable.py"
+]
+
 [[analyzers]]
 name = "python"
 enabled = true
