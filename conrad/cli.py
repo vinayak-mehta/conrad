@@ -24,6 +24,17 @@ def get_events():
     with open(os.path.join(CONRAD_HOME, "events.json"), "w") as f:
         f.write(json.dumps(response.json()))
 
+def get_session_count():
+    '''Fetch number of unique instances of Event in current database'''
+    session = Session()
+    query = session.query(Event).all()
+    count = len(query)
+    return count
+
+def isEventExist(event_id):
+    '''Check if event with the given id exists in database'''
+    session = Session().query(Event).filter(Event.id == event_it).count()
+    return session > 0
 
 def refresh_database(events):
     session = Session()
@@ -32,25 +43,26 @@ def refresh_database(events):
         event_id = hashlib.md5(
             (event["name"] + event["start_date"]).encode("utf-8")
         ).hexdigest()
-        e = Event(
-            id=event_id[:6],
-            name=event["name"],
-            url=event["url"],
-            city=event["city"],
-            state=event["state"],
-            country=event["country"],
-            cfp_open=event["cfp_open"],
-            cfp_start_date=dt.datetime.strptime(event["cfp_start_date"], "%Y-%m-%d"),
-            cfp_end_date=dt.datetime.strptime(event["cfp_end_date"], "%Y-%m-%d"),
-            start_date=dt.datetime.strptime(event["start_date"], "%Y-%m-%d"),
-            end_date=dt.datetime.strptime(event["end_date"], "%Y-%m-%d"),
-            source=event["source"],
-            tags=event["tags"],
-            kind=event["kind"],
-        )
-        session.add(e)
-        session.commit()
-        count = count + 1
+        if not isEventExist(event_id):
+            e = Event(
+                id=event_id[:6],
+                name=event["name"],
+                url=event["url"],
+                city=event["city"],
+                state=event["state"],
+                country=event["country"],
+                cfp_open=event["cfp_open"],
+                cfp_start_date=dt.datetime.strptime(event["cfp_start_date"], "%Y-%m-%d"),
+                cfp_end_date=dt.datetime.strptime(event["cfp_end_date"], "%Y-%m-%d"),
+                start_date=dt.datetime.strptime(event["start_date"], "%Y-%m-%d"),
+                end_date=dt.datetime.strptime(event["end_date"], "%Y-%m-%d"),
+                source=event["source"],
+                tags=event["tags"],
+                kind=event["kind"],
+            )
+            session.add(e)
+            session.commit()
+            count = count + 1
     session.close()
     return count
 
@@ -81,7 +93,11 @@ def _refresh(ctx, *args, **kwargs):
     added = refresh_database(events)
 
     # TODO: print("10 new events found!")
-    print( added + " new events found!")
+    if added > 0 :
+        print( added + " new events found!")
+    elif added < 0:
+        print( added + " events removed!")
+
     click.echo("Event database updated!")
 
 
