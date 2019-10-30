@@ -95,7 +95,9 @@ def _refresh(ctx, *args, **kwargs):
     is_flag=True,
     help="Show only events which have an open CFP (call for proposals).",
 )
-@click.option("--tag", "-t", default="", help="Look at conferences with a specific tag.")
+@click.option(
+    "--tag", "-t", default="", help="Look at conferences with a specific tag."
+)
 @click.option(
     "--name",
     "-n",
