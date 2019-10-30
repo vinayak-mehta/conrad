@@ -17,6 +17,12 @@ from .models import Base, Event, Reminder
 from .utils import initialize_database, validate
 
 
+def set_default_pager():
+    os_environ_pager = os.environ.get("PAGER")
+    if os_environ_pager == "less":
+        os.environ["LESS"] = "-SRXF"
+
+
 def get_events():
     response = requests.get(
         "https://raw.githubusercontent.com/vinayak-mehta/conrad/master/data/events.json"
@@ -57,7 +63,7 @@ def refresh_database(events):
 @click.pass_context
 def cli(ctx, *args, **kwargs):
     """conrad: Track conferences and meetups on your terminal!"""
-    pass
+    set_default_pager()
 
 
 @cli.command("refresh", short_help="Refresh event database.")
@@ -193,13 +199,10 @@ def _show(ctx, *args, **kwargs):
             )
         session.close()
 
-        click.echo_via_pager(
-            "\n".join(
-                tabular_output.format_output(
-                    events_output, header, format_name="ascii"
-                )
-            )
+        formatted = tabular_output.format_output(
+            events_output, header, format_name="ascii"
         )
+        click.echo_via_pager("\n".join(formatted))
     else:
         click.echo("No events found!")
 
@@ -245,13 +248,11 @@ def _remind(ctx, *args, **kwargs):
                     ]
                 )
             session.close()
-            click.echo(
-                "\n".join(
-                    tabular_output.format_output(
-                        reminders_output, header, format_name="ascii"
-                    )
-                )
+
+            formatted = tabular_output.format_output(
+                reminders_output, header, format_name="ascii"
             )
+            click.echo("\n".join(formatted))
         else:
             click.echo("No reminders found!")
     else:
