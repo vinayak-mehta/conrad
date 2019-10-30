@@ -15,6 +15,7 @@ with open('README.md', 'r') as f:
 
 requires = [
     "Click==7.0",
+    "cli-helpers==1.2.1",
     "colorama==0.4.1",
     "requests==2.22.0",
     "SQLAlchemy==1.3.10"
