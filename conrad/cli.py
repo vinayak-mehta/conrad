@@ -4,6 +4,7 @@ import os
 import json
 import hashlib
 import datetime as dt
+import random
 
 import click
 import requests
@@ -182,8 +183,14 @@ def _show(ctx, *args, **kwargs):
 def _remind(ctx, *args, **kwargs):
     _id = kwargs["id"]
     t = PrettyTable()
-    t.field_names = ["name", "start_date", "days_left"]
+    t.field_names = ["name", "start_date", "days_left", "fortune"]
     t.align = "l"
+
+    fortunes = ["You should submit a proposal... There is still enough time!",
+                "Believe in yourself and submit a proposal for this event. :)",
+                "Take that step, submit a proposal and share your idea to the world!",
+                "`Try not. Do or do not. There is no try` - Yoda",
+                "What a nice day to submit a proposal to this event!"]
 
     if _id is None:
         session = Session()
@@ -209,7 +216,7 @@ def _remind(ctx, *args, **kwargs):
                 elif delta_days < 10:
                     days_left = Fore.RED + Style.BRIGHT + days_left + Style.RESET_ALL
                 t.add_row(
-                    [reminder.name, reminder.start_date.strftime("%Y-%m-%d"), days_left]
+                    [reminder.name, reminder.start_date.strftime("%Y-%m-%d"), days_left, fortunes[random.randint(0, len(fortunes) - 1)]]
                 )
             session.close()
             click.echo(t)
