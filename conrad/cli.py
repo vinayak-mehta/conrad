@@ -323,5 +323,13 @@ def _import(ctx, *args, **kwargs):
 
     events.extend(new_events)
     click.echo("Added {} new events!".format(len(new_events)))
+
+    click.echo("Removing old events...")
+
+    for event in events:
+        if dt.datetime.strptime(event["start_date"], "%Y-%m-%d") < dt.datetime.now():
+            click.echo("Removing event {} which has happened in {}".format(event["name"], event["start_date"]))
+            events.remove(event)
+
     with open(EVENTS_PATH, "w") as f:
         f.write(json.dumps(events, indent=4, sort_keys=True))
