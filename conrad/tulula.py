@@ -93,7 +93,8 @@ class Tulula:
 
         return response_data["data"]
 
-    def _parse_edges(self, edges):
+    @staticmethod
+    def _parse_edges(edges):
         events = []
         for event_node in edges:
             node = event_node["node"]
