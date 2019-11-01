@@ -325,3 +325,20 @@ def _import(ctx, *args, **kwargs):
     click.echo("Added {} new events!".format(len(new_events)))
     with open(EVENTS_PATH, "w") as f:
         f.write(json.dumps(events, indent=4, sort_keys=True))
+
+
+@cli.command("reset", short_help="Reset everything, reminders included.")
+@click.confirmation_option(prompt="Would you like conrad to reset everything?")
+@click.pass_context
+def _reset(ctx, *args, **kwargs):
+    if os.path.exists(CONRAD_HOME):
+        conrad_db_path = os.path.join(CONRAD_HOME, "conrad.db")
+        if os.path.exists(conrad_db_path):
+            os.remove(conrad_db_path)
+        conrad_events_path = os.path.join(CONRAD_HOME, "events.json")
+        if os.path.exists(conrad_events_path):
+            os.remove(conrad_events_path)
+        os.removedirs(CONRAD_HOME)
+        click.echo("Conrad is now as clean and new as the first day!")
+    else:
+        click.echo("Conrad is clean already.")
