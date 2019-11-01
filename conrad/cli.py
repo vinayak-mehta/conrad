@@ -58,6 +58,19 @@ def refresh_database(events):
     session.close()
 
 
+def initialize_conrad():
+    if not os.path.exists(CONRAD_HOME):
+        os.makedirs(CONRAD_HOME)
+    if not os.path.exists(os.path.join(CONRAD_HOME, "conrad.db")):
+        click.echo("Event database not found, fetching it!")
+        get_events()
+        initialize_database()
+
+        with open(os.path.join(CONRAD_HOME, "events.json"), "r") as f:
+            events = json.load(f)
+        refresh_database(events)
+
+
 @click.group(name="conrad")
 @click.version_option(version=__version__)
 @click.pass_context
@@ -120,17 +133,7 @@ def _refresh(ctx, *args, **kwargs):
 @click.pass_context
 def _show(ctx, *args, **kwargs):
     # TODO: conrad show --new
-    if not os.path.exists(CONRAD_HOME):
-        os.makedirs(CONRAD_HOME)
-
-    if not os.path.exists(os.path.join(CONRAD_HOME, "conrad.db")):
-        click.echo("Event database not found, fetching it!")
-        get_events()
-        initialize_database()
-
-        with open(os.path.join(CONRAD_HOME, "events.json"), "r") as f:
-            events = json.load(f)
-        refresh_database(events)
+    initialize_conrad()
 
     cfp = kwargs["cfp"]
     tag = kwargs["tag"]
@@ -213,6 +216,8 @@ def _show(ctx, *args, **kwargs):
 @click.option("--id", "-i", default=None, help="Conference identifier.")
 @click.pass_context
 def _remind(ctx, *args, **kwargs):
+    initialize_conrad()
+
     _id = kwargs["id"]
 
     if _id is None:
