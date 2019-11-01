@@ -129,6 +129,12 @@ You can get the latest events using:
 $ conrad refresh
 </pre>
 
+You can also get the latest events (more than 800 of them) from an event aggregator https://tulu.la:
+
+<pre>
+$ conrad refresh --source=tulula
+</pre>
+
 ### Continuous updates (upcoming)
 
 The event list is maintained in `data/events.json`. This list is continuously updated using the available `scrapers`.
