@@ -60,13 +60,6 @@ class Tulula:
         logging.info("%d events has been fetched from tulu.la", len(events))
         return events
 
-    def _make_url(self, slug, event_id):
-        # base64("event:id") > base36(id)
-        decoded_id = base64.b64decode(event_id)
-        parts = decoded_id.split(b":")
-        real_id = base36encode(int(parts[1]))
-        return "https://tulu.la/events/{slug}-{id:0>6}".format(slug=slug, id=real_id)
-
     def _get_page_data(self, date_from, after=None):
         operation = {
             "operationName": "QueryEventsList",
@@ -120,7 +113,7 @@ class Tulula:
                     city=node["venue"] and node["venue"]["city"],
                     tags=node["tags"],
                     source="https://tulu.la",
-                    url=self._make_url(node["slug"], node["id"]),
+                    url=make_url(node["slug"], node["id"]),
                     kind="conference",
                 )
             )
@@ -147,11 +140,20 @@ def base36encode(number):
 
     return base36 or alphabet[0]
 
+def make_url(slug, event_id):
+    # base64("event:id") > base36(id)
+    decoded_id = base64.b64decode(event_id)
+    parts = decoded_id.split(b":")
+    real_id = base36encode(int(parts[1]))
+    return "https://tulu.la/events/{slug}-{id:0>6}".format(slug=slug, id=real_id)
+
 
 GQL_EVENT_QUERY = """
 query QueryEventsList($first: Int, $after: String, $filter: EventFilter,
-                      $sort: EventSortField, $order: SortOrder, $searchView: EventSearch) {
-  events: events(range: {first: $first, after: $after}, filter: $filter, sortField: $sort,
+                      $sort: EventSortField, $order: SortOrder,
+                      $searchView: EventSearch) {
+  events: events(range: {first: $first, after: $after},
+                 filter: $filter, sortField: $sort,
                  sortOrder: $order, searchView: $searchView) {
     edges {
       node {

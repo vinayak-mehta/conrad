@@ -34,9 +34,7 @@ def get_events():
 
 
 def get_tulula_events():
-    """
-    Returns events from event aggregator https://tulu.la
-    """
+    """Returns events from event aggregator https://tulu.la"""
     events = Tulula().get_new_events()
     return [
         {
@@ -74,13 +72,13 @@ def refresh_database(events):
             country=event["country"],
             cfp_open=event["cfp_open"],
             cfp_start_date=dt.datetime.strptime(event["cfp_start_date"], "%Y-%m-%d")
-                            if event["cfp_start_date"] else None,
+            if event["cfp_start_date"] else None,
             cfp_end_date=dt.datetime.strptime(event["cfp_end_date"], "%Y-%m-%d")
-                            if event["cfp_end_date"] else None,
+            if event["cfp_end_date"] else None,
             start_date=dt.datetime.strptime(event["start_date"], "%Y-%m-%d")
-                            if event["start_date"] else None,
+            if event["start_date"] else None,
             end_date=dt.datetime.strptime(event["end_date"], "%Y-%m-%d")
-                            if event["end_date"] else None,
+            if event["end_date"] else None,
             source=event["source"],
             tags=event["tags"],
             kind=event["kind"],
@@ -88,7 +86,7 @@ def refresh_database(events):
         session.add(e)
         try:
             session.commit()
-        except IntegrityError as e:
+        except IntegrityError:
             # ignore duplicate error
             session.rollback()
 
