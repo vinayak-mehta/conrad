@@ -8,6 +8,7 @@ import datetime as dt
 import click
 import requests
 import sqlalchemy
+from sqlalchemy.exc import IntegrityError
 from colorama import Fore, Style
 from cli_helpers import tabular_output
 
@@ -15,6 +16,7 @@ from . import __version__, CONRAD_HOME
 from .db import engine, Session
 from .models import Base, Event, Reminder
 from .utils import initialize_database, validate
+from .tulula import Tulula
 
 
 def set_default_pager():
@@ -31,6 +33,32 @@ def get_events():
         f.write(json.dumps(response.json()))
 
 
+def get_tulula_events():
+    """
+    Returns events from event aggregator https://tulu.la
+    """
+    events = Tulula().get_new_events()
+    return [
+        {
+            "name": event.name,
+            "url": event.url,
+            "city": event.city,
+            "state": event.state,
+            "country": event.country,
+            "cfp_open": event.cfp_is_active,
+            "cfp_start_date": event.cfp_date_start,
+            "cfp_end_date": event.cfp_date_end,
+            "start_date": event.date_start,
+            "end_date": event.date_end,
+            # converts list of tags to a string to be compatible with events.json
+            "tags": json.dumps(event.tags),
+            "kind": event.kind,
+            "source": event.source,
+
+        }
+        for event in events]
+
+
 def refresh_database(events):
     session = Session()
     for event in events:
@@ -45,16 +73,25 @@ def refresh_database(events):
             state=event["state"],
             country=event["country"],
             cfp_open=event["cfp_open"],
-            cfp_start_date=dt.datetime.strptime(event["cfp_start_date"], "%Y-%m-%d"),
-            cfp_end_date=dt.datetime.strptime(event["cfp_end_date"], "%Y-%m-%d"),
-            start_date=dt.datetime.strptime(event["start_date"], "%Y-%m-%d"),
-            end_date=dt.datetime.strptime(event["end_date"], "%Y-%m-%d"),
+            cfp_start_date=dt.datetime.strptime(event["cfp_start_date"], "%Y-%m-%d")
+                            if event["cfp_start_date"] else None,
+            cfp_end_date=dt.datetime.strptime(event["cfp_end_date"], "%Y-%m-%d")
+                            if event["cfp_end_date"] else None,
+            start_date=dt.datetime.strptime(event["start_date"], "%Y-%m-%d")
+                            if event["start_date"] else None,
+            end_date=dt.datetime.strptime(event["end_date"], "%Y-%m-%d")
+                            if event["end_date"] else None,
             source=event["source"],
             tags=event["tags"],
             kind=event["kind"],
         )
         session.add(e)
-        session.commit()
+        try:
+            session.commit()
+        except IntegrityError as e:
+            # ignore duplicate error
+            session.rollback()
+
     session.close()
 
 
@@ -67,21 +104,28 @@ def cli(ctx, *args, **kwargs):
 
 
 @cli.command("refresh", short_help="Refresh event database.")
+@click.option('--source', default="conrad",
+              type=click.Choice(['conrad', 'tulula'], case_sensitive=False))
 @click.confirmation_option(prompt="Would you like conrad to look for new events?")
 @click.pass_context
 def _refresh(ctx, *args, **kwargs):
     if not os.path.exists(CONRAD_HOME):
         os.makedirs(CONRAD_HOME)
 
-    get_events()
     if not os.path.exists(os.path.join(CONRAD_HOME, "conrad.db")):
         initialize_database()
     else:
         Event.__table__.drop(engine)
         Base.metadata.tables["event"].create(bind=engine)
 
-    with open(os.path.join(CONRAD_HOME, "events.json"), "r") as f:
-        events = json.load(f)
+    events = []
+    if kwargs["source"] == "conrad":
+        get_events()
+        with open(os.path.join(CONRAD_HOME, "events.json"), "r") as f:
+            events = json.load(f)
+    elif kwargs["source"] == "tulula":
+        events = get_tulula_events()
+
     refresh_database(events)
 
     # TODO: print("10 new events found!")
