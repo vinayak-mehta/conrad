@@ -2,13 +2,14 @@ name: Get events
 on: push
 
 jobs:
+  # TODO: Fix google oauth flow
   # get_events:
   #   name: Crawler to get PyCon events
   #   runs-on: ubuntu-latest
   #   steps:
   #   - uses: actions/checkout@v1
-  #   - id: hello
-  #     name: Get events action step
+  #   - id: pycon
+  #     name: Get PyCon events
   #     uses: ./.github/actions/get-events-action
   #     with:
   #       crawler-name: 'PyConCrawler'
@@ -17,8 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - id: hello
-      name: Get events action step
+    - id: papercall
+      name: Get Papercall events action step
       uses: ./.github/actions/get-events-action
       with:
         crawler-name: 'PapercallCrawler'

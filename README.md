@@ -23,11 +23,11 @@ $ conrad show
 
 ## Why conrad?
 
+- 🤖 The event database updates automatically using crawlers + GitHub Actions.
 - 📅 Never miss CFP deadlines again. `conrad remind` can remind you every time you open a terminal!
 - 📊 Query and explore events using tags, names, locations, and dates. `conrad show --cfp` will tell you about events where the cfp is open!
 - 🔄 Run `conrad refresh` to get the latest events!
-- 🤖 ([upcoming](https://github.com/vinayak-mehta/conrad/issues/17)) The event database updates automatically with events curated by the community.
-- ⛏️ You can manually add events using `conrad import -f events.json` and raise a PR!
+- ⛏️ You can contribute crawlers and events by simply raising a PR!
 
 ## Installation
 
@@ -38,6 +38,15 @@ $ pip install conference-radar
 </pre>
 
 ## Features
+
+### Continuous updates
+
+The event list is maintained in `data/events.json`. This list is continuously updated by the available `crawlers` using GitHub Actions.
+
+Sources:
+
+- http://papercall.io
+- https://github.com/python-organizers/conferences
 
 ### Set reminders
 
@@ -121,6 +130,7 @@ $ conrad show --date ">= 2019-10-01" --date "<= 2020-01-01"
 | 3ae4f9 | PyCon Fr 2019      | https://www.pycon.fr/             | Bordeaux         |        | France  | 2019-10-31 | 2019-11-04 |
 | 68bf57 | PyCon Sweden       | http://www.pycon.se/              | Stockholm        |        | Sweden  | 2019-10-31 | 2019-11-02 |
 
+
 ### Refresh event database
 
 You can get the latest events using:
@@ -129,65 +139,14 @@ You can get the latest events using:
 $ conrad refresh
 </pre>
 
-### Continuous updates (upcoming)
-
-The event list is maintained in `data/events.json`. This list is continuously updated using the available `scrapers`.
-
-Sources:
-
-- https://www.python.org/events
-- https://github.com/python-organizers/conferences
-
-### Contributing events
+### Contributing
 
 The [Contributor's Guide](https://github.com/vinayak-mehta/conrad/blob/master/CONTRIBUTING.md) has detailed information about guidelines around contributions.
 
-You can add new events to the list! To do so:
+You can add new crawlers and events to `conrad`:
 
-1. Create a `new_events.json` file containing the list of events you want to add, with the following fields:
-
-    <pre>
-    [
-        {
-            "name": "PyCon US",
-            "url": "https://us.pycon.org",
-            "city": "Pittsburgh",
-            "state": "Pennsylvania",
-            "country": "USA",
-            "cfp_open": true,
-            "cfp_start_date": "2019-09-12",
-            "cfp_end_date": "2019-12-20",
-            "start_date": "2020-04-15",
-            "end_date": "2020-04-23",
-            "source": "https://www.python.org/events/",
-            "tags": "['python']",
-            "kind": "conference"
-        }
-    ]
-    "new_events.json" 17L, 436C</pre>
-
-2. Fork the project repository. Click on the ‘Fork’ button near the top of the page. This creates a copy of the code under your account on the GitHub. Clone your fork of conrad from your GitHub account:
-
-    <pre>
-    $ git clone https://www.github.com/[username]/conrad
-    $ cd conrad</pre>
-
-3. Create a branch to hold your changes:
-
-    <pre>
-    $ git checkout -b add-new-event</pre>
-
-4. Import the new events:
-
-    <pre>
-    $ conrad import -f ../new_events.json</pre>
-
-5. Finally push your changes and [raise a PR](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)!
-
-    <pre>
-    $ git add .
-    $ git commit -m "Add new events"
-    $ git push -u origin add-new-event</pre>
+- [Adding a crawler](https://conference-radar.readthedocs.io/en/latest/dev/adding-crawlers.html)
+- [Adding new events](https://conference-radar.readthedocs.io/en/latest/dev/adding-events.html)
 
 ## Versioning
 
