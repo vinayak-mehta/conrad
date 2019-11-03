@@ -54,6 +54,9 @@ def parse_page(root):
 				end_date = parsed_dates[-1].date()
 		tags = [t.string for t in event.select('a[href^="/events?keywords=tags"]')]		
 		conrad = {}
+		"""
+		Conrad Format
+		"""
 		conrad["cfp_end_date"]= cfp_close.strftime("%Y-%m-%d")
 		today = datetime.datetime.now().replace(tzinfo=None)
 		if cfp_close > cfp_close:
@@ -83,6 +86,9 @@ def parse_all():
 
 if __name__ == '__main__':
 	import pprint
+	"""
+	Just Print out one conf to check the format
+	"""
 	count =0
 	for event in parse_all():
 		pprint.pprint(event)
