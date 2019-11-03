@@ -17,5 +17,6 @@ jobs:
         git config --global user.email 'vinayak-mehta@users.noreply.github.com'
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/vinayak-mehta/conrad
         git checkout -b add-hello-file
+        git add hello.txt
         git commit -am "Add hello file"
         git push origin add-hello-file
