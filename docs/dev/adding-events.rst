@@ -40,7 +40,7 @@ You can also add new events to ``conrad`` without writing a crawler for them. To
 
     $ conrad import -f ../new_events.json
 
-5. Finally push your changes and [raise a PR](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)::
+5. Finally push your changes and `raise a PR <https://help.github.com/articles/creating-a-pull-request-from-a-fork/>`_::
 
     $ git add .
     $ git commit -m "Add new events"
