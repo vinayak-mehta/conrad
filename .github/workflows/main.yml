@@ -2,7 +2,7 @@ name: Get events
 on: push
 
 jobs:
-  # get_pycon_events:
+  # get_events:
   #   name: Crawler to get PyCon events
   #   runs-on: ubuntu-latest
   #   steps:
@@ -12,7 +12,7 @@ jobs:
   #     uses: ./.github/actions/get-events-action
   #     with:
   #       crawler-name: 'PyConCrawler'
-  get_papercall_events:
+  get_events:
     name: Crawler to get Papercall events
     runs-on: ubuntu-latest
     steps:
@@ -22,10 +22,6 @@ jobs:
       uses: ./.github/actions/get-events-action
       with:
         crawler-name: 'PapercallCrawler'
-  raise_pull_request:
-    name: Raise a pull request with latest events
-    runs-on: ubuntu-latest
-    steps:
     - name: Create pull request action step
       uses: peter-evans/create-pull-request@v1.6.0
       env:
