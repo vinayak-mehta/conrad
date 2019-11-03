@@ -1,16 +1,21 @@
-name: Hello World
+name: Get events
 on: push
+
 jobs:
-  say_hello:
-    name: A job to say hello
+  get_pycon_events:
+    name: Crawler to get PyCon events
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
     - id: hello
-      name: Hello world action step
-      uses: ./.github/actions/hello-world-action
+      name: Get events action step
+      uses: ./.github/actions/get-events-action
       with:
-        who-to-greet: 'Mona the Octocat'
+        crawler-name: 'PyConCrawler'
+  raise_pull_request:
+    name: Raise a pull request with latest events
+    runs-on: ubuntu-latest
+    steps:
     - name: Create pull request action step
       uses: peter-evans/create-pull-request@v1.6.0
       env:
