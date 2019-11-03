@@ -67,17 +67,27 @@ def parse_page(root):
 
         today = dateparser.parse("now UTC")
         cfp_open = False if today > cfp_close else True
+        try:
+            city = location.split(",")[0]
+            country = location.split(",")[1]
+        except IndexError:
+            city = country = location
+
         yield {
             "name": title,
             "url": url,
-            "city": location.split(",")[0],
+            "city": city,
             "state": None,
-            "country": location.split(",")[1],
+            "country": country,
             "cfp_open": cfp_open,
             "cfp_start_date": "1970-01-01",
-            "cfp_end_date": cfp_close.strftime("%Y-%m-%d"),
-            "start_date": start_date.strftime("%Y-%m-%d"),
-            "end_date": end_date.strftime("%Y-%m-%d"),
+            "cfp_end_date": cfp_close.strftime("%Y-%m-%d")
+            if cfp_close is not None
+            else "1970-01-01",
+            "start_date": start_date.strftime("%Y-%m-%d")
+            if start_date is not None
+            else "1970-01-01",
+            "end_date": end_date.strftime("%Y-%m-%d") if end_date is not None else None,
             "source": "http://papercall.io",
             "tags": tags,
             "kind": "conference",

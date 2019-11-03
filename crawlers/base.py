@@ -34,7 +34,7 @@ class EventValidator(Validator):
             valid = True
             try:
                 dt.datetime.strptime(value, "%Y-%m-%d")
-            except ValueError:
+            except:
                 valid = False
             if not valid:
                 self._error(field, "must be valid date")
