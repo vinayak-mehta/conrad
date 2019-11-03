@@ -139,7 +139,7 @@ You can get the latest events using:
 $ conrad refresh
 </pre>
 
-### Contributing
+## Contributing
 
 The [Contributor's Guide](https://github.com/vinayak-mehta/conrad/blob/master/CONTRIBUTING.md) has detailed information about guidelines around contributions.
 
