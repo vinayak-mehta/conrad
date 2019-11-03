@@ -11,12 +11,16 @@ jobs:
       uses: ./.github/actions/hello-world-action
       with:
         who-to-greet: 'Mona the Octocat'
-    - name: Commit file step
-      run: |
-        git config --global user.name 'Vinayak Mehta'
-        git config --global user.email 'vinayak-mehta@users.noreply.github.com'
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/vinayak-mehta/conrad
-        git checkout -b add-hello-file
-        git add hello.txt
-        git commit -am "Add hello file"
-        git push origin add-hello-file
+    - name: Create pull request action step
+      uses: peter-evans/create-pull-request@v1.6.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        COMMIT_MESSAGE: Add hello file
+        COMMIT_AUTHOR_EMAIL: vinayak-mehta@users.noreply.github.com
+        COMMIT_AUTHOR_NAME: Vinayak Mehta
+        PULL_REQUEST_TITLE: 'Add hello file'
+        PULL_REQUEST_BODY: New hello!
+        PULL_REQUEST_ASSIGNEES: vinayak-mehta
+        PULL_REQUEST_REVIEWERS: vinayak-mehta
+        PULL_REQUEST_BRANCH: add-hello
+        BRANCH_SUFFIX: short-commit-hash
