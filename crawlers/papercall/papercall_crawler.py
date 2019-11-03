@@ -95,7 +95,3 @@ class PapercallCrawler(BaseCrawler):
     def get_events(self):
         for event in parse_all():
             self.events.append(event)
-            from pprint import pprint
-
-            pprint(event)
-            break
