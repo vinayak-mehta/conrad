@@ -7,7 +7,7 @@ conrad — Conference Radar
 =========================
 
 .. image:: https://github.com/vinayak-mehta/conrad/workflows/Get%20events/badge.svg
-    :target: https://github.com/vinayak-mehta/conrad/workflows/Get%20events/badge.svg
+    :target: https://github.com/vinayak-mehta/conrad/actions
     :alt: Workflow Status
 
 .. image:: https://readthedocs.org/projects/conference-radar/badge/?version=latest
