@@ -191,48 +191,39 @@ def _show(ctx, *args, **kwargs):
         events_output = []
 
         for event in events:
-            if(reminders):
-                for reminder, __ in reminders:
-                    if(reminder.id==event.id):
-                        events_output.append(
-                        [
-                            Fore.GREEN + Style.BRIGHT + event.id + Style.RESET_ALL,
-                            Fore.GREEN + Style.BRIGHT + event.name + Style.RESET_ALL,
-                            Fore.GREEN + Style.BRIGHT + event.url + Style.RESET_ALL,
-                            Fore.GREEN + Style.BRIGHT + event.city + Style.RESET_ALL,
-                            Fore.GREEN + Style.BRIGHT + event.state + Style.RESET_ALL,
-                            Fore.GREEN + Style.BRIGHT + event.country + Style.RESET_ALL,
-                            Fore.GREEN + Style.BRIGHT + event.start_date.strftime("%Y-%m-%d") + Style.RESET_ALL,
-                            Fore.GREEN + Style.BRIGHT + event.end_date.strftime("%Y-%m-%d") + Style.RESET_ALL,
-                        ]
-                    )
-                        break
-                else:
-                    events_output.append(
-                        [
-                            event.id,
-                            event.name,
-                            event.url,
-                            event.city,
-                            event.state,
-                            event.country,
-                            event.start_date.strftime("%Y-%m-%d"),
-                            event.end_date.strftime("%Y-%m-%d"),
-                        ]
-                    )
-            else:
-                events_output.append(
-                        [
-                            event.id,
-                            event.name,
-                            event.url,
-                            event.city,
-                            event.state,
-                            event.country,
-                            event.start_date.strftime("%Y-%m-%d"),
-                            event.end_date.strftime("%Y-%m-%d"),
-                        ]
-                    )
+            events_output.append(
+                [
+                    event.id,
+                    event.name,
+                    event.url,
+                    event.city,
+                    event.state,
+                    event.country,
+                    event.start_date.strftime("%Y-%m-%d"),
+                    event.end_date.strftime("%Y-%m-%d"),
+                ]
+            )
+        
+        reminders = list(
+            session.query(Event, Reminder)
+            .filter(Event.id == Reminder.id)
+            .order_by(Event.start_date)
+            .all()
+        )
+
+        events_output_event_id = [row[0] for row in events_output]
+
+        if(reminders):
+            for reminder, __ in reminders:
+                try:
+                    event_index = events_output_event_id.index(reminder.id)
+                    temp_event = events_output[event_index]
+                    temp_event = [ Fore.YELLOW + Style.BRIGHT + row +Style.RESET_ALL  for row in temp_event ]
+                    events_output[event_index] = temp_event
+
+                except ValueError:
+                    pass
+
         session.close()
 
         formatted = tabular_output.format_output(
