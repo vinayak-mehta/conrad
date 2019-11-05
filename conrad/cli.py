@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+import re
 import json
 import hashlib
 import datetime as dt
@@ -308,19 +309,26 @@ def _import(ctx, *args, **kwargs):
     with open(EVENTS_PATH, "r") as f:
         events = json.load(f)
 
+    pattern = "[0-9]"
     new_events = []
     for ie in input_events:
         match = False
         for e in events:
             input_event_name = ie["name"].replace(" ", "").lower()
+            input_event_name = re.sub(pattern, "", input_event_name)
+
             event_name = e["name"].replace(" ", "").lower()
-            if (
-                textdistance.levenshtein.normalized_similarity(input_event_name, event_name) > 0.9
-            ):
+            event_name = re.sub(pattern, "", event_name)
+
+            similarity = textdistance.levenshtein.normalized_similarity(
+                input_event_name, event_name
+            )
+            if similarity > 0.9:
                 click.echo("Updating {}".format(e["name"]))
                 e.update(ie)
                 match = True
         if not match:
+            click.echo("Adding {}".format(ie["name"]))
             new_events.append(ie)
 
     events.extend(new_events)
