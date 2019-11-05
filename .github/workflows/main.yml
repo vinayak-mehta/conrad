@@ -1,5 +1,5 @@
 name: Get events
-on: push
+on: {}
 
 jobs:
   # TODO: Fix google oauth flow
@@ -7,17 +7,17 @@ jobs:
     name: Get events
     runs-on: ubuntu-latest
     steps:
-      - id: PyData
-        name: Get PyData events
-        uses: ./.github/actions/get-events-action
-        with:
-          crawler-name: 'PyDataCrawler'
-    # - uses: actions/checkout@v1
-    # - id: pycon
-    #   name: Get PyCon events action step
-    #   uses: ./.github/actions/get-events-action
-    #   with:
-    #     crawler-name: 'PyConCrawler'
+    - uses: actions/checkout@v1
+    - id: pycon
+      name: Get PyCon events action step
+      uses: ./.github/actions/get-events-action
+      with:
+        crawler-name: 'PyConCrawler'
+    - id: PyData
+      name: Get PyData events
+      uses: ./.github/actions/get-events-action
+      with:
+        crawler-name: 'PyDataCrawler'
     # - id: papercall
     #   name: Get Papercall events action step
     #   uses: ./.github/actions/get-events-action
