@@ -16,10 +16,7 @@ Here's how it works:
 $ conrad show
 </pre>
 
-| id     | name               | url                               | city             | state  | country | start_date | end_date   |
-|--------|--------------------|-----------------------------------|------------------|--------|---------|------------|------------|
-| 3ae4f9 | PyCon Fr 2019      | https://www.pycon.fr/             | Bordeaux         |        | France  | 2019-10-31 | 2019-11-04 |
-| 68bf57 | PyCon Sweden       | http://www.pycon.se/              | Stockholm        |        | Sweden  | 2019-10-31 | 2019-11-02 |
+![show](https://raw.githubusercontent.com/vinayak-mehta/conrad/master/docs/_static/show.png)
 
 ## Why conrad?
 
@@ -46,6 +43,7 @@ The event list is maintained in `data/events.json`. This list is continuously up
 Sources:
 
 - http://papercall.io
+- https://pydata.org/event-schedule/
 - https://github.com/python-organizers/conferences
 
 ### Set reminders
@@ -57,9 +55,7 @@ $ conrad remind -i 6bb714
 $ conrad remind
 </pre>
 
-| name     | start_date | days_left                         |
-|----------|------------|-----------------------------------|
-| PyCon US | 2020-04-15 | **52 days left to cfp deadline!** |
+![remind](https://raw.githubusercontent.com/vinayak-mehta/conrad/master/docs/_static/remind.png)
 
 **Protip**: Add `conrad remind` to your shell startup file so that you get a reminder every time you open a new terminal!
 
@@ -73,12 +69,7 @@ Look at events which have an open call for proposals (cfp):
 $ conrad show --cfp
 </pre>
 
-| id     | name     | url                  | city       | state        | country | start_date | end_date   |
-|--------|----------|----------------------|------------|--------------|---------|------------|------------|
-| 34994e | PyConf Hyderabad | https://pyconf.hydpy.org/2019/ | Hyderabad | Telangana | India     | 2019-12-07 | 2019-12-08 |
-| 6bb714 | PyCon US | https://us.pycon.org | Pittsburgh | Pennsylvania | USA     | 2020-04-15 | 2020-04-23 |
-
----
+![show-cfp](https://raw.githubusercontent.com/vinayak-mehta/conrad/master/docs/_static/show-cfp.png)
 
 Look at conferences using a tag:
 
@@ -86,12 +77,7 @@ Look at conferences using a tag:
 $ conrad show --tag python
 </pre>
 
-| id     | name               | url                               | city             | state  | country | start_date | end_date   |
-|--------|--------------------|-----------------------------------|------------------|--------|---------|------------|------------|
-| 3ae4f9 | PyCon Fr 2019      | https://www.pycon.fr/             | Bordeaux         |        | France  | 2019-10-31 | 2019-11-04 |
-| 68bf57 | PyCon Sweden       | http://www.pycon.se/              | Stockholm        |        | Sweden  | 2019-10-31 | 2019-11-02 |
-
----
+![show-tag](https://raw.githubusercontent.com/vinayak-mehta/conrad/master/docs/_static/show-tag.png)
 
 Look at conferences using a name:
 
@@ -99,12 +85,7 @@ Look at conferences using a name:
 $ conrad show --name pycon
 </pre>
 
-| id     | name               | url                               | city             | state  | country | start_date | end_date   |
-|--------|--------------------|-----------------------------------|------------------|--------|---------|------------|------------|
-| 3ae4f9 | PyCon Fr 2019      | https://www.pycon.fr/             | Bordeaux         |        | France  | 2019-10-31 | 2019-11-04 |
-| 68bf57 | PyCon Sweden       | http://www.pycon.se/              | Stockholm        |        | Sweden  | 2019-10-31 | 2019-11-02 |
-
----
+![show-name](https://raw.githubusercontent.com/vinayak-mehta/conrad/master/docs/_static/show-name.png)
 
 Look at conferences in a city, state or country:
 
@@ -112,12 +93,7 @@ Look at conferences in a city, state or country:
 $ conrad show --location usa
 </pre>
 
-| id     | name               | url                               | city             | state  | country | start_date | end_date   |
-|--------|--------------------|-----------------------------------|------------------|--------|---------|------------|------------|
-| 66867c | PyCascades 2020      | https://2020.pycascades.com             | Portland         | Oregon | USA  | 2020-02-08 | 2020-02-10 |
-| 6bb714 | PyCon US | https://us.pycon.org | Pittsburgh | Pennsylvania | USA     | 2020-04-15 | 2020-04-23 |
-
----
+![show-location](https://raw.githubusercontent.com/vinayak-mehta/conrad/master/docs/_static/show-location.png)
 
 Look at conferences based on when they're happening:
 
@@ -125,11 +101,7 @@ Look at conferences based on when they're happening:
 $ conrad show --date ">= 2019-10-01" --date "<= 2020-01-01"
 </pre>
 
-| id     | name               | url                               | city             | state  | country | start_date | end_date   |
-|--------|--------------------|-----------------------------------|------------------|--------|---------|------------|------------|
-| 3ae4f9 | PyCon Fr 2019      | https://www.pycon.fr/             | Bordeaux         |        | France  | 2019-10-31 | 2019-11-04 |
-| 68bf57 | PyCon Sweden       | http://www.pycon.se/              | Stockholm        |        | Sweden  | 2019-10-31 | 2019-11-02 |
-
+![show-date](https://raw.githubusercontent.com/vinayak-mehta/conrad/master/docs/_static/show-date.png)
 
 ### Refresh event database
 

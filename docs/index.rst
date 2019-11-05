@@ -34,11 +34,7 @@ Here's how it works::
 
     $ conrad show
 
-.. csv-table::
-
-    id,name,url,city,state,country,start_date,end_date
-    3ae4f9,PyCon Fr 2019,https://www.pycon.fr/,Bordeaux,,France,2019-10-31,2019-11-04
-    68bf57,PyCon Sweden,http://www.pycon.se/,Stockholm,,Sweden,2019-10-31,2019-11-02
+.. image:: _static/show.png
 
 Why conrad?
 -----------
