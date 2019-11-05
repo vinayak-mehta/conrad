@@ -18,13 +18,13 @@ $ conrad show
 
 ![show](https://raw.githubusercontent.com/vinayak-mehta/conrad/master/docs/_static/show.png)
 
+**Note:** The event database updates automatically using crawlers + GitHub Actions. 🤖
+
 ## Why conrad?
 
-- 🤖 The event database updates every Monday at `00:00 UTC` using crawlers + GitHub Actions.
 - 📅 Never miss CFP deadlines again. `conrad remind` can remind you every time you open a terminal!
-- 📊 Query and explore events using tags, names, locations, and dates. `conrad show --cfp` will tell you about events where the cfp is open!
-- 🔄 Run `conrad refresh` to get the latest events!
-- ⛏️ You can contribute crawlers and events by simply raising a PR!
+- 📊 Query and explore events using tags, names, locations, and dates. `conrad show --cfp` will tell you about events where the CFP is open!
+- 🔄 Crawlers upsert (update + insert) events once a week!
 
 ## Installation
 
@@ -63,7 +63,7 @@ $ conrad remind
 
 You can query and explore the event database using various filters.
 
-Look at events which have an open call for proposals (cfp):
+Look at events which have an open call for proposals (CFP):
 
 <pre>
 $ conrad show --cfp
