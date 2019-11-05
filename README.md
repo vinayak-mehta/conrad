@@ -111,6 +111,8 @@ You can get the latest events using:
 $ conrad refresh
 </pre>
 
+![refresh](https://raw.githubusercontent.com/vinayak-mehta/conrad/master/docs/_static/refresh.png)
+
 ## Contributing
 
 The [Contributor's Guide](https://github.com/vinayak-mehta/conrad/blob/master/CONTRIBUTING.md) has detailed information about guidelines around contributions.

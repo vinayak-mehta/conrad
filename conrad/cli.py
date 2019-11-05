@@ -101,7 +101,7 @@ def _refresh(ctx, *args, **kwargs):
 
     # TODO: print("10 new events found!")
     click.echo("All done! ✨ 🍰 ✨")
-    click.echo("Event database updated!")
+    click.echo("Event database updated.")
 
 
 @cli.command("show", short_help="Show all saved events.")
