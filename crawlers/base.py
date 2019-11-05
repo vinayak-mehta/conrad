@@ -48,18 +48,12 @@ class BaseCrawler(object):
         pass
 
     def export(self, filename):
-        validation_failed = False
-
         v = EventValidator(schema)
         for event in self.events:
             v.validate(event)
             if v.errors:
-                validation_failed = True
                 for key, val in v.errors.items():
                     print("{} - {}: {}".format(event["name"], key, val))
-
-        if validation_failed:
-            raise ValueError("Validation failed!")
 
         with open(filename, "w") as f:
             f.write(json.dumps(self.events, indent=4, sort_keys=True))

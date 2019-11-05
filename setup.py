@@ -21,16 +21,7 @@ requires = [
     "SQLAlchemy==1.3.10",
     "beautifulsoup4==4.8",
 ]
-dev_requires = [
-    "Sphinx==2.2.1",
-    "Cerberus==1.3.2",
-    "dateparser==0.7.2",
-    "google-api-python-client==1.7.11",
-    "google-auth-httplib2==0.0.3",
-    "google-auth-oauthlib==0.4.1",
-    "nose==1.3",
-    "vcrpy==2.1",
-]
+dev_requires = ["Sphinx==2.2.1"]
 dev_requires = dev_requires + requires
 
 
@@ -45,7 +36,6 @@ def setup_package():
         author=about["__author__"],
         author_email=about["__author_email__"],
         license=about["__license__"],
-        test_suite='nose.collector',
         packages=find_packages(exclude=("tests",)),
         install_requires=requires,
         extras_require={"dev": dev_requires},
