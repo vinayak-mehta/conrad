@@ -8,6 +8,7 @@ import datetime as dt
 import click
 import requests
 import sqlalchemy
+import textdistance
 from colorama import Fore, Style
 from cli_helpers import tabular_output
 
@@ -311,9 +312,10 @@ def _import(ctx, *args, **kwargs):
     for ie in input_events:
         match = False
         for e in events:
+            input_event_name = ie["name"].replace(" ", "").lower()
+            event_name = e["name"].replace(" ", "").lower()
             if (
-                ie["name"].replace(" ", "").lower()
-                in e["name"].replace(" ", "").lower()
+                textdistance.levenshtein.normalized_similarity(input_event_name, event_name) > 0.9
             ):
                 click.echo("Updating {}".format(e["name"]))
                 e.update(ie)
