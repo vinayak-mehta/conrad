@@ -181,13 +181,13 @@ def _show(ctx, *args, **kwargs):
     if len(events):
         header = [
             "id",
-            "name",
-            "url",
-            "city",
-            "state",
-            "country",
-            "start_date",
-            "end_date",
+            "Name",
+            "Website",
+            "City",
+            "State",
+            "Country",
+            "Start Date",
+            "End Date",
         ]
         events_output = []
 
@@ -219,7 +219,6 @@ def _show(ctx, *args, **kwargs):
 @click.pass_context
 def _remind(ctx, *args, **kwargs):
     initialize_conrad()
-
     _id = kwargs["id"]
 
     if _id is None:
@@ -231,7 +230,7 @@ def _remind(ctx, *args, **kwargs):
             .all()
         )
         if len(reminders):
-            header = ["id", "name", "start_date", "days_left"]
+            header = ["id", "Name", "Start Date", "Days Left"]
             reminders_output = []
 
             for reminder, __ in reminders:
@@ -335,8 +334,8 @@ def _import(ctx, *args, **kwargs):
         if not match:
             click.echo("Adding {}".format(ie["name"]))
             new_events.append(ie)
-
     events.extend(new_events)
+
     s = "s" if len(new_events) > 1 else ""
     click.echo("Added {} new event{}!".format(len(new_events), s))
     with open(EVENTS_PATH, "w") as f:
