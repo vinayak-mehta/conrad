@@ -100,6 +100,7 @@ def _refresh(ctx, *args, **kwargs):
     refresh_database(events)
 
     # TODO: print("10 new events found!")
+    click.echo("All done! ✨ 🍰 ✨")
     click.echo("Event database updated!")
 
 
