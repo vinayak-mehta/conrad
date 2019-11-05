@@ -267,8 +267,8 @@ def _remind(ctx, *args, **kwargs):
     else:
         try:
             session = Session()
-            if session.query(Event).filter(Event.id == _id) is None:
-                click.echo("Conference not found!")
+            if session.query(Event).filter(Event.id == _id).first() is None:
+                click.echo("Event not found!")
             else:
                 reminder = Reminder(id=_id)
                 session.add(reminder)
