@@ -1,0 +1,38 @@
+name: Get events
+on: {}
+
+jobs:
+  # TODO: Fix google oauth flow
+  get_events:
+    name: Get events
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - id: pycon
+      name: Get PyCon events action step
+      uses: ./.github/actions/get-events-action
+      with:
+        crawler-name: 'PyConCrawler'
+    - id: PyData
+      name: Get PyData events
+      uses: ./.github/actions/get-events-action
+      with:
+        crawler-name: 'PyDataCrawler'
+    # - id: papercall
+    #   name: Get Papercall events action step
+    #   uses: ./.github/actions/get-events-action
+    #   with:
+    #     crawler-name: 'PapercallCrawler'
+    # - name: Create pull request action step
+    #   uses: peter-evans/create-pull-request@v1.6.0
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #     COMMIT_MESSAGE: Add latest events
+    #     COMMIT_AUTHOR_EMAIL: vinayak-mehta@users.noreply.github.com
+    #     COMMIT_AUTHOR_NAME: Vinayak Mehta
+    #     PULL_REQUEST_TITLE: '[WIP] Add latest events'
+    #     PULL_REQUEST_BODY: Here's the latest event list!
+    #     PULL_REQUEST_ASSIGNEES: vinayak-mehta
+    #     PULL_REQUEST_REVIEWERS: vinayak-mehta
+    #     PULL_REQUEST_BRANCH: add-events
+    #     BRANCH_SUFFIX: short-commit-hash

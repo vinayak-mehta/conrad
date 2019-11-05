@@ -6,6 +6,10 @@
 conrad — Conference Radar
 =========================
 
+.. image:: https://github.com/vinayak-mehta/conrad/workflows/Get%20events/badge.svg
+    :target: https://github.com/vinayak-mehta/conrad/actions
+    :alt: Workflow Status
+
 .. image:: https://readthedocs.org/projects/conference-radar/badge/?version=latest
     :target: https://conference-radar.readthedocs.io/en/latest/
     :alt: Documentation Status
@@ -39,11 +43,11 @@ Here's how it works::
 Why conrad?
 -----------
 
+- 🤖 The event database updates automatically using crawlers + GitHub Actions.
 - 📅 Never miss CFP deadlines again. ``conrad remind`` can remind you every time you open a terminal!
 - 📊 Query and explore events using tags, names, locations, and dates. ``conrad show --cfp`` will tell you about events where the cfp is open!
 - 🔄 Run ``conrad refresh`` to get the latest events!
-- 🤖 (`upcoming <https://github.com/vinayak-mehta/conrad/issues/17>`_) The event database updates automatically with events curated by the community.
-- ⛏️ You can manually add events using ``conrad import -f events.json`` and raise a PR!
+- ⛏️ You can contribute crawlers and events by simply raising a PR!
 
 Installation
 ------------
@@ -51,6 +55,17 @@ Installation
 You can simply use pip to install ``conrad``::
 
     $ pip install conference-radar
+
+Contributing
+------------
+
+The `Contributor's Guide <https://github.com/vinayak-mehta/conrad/blob/master/CONTRIBUTING.md>`_ has detailed information about guidelines around contributions. You can add new crawlers and events to ``conrad``!
+
+.. toctree::
+   :maxdepth: 2
+
+   dev/adding-crawlers
+   dev/adding-events
 
 Versioning
 ----------

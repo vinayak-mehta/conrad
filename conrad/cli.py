@@ -324,6 +324,7 @@ def _import(ctx, *args, **kwargs):
             new_events.append(ie)
 
     events.extend(new_events)
-    click.echo("Added {} new events!".format(len(new_events)))
+    s = "s" if len(new_events) > 1 else ""
+    click.echo("Added {} new event{}!".format(len(new_events), s))
     with open(EVENTS_PATH, "w") as f:
         f.write(json.dumps(events, indent=4, sort_keys=True))

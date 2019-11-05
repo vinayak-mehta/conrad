@@ -1,0 +1,12 @@
+name: 'Get events'
+description: 'Get latest events and raise a PR'
+inputs:
+  crawler-name:  # id of input
+    description: 'Crawler to run'
+    required: true
+    default: 'PyConCrawler'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.crawler-name }}

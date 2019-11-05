@@ -26,6 +26,7 @@ class Event(Base):
     source = Column(String(STR_LEN))
     tags = Column(Text)
     kind = Column(String(STR_LEN))
+    by = Column(String(STR_LEN))
 
 
 class Reminder(Base):
