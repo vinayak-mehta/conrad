@@ -13,6 +13,11 @@ jobs:
       uses: ./.github/actions/get-events-action
       with:
         crawler-name: 'PyConCrawler'
+    - id: PyData
+      name: Get PyData events
+      uses: ./.github/actions/get-events-action
+      with:
+        crawler-name: 'PyDataCrawler'
     # - id: papercall
     #   name: Get Papercall events action step
     #   uses: ./.github/actions/get-events-action
