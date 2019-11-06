@@ -18,7 +18,6 @@ class PyDataEvent:
         self.country = country
         self.cfp_open = False
         self.cfp_end_date = "1970-01-01"
-        self.cfp_start_date = "1970-01-01"
         self.start_date = start_date
         self.end_date = end_date
         self.source = PyDataCrawler.URL
@@ -34,7 +33,6 @@ class PyDataEvent:
             "state": self.state,
             "country": self.country,
             "cfp_open": self.cfp_open,
-            "cfp_start_date": self.cfp_start_date,
             "cfp_end_date": self.cfp_end_date,
             "start_date": self.start_date.strftime(PyDataCrawler.DATE_FORMAT),
             "end_date": self.end_date.strftime(PyDataCrawler.DATE_FORMAT),

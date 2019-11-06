@@ -19,7 +19,6 @@ class Event(Base):
     state = Column(String(STR_LEN))
     country = Column(String(STR_LEN))
     cfp_open = Column(Boolean, default=False)
-    cfp_start_date = Column(DateTime)
     cfp_end_date = Column(DateTime)
     start_date = Column(DateTime)
     end_date = Column(DateTime)

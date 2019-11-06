@@ -44,7 +44,6 @@ class PyConCrawler(BaseCrawler):
                 "state": state,
                 "country": country,
                 "cfp_open": cfp_open,
-                "cfp_start_date": "1970-01-01",
                 "cfp_end_date": cfp_end_date,
                 "start_date": event["Start Date"],
                 "end_date": event["End Date"],

@@ -80,7 +80,6 @@ def parse_page(root):
             "state": None,
             "country": country,
             "cfp_open": cfp_open,
-            "cfp_start_date": "1970-01-01",
             "cfp_end_date": cfp_close.strftime("%Y-%m-%d")
             if cfp_close is not None
             else "1970-01-01",

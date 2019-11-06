@@ -26,13 +26,13 @@ def validate(input_events):
         "state",
         "country",
         "cfp_open",
-        "cfp_start_date",
         "cfp_end_date",
         "start_date",
         "end_date",
         "source",
         "tags",
         "kind",
+        "by",
     ]
 
     # check for duplicates

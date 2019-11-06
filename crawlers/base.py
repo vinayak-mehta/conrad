@@ -13,7 +13,6 @@ schema = {
     "state": {"type": "string", "required": True, "nullable": True},
     "country": {"type": "string", "minlength": 1, "required": True},
     "cfp_open": {"type": "boolean", "required": True},
-    "cfp_start_date": {"is_date": True, "type": "string", "required": True},
     "cfp_end_date": {"is_date": True, "type": "string", "required": True},
     "start_date": {"is_date": True, "type": "string", "required": True},
     "end_date": {"is_date": True, "type": "string", "required": True},

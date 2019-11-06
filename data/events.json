@@ -2,7 +2,6 @@
     {
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Bordeaux",
         "country": "France",
         "end_date": "2019-11-04",
@@ -17,7 +16,6 @@
     {
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Stockholm",
         "country": "Sweden",
         "end_date": "2019-11-02",
@@ -32,7 +30,6 @@
     {
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Saint Petersburg",
         "country": "Russia",
         "end_date": "2019-11-02",
@@ -47,7 +44,6 @@
     {
         "cfp_end_date": "2019-10-02",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Portland",
         "country": "USA",
         "end_date": "2020-02-10",
@@ -62,7 +58,6 @@
     {
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Austin",
         "country": "USA",
         "end_date": "2020-07-13",
@@ -77,7 +72,6 @@
     {
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "TBA",
         "country": "TBA",
         "end_date": "2020-07-27",
@@ -92,7 +86,6 @@
     {
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Bilbao",
         "country": "Spain",
         "end_date": "2020-08-01",
@@ -107,7 +100,6 @@
     {
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Austin",
         "country": "USA",
         "end_date": "2021-07-19",
@@ -122,7 +114,6 @@
     {
         "cfp_end_date": "2019-12-20",
         "cfp_open": true,
-        "cfp_start_date": "2019-09-12",
         "city": "Pittsburgh",
         "country": "USA",
         "end_date": "2020-04-23",
@@ -137,7 +128,6 @@
     {
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Berlin",
         "country": "Germany",
         "end_date": "2020-10-16",
@@ -152,7 +142,6 @@
     {
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Bilbao",
         "country": "Spain",
         "end_date": "2020-07-31",
@@ -167,7 +156,6 @@
     {
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Columbus",
         "country": "USA",
         "end_date": "2020-07-26",
@@ -182,7 +170,6 @@
     {
         "cfp_end_date": "2019-09-02",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-13",
         "city": "Nashville",
         "country": "USA",
         "end_date": "2020-03-08",
@@ -197,7 +184,6 @@
     {
         "cfp_end_date": "2019-11-07",
         "cfp_open": true,
-        "cfp_start_date": "2019-10-01",
         "city": "Hyderabad",
         "country": "India",
         "end_date": "2019-12-08",
@@ -212,7 +198,6 @@
     {
         "cfp_end_date": "2019-10-31",
         "cfp_open": true,
-        "cfp_start_date": "2019-10-01",
         "city": "Surabaya",
         "country": "Indonesia",
         "end_date": "2019-11-25",
@@ -227,7 +212,6 @@
     {
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Toronto",
         "country": "Canada",
         "end_date": "2019-11-19",
@@ -242,7 +226,6 @@
     {
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Buenos Aires",
         "country": "Argentina",
         "end_date": "2019-12-06",
@@ -257,7 +240,6 @@
     {
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Austin",
         "country": "USA",
         "end_date": "2020-05-17",
