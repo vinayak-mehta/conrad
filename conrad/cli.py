@@ -434,6 +434,7 @@ def _import(ctx, *args, **kwargs):
     s = "s" if removed > 1 else ""
     click.echo("Removed {} old event{}!".format(removed, s))
 
+    # TODO: drop events with end date < now
     pattern = "[0-9]"
     new_events = []
     for ie in input_events:

@@ -3,68 +3,6 @@
         "by": "human",
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "city": "Bordeaux",
-        "country": "France",
-        "end_date": "2019-11-04",
-        "kind": "conference",
-        "name": "PyCon Fr 2019",
-        "source": "https://www.python.org/events/",
-        "start_date": "2019-10-31",
-        "state": "",
-        "tags": "['python']",
-        "url": "https://www.pycon.fr/"
-    },
-    {
-        "by": "human",
-        "cfp_end_date": "2019-10-01",
-        "cfp_open": false,
-        "city": "Stockholm",
-        "country": "Sweden",
-        "end_date": "2019-11-02",
-        "kind": "conference",
-        "name": "PyCon Sweden",
-        "source": "https://www.python.org/events/",
-        "start_date": "2019-10-31",
-        "state": "",
-        "tags": "['python']",
-        "url": "http://www.pycon.se/"
-    },
-    {
-        "by": "human",
-        "cfp_end_date": "2019-10-01",
-        "cfp_open": false,
-        "city": "Saint Petersburg",
-        "country": "Russia",
-        "end_date": "2019-11-02",
-        "kind": "conference",
-        "name": "PiterPy 2019",
-        "source": "https://www.python.org/events/",
-        "start_date": "2019-11-01",
-        "state": "",
-        "tags": "['python']",
-        "url": "https://piterpy.com/en"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2019-10-01",
-        "cfp_open": false,
-        "city": "Portland",
-        "country": "USA",
-        "end_date": "2019-02-09",
-        "kind": "conference",
-        "name": "PyCascades",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-02-08",
-        "state": "Oregon",
-        "tags": [
-            "python"
-        ],
-        "url": "https://2020.pycascades.com"
-    },
-    {
-        "by": "human",
-        "cfp_end_date": "2019-10-01",
-        "cfp_open": false,
         "city": "Austin",
         "country": "USA",
         "end_date": "2020-07-13",
@@ -446,5 +384,22 @@
             "pydata"
         ],
         "url": "https://pydata.org/warsaw2019/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2019-10-01",
+        "cfp_open": false,
+        "city": "Portland",
+        "country": "USA",
+        "end_date": "2019-02-09",
+        "kind": "conference",
+        "name": "PyCascades",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-02-08",
+        "state": "Oregon",
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.pycascades.com"
     }
 ]
