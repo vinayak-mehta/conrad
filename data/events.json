@@ -45,18 +45,20 @@
         "url": "https://piterpy.com/en"
     },
     {
-        "by": "human",
-        "cfp_end_date": "2019-10-02",
+        "by": "bot",
+        "cfp_end_date": "2019-10-01",
         "cfp_open": false,
         "city": "Portland",
         "country": "USA",
-        "end_date": "2020-02-10",
+        "end_date": "2019-02-09",
         "kind": "conference",
-        "name": "PyCascades 2020",
-        "source": "https://www.python.org/events/",
+        "name": "PyCascades",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2020-02-08",
         "state": "Oregon",
-        "tags": "['python']",
+        "tags": [
+            "python"
+        ],
         "url": "https://2020.pycascades.com"
     },
     {
@@ -75,33 +77,37 @@
         "url": "https://www.scipy2020.scipy.org/"
     },
     {
-        "by": "human",
-        "cfp_end_date": "2019-10-01",
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "TBA",
-        "country": "TBA",
-        "end_date": "2020-07-27",
+        "city": "Dublin",
+        "country": "Ireland",
+        "end_date": "2020-07-26",
         "kind": "conference",
-        "name": "EuroPython 2020",
-        "source": "https://www.python.org/events/",
+        "name": "EuroPython",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2020-07-20",
-        "state": "",
-        "tags": "['python']",
-        "url": "https://www.europython.eu/"
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": ""
     },
     {
-        "by": "human",
-        "cfp_end_date": "2019-10-01",
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Bilbao",
         "country": "Spain",
-        "end_date": "2020-08-01",
+        "end_date": "2020-07-31",
         "kind": "conference",
-        "name": "EuroSciPy 2020",
-        "source": "https://www.python.org/events/",
+        "name": "EuroSciPy",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2020-07-27",
-        "state": "",
-        "tags": "['python']",
+        "state": null,
+        "tags": [
+            "python"
+        ],
         "url": "https://www.euroscipy.org/"
     },
     {
@@ -120,7 +126,7 @@
         "url": "https://www.scipy2021.scipy.org/"
     },
     {
-        "by": "human",
+        "by": "bot",
         "cfp_end_date": "2019-12-20",
         "cfp_open": true,
         "city": "Pittsburgh",
@@ -128,30 +134,34 @@
         "end_date": "2020-04-23",
         "kind": "conference",
         "name": "PyCon US",
-        "source": "https://www.python.org/events/",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2020-04-15",
         "state": "Pennsylvania",
-        "tags": "['python']",
-        "url": "https://us.pycon.org"
+        "tags": [
+            "python"
+        ],
+        "url": "https://us.pycon.org/"
     },
     {
-        "by": "human",
-        "cfp_end_date": "2019-10-01",
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Berlin",
         "country": "Germany",
         "end_date": "2020-10-16",
         "kind": "conference",
-        "name": "PyConDE & PyData Berlin",
+        "name": "PyConDE & PyData Berlin 2020",
         "source": "https://github.com/python-organizers/conferences",
         "start_date": "2020-10-14",
-        "state": "",
-        "tags": "['python']",
-        "url": "https://de.pycon.org/"
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://de.pycon.org"
     },
     {
-        "by": "human",
-        "cfp_end_date": "2019-10-01",
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Bilbao",
         "country": "Spain",
@@ -160,13 +170,15 @@
         "name": "GeoPython",
         "source": "https://github.com/python-organizers/conferences",
         "start_date": "2020-07-27",
-        "state": "",
-        "tags": "['python']",
+        "state": null,
+        "tags": [
+            "python"
+        ],
         "url": "http://2020.geopython.net"
     },
     {
-        "by": "human",
-        "cfp_end_date": "2019-10-01",
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Columbus",
         "country": "USA",
@@ -176,12 +188,14 @@
         "source": "https://github.com/python-organizers/conferences",
         "start_date": "2020-07-25",
         "state": "Ohio",
-        "tags": "['python']",
+        "tags": [
+            "python"
+        ],
         "url": "https://www.pyohio.org/2020/"
     },
     {
-        "by": "human",
-        "cfp_end_date": "2019-09-02",
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Nashville",
         "country": "USA",
@@ -191,8 +205,10 @@
         "source": "https://github.com/python-organizers/conferences",
         "start_date": "2020-03-07",
         "state": "Tennessee",
-        "tags": "['python']",
-        "url": "https://2020.pytennessee.org/"
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.pytennessee.org/"
     },
     {
         "by": "human",
@@ -255,18 +271,180 @@
         "url": "https://eventos.python.org.ar/events/pyconar2019/"
     },
     {
-        "by": "human",
-        "cfp_end_date": "2019-10-01",
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Austin",
         "country": "USA",
         "end_date": "2020-05-17",
         "kind": "conference",
-        "name": "PyTexas 2020",
-        "source": "https://www.python.org/events/",
+        "name": "PyTexas",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2020-05-16",
         "state": "Texas",
-        "tags": "['python']",
+        "tags": [
+            "python"
+        ],
         "url": "https://www.pytexas.org/2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Florence",
+        "country": "Italy",
+        "end_date": "2020-04-05",
+        "kind": "conference",
+        "name": "PyCon Italy",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-04-02",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.pycon.it/en/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-01-13",
+        "cfp_open": true,
+        "city": "Moscow",
+        "country": "Russia",
+        "end_date": "2020-03-27",
+        "kind": "conference",
+        "name": "Moscow Python Conf ++ 2020",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-03-27",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://conf.python.ru/en/2020"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Budapest",
+        "country": "Hungary",
+        "end_date": "2019-11-14",
+        "kind": "conference",
+        "name": "BudapestBI (PyData Track)",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2019-11-12",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://budapestbiforum.hu/2019/en/2019/07/01/the-budapest-bi-forum-2019-is-coming-in-november/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Cambridge",
+        "country": "UK",
+        "end_date": "2019-11-17",
+        "kind": "conference",
+        "name": "PyData Cambridge",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2019-11-15",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://cambridgespark.com/pydata-cambridge-2019/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2019-11-19",
+        "kind": "conference",
+        "name": "PyCon Canada (PyData Track)",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2019-11-16",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://2019.pycon.ca/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Eindhoven",
+        "country": "Netherlands",
+        "end_date": "2019-11-30",
+        "kind": "conference",
+        "name": "PyData Eindhoven",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2019-11-29",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://pydata.org/eindhoven2019/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "California",
+        "country": "USA",
+        "end_date": "2019-12-05",
+        "kind": "conference",
+        "name": "PyData Los Angeles",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2019-12-03",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://pydata.org/la2019/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Austin",
+        "country": "Texas",
+        "end_date": "2019-12-08",
+        "kind": "conference",
+        "name": "PyData Austin",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2019-12-07",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://pydata.org/austin2019/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Warsaw",
+        "country": "Poland",
+        "end_date": "2019-12-13",
+        "kind": "conference",
+        "name": "PyData Warsaw",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2019-12-12",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://pydata.org/warsaw2019/"
     }
 ]
