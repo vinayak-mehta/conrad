@@ -435,6 +435,7 @@ def _import(ctx, *args, **kwargs):
     click.echo("Removed {} old event{}!".format(removed, s))
 
     # TODO: drop events with end date < now
+    # TODO: update cfp to false when cfp end date < now
     pattern = "[0-9]"
     new_events = []
     for ie in input_events:
