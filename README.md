@@ -24,7 +24,7 @@ $ conrad show
 
 - 📅 Never miss CFP deadlines again. `conrad remind` can remind you every time you open a terminal!
 - 📊 Query and explore events using tags, names, locations, and dates. `conrad show --cfp` will tell you about events where the CFP is open!
-- 🔄 Crawlers upsert (update + insert) events twice a week! (Monday and Thursday at 00:00 UTC)
+- 🔄 Crawlers update events twice a week! (Monday and Thursday at 00:00 UTC)
 
 ## Installation
 
