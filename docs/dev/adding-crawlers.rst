@@ -3,7 +3,7 @@
 Adding a crawler
 ================
 
-``conrad``'s event database is updated every Monday at ``00:00 UTC`` using a GitHub workflow. The workflow runs all crawlers, updates the event database and raises a PR for a maintainer to review and then merge. Once the PR is merged, these new events become available for consumption using the command-line interface!
+``conrad``'s event database is updated every Monday and Thursday at ``00:00 UTC`` using a GitHub workflow. The workflow runs all crawlers, updates the event database and raises a PR for a maintainer to review and then merge. Once the PR is merged, these new events become available for consumption using the command-line interface!
 
 Currently, ``conrad`` has crawlers for:
 
