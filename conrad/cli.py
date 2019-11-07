@@ -421,7 +421,18 @@ def _import(ctx, *args, **kwargs):
         )
 
     with open(EVENTS_PATH, "r") as f:
-        events = json.load(f)
+        old_events = json.load(f)
+
+    now = dt.datetime.now()
+    events = []
+    for e in old_events:
+        event_end_date = dt.datetime.strptime(e["end_date"], "%Y-%m-%d")
+        if event_end_date < now:
+            continue
+        events.append(e)
+    removed = len(old_events) - len(events)
+    s = "s" if removed > 1 else ""
+    click.echo("Removed {} old event{}!".format(removed, s))
 
     pattern = "[0-9]"
     new_events = []
