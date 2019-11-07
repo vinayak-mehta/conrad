@@ -56,7 +56,7 @@ def rebuild_events_table():
             start_date=dt.datetime.strptime(event["start_date"], "%Y-%m-%d"),
             end_date=dt.datetime.strptime(event["end_date"], "%Y-%m-%d"),
             source=event["source"],
-            tags=event["tags"],
+            tags=json.dumps(event["tags"]),
             kind=event["kind"],
             by=event["by"],
         )
