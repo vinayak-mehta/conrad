@@ -15,7 +15,6 @@ You can also add new events to ``conrad`` without writing a crawler for them. To
             "state": "Pennsylvania",
             "country": "USA",
             "cfp_open": true,
-            "cfp_start_date": "2019-09-12",
             "cfp_end_date": "2019-12-20",
             "start_date": "2020-04-15",
             "end_date": "2020-04-23",

@@ -52,13 +52,13 @@ def rebuild_events_table():
             state=event["state"],
             country=event["country"],
             cfp_open=event["cfp_open"],
-            cfp_start_date=dt.datetime.strptime(event["cfp_start_date"], "%Y-%m-%d"),
             cfp_end_date=dt.datetime.strptime(event["cfp_end_date"], "%Y-%m-%d"),
             start_date=dt.datetime.strptime(event["start_date"], "%Y-%m-%d"),
             end_date=dt.datetime.strptime(event["end_date"], "%Y-%m-%d"),
             source=event["source"],
             tags=event["tags"],
             kind=event["kind"],
+            by=event["by"],
         )
         session.add(e)
         session.commit()

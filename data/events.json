@@ -1,8 +1,8 @@
 [
     {
+        "by": "human",
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Bordeaux",
         "country": "France",
         "end_date": "2019-11-04",
@@ -15,9 +15,9 @@
         "url": "https://www.pycon.fr/"
     },
     {
+        "by": "human",
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Stockholm",
         "country": "Sweden",
         "end_date": "2019-11-02",
@@ -30,9 +30,9 @@
         "url": "http://www.pycon.se/"
     },
     {
+        "by": "human",
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Saint Petersburg",
         "country": "Russia",
         "end_date": "2019-11-02",
@@ -45,9 +45,9 @@
         "url": "https://piterpy.com/en"
     },
     {
+        "by": "human",
         "cfp_end_date": "2019-10-02",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Portland",
         "country": "USA",
         "end_date": "2020-02-10",
@@ -60,9 +60,9 @@
         "url": "https://2020.pycascades.com"
     },
     {
+        "by": "human",
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Austin",
         "country": "USA",
         "end_date": "2020-07-13",
@@ -75,9 +75,9 @@
         "url": "https://www.scipy2020.scipy.org/"
     },
     {
+        "by": "human",
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "TBA",
         "country": "TBA",
         "end_date": "2020-07-27",
@@ -90,9 +90,9 @@
         "url": "https://www.europython.eu/"
     },
     {
+        "by": "human",
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Bilbao",
         "country": "Spain",
         "end_date": "2020-08-01",
@@ -105,9 +105,9 @@
         "url": "https://www.euroscipy.org/"
     },
     {
+        "by": "human",
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Austin",
         "country": "USA",
         "end_date": "2021-07-19",
@@ -120,9 +120,9 @@
         "url": "https://www.scipy2021.scipy.org/"
     },
     {
+        "by": "human",
         "cfp_end_date": "2019-12-20",
         "cfp_open": true,
-        "cfp_start_date": "2019-09-12",
         "city": "Pittsburgh",
         "country": "USA",
         "end_date": "2020-04-23",
@@ -135,9 +135,9 @@
         "url": "https://us.pycon.org"
     },
     {
+        "by": "human",
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Berlin",
         "country": "Germany",
         "end_date": "2020-10-16",
@@ -150,9 +150,9 @@
         "url": "https://de.pycon.org/"
     },
     {
+        "by": "human",
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Bilbao",
         "country": "Spain",
         "end_date": "2020-07-31",
@@ -165,9 +165,9 @@
         "url": "http://2020.geopython.net"
     },
     {
+        "by": "human",
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Columbus",
         "country": "USA",
         "end_date": "2020-07-26",
@@ -180,9 +180,9 @@
         "url": "https://www.pyohio.org/2020/"
     },
     {
+        "by": "human",
         "cfp_end_date": "2019-09-02",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-13",
         "city": "Nashville",
         "country": "USA",
         "end_date": "2020-03-08",
@@ -195,9 +195,9 @@
         "url": "https://2020.pytennessee.org/"
     },
     {
+        "by": "human",
         "cfp_end_date": "2019-11-07",
         "cfp_open": true,
-        "cfp_start_date": "2019-10-01",
         "city": "Hyderabad",
         "country": "India",
         "end_date": "2019-12-08",
@@ -210,9 +210,9 @@
         "url": "https://pyconf.hydpy.org/2019/"
     },
     {
+        "by": "human",
         "cfp_end_date": "2019-10-31",
         "cfp_open": true,
-        "cfp_start_date": "2019-10-01",
         "city": "Surabaya",
         "country": "Indonesia",
         "end_date": "2019-11-25",
@@ -225,9 +225,9 @@
         "url": "https://pycon.id/"
     },
     {
+        "by": "human",
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Toronto",
         "country": "Canada",
         "end_date": "2019-11-19",
@@ -240,9 +240,9 @@
         "url": "https://2019.pycon.ca/"
     },
     {
+        "by": "human",
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Buenos Aires",
         "country": "Argentina",
         "end_date": "2019-12-06",
@@ -255,9 +255,9 @@
         "url": "https://eventos.python.org.ar/events/pyconar2019/"
     },
     {
+        "by": "human",
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
-        "cfp_start_date": "2019-10-01",
         "city": "Austin",
         "country": "USA",
         "end_date": "2020-05-17",
