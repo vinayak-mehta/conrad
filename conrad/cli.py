@@ -66,9 +66,6 @@ def rebuild_events_table():
 
 
 def initialize_conrad():
-    if not os.path.exists(CONRAD_HOME):
-        os.makedirs(CONRAD_HOME)
-
     conrad_update = os.path.join(CONRAD_HOME, ".conrad-update")
     if not os.path.exists(conrad_update):
         with open(conrad_update, "w") as f:
@@ -81,9 +78,6 @@ def initialize_conrad():
 
 
 def refresh_conrad():
-    if not os.path.exists(CONRAD_HOME):
-        os.makedirs(CONRAD_HOME)
-
     get_events()
     if not os.path.exists(os.path.join(CONRAD_HOME, "conrad.db")):
         initialize_database()
