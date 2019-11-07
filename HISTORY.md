@@ -4,6 +4,13 @@ Release History
 master
 ------
 
+0.3.1 (2019-11-08)
+------------------
+
+**Bugfixes**
+
+* [#81](https://github.com/vinayak-mehta/conrad/issues/81) FileNotFoundError on first conrad show. [#82](https://github.com/vinayak-mehta/conrad/pull/82) by Vinayak Mehta.
+
 0.3.0 (2019-11-08)
 ------------------
 
