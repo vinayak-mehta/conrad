@@ -1,5 +1,5 @@
 name: Get events
-on: {}
+on: push
 
 jobs:
   get_events:
