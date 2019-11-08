@@ -18,13 +18,11 @@ $ conrad show
 
 ![show](https://raw.githubusercontent.com/vinayak-mehta/conrad/master/docs/_static/show.png)
 
-**Note:** The event database updates automatically using crawlers + GitHub Actions. 🤖
-
 ## Why conrad?
 
 - 📅 Never miss CFP deadlines again. `conrad remind` can remind you every time you open a terminal!
 - 📊 Query and explore events using tags, names, locations, and dates. `conrad show --cfp` will tell you about events where the CFP is open!
-- 🔄 Crawlers update events twice a week! (Monday and Thursday at 00:00 UTC)
+- 🤖 Crawlers update events twice a week! (Monday and Thursday at 00:00 UTC)
 
 ## Installation
 
