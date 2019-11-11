@@ -391,7 +391,7 @@
         "cfp_open": false,
         "city": "Portland",
         "country": "USA",
-        "end_date": "2019-02-09",
+        "end_date": "2020-02-09",
         "kind": "conference",
         "name": "PyCascades",
         "source": "https://github.com/python-organizers/conferences",
@@ -401,5 +401,22 @@
             "python"
         ],
         "url": "https://2020.pycascades.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2019-12-27",
+        "cfp_open": true,
+        "city": "Windhoek",
+        "country": "Namibia",
+        "end_date": "2020-02-20",
+        "kind": "conference",
+        "name": "PyCon Namibia",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-02-18",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://na.pycon.org/"
     }
 ]
