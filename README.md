@@ -41,7 +41,8 @@ The event list is maintained in `data/events.json`. This list is continuously up
 Sources:
 
 - http://papercall.io
-- https://pydata.org/event-schedule/
+- https://pydata.org/event-schedule
+- https://github.com/ildoc/awesome-italy-events
 - https://github.com/python-organizers/conferences
 
 ### Set reminders

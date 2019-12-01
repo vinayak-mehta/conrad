@@ -4,6 +4,10 @@ Release History
 master
 ------
 
+**Improvements**
+
+* [#85](https://github.com/vinayak-mehta/conrad/issues/85) Add crawler for awesome-italy-events. [#91](https://github.com/vinayak-mehta/conrad/pull/91) by Vinayak Mehta.
+
 0.3.2 (2019-11-08)
 ------------------
 

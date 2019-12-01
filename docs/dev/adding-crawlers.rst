@@ -8,7 +8,8 @@ Adding a crawler
 Currently, ``conrad`` has crawlers for:
 
 - http://papercall.io
-- https://pydata.org/event-schedule/
+- https://pydata.org/event-schedule
+- https://github.com/ildoc/awesome-italy-events
 - https://github.com/python-organizers/conferences
 
 There are two steps you need to do for adding a crawler to ``conrad``, writing a crawler and then scheduling the crawler.
