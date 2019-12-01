@@ -3,60 +3,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Budapest",
-        "country": "Hungary",
-        "end_date": "2019-11-14",
-        "kind": "conference",
-        "name": "BudapestBI (PyData Track)",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2019-11-12",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://budapestbiforum.hu/2019/en/2019/07/01/the-budapest-bi-forum-2019-is-coming-in-november/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Cambridge",
-        "country": "UK",
-        "end_date": "2019-11-17",
-        "kind": "conference",
-        "name": "PyData Cambridge",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2019-11-15",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://cambridgespark.com/pydata-cambridge-2019/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2019-11-19",
-        "kind": "conference",
-        "name": "PyCon Canada (PyData Track)",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2019-11-16",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://2019.pycon.ca/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Eindhoven",
         "country": "Netherlands",
         "end_date": "2019-11-30",
