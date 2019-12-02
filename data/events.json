@@ -165,21 +165,6 @@
     },
     {
         "by": "human",
-        "cfp_end_date": "2019-10-31",
-        "cfp_open": true,
-        "city": "Surabaya",
-        "country": "Indonesia",
-        "end_date": "2019-11-25",
-        "kind": "conference",
-        "name": "PyCon Indonesia",
-        "source": "https://tulu.la",
-        "start_date": "2019-11-23",
-        "state": "",
-        "tags": "['python']",
-        "url": "https://pycon.id/"
-    },
-    {
-        "by": "human",
         "cfp_end_date": "2019-10-01",
         "cfp_open": false,
         "city": "Buenos Aires",
@@ -243,24 +228,6 @@
             "python"
         ],
         "url": "https://conf.python.ru/en/2020"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Eindhoven",
-        "country": "Netherlands",
-        "end_date": "2019-11-30",
-        "kind": "conference",
-        "name": "PyData Eindhoven",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2019-11-29",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://pydata.org/eindhoven2019/"
     },
     {
         "by": "bot",
@@ -349,5 +316,294 @@
             "python"
         ],
         "url": "https://na.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-01-28",
+        "kind": "conference",
+        "name": "Microsoft Ignite",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-01-27",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.microsoft.com/en-us/ignite"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-02-20",
+        "kind": "conference",
+        "name": "ServerlessDays 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-02-20",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://rome.serverlessdays.io/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Bologna",
+        "country": "Italy",
+        "end_date": "2020-03-06",
+        "kind": "conference",
+        "name": "Incontro DevOps",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-03-05",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.incontrodevops.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Faenza",
+        "country": "Italy",
+        "end_date": "2020-03-13",
+        "kind": "conference",
+        "name": "CSSDay",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-03-13",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.cssday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Firenze",
+        "country": "Italy",
+        "end_date": "2020-03-14",
+        "kind": "conference",
+        "name": "QtDay 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-03-13",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.qtday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Torino",
+        "country": "Italy",
+        "end_date": "2020-03-19",
+        "kind": "conference",
+        "name": "CloudConf 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-03-19",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.cloudconf.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Roma",
+        "country": "Italy",
+        "end_date": "2020-03-28",
+        "kind": "conference",
+        "name": "Codemotion",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-03-27",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://events.codemotion.com/conferences/rome/2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Verona",
+        "country": "Italy",
+        "end_date": "2020-04-02",
+        "kind": "conference",
+        "name": "Ruby Day",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-02",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.rubyday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Verona",
+        "country": "Italy",
+        "end_date": "2020-04-03",
+        "kind": "conference",
+        "name": "VueDay",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-03",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.vueday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Torino",
+        "country": "Italy",
+        "end_date": "2020-04-17",
+        "kind": "conference",
+        "name": "DroidCon",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-16",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://it.droidcon.com/2020/it"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-04-29",
+        "kind": "conference",
+        "name": "ItaliaSec",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-28",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://cyberseries.io/italiasec/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Verona",
+        "country": "Italy",
+        "end_date": "2020-05-13",
+        "kind": "conference",
+        "name": "JSDay",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-05-12",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.jsday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Verona",
+        "country": "Italy",
+        "end_date": "2020-05-15",
+        "kind": "conference",
+        "name": "PHP Day",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-05-14",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.phpday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-05-16",
+        "kind": "conference",
+        "name": "Voxxed",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-05-16",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://voxxeddays.com/milan/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Verona",
+        "country": "Italy",
+        "end_date": "2020-06-12",
+        "kind": "conference",
+        "name": "Angular Day",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-06-11",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.angularday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Bergamo",
+        "country": "Italy",
+        "end_date": "2020-06-12",
+        "kind": "conference",
+        "name": "PGDay.IT",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-06-11",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.pgday.it"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Roma",
+        "country": "Italy",
+        "end_date": "2020-09-26",
+        "kind": "conference",
+        "name": "RomHack",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-09-26",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.romhack.io/"
     }
 ]
