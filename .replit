@@ -1,2 +1,2 @@
 language = "python3"
-run = "conrad show --help"
+run = "python -m conrad show --help"
