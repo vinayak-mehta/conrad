@@ -538,5 +538,22 @@
             "technology"
         ],
         "url": "https://eicsummit.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-02-07",
+        "kind": "conference",
+        "name": "IxDA",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-02-02",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://interaction20.ixda.org/"
     }
 ]
