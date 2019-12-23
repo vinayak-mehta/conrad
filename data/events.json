@@ -66,7 +66,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2019-12-20",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Pittsburgh",
         "country": "USA",
         "end_date": "2020-04-23",
