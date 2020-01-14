@@ -1,0 +1,18 @@
+[
+    {
+        "name": "PyCon US",
+        "url": "https://us.pycon.org",
+        "city": "Visakhapatnam",
+        "state": "Andhra Pradesh",
+        "country": "India",
+        "cfp_open": true,
+        "cfp_end_date": "2019-12-20",
+        "start_date": "2020-04-15",
+        "end_date": "2020-04-23",
+        "source": "https://www.python.org/events/",
+        "tags": "['python']",
+        "kind": "conference",
+        "by": "AdityaAshvin",
+    }
+]
+"new_events.json" 17L, 436C
