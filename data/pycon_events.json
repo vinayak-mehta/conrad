@@ -52,6 +52,74 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2020-01-31",
+        "cfp_open": false,
+        "city": "Bratislava",
+        "country": "Slovakia",
+        "end_date": "2020-03-29",
+        "kind": "conference",
+        "name": "PyCon SK",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-03-27",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.pycon.sk/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-01-13",
+        "cfp_open": false,
+        "city": "Moscow",
+        "country": "Russia",
+        "end_date": "2020-03-27",
+        "kind": "conference",
+        "name": "Moscow Python Conf++ 2020",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-03-27",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://conf.python.ru/en/2020"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Florence",
+        "country": "Italy",
+        "end_date": "2020-04-05",
+        "kind": "conference",
+        "name": "PyCon Italy",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-04-02",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.pycon.it/en/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Ljubljana",
+        "country": "Slovenia",
+        "end_date": "2020-04-19",
+        "kind": "conference",
+        "name": "DragonPy",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-04-18",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://dragonpy.com/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2019-12-20",
         "cfp_open": false,
         "city": "Pittsburgh",
@@ -66,6 +134,74 @@
             "python"
         ],
         "url": "https://us.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-01-15",
+        "cfp_open": false,
+        "city": "Istanbul",
+        "country": "Turkey",
+        "end_date": "2020-05-03",
+        "kind": "conference",
+        "name": "PyCon Turkey",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-05-02",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://tr.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-03-01",
+        "cfp_open": true,
+        "city": "Ramat Gan",
+        "country": "Israel",
+        "end_date": "2020-05-05",
+        "kind": "conference",
+        "name": "Pycon Israel",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-05-04",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.org.il/2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Basel",
+        "country": "Switzerland",
+        "end_date": "2020-05-19",
+        "kind": "conference",
+        "name": "Python Machine Learning Conference",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-05-18",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "http://2020.pythonml.org"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-03-31",
+        "cfp_open": true,
+        "city": "Ostrava",
+        "country": "Czech Republic",
+        "end_date": "2020-06-07",
+        "kind": "conference",
+        "name": "PyCon CZ",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-06-05",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://cz.pycon.org/2020/"
     },
     {
         "by": "bot",
@@ -86,20 +222,20 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
+        "cfp_end_date": "2020-02-11",
         "cfp_open": false,
-        "city": "Florence",
-        "country": "Italy",
-        "end_date": "2020-04-05",
+        "city": "Austin",
+        "country": "USA",
+        "end_date": "2020-07-12",
         "kind": "conference",
-        "name": "PyCon Italy",
+        "name": "SciPy",
         "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-04-02",
-        "state": null,
+        "start_date": "2020-07-06",
+        "state": "Texas",
         "tags": [
             "python"
         ],
-        "url": "https://www.pycon.it/en/"
+        "url": "https://www.scipy2020.scipy.org/"
     },
     {
         "by": "bot",
@@ -173,6 +309,23 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
+        "city": "Granada",
+        "country": "Spain",
+        "end_date": "2020-10-04",
+        "kind": "conference",
+        "name": "PyCon ES",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-10-02",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.es.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
         "city": "Berlin",
         "country": "Germany",
         "end_date": "2020-10-16",
@@ -185,22 +338,5 @@
             "python"
         ],
         "url": "https://de.pycon.org"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2020-01-13",
-        "cfp_open": true,
-        "city": "Moscow",
-        "country": "Russia",
-        "end_date": "2020-03-27",
-        "kind": "conference",
-        "name": "Moscow Python Conf ++ 2020",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-03-27",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://conf.python.ru/en/2020"
     }
 ]
