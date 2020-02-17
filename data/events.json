@@ -759,6 +759,159 @@
         "cfp_open": false,
         "city": "Milano",
         "country": "Italy",
+        "end_date": "2020-03-04",
+        "kind": "conference",
+        "name": "A4I Agile for Innovation",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-03-04",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.agileforinnovation.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Montegrotto Terme (PD)",
+        "country": "Italy",
+        "end_date": "2020-03-08",
+        "kind": "conference",
+        "name": "Agile People Camp",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-03-06",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://agilemovement.it/agilepeoplecamp/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Bologna",
+        "country": "Italy",
+        "end_date": "2020-03-28",
+        "kind": "conference",
+        "name": "Agile People Day",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-03-28",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.agilepeopleday.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-05-16",
+        "kind": "conference",
+        "name": "Voxxed Days",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-05-16",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://voxxeddays.com/milan/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Vimercate",
+        "country": "Italy",
+        "end_date": "2020-05-23",
+        "kind": "conference",
+        "name": "Agile Venture Vimercate",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-05-23",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://agilemovement.it/2019/11/01/agile-venture-vimercate-2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Venezia",
+        "country": "Italy",
+        "end_date": "2020-09-12",
+        "kind": "conference",
+        "name": "Agile Business Day",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-09-11",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.agilebusinessday.com/en/agile-business-day-2-2/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Verona",
+        "country": "Italy",
+        "end_date": "2020-10-16",
+        "kind": "conference",
+        "name": "ReactJSDay",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-10-16",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "http://reactjsday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Bologna",
+        "country": "Italy",
+        "end_date": "2020-10-23",
+        "kind": "conference",
+        "name": "ContainerDay",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-10-22",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.containerday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-02-29",
+        "cfp_open": true,
+        "city": "Munich",
+        "country": "Germany",
+        "end_date": "2020-05-10",
+        "kind": "conference",
+        "name": "PyConWeb 2020",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-05-09",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "http://pyconweb.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
         "end_date": "2020-01-14",
         "kind": "conference",
         "name": "Milano Live Coding",
@@ -922,141 +1075,5 @@
             "technology"
         ],
         "url": "https://www.eventbrite.it/e/biglietti-global-power-platform-bootcamp-2020-milan-88686085469"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Milano",
-        "country": "Italy",
-        "end_date": "2020-03-04",
-        "kind": "conference",
-        "name": "A4I Agile for Innovation",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-04",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://www.agileforinnovation.com/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Montegrotto Terme (PD)",
-        "country": "Italy",
-        "end_date": "2020-03-08",
-        "kind": "conference",
-        "name": "Agile People Camp",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-06",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://agilemovement.it/agilepeoplecamp/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Bologna",
-        "country": "Italy",
-        "end_date": "2020-03-28",
-        "kind": "conference",
-        "name": "Agile People Day",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-28",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://www.agilepeopleday.com/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Milano",
-        "country": "Italy",
-        "end_date": "2020-05-16",
-        "kind": "conference",
-        "name": "Voxxed Days",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-05-16",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://voxxeddays.com/milan/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Vimercate",
-        "country": "Italy",
-        "end_date": "2020-05-23",
-        "kind": "conference",
-        "name": "Agile Venture Vimercate",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-05-23",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://agilemovement.it/2019/11/01/agile-venture-vimercate-2020/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Venezia",
-        "country": "Italy",
-        "end_date": "2020-09-12",
-        "kind": "conference",
-        "name": "Agile Business Day",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-09-11",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://www.agilebusinessday.com/en/agile-business-day-2-2/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Verona",
-        "country": "Italy",
-        "end_date": "2020-10-16",
-        "kind": "conference",
-        "name": "ReactJSDay",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-10-16",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "http://reactjsday.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Bologna",
-        "country": "Italy",
-        "end_date": "2020-10-23",
-        "kind": "conference",
-        "name": "ContainerDay",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-10-22",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://www.containerday.it/"
     }
 ]
