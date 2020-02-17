@@ -1,23 +1,6 @@
 [
     {
         "by": "bot",
-        "cfp_end_date": "2020-02-11",
-        "cfp_open": false,
-        "city": "Austin",
-        "country": "USA",
-        "end_date": "2020-07-12",
-        "kind": "conference",
-        "name": "SciPy",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-07-06",
-        "state": "Texas",
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.scipy2020.scipy.org/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Dublin",
