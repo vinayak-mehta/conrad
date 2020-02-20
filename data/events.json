@@ -188,23 +188,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2019-12-27",
-        "cfp_open": false,
-        "city": "Windhoek",
-        "country": "Namibia",
-        "end_date": "2020-02-20",
-        "kind": "conference",
-        "name": "PyCon Namibia",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-02-18",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://na.pycon.org/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Milano",
@@ -1058,5 +1041,56 @@
             "technology"
         ],
         "url": "https://www.eventbrite.it/e/biglietti-global-power-platform-bootcamp-2020-milan-88686085469"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-04-02",
+        "kind": "conference",
+        "name": "BeConnected Day 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-02",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.eventbrite.it/e/registrazione-beconnected-day-2020-92290708995"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Pisa",
+        "country": "Italy",
+        "end_date": "2020-04-19",
+        "kind": "conference",
+        "name": "DevFest",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-18",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://devfest.gdgpisa.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-04-24",
+        "kind": "conference",
+        "name": "Global Azure Milan 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-24",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://join.globalazure.net/events/48"
     }
 ]
