@@ -155,7 +155,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2020-03-01",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Ramat Gan",
         "country": "Israel",
         "end_date": "2020-05-05",
@@ -172,7 +172,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2020-02-29",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Munich",
         "country": "Germany",
         "end_date": "2020-05-10",
