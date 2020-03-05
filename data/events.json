@@ -723,23 +723,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Milano",
-        "country": "Italy",
-        "end_date": "2020-03-04",
-        "kind": "conference",
-        "name": "A4I Agile for Innovation",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-04",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://www.agileforinnovation.com/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Montegrotto Terme (PD)",
         "country": "Italy",
         "end_date": "2020-03-08",
@@ -927,6 +910,142 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
+        "city": "Roma",
+        "country": "Italy",
+        "end_date": "2020-03-13",
+        "kind": "conference",
+        "name": "Pi Day HackParty",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-03-13",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://picampus.it/pi-day-2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Roma",
+        "country": "Italy",
+        "end_date": "2020-03-31",
+        "kind": "conference",
+        "name": "neo4j GraphTour",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-03-31",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://neo4j.com/graphtour/rome/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Bologna",
+        "country": "Italy",
+        "end_date": "2020-04-06",
+        "kind": "conference",
+        "name": "Code Beam Lite",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-06",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://codesync.global/conferences/code-beam-lite-italy-2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-05-30",
+        "kind": "conference",
+        "name": "eRum 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-05-27",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.erum.io/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Catania",
+        "country": "Italy",
+        "end_date": "2020-06-06",
+        "kind": "conference",
+        "name": "Coderful",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-06-06",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.coderful.io/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Padova",
+        "country": "Italy",
+        "end_date": "2020-07-02",
+        "kind": "conference",
+        "name": "IHC 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-07-29",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.ihc.camp/2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Firenze",
+        "country": "Italy",
+        "end_date": "2020-10-17",
+        "kind": "conference",
+        "name": "RustLab 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-10-16",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.rustlab.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Firenze",
+        "country": "Italy",
+        "end_date": "2020-10-20",
+        "kind": "conference",
+        "name": "GoLab",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-10-18",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://golab.io/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
         "city": "Milano",
         "country": "Italy",
         "end_date": "2020-01-14",
@@ -1097,136 +1216,17 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Roma",
-        "country": "Italy",
-        "end_date": "2020-03-13",
-        "kind": "conference",
-        "name": "Pi Day HackParty",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-13",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://picampus.it/pi-day-2020/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Roma",
-        "country": "Italy",
-        "end_date": "2020-03-31",
-        "kind": "conference",
-        "name": "neo4j GraphTour",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-31",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://neo4j.com/graphtour/rome/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Bologna",
-        "country": "Italy",
-        "end_date": "2020-04-06",
-        "kind": "conference",
-        "name": "Code Beam Lite",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-04-06",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://codesync.global/conferences/code-beam-lite-italy-2020/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Milano",
         "country": "Italy",
-        "end_date": "2020-05-30",
+        "end_date": "2020-03-04",
         "kind": "conference",
-        "name": "eRum 2020",
+        "name": "A4I Agile for Innovation",
         "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-05-27",
+        "start_date": "2020-03-04",
         "state": null,
         "tags": [
             "technology"
         ],
-        "url": "https://2020.erum.io/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Catania",
-        "country": "Italy",
-        "end_date": "2020-06-06",
-        "kind": "conference",
-        "name": "Coderful",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-06-06",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://www.coderful.io/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Padova",
-        "country": "Italy",
-        "end_date": "2020-07-02",
-        "kind": "conference",
-        "name": "IHC 2020",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-07-29",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://www.ihc.camp/2020/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Firenze",
-        "country": "Italy",
-        "end_date": "2020-10-17",
-        "kind": "conference",
-        "name": "RustLab 2020",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-10-16",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://www.rustlab.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Firenze",
-        "country": "Italy",
-        "end_date": "2020-10-20",
-        "kind": "conference",
-        "name": "GoLab",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-10-18",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://golab.io/"
+        "url": "https://www.agileforinnovation.com/"
     }
 ]
