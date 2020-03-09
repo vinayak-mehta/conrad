@@ -122,23 +122,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Nashville",
-        "country": "USA",
-        "end_date": "2020-03-08",
-        "kind": "conference",
-        "name": "PyTennessee",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-03-07",
-        "state": "Tennessee",
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.pytennessee.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Austin",
         "country": "USA",
         "end_date": "2020-05-17",
@@ -202,23 +185,6 @@
             "technology"
         ],
         "url": "https://milan.serverlessdays.io/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Bologna",
-        "country": "Italy",
-        "end_date": "2020-03-06",
-        "kind": "conference",
-        "name": "Incontro DevOps",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-05",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.incontrodevops.it/"
     },
     {
         "by": "bot",
@@ -723,23 +689,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Montegrotto Terme (PD)",
-        "country": "Italy",
-        "end_date": "2020-03-08",
-        "kind": "conference",
-        "name": "Agile People Camp",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-06",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://agilemovement.it/agilepeoplecamp/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Bologna",
         "country": "Italy",
         "end_date": "2020-03-28",
@@ -1228,5 +1177,39 @@
             "technology"
         ],
         "url": "https://www.agileforinnovation.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Bologna",
+        "country": "Italy",
+        "end_date": "2020-03-06",
+        "kind": "conference",
+        "name": "Incontro DevOps",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-03-05",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.incontrodevops.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Montegrotto Terme (PD)",
+        "country": "Italy",
+        "end_date": "2020-03-08",
+        "kind": "conference",
+        "name": "Agile People Camp",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-03-06",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://agilemovement.it/agilepeoplecamp/"
     }
 ]
