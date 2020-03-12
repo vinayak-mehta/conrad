@@ -207,108 +207,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Bologna",
-        "country": "Italy",
-        "end_date": "2020-03-06",
-        "kind": "conference",
-        "name": "Incontro DevOps",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-05",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.incontrodevops.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Montegrotto Terme (PD)",
-        "country": "Italy",
-        "end_date": "2020-03-08",
-        "kind": "conference",
-        "name": "Agile People Camp",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-06",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://agilemovement.it/agilepeoplecamp/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Roma",
-        "country": "Italy",
-        "end_date": "2020-03-13",
-        "kind": "conference",
-        "name": "Pi Day HackParty",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-13",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://picampus.it/pi-day-2020/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Faenza (RA)",
-        "country": "Italy",
-        "end_date": "2020-03-13",
-        "kind": "conference",
-        "name": "CSSDay 2020",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-13",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.cssday.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Firenze",
-        "country": "Italy",
-        "end_date": "2020-03-14",
-        "kind": "conference",
-        "name": "QtDay 2020",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-13",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://www.qtday.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Torino",
-        "country": "Italy",
-        "end_date": "2020-03-19",
-        "kind": "conference",
-        "name": "CloudConf 2020",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-19",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.cloudconf.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Milano",
         "country": "Italy",
         "end_date": "2020-03-26",
@@ -328,40 +226,6 @@
         "cfp_open": false,
         "city": "Roma",
         "country": "Italy",
-        "end_date": "2020-03-28",
-        "kind": "conference",
-        "name": "Codemotion",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-27",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://events.codemotion.com/conferences/rome/2020/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Bologna",
-        "country": "Italy",
-        "end_date": "2020-03-28",
-        "kind": "conference",
-        "name": "Agile People Day",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-28",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://www.agilepeopleday.com/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Roma",
-        "country": "Italy",
         "end_date": "2020-03-31",
         "kind": "conference",
         "name": "neo4j GraphTour",
@@ -372,6 +236,23 @@
             "technology"
         ],
         "url": "https://neo4j.com/graphtour/rome/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Verona",
+        "country": "Italy",
+        "end_date": "2020-04-01",
+        "kind": "conference",
+        "name": "COBOL Day",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-01",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.cobolday.it/"
     },
     {
         "by": "bot",
@@ -445,23 +326,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Torino",
-        "country": "Italy",
-        "end_date": "2020-04-17",
-        "kind": "conference",
-        "name": "DroidCon",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-04-16",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://it.droidcon.com/2020/it"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Pisa",
         "country": "Italy",
         "end_date": "2020-04-19",
@@ -496,6 +360,23 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
+        "city": "Bologna",
+        "country": "Italy",
+        "end_date": "2020-04-28",
+        "kind": "conference",
+        "name": "Incontro DevOps",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-27",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.incontrodevops.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
         "city": "Milano",
         "country": "Italy",
         "end_date": "2020-04-29",
@@ -525,6 +406,23 @@
             "technology"
         ],
         "url": "https://2020.jsday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Roma",
+        "country": "Italy",
+        "end_date": "2020-05-14",
+        "kind": "conference",
+        "name": "Pi Day HackParty",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-05-14",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://picampus.it/pi-day-2020/"
     },
     {
         "by": "bot",
@@ -598,6 +496,40 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
+        "city": "Bologna",
+        "country": "Italy",
+        "end_date": "2020-05-30",
+        "kind": "conference",
+        "name": "Agile People Day",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-05-30",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.agilepeopleday.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Bologna",
+        "country": "Italy",
+        "end_date": "2020-05-30",
+        "kind": "conference",
+        "name": "HackInBo",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-05-30",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.hackinbo.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
         "city": "Milano",
         "country": "Italy",
         "end_date": "2020-06-05",
@@ -627,6 +559,23 @@
             "technology"
         ],
         "url": "https://www.coderful.io/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Roma",
+        "country": "Italy",
+        "end_date": "2020-06-12",
+        "kind": "conference",
+        "name": "Codemotion",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-06-11",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://events.codemotion.com/conferences/rome/2020/"
     },
     {
         "by": "bot",
@@ -683,6 +632,57 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
+        "city": "Torino",
+        "country": "Italy",
+        "end_date": "2020-06-18",
+        "kind": "conference",
+        "name": "CloudConf 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-06-18",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.cloudconf.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Faenza (RA)",
+        "country": "Italy",
+        "end_date": "2020-06-20",
+        "kind": "conference",
+        "name": "CSSDay 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-06-19",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.cssday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Roma",
+        "country": "Italy",
+        "end_date": "2020-07-12",
+        "kind": "conference",
+        "name": "Hackmeeting",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-07-09",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.hackmeeting.org/hackit20/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
         "city": "Padova",
         "country": "Italy",
         "end_date": "2020-07-02",
@@ -729,6 +729,23 @@
             "technology"
         ],
         "url": "https://www.romhack.io/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Montegrotto Terme (PD)",
+        "country": "Italy",
+        "end_date": "2020-10-11",
+        "kind": "conference",
+        "name": "Agile People Camp",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-10-09",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://agilemovement.it/agilepeoplecamp/"
     },
     {
         "by": "bot",
@@ -797,5 +814,39 @@
             "technology"
         ],
         "url": "https://www.containerday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Firenze",
+        "country": "Italy",
+        "end_date": "2020-11-21",
+        "kind": "conference",
+        "name": "QtDay 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-11-20",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.qtday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Torino",
+        "country": "Italy",
+        "end_date": "2020-11-28",
+        "kind": "conference",
+        "name": "DroidCon",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-11-27",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://it.droidcon.com/2020/it"
     }
 ]
