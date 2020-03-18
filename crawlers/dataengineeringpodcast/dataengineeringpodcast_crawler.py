@@ -27,10 +27,6 @@ class DataEngineeringPodcastCrawler(BaseCrawler):
                 end_dt_formatted = datetime.strftime(parse(end_dt), '%Y-%m-%d')
                 event_link = conf.find('a')['href']
                 place = place.iframe.extract().attrs['aria-label']
-                """ print(event_name_and_loc)
-                print(start_dt_formatted, '=========', end_dt_formatted)
-                print(event_link)
-                print(place) """
 
                 e = {
                     "name": event_name_and_loc,
