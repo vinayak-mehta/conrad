@@ -29,6 +29,11 @@ jobs:
       uses: ./.github/actions/get-events-action
       with:
         crawler-name: 'ItalyCrawler'
+    - id: DataEngineeringPodcast
+      name: Get DataEngineeringPodcase events action step
+      uses: ./.github/actions/get-events-action
+      with:
+        crawler-name: 'DataEngineeringPodcastCrawler'
     - name: Create pull request action step
       uses: peter-evans/create-pull-request@v1.6.0
       env:
