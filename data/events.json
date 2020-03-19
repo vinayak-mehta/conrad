@@ -141,11 +141,11 @@
         "cfp_open": false,
         "city": "Florence",
         "country": "Italy",
-        "end_date": "2020-04-05",
+        "end_date": "2020-11-08",
         "kind": "conference",
         "name": "PyCon Italy",
         "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-04-02",
+        "start_date": "2020-11-05",
         "state": null,
         "tags": [
             "python"
@@ -464,11 +464,11 @@
         "cfp_open": false,
         "city": "Bratislava",
         "country": "Slovakia",
-        "end_date": "2020-03-29",
+        "end_date": "2020-09-13",
         "kind": "conference",
         "name": "PyCon SK",
         "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-03-27",
+        "start_date": "2020-09-11",
         "state": null,
         "tags": [
             "python"
@@ -532,11 +532,11 @@
         "cfp_open": false,
         "city": "Basel",
         "country": "Switzerland",
-        "end_date": "2020-05-19",
+        "end_date": "2020-09-22",
         "kind": "conference",
         "name": "Python Machine Learning Conference",
         "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-05-18",
+        "start_date": "2020-09-21",
         "state": null,
         "tags": [
             "python"
