@@ -1,12 +1,15 @@
+import re
 import requests
 from dateutil.parser import parse
 from datetime import datetime
 from bs4 import BeautifulSoup
+from geopy.geocoders import Nominatim
 from ..base import BaseCrawler
 
 class DataEngineeringPodcastCrawler(BaseCrawler):
 
     def get_events(self):
+        geolocator = Nominatim(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36")
         URL = 'https://www.dataengineeringpodcast.com/conferences/'
         response = requests.get(URL)
         soup = BeautifulSoup(response.content, 'html.parser')
@@ -27,15 +30,23 @@ class DataEngineeringPodcastCrawler(BaseCrawler):
                 end_dt_formatted = datetime.strftime(parse(end_dt), '%Y-%m-%d')
                 event_link = conf.find('a')['href']
                 place = place.iframe.extract().attrs['aria-label']
+                if "Convention Center" in place:
+                    pattern = re.compile(r'[a-zA-z\.\- ]*Convention Center')
+                    match = pattern.finditer(place)
+                    for m in match:
+                        place = m.group()
+                complete_addr = geolocator.geocode(place).address
+                last_comma = complete_addr.rfind(',')
+                country = complete_addr[(last_comma+1):].strip()
 
                 e = {
                     "name": event_name_and_loc,
                     "url": event_link,
                     "city": place,
                     "state": None,
-                    "country": None,
-                    "cfp_open": None,
-                    "cfp_end_date": None,
+                    "country": country,
+                    "cfp_open": False,
+                    "cfp_end_date": "1970-01-01",
                     "start_date": start_dt_formatted,
                     "end_date": end_dt_formatted,
                     "source": "https://www.dataengineeringpodcast.com/conferences/",
@@ -45,4 +56,3 @@ class DataEngineeringPodcastCrawler(BaseCrawler):
                 }
 
                 self.events.append(e)
-#get()

@@ -29,8 +29,8 @@ jobs:
       uses: ./.github/actions/get-events-action
       with:
         crawler-name: 'ItalyCrawler'
-    - id: DataEngineeringPodcast
-      name: Get DataEngineeringPodcase events action step
+    - id: DEPodcast
+      name: Get DEPodcast events action step
       uses: ./.github/actions/get-events-action
       with:
         crawler-name: 'DataEngineeringPodcastCrawler'

@@ -1,0 +1,87 @@
+[
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "San Jose Convention Center",
+        "country": "United States of America",
+        "end_date": "2020-03-18",
+        "kind": "conference",
+        "name": "Strata Data & AI Conference San Jose",
+        "source": "https://www.dataengineeringpodcast.com/conferences/",
+        "start_date": "2020-03-15",
+        "state": null,
+        "tags": [
+            "data engineering"
+        ],
+        "url": "http://www.dpbolvw.net/click-8629172-13943311"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Boston Hynes Convention Center",
+        "country": "United States of America",
+        "end_date": "2020-04-17",
+        "kind": "conference",
+        "name": "Open Data Science Conference East",
+        "source": "https://www.dataengineeringpodcast.com/conferences/",
+        "start_date": "2020-04-13",
+        "state": null,
+        "tags": [
+            "data engineering"
+        ],
+        "url": "https://www.eventbrite.com/e/odsc-east-2020-open-data-science-conference-tickets-71527277011?discount=ODSC_TOBIAS"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "David L. Lawrence Convention Center",
+        "country": "United States of America",
+        "end_date": "2020-04-23",
+        "kind": "conference",
+        "name": "PyCon US",
+        "source": "https://www.dataengineeringpodcast.com/conferences/",
+        "start_date": "2020-04-15",
+        "state": null,
+        "tags": [
+            "data engineering"
+        ],
+        "url": "https://us.pycon.org/2020"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Santa Clara Convention Center",
+        "country": "United States of America",
+        "end_date": "2020-06-18",
+        "kind": "conference",
+        "name": "Software Architecture Conference Santa Clara",
+        "source": "https://www.dataengineeringpodcast.com/conferences/",
+        "start_date": "2020-06-15",
+        "state": null,
+        "tags": [
+            "data engineering"
+        ],
+        "url": "https://www.jdoqocy.com/click-8629172-13980565"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Santa Clara Convention Center",
+        "country": "United States of America",
+        "end_date": "2020-06-18",
+        "kind": "conference",
+        "name": "Infrastructure & Ops Conference Santa Clara",
+        "source": "https://www.dataengineeringpodcast.com/conferences/",
+        "start_date": "2020-06-15",
+        "state": null,
+        "tags": [
+            "data engineering"
+        ],
+        "url": "https://www.kqzyfj.com/click-8629172-13980591"
+    }
+]
