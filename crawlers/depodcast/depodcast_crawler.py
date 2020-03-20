@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from geopy.geocoders import Nominatim
 from ..base import BaseCrawler
 
-class DataEngineeringPodcastCrawler(BaseCrawler):
+class DEPodcastCrawler(BaseCrawler):
 
     def get_events(self):
         geolocator = Nominatim(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36")

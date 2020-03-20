@@ -33,7 +33,7 @@ jobs:
       name: Get DEPodcast events action step
       uses: ./.github/actions/get-events-action
       with:
-        crawler-name: 'DataEngineeringPodcastCrawler'
+        crawler-name: 'DEPodcastCrawler'
     - name: Create pull request action step
       uses: peter-evans/create-pull-request@v1.6.0
       env:
