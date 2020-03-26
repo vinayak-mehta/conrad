@@ -141,11 +141,11 @@
         "cfp_open": false,
         "city": "Austin",
         "country": "USA",
-        "end_date": "2020-05-17",
+        "end_date": "2020-10-25",
         "kind": "conference",
         "name": "PyTexas",
         "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-05-16",
+        "start_date": "2020-10-24",
         "state": "Texas",
         "tags": [
             "python"
@@ -445,23 +445,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Milano",
-        "country": "Italy",
-        "end_date": "2020-03-26",
-        "kind": "conference",
-        "name": "European Immersive Computing Summit 2020",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-25",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://eicsummit.com/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Roma",
         "country": "Italy",
         "end_date": "2020-06-13",
@@ -498,11 +481,11 @@
         "cfp_open": false,
         "city": "Ljubljana",
         "country": "Slovenia",
-        "end_date": "2020-04-19",
+        "end_date": "2020-09-20",
         "kind": "conference",
         "name": "DragonPy",
         "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-04-18",
+        "start_date": "2020-09-19",
         "state": null,
         "tags": [
             "python"
@@ -515,11 +498,11 @@
         "cfp_open": false,
         "city": "Istanbul",
         "country": "Turkey",
-        "end_date": "2020-05-03",
+        "end_date": "2020-09-27",
         "kind": "conference",
         "name": "PyCon Turkey",
         "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-05-02",
+        "start_date": "2020-09-26",
         "state": null,
         "tags": [
             "python"
@@ -1095,6 +1078,23 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2020-04-06",
+        "cfp_open": true,
+        "city": null,
+        "country": null,
+        "end_date": "2020-04-25",
+        "kind": "conference",
+        "name": "Remote Python Pizza",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-04-25",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://remote.python.pizza/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Milano",
@@ -1279,5 +1279,22 @@
             "technology"
         ],
         "url": "https://www.agileforinnovation.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-03-26",
+        "kind": "conference",
+        "name": "European Immersive Computing Summit 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-03-25",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://eicsummit.com/"
     }
 ]
