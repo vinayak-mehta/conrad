@@ -260,23 +260,6 @@
         "cfp_open": false,
         "city": "Verona",
         "country": "Italy",
-        "end_date": "2020-04-02",
-        "kind": "conference",
-        "name": "Ruby Day",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-04-02",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.rubyday.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Verona",
-        "country": "Italy",
         "end_date": "2020-04-03",
         "kind": "conference",
         "name": "VueDay",
@@ -584,11 +567,11 @@
         "cfp_open": false,
         "city": "London",
         "country": "United Kingdom",
-        "end_date": "2020-05-17",
+        "end_date": "2020-11-01",
         "kind": "conference",
         "name": "PyData London 2020",
         "source": "https://pydata.org/event-schedule/",
-        "start_date": "2020-05-15",
+        "start_date": "2020-10-30",
         "state": null,
         "tags": [
             "python",
@@ -791,23 +774,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Milano",
-        "country": "Italy",
-        "end_date": "2020-04-02",
-        "kind": "conference",
-        "name": "BeConnected Day 2020",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-04-02",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://www.eventbrite.it/e/registrazione-beconnected-day-2020-92290708995"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Pisa",
         "country": "Italy",
         "end_date": "2020-04-19",
@@ -854,23 +820,6 @@
             "technology"
         ],
         "url": "https://picampus.it/pi-day-2020/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Roma",
-        "country": "Italy",
-        "end_date": "2020-03-31",
-        "kind": "conference",
-        "name": "neo4j GraphTour",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-31",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://neo4j.com/graphtour/rome/"
     },
     {
         "by": "bot",
@@ -978,23 +927,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Verona",
-        "country": "Italy",
-        "end_date": "2020-04-01",
-        "kind": "conference",
-        "name": "COBOL Day",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-04-01",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.cobolday.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Bologna",
         "country": "Italy",
         "end_date": "2020-04-28",
@@ -1075,6 +1007,24 @@
             "python"
         ],
         "url": "https://remote.python.pizza/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "end_date": "2020-11-07",
+        "kind": "conference",
+        "name": "PyData Israel 2020",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2020-11-07",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://pydata.org/events/pydata-israel-2020/"
     },
     {
         "by": "bot",
@@ -1279,5 +1229,73 @@
             "technology"
         ],
         "url": "https://eicsummit.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Roma",
+        "country": "Italy",
+        "end_date": "2020-03-31",
+        "kind": "conference",
+        "name": "neo4j GraphTour",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-03-31",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://neo4j.com/graphtour/rome/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Verona",
+        "country": "Italy",
+        "end_date": "2020-04-01",
+        "kind": "conference",
+        "name": "COBOL Day",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-01",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.cobolday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Verona",
+        "country": "Italy",
+        "end_date": "2020-04-02",
+        "kind": "conference",
+        "name": "Ruby Day",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-02",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.rubyday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-04-02",
+        "kind": "conference",
+        "name": "BeConnected Day 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-02",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.eventbrite.it/e/registrazione-beconnected-day-2020-92290708995"
     }
 ]
