@@ -95,5 +95,5 @@ class DEPodcastCrawler(BaseCrawler):
                     "kind": "conference",
                     "by": "bot",
                 }
-                print(e)
+                #print(e)
                 self.events.append(e)
