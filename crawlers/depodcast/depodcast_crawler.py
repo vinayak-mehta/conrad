@@ -8,40 +8,43 @@ from bs4 import BeautifulSoup
 from geopy.geocoders import Nominatim
 from ..base import BaseCrawler
 
-class DEPodcastCrawler(BaseCrawler):
+def requests_retry_session(retries=5, backoff_factor=0.3, status_forcelist=(500, 502, 504)):
+    '''
+    Function to return a session object with retry mounted on it
+    '''
+    session = requests.Session()
+    retry = Retry(total=retries,
+                    read=retries,
+                    connect=retries,
+                    backoff_factor=backoff_factor,
+                    status_forcelist=status_forcelist
+                    )
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount('http://', adapter)
+    session.mount('https://', adapter)
+    return session
 
-    def parse_date(self, event_dates):
-        '''
-        Function to parse date ranges and return the start and end dates
-        '''
-        if '-' in event_dates:
-            start_dt = event_dates.split(' - ')[0]
-            start_dt_formatted = datetime.strftime(parse(start_dt), '%Y-%m-%d')
-            month = start_dt.split(' ')[0]
-            end_dt = event_dates.split(' - ')[1] + ' ' +  month
-            end_dt_formatted = datetime.strftime(parse(end_dt), '%Y-%m-%d')
-        else:
-            start_dt_formatted = datetime.strftime(parse(event_dates), '%Y-%m-%d')
-            end_dt_formatted = datetime.strftime(parse(event_dates), '%Y-%m-%d')
-        return (start_dt_formatted, end_dt_formatted)
-    
-    def requests_retry_session(self, retries=5, backoff_factor=0.3, status_forcelist=(500, 502, 504)):
-        session = requests.Session()
-        retry = Retry(total=retries,
-                      read=retries,
-                      connect=retries,
-                      backoff_factor=backoff_factor,
-                      status_forcelist=status_forcelist
-                     )
-        adapter = HTTPAdapter(max_retries=retry)
-        session.mount('http://', adapter)
-        session.mount('https://', adapter)
-        return session
+def parse_date(event_dates):
+    '''
+    Function to parse date ranges and return the start and end dates
+    '''
+    if '-' in event_dates:
+        start_dt = event_dates.split(' - ')[0]
+        start_dt_formatted = datetime.strftime(parse(start_dt), '%Y-%m-%d')
+        month = start_dt.split(' ')[0]
+        end_dt = event_dates.split(' - ')[1] + ' ' +  month
+        end_dt_formatted = datetime.strftime(parse(end_dt), '%Y-%m-%d')
+    else:
+        start_dt_formatted = datetime.strftime(parse(event_dates), '%Y-%m-%d')
+        end_dt_formatted = datetime.strftime(parse(event_dates), '%Y-%m-%d')
+    return (start_dt_formatted, end_dt_formatted)
+
+class DEPodcastCrawler(BaseCrawler):
 
     def get_events(self):
         geolocator = Nominatim(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36")
         URL = 'https://www.dataengineeringpodcast.com/conferences/'
-        response = self.requests_retry_session().get(URL)
+        response = requests_retry_session().get(URL)
         soup = BeautifulSoup(response.content, 'html.parser')
         results = soup.find(id='post-1401')
         conf_list = results.find_all("section", class_='elementor-element')
@@ -57,7 +60,7 @@ class DEPodcastCrawler(BaseCrawler):
                     hyp_index = event_info.index(' - ')
                     event_name_and_loc = event_info[:hyp_index]
                     event_dates = event_info[hyp_index+3:]
-                    start_dt_formatted, end_dt_formatted = self.parse_date(event_dates)
+                    start_dt_formatted, end_dt_formatted = parse_date(event_dates)
                     event_link = conf.find('a')['href']
                     place = place.iframe.extract().attrs['aria-label']
                     if "Convention Center" in place:
@@ -74,7 +77,7 @@ class DEPodcastCrawler(BaseCrawler):
                     hyp_index = event_info.index(' - ')
                     event_name_and_loc = event_info[:hyp_index]
                     event_dates = event_info[hyp_index+3:]
-                    start_dt_formatted, end_dt_formatted = self.parse_date(event_dates)
+                    start_dt_formatted, end_dt_formatted = parse_date(event_dates)
                     event_link = conf.find('a')['href']
                 
                 e = {
