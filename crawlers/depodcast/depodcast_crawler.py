@@ -2,6 +2,8 @@ import re
 import requests
 from dateutil.parser import parse
 from datetime import datetime
+from requests.adapters import HTTPAdapter
+from requests.packages.urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 from geopy.geocoders import Nominatim
 from ..base import BaseCrawler
@@ -22,11 +24,24 @@ class DEPodcastCrawler(BaseCrawler):
             start_dt_formatted = datetime.strftime(parse(event_dates), '%Y-%m-%d')
             end_dt_formatted = datetime.strftime(parse(event_dates), '%Y-%m-%d')
         return (start_dt_formatted, end_dt_formatted)
+    
+    def requests_retry_session(self, retries=5, backoff_factor=0.3, status_forcelist=(500, 502, 504)):
+        session = requests.Session()
+        retry = Retry(total=retries,
+                      read=retries,
+                      connect=retries,
+                      backoff_factor=backoff_factor,
+                      status_forcelist=status_forcelist
+                     )
+        adapter = HTTPAdapter(max_retries=retry)
+        session.mount('http://', adapter)
+        session.mount('https://', adapter)
+        return session
 
     def get_events(self):
         geolocator = Nominatim(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36")
         URL = 'https://www.dataengineeringpodcast.com/conferences/'
-        response = requests.get(URL)
+        response = self.requests_retry_session().get(URL)
         soup = BeautifulSoup(response.content, 'html.parser')
         results = soup.find(id='post-1401')
         conf_list = results.find_all("section", class_='elementor-element')
@@ -77,5 +92,5 @@ class DEPodcastCrawler(BaseCrawler):
                     "kind": "conference",
                     "by": "bot",
                 }
-                #print(e)
+                print(e)
                 self.events.append(e)
