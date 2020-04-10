@@ -1,0 +1,36 @@
+[
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Online",
+        "country": "Online",
+        "end_date": "2020-04-06",
+        "kind": "conference",
+        "name": "Observe 20/20 Virtual Observability Summit",
+        "source": "https://www.dataengineeringpodcast.com/conferences/",
+        "start_date": "2020-04-06",
+        "state": "",
+        "tags": [
+            "data engineering"
+        ],
+        "url": "https://observe2020.io/maceynation"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Online",
+        "country": "Online",
+        "end_date": "2020-04-17",
+        "kind": "conference",
+        "name": "Open Data Science Virtual Conference",
+        "source": "https://www.dataengineeringpodcast.com/conferences/",
+        "start_date": "2020-04-13",
+        "state": "",
+        "tags": [
+            "data engineering"
+        ],
+        "url": "https://www.eventbrite.com/e/odsc-east-2020-open-data-science-conference-tickets-71527277011?discount=ODSC_TOBIAS"
+    }
+]
