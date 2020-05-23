@@ -1,7 +1,7 @@
 name: Get events
 on:
   schedule:
-    - cron: '20 7 * * 1,4,6'
+    - cron: '0 0 * * 1,4'
 
 jobs:
   get_events:
