@@ -4,6 +4,9 @@ Release History
 master
 ------
 
+0.4.0 (2020-05-24)
+------------------
+
 **Improvements**
 
 * Replace `.format` with f-strings! [5d5a917](https://github.com/vinayak-mehta/conrad/commit/5d5a9172231602427d7a959a7f3bbd3508d62a9a)
