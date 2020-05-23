@@ -6,6 +6,7 @@ master
 
 **Improvements**
 
+* Fix days left [comparison operators](https://github.com/vinayak-mehta/conrad/commit/b4ffc0d54ded8dd9ae94ecd9202715512264583b).
 * [#85](https://github.com/vinayak-mehta/conrad/issues/85) Add crawler for awesome-italy-events. [#91](https://github.com/vinayak-mehta/conrad/pull/91) by Vinayak Mehta.
 
 0.3.2 (2019-11-08)

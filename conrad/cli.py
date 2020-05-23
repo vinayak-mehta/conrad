@@ -283,7 +283,7 @@ def _show(ctx, *args, **kwargs):
     events = list(
         session.query(Event).filter(*filters).order_by(Event.start_date).all()
     )
-    if len(events):
+    if len(events) > 0:
         header = [
             "id",
             "Name",
@@ -335,7 +335,7 @@ def _remind(ctx, *args, **kwargs):
             .order_by(Event.start_date)
             .all()
         )
-        if len(reminders):
+        if len(reminders) > 0:
             header = ["id", "Name", "Start Date", "Days Left"]
             reminders_output = []
 
@@ -413,7 +413,7 @@ def _import(ctx, *args, **kwargs):
         input_events = json.load(f)
 
     failures = validate(input_events)
-    if len(failures):
+    if len(failures) > 0:
         raise click.UsageError(
             "The following validations failed!\n{}".format(
                 "".join(
