@@ -341,18 +341,21 @@ def _remind(ctx, *args, **kwargs):
 
             for reminder, __ in reminders:
                 start = dt.datetime.now()
+
                 if reminder.cfp_open:
                     delta_days = (reminder.cfp_end_date - start).days
                     days_left = "{} days left to cfp deadline!".format(delta_days)
                 else:
                     delta_days = (reminder.start_date - start).days
                     days_left = "{} days left!".format(delta_days)
+
                 if delta_days > 30:
                     days_left = Fore.GREEN + Style.BRIGHT + days_left + Style.RESET_ALL
-                elif delta_days < 30 and delta_days > 10:
+                elif delta_days <= 30 and delta_days > 10:
                     days_left = Fore.YELLOW + Style.BRIGHT + days_left + Style.RESET_ALL
-                elif delta_days < 10:
+                elif delta_days <= 10:
                     days_left = Fore.RED + Style.BRIGHT + days_left + Style.RESET_ALL
+
                 reminders_output.append(
                     [
                         reminder.id,
