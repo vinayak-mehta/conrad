@@ -254,7 +254,7 @@ def _show(ctx, *args, **kwargs):
     if tag:
         filters.append(Event.tags.contains(tag))
     if name:
-        filters.append(Event.name.ilike("%{}%".format(name)))
+        filters.append(Event.name.ilike(f"%{name}%"))
     if date:
         date_filters = []
         for d in date:
@@ -273,9 +273,9 @@ def _show(ctx, *args, **kwargs):
     if location:
         filters.append(
             sqlalchemy.or_(
-                Event.city.ilike("%{}%".format(location)),
-                Event.state.ilike("%{}%".format(location)),
-                Event.country.ilike("%{}%".format(location)),
+                Event.city.ilike(f"%{location}%"),
+                Event.state.ilike(f"%{location}%"),
+                Event.country.ilike(f"%{location}%"),
             )
         )
 
@@ -341,27 +341,37 @@ def _remind(ctx, *args, **kwargs):
 
             for reminder, __ in reminders:
                 start = dt.datetime.now()
+                cfp_days_left = (reminder.cfp_end_date - start).days
+                event_days_left = (reminder.start_date - start).days
 
-                if reminder.cfp_open:
-                    delta_days = (reminder.cfp_end_date - start).days
-                    days_left = "{} days left to cfp deadline!".format(delta_days)
+                if reminder.cfp_open and cfp_days_left >= 0:
+                    days_left = cfp_days_left
+                    days_left_output = f"{days_left} days left to cfp deadline!"
+                elif event_days_left >= 0:
+                    days_left = event_days_left
+                    days_left_output = f"{days_left} days left!"
                 else:
-                    delta_days = (reminder.start_date - start).days
-                    days_left = "{} days left!".format(delta_days)
+                    days_left = -1
+                    days_left_output = "Event ended."
 
-                if delta_days > 30:
-                    days_left = Fore.GREEN + Style.BRIGHT + days_left + Style.RESET_ALL
-                elif delta_days <= 30 and delta_days > 10:
-                    days_left = Fore.YELLOW + Style.BRIGHT + days_left + Style.RESET_ALL
-                elif delta_days <= 10:
-                    days_left = Fore.RED + Style.BRIGHT + days_left + Style.RESET_ALL
+                if days_left > 30:
+                    style = f"{Fore.GREEN}{Style.BRIGHT}"
+                elif days_left <= 30 and days_left > 10:
+                    style = f"{Fore.YELLOW}{Style.BRIGHT}"
+                elif days_left <= 10 and days_left > 0:
+                    style = f"{Fore.RED}{Style.BRIGHT}"
+                else:
+                    style = ""
+                days_left_output = (
+                    f"{style}{days_left_output}{Style.RESET_ALL}"
+                )
 
                 reminders_output.append(
                     [
                         reminder.id,
                         reminder.name,
                         reminder.start_date.strftime("%Y-%m-%d"),
-                        days_left,
+                        days_left_output,
                     ]
                 )
             session.close()
@@ -435,10 +445,9 @@ def _import(ctx, *args, **kwargs):
         events.append(e)
     removed = len(old_events) - len(events)
     s = "s" if removed > 1 else ""
-    click.echo("Removed {} old event{}!".format(removed, s))
+    click.echo(f"Removed {removed} old event{s}!")
 
-    # TODO: drop events with end date < now
-    # TODO: update cfp to false when cfp end date < now
+    # TODO: update cfp to false when cfp_end_date < now
     pattern = "[0-9]"
     new_events = []
     for ie in input_events:
@@ -454,15 +463,15 @@ def _import(ctx, *args, **kwargs):
                 input_event_name, event_name
             )
             if similarity > 0.9:
-                click.echo("Updating {}".format(e["name"]))
+                click.echo(f"Updating {e['name']}")
                 e.update(ie)
                 match = True
         if not match:
-            click.echo("Adding {}".format(ie["name"]))
+            click.echo(f"Adding {ie['name']}")
             new_events.append(ie)
     events.extend(new_events)
 
     s = "s" if len(new_events) > 1 else ""
-    click.echo("Added {} new event{}!".format(len(new_events), s))
+    click.echo(f"Added {len(new_events)} new event{s}!")
     with open(EVENTS_PATH, "w") as f:
         f.write(json.dumps(events, indent=4, sort_keys=True))

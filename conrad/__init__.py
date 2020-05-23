@@ -8,8 +8,7 @@ from .__version__ import __version__
 
 
 CONRAD_HOME = get_app_dir("conrad")
-SQL_ALCHEMY_CONN = "sqlite:///{}/conrad.db".format(CONRAD_HOME)
-
+SQL_ALCHEMY_CONN = f"sqlite:///{CONRAD_HOME}/conrad.db"
 
 if not os.path.exists(CONRAD_HOME):
     os.makedirs(CONRAD_HOME)

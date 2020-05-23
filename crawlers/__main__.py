@@ -18,7 +18,7 @@ def main():
         Crawler = eval(crawler[0])
         c = Crawler()
         c.get_events()
-        c.export("data/{}_events.json".format(filename))
+        c.export(f"data/{filename}_events.json")
     else:
         print("Crawler not found!")
 
