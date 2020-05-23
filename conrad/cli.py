@@ -354,14 +354,15 @@ def _remind(ctx, *args, **kwargs):
                     days_left = -1
                     days_left_output = "Event ended."
 
-                if days_left > 30:
+                if days_left >= 30:
                     style = f"{Fore.GREEN}{Style.BRIGHT}"
-                elif days_left <= 30 and days_left > 10:
+                elif 30 > days_left >= 10:
                     style = f"{Fore.YELLOW}{Style.BRIGHT}"
-                elif days_left <= 10 and days_left > 0:
+                elif 10 > days_left >= 0:
                     style = f"{Fore.RED}{Style.BRIGHT}"
                 else:
                     style = ""
+
                 days_left_output = (
                     f"{style}{days_left_output}{Style.RESET_ALL}"
                 )
