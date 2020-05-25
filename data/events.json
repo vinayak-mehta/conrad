@@ -771,5 +771,464 @@
             "pydata"
         ],
         "url": "https://pydata.org/events/pydata-los-angeles-virtual-2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-01-14",
+        "kind": "conference",
+        "name": "Milano Live Coding",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-01-14",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.eventbrite.it/e/biglietti-milano-live-coding-14-gennaio-2020-87088150001"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Torino",
+        "country": "Italy",
+        "end_date": "2020-01-21",
+        "kind": "conference",
+        "name": "Torino Hacknight",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-01-21",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "http://torino.hacknight.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Modena",
+        "country": "Italy",
+        "end_date": "2020-01-25",
+        "kind": "conference",
+        "name": "Modena Tech Summit",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-01-25",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.modenatechsummit.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Fornovo di Taro",
+        "country": "Italy",
+        "end_date": "2020-01-26",
+        "kind": "conference",
+        "name": "Hackafork",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-01-25",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.hackathon.com/event/hackafork-82168184251"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-01-28",
+        "kind": "conference",
+        "name": "Microsoft Ignite",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-01-27",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.microsoft.com/en-us/ignite"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Multiple locations",
+        "country": "Italy",
+        "end_date": "2020-02-02",
+        "kind": "conference",
+        "name": "Global Game Jam",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-01-31",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://globalgamejam.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-02-01",
+        "kind": "conference",
+        "name": "Agile Venture Milano 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-02-01",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.agilemovement.it/venture/2020/milano/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-02-07",
+        "kind": "conference",
+        "name": "IxDA",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-02-02",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://interaction20.ixda.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Ancona",
+        "country": "Italy",
+        "end_date": "2020-02-07",
+        "kind": "conference",
+        "name": "ITASEC 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-02-04",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://itasec.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-02-15",
+        "kind": "conference",
+        "name": "Global Power Platform Bootcamp 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-02-15",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.eventbrite.it/e/biglietti-global-power-platform-bootcamp-2020-milan-88686085469"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-03-04",
+        "kind": "conference",
+        "name": "A4I Agile for Innovation",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-03-04",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.agileforinnovation.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-03-26",
+        "kind": "conference",
+        "name": "European Immersive Computing Summit 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-03-25",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://eicsummit.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Roma",
+        "country": "Italy",
+        "end_date": "2020-03-31",
+        "kind": "conference",
+        "name": "neo4j GraphTour",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-03-31",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://neo4j.com/graphtour/rome/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Verona",
+        "country": "Italy",
+        "end_date": "2020-04-01",
+        "kind": "conference",
+        "name": "COBOL Day",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-01",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.cobolday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Verona",
+        "country": "Italy",
+        "end_date": "2020-04-02",
+        "kind": "conference",
+        "name": "Ruby Day",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-02",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.rubyday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-04-02",
+        "kind": "conference",
+        "name": "BeConnected Day 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-02",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.eventbrite.it/e/registrazione-beconnected-day-2020-92290708995"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Verona",
+        "country": "Italy",
+        "end_date": "2020-04-03",
+        "kind": "conference",
+        "name": "VueDay",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-03",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.vueday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Bologna",
+        "country": "Italy",
+        "end_date": "2020-04-06",
+        "kind": "conference",
+        "name": "Code Beam Lite",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-06",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://codesync.global/conferences/code-beam-lite-italy-2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Pisa",
+        "country": "Italy",
+        "end_date": "2020-04-19",
+        "kind": "conference",
+        "name": "DevFest",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-18",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://devfest.gdgpisa.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-04-24",
+        "kind": "conference",
+        "name": "Global Azure Milan 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-24",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://join.globalazure.net/events/48"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Bologna",
+        "country": "Italy",
+        "end_date": "2020-04-28",
+        "kind": "conference",
+        "name": "Incontro DevOps",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-27",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.incontrodevops.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-04-29",
+        "kind": "conference",
+        "name": "ItaliaSec",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-04-28",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://cyberseries.io/italiasec/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Verona",
+        "country": "Italy",
+        "end_date": "2020-05-13",
+        "kind": "conference",
+        "name": "JSDay",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-05-12",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.jsday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Roma",
+        "country": "Italy",
+        "end_date": "2020-05-14",
+        "kind": "conference",
+        "name": "Pi Day HackParty",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-05-14",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://picampus.it/pi-day-2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Verona",
+        "country": "Italy",
+        "end_date": "2020-05-15",
+        "kind": "conference",
+        "name": "PHP Day",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-05-14",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.phpday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-05-16",
+        "kind": "conference",
+        "name": "Voxxed Days",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-05-16",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://voxxeddays.com/milan/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Vimercate",
+        "country": "Italy",
+        "end_date": "2020-05-23",
+        "kind": "conference",
+        "name": "Agile Venture Vimercate",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-05-23",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://agilemovement.it/2019/11/01/agile-venture-vimercate-2020/"
     }
 ]
