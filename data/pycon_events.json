@@ -103,8 +103,8 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
+        "cfp_end_date": "2020-06-14",
+        "cfp_open": true,
         "city": "Columbus",
         "country": "USA",
         "end_date": "2020-07-26",
@@ -134,23 +134,6 @@
             "python"
         ],
         "url": "https://2020.pycon.sk/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Basel",
-        "country": "Switzerland",
-        "end_date": "2020-09-22",
-        "kind": "conference",
-        "name": "Python Machine Learning Conference",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-09-21",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "http://2020.pythonml.org"
     },
     {
         "by": "bot",
@@ -202,23 +185,6 @@
             "python"
         ],
         "url": "https://2020.es.pycon.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Berlin",
-        "country": "Germany",
-        "end_date": "2020-10-16",
-        "kind": "conference",
-        "name": "PyConDE & PyData Berlin 2020",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-10-14",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://de.pycon.org"
     },
     {
         "by": "bot",

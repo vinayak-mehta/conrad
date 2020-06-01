@@ -103,8 +103,8 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
+        "cfp_end_date": "2020-06-14",
+        "cfp_open": true,
         "city": "Columbus",
         "country": "USA",
         "end_date": "2020-07-26",
@@ -518,23 +518,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Bologna",
-        "country": "Italy",
-        "end_date": "2020-05-30",
-        "kind": "conference",
-        "name": "Agile People Day",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-05-30",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://www.agilepeopleday.com/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Venezia",
         "country": "Italy",
         "end_date": "2020-09-12",
@@ -581,23 +564,6 @@
             "technology"
         ],
         "url": "https://www.containerday.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Milano",
-        "country": "Italy",
-        "end_date": "2020-05-30",
-        "kind": "conference",
-        "name": "eRum 2020",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-05-27",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.erum.io/"
     },
     {
         "by": "bot",
@@ -671,23 +637,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Bologna",
-        "country": "Italy",
-        "end_date": "2020-05-30",
-        "kind": "conference",
-        "name": "HackInBo",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-05-30",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://www.hackinbo.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Roma",
         "country": "Italy",
         "end_date": "2020-07-12",
@@ -724,11 +673,11 @@
         "cfp_open": false,
         "city": "Tel Aviv",
         "country": "Israel",
-        "end_date": "2020-11-07",
+        "end_date": "2020-11-11",
         "kind": "conference",
         "name": "PyData Israel 2020",
         "source": "https://pydata.org/event-schedule/",
-        "start_date": "2020-11-07",
+        "start_date": "2020-11-11",
         "state": null,
         "tags": [
             "python",
@@ -1230,5 +1179,56 @@
             "technology"
         ],
         "url": "https://agilemovement.it/2019/11/01/agile-venture-vimercate-2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-05-30",
+        "kind": "conference",
+        "name": "eRum 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-05-27",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.erum.io/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Bologna",
+        "country": "Italy",
+        "end_date": "2020-05-30",
+        "kind": "conference",
+        "name": "Agile People Day",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-05-30",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.agilepeopleday.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Bologna",
+        "country": "Italy",
+        "end_date": "2020-05-30",
+        "kind": "conference",
+        "name": "HackInBo",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-05-30",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.hackinbo.it/"
     }
 ]
