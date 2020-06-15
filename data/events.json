@@ -104,7 +104,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2020-06-14",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Columbus",
         "country": "USA",
         "end_date": "2020-07-26",
@@ -207,23 +207,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Roma",
-        "country": "Italy",
-        "end_date": "2020-06-12",
-        "kind": "conference",
-        "name": "Codemotion",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-06-11",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://events.codemotion.com/conferences/rome/2020/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Torino",
         "country": "Italy",
         "end_date": "2020-11-28",
@@ -241,40 +224,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Verona",
-        "country": "Italy",
-        "end_date": "2020-06-12",
-        "kind": "conference",
-        "name": "Angular Day",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-06-11",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.angularday.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Bergamo",
-        "country": "Italy",
-        "end_date": "2020-06-12",
-        "kind": "conference",
-        "name": "PGDay.IT",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-06-11",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.pgday.it"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Roma",
         "country": "Italy",
         "end_date": "2020-09-26",
@@ -287,23 +236,6 @@
             "technology"
         ],
         "url": "https://www.romhack.io/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Roma",
-        "country": "Italy",
-        "end_date": "2020-06-13",
-        "kind": "conference",
-        "name": "Italian C++ Conference",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-06-13",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://www.italiancpp.org/event/itcppcon20/"
     },
     {
         "by": "bot",
@@ -407,24 +339,6 @@
             "pydata"
         ],
         "url": "https://pydata.org/london2020/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Amsterdam",
-        "country": "Netherlands",
-        "end_date": "2020-06-15",
-        "kind": "conference",
-        "name": "PyData Amsterdam 2020",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2020-06-12",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://amsterdam.pydata.org/"
     },
     {
         "by": "bot",
@@ -1230,5 +1144,73 @@
             "technology"
         ],
         "url": "https://www.coderful.io/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Roma",
+        "country": "Italy",
+        "end_date": "2020-06-12",
+        "kind": "conference",
+        "name": "Codemotion",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-06-11",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://events.codemotion.com/conferences/rome/2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Verona",
+        "country": "Italy",
+        "end_date": "2020-06-12",
+        "kind": "conference",
+        "name": "Angular Day",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-06-11",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.angularday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Bergamo",
+        "country": "Italy",
+        "end_date": "2020-06-12",
+        "kind": "conference",
+        "name": "PGDay.IT",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-06-11",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://2020.pgday.it"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Roma",
+        "country": "Italy",
+        "end_date": "2020-06-13",
+        "kind": "conference",
+        "name": "Italian C++ Conference",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-06-13",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.italiancpp.org/event/itcppcon20/"
     }
 ]
