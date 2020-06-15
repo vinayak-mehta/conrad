@@ -104,7 +104,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2020-06-14",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Columbus",
         "country": "USA",
         "end_date": "2020-07-26",
