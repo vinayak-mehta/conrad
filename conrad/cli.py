@@ -17,6 +17,7 @@ from . import __version__, CONRAD_HOME
 from .db import engine, Session
 from .models import Base, Event, Reminder
 from .utils import initialize_database, validate
+from urllib.parse import urlencode
 
 
 def set_default_pager():
@@ -36,6 +37,7 @@ def get_events():
 
 
 def gen_gcal_link(event):
+    """Generate Google calendar link"""
     query_parameters = {}
     query_parameters["action"] = "TEMPLATE"
     query_parameters["dates"] = "/".join([
@@ -333,7 +335,7 @@ def _show(ctx, *args, **kwargs):
 @cli.command("remind", short_help="Set and display reminders.")
 @click.option("--id", "-i", default=None, help="Conference identifier.")
 @click.option("--get-gcal-url", "-gcal", default=False, is_flag=True,
-                                                help="Conference gcalendar addition url.")
+                help="Conference gcalendar addition url.")
 @click.pass_context
 def _remind(ctx, *args, **kwargs):
     initialize_conrad()

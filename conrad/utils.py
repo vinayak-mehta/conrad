@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 from .db import engine
-from urllib.parse import urlencode
 
 
 def initialize_database():
