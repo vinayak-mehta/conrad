@@ -16,7 +16,7 @@ from cli_helpers import tabular_output
 from . import __version__, CONRAD_HOME
 from .db import engine, Session
 from .models import Base, Event, Reminder
-from .utils import initialize_database, validate
+from .utils import initialize_database, validate, gen_gcal_link
 
 
 def set_default_pager():
@@ -321,11 +321,13 @@ def _show(ctx, *args, **kwargs):
 
 @cli.command("remind", short_help="Set and display reminders.")
 @click.option("--id", "-i", default=None, help="Conference identifier.")
+@click.option("--get-gcal-url", "-gcal", default=False, is_flag=True, help="Conference gcalendar addition url.")
 @click.pass_context
 def _remind(ctx, *args, **kwargs):
     initialize_conrad()
 
     _id = kwargs["id"]
+    _gcal = kwargs["get_gcal_url"]
 
     if _id is None:
         session = Session()
@@ -386,9 +388,14 @@ def _remind(ctx, *args, **kwargs):
     else:
         try:
             session = Session()
-            if session.query(Event).filter(Event.id == _id).first() is None:
+            event = session.query(Event).filter(Event.id == _id).first()
+            if event is None:
                 click.echo("Event not found!")
             else:
+                if _gcal:
+                    gcal_link = gen_gcal_link(event)
+                    click.echo(f"Google Calendar Link: {gcal_link}")
+
                 reminder = Reminder(id=_id)
                 session.add(reminder)
                 session.commit()

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from .db import engine
+from urllib.parse import urlencode
 
 
 def initialize_database():
@@ -15,6 +16,12 @@ def reset_database():
     Base.metadata.drop_all(engine)
     initialize_database()
 
+def gen_gcal_link(event):
+    query_parameters = dict()
+    query_parameters["action"] = "TEMPLATE"
+    query_parameters["dates"] = "/".join([event.start_date.strftime("%Y%m%d"),event.end_date.strftime("%Y%m%d")])
+    query_parameters["text"] = event.name
+    return "http://www.google.com/calendar/event?{}".format(urlencode(query_parameters))
 
 def validate(input_events):
     failures = []
