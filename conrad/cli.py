@@ -4,6 +4,7 @@ import os
 import re
 import json
 import hashlib
+import random
 import datetime as dt
 
 import click
@@ -383,6 +384,9 @@ def _remind(ctx, *args, **kwargs):
             click.echo("\n".join(formatted))
         else:
             click.echo("No reminders found!")
+
+        print_fortune()
+
     else:
         try:
             session = Session()
@@ -476,3 +480,11 @@ def _import(ctx, *args, **kwargs):
     click.echo(f"Added {len(new_events)} new event{s}!")
     with open(EVENTS_PATH, "w") as f:
         f.write(json.dumps(events, indent=4, sort_keys=True))
+
+def print_fortune():
+    path_to_fortunefile = os.path.dirname(os.path.dirname(os.path.dirname(os.getcwd())))+"/data/fortunes"
+    with open(path_to_fortunefile) as f:
+        fortunes = f.read().split('%')
+
+    print(fortunes[random.randint(0,len(fortunes)-1)])
+
