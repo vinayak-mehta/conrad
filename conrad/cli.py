@@ -482,7 +482,8 @@ def _import(ctx, *args, **kwargs):
         f.write(json.dumps(events, indent=4, sort_keys=True))
 
 def print_fortune():
-    path_to_fortunefile = os.path.dirname(os.path.dirname(os.path.dirname(os.getcwd())))+"/data/fortunes"
+    path_to_fortunefile = os.path.join(os.getcwd(), "data", "fortunes") 
+
     with open(path_to_fortunefile) as f:
         fortunes = f.read().split('%')
 
