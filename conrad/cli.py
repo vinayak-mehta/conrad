@@ -452,6 +452,10 @@ def _import(ctx, *args, **kwargs):
     pattern = "[0-9]"
     new_events = []
     for ie in input_events:
+        event_end_date = dt.datetime.strptime(ie["end_date"], "%Y-%m-%d")
+        if event_end_date < now:
+            continue
+
         match = False
         for e in events:
             input_event_name = ie["name"].replace(" ", "").lower()
