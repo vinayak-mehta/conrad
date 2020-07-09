@@ -86,6 +86,40 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Fishers",
+        "country": "USA",
+        "end_date": "2020-06-19",
+        "kind": "conference",
+        "name": "Python Web Conf",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-06-17",
+        "state": "Indiana",
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.pythonwebconf.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-07-05",
+        "kind": "conference",
+        "name": "FlaskCon",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-07-04",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://flaskcon.com/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2020-02-11",
         "cfp_open": false,
         "city": "Austin",
@@ -100,6 +134,23 @@
             "python"
         ],
         "url": "https://www.scipy2020.scipy.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Dublin",
+        "country": "Ireland",
+        "end_date": "2020-09-26",
+        "kind": "conference",
+        "name": "EuroPython",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-09-23",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://ep2020.europython.eu/"
     },
     {
         "by": "bot",
@@ -122,8 +173,8 @@
         "by": "bot",
         "cfp_end_date": "2020-07-12",
         "cfp_open": true,
-        "city": null,
-        "country": null,
+        "city": "Adelaide",
+        "country": "Australia",
         "end_date": "2020-09-06",
         "kind": "conference",
         "name": "PyConline AU",
@@ -134,6 +185,23 @@
             "python"
         ],
         "url": "https://2020.pycon.org.au/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-07-12",
+        "cfp_open": true,
+        "city": "Adelaide",
+        "country": "Australia",
+        "end_date": "2020-09-04",
+        "kind": "conference",
+        "name": "DjangoCon AU",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-09-04",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.djangocon.com.au/"
     },
     {
         "by": "bot",
@@ -151,6 +219,23 @@
             "python"
         ],
         "url": "https://2020.pycon.sk/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-03-01",
+        "cfp_open": false,
+        "city": "Porto",
+        "country": "Portugal",
+        "end_date": "2020-09-20",
+        "kind": "conference",
+        "name": "DjangoCon Europe",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-09-16",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.djangocon.eu/"
     },
     {
         "by": "bot",
@@ -205,15 +290,15 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
+        "cfp_end_date": "2020-07-26",
+        "cfp_open": true,
         "city": "Granada",
         "country": "Spain",
-        "end_date": "2020-10-04",
+        "end_date": "2020-10-03",
         "kind": "conference",
         "name": "PyCon ES",
         "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-10-02",
+        "start_date": "2020-10-03",
         "state": null,
         "tags": [
             "python"
@@ -224,8 +309,8 @@
         "by": "bot",
         "cfp_end_date": "2020-08-14",
         "cfp_open": true,
-        "city": null,
-        "country": null,
+        "city": "Bengaluru",
+        "country": "India",
         "end_date": "2020-10-05",
         "kind": "conference",
         "name": "PyCon India",
@@ -236,6 +321,23 @@
             "python"
         ],
         "url": "https://in.pycon.org/2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-07-20",
+        "cfp_open": true,
+        "city": "Berlin",
+        "country": "Germany",
+        "end_date": "2020-10-17",
+        "kind": "conference",
+        "name": "JupyterCon",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-10-05",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://jupytercon.com"
     },
     {
         "by": "bot",
@@ -273,10 +375,27 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Addis Ababa",
+        "country": "Ethiopia",
+        "end_date": "2020-11-13",
+        "kind": "conference",
+        "name": "DjangoCon Africa",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-11-09",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.djangocon.africa/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2020-09-30",
         "cfp_open": true,
-        "city": null,
-        "country": null,
+        "city": "Stockholm",
+        "country": "Sweden",
         "end_date": "2020-11-13",
         "kind": "conference",
         "name": "PyCon Sweden",
