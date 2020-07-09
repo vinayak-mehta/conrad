@@ -443,18 +443,26 @@ def _import(ctx, *args, **kwargs):
         event_end_date = dt.datetime.strptime(e["end_date"], "%Y-%m-%d")
         if event_end_date < now:
             continue
+
+        cfp_end_date = dt.datetime.strptime(e["cfp_end_date"], "%Y-%m-%d")
+        if cfp_end_date < now:
+            e["cfp_open"] = False
+
         events.append(e)
     removed = len(old_events) - len(events)
     s = "s" if removed > 1 else ""
     click.echo(f"Removed {removed} old event{s}!")
 
-    # TODO: update cfp to false when cfp_end_date < now
     pattern = "[0-9]"
     new_events = []
     for ie in input_events:
         event_end_date = dt.datetime.strptime(ie["end_date"], "%Y-%m-%d")
         if event_end_date < now:
             continue
+
+        cfp_end_date = dt.datetime.strptime(ie["cfp_end_date"], "%Y-%m-%d")
+        if cfp_end_date < now:
+            ie["cfp_open"] = False
 
         match = False
         for e in events:

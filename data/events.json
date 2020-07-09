@@ -1,15 +1,15 @@
 [
     {
         "by": "human",
-        "cfp_end_date": "2020-04-20",
+        "cfp_end_date": "2020-07-20",
         "cfp_open": true,
         "city": "Berlin",
         "country": "Germany",
-        "end_date": "2020-08-14",
+        "end_date": "2020-10-17",
         "kind": "conference",
         "name": "JupyterCon",
         "source": "https://jupytercon.com",
-        "start_date": "2020-08-10",
+        "start_date": "2020-10-05",
         "state": null,
         "tags": [
             "jupyter"
