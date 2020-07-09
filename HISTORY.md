@@ -4,6 +4,9 @@ Release History
 master
 ------
 
+0.6.0 (2020-07-10)
+------------------
+
 * [#46](https://github.com/vinayak-mehta/conrad/issues/46) Highlight events on conrad show for which reminders have been set. [225972d](https://github.com/vinayak-mehta/conrad/commit/225972d4ca505832cdcb2009b2c81cd0588d1532) by Vinayak Mehta.
 
 0.5.0 (2020-07-09)
