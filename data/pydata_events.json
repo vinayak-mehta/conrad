@@ -39,11 +39,11 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Tel Aviv",
-        "country": "Israel",
-        "end_date": "2020-11-11",
+        "city": null,
+        "country": null,
+        "end_date": "2020-11-15",
         "kind": "conference",
-        "name": "PyData Israel 2020",
+        "name": "PyData Global",
         "source": "https://pydata.org/event-schedule/",
         "start_date": "2020-11-11",
         "state": null,
@@ -51,6 +51,6 @@
             "python",
             "pydata"
         ],
-        "url": "https://pydata.org/events/pydata-israel-2020/"
+        "url": "https://pydata.org/events/pydata-global/"
     }
 ]
