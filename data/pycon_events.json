@@ -120,6 +120,23 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2020-07-12",
+        "cfp_open": true,
+        "city": null,
+        "country": null,
+        "end_date": "2020-09-06",
+        "kind": "conference",
+        "name": "PyConline AU",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-09-04",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.pycon.org.au/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2020-01-31",
         "cfp_open": false,
         "city": "Bratislava",
@@ -172,7 +189,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2020-07-05",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "New York",
         "country": "USA",
         "end_date": "2020-10-03",
@@ -202,6 +219,23 @@
             "python"
         ],
         "url": "https://2020.es.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-08-14",
+        "cfp_open": true,
+        "city": null,
+        "country": null,
+        "end_date": "2020-10-05",
+        "kind": "conference",
+        "name": "PyCon India",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-10-02",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://in.pycon.org/2020/"
     },
     {
         "by": "bot",
@@ -236,5 +270,22 @@
             "python"
         ],
         "url": "https://www.pycon.it/en/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-09-30",
+        "cfp_open": true,
+        "city": null,
+        "country": null,
+        "end_date": "2020-11-13",
+        "kind": "conference",
+        "name": "PyCon Sweden",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-11-12",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "http://www.pycon.se"
     }
 ]
