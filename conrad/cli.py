@@ -210,6 +210,11 @@ def _refresh(ctx, *args, **kwargs):
 
 @cli.command("show", short_help="Show all saved events.")
 @click.option(
+    "--id",
+    "-i",
+    help="Show event with a particular id.",
+)
+@click.option(
     "--cfp",
     "-c",
     is_flag=True,
@@ -242,6 +247,7 @@ def _show(ctx, *args, **kwargs):
     # TODO: conrad show --new
     initialize_conrad()
 
+    _id = kwargs["id"]
     cfp = kwargs["cfp"]
     tag = kwargs["tag"]
     name = kwargs["name"]
@@ -249,6 +255,8 @@ def _show(ctx, *args, **kwargs):
     location = kwargs["location"]
 
     filters = []
+    if _id:
+        filters.append(Event.id == _id)
     if cfp:
         filters.append(Event.cfp_open.is_(cfp))
     if tag:
