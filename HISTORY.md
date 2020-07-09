@@ -4,6 +4,12 @@ Release History
 master
 ------
 
+0.5.0 (2020-07-09)
+------------------
+* Add `--id` filter for the `show` command.
+* Automatically set cfp flag to False if date has passed and don't import old events in the `import` command.
+
+
 0.4.0 (2020-05-24)
 ------------------
 
