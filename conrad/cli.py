@@ -291,6 +291,7 @@ def _show(ctx, *args, **kwargs):
     events = list(
         session.query(Event).filter(*filters).order_by(Event.start_date).all()
     )
+
     if len(events) > 0:
         header = [
             "id",
@@ -304,19 +305,24 @@ def _show(ctx, *args, **kwargs):
         ]
         events_output = []
 
+        rids = [r.id for r in session.query(Reminder).all()]
         for event in events:
-            events_output.append(
-                [
-                    event.id,
-                    event.name,
-                    event.url,
-                    event.city,
-                    event.state,
-                    event.country,
-                    event.start_date.strftime("%Y-%m-%d"),
-                    event.end_date.strftime("%Y-%m-%d"),
-                ]
-            )
+            event_output = [
+                event.id,
+                event.name,
+                event.url,
+                event.city,
+                event.state,
+                event.country,
+                event.start_date.strftime("%Y-%m-%d"),
+                event.end_date.strftime("%Y-%m-%d"),
+            ]
+
+            # highlight event which has a reminder set
+            if event.id in rids:
+                event_output = list(map(lambda x: f"{Fore.WHITE}{Style.BRIGHT}{x}{Style.RESET_ALL}", event_output))
+
+            events_output.append(event_output)
         session.close()
 
         formatted = tabular_output.format_output(
