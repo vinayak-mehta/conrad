@@ -172,7 +172,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2020-07-12",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Adelaide",
         "country": "Australia",
         "end_date": "2020-09-06",
@@ -189,7 +189,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2020-07-12",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Adelaide",
         "country": "Australia",
         "end_date": "2020-09-04",
