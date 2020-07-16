@@ -273,6 +273,23 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2020-07-14",
+        "cfp_open": false,
+        "city": "Seoul",
+        "country": "South Korea",
+        "end_date": "2020-09-27",
+        "kind": "conference",
+        "name": "PyCon Korea",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-09-26",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.kr/2020/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2020-07-05",
         "cfp_open": false,
         "city": "New York",
