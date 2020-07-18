@@ -29,7 +29,8 @@ def get_events():
     click.echo("Fetching latest events!")
 
     response = requests.get(
-        "https://raw.githubusercontent.com/vinayak-mehta/conrad/master/data/events.json"
+        "https://raw.githubusercontent.com/vinayak-mehta/conrad/master/data/events.json",
+        timeout=5
     )
     with open(os.path.join(CONRAD_HOME, "events.json"), "w") as f:
         f.write(json.dumps(response.json()))
