@@ -56,6 +56,14 @@ $ conrad remind
 
 ![remind](https://raw.githubusercontent.com/vinayak-mehta/conrad/master/docs/_static/remind.png)
 
+You can use the -gcal flag to generate a Google calendar link. Access this link in a browser to add it your Google calendar.
+
+<pre>
+$ conrad  remind -i ede095 -gcal
+Google Calendar Link: http://www.google.com/calendar/event?action=TEMPLATE&dates=20200706%2F20200712&text=SciPy
+Reminder set!
+</pre>
+
 **Protip**: Add `conrad remind` to your shell startup file so that you get a reminder every time you open a new terminal!
 
 ### Query and explore
