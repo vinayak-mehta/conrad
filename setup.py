@@ -14,12 +14,12 @@ with open("README.md", "r") as f:
 
 
 requires = [
-    "Click==7.0",
-    "cli-helpers==1.2.1",
-    "colorama==0.4.1",
-    "requests==2.22.0",
-    "SQLAlchemy==1.3.10",
-    "textdistance==4.1.5",
+    "Click>=7.0",
+    "cli-helpers>=1.2.1",
+    "colorama>=0.4.1",
+    "requests>=2.22.0",
+    "SQLAlchemy>=1.3.10",
+    "textdistance>=4.1.5",
 ]
 dev_requires = ["Sphinx==2.2.1"]
 dev_requires = dev_requires + requires
