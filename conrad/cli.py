@@ -216,6 +216,11 @@ def _refresh(ctx, *args, **kwargs):
     help="Show event with a particular id.",
 )
 @click.option(
+    "--kind",
+    "-k",
+    help="Show kind of event, conference or meetup.",
+)
+@click.option(
     "--cfp",
     "-c",
     is_flag=True,
@@ -249,6 +254,7 @@ def _show(ctx, *args, **kwargs):
     initialize_conrad()
 
     _id = kwargs["id"]
+    kind = kwargs["kind"]
     cfp = kwargs["cfp"]
     tag = kwargs["tag"]
     name = kwargs["name"]
@@ -258,6 +264,8 @@ def _show(ctx, *args, **kwargs):
     filters = []
     if _id:
         filters.append(Event.id == _id)
+    if kind:
+        filters.append(Event.kind == kind)
     if cfp:
         filters.append(Event.cfp_open.is_(cfp))
     if tag:
