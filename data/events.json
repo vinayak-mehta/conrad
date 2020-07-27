@@ -35,23 +35,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2020-06-14",
-        "cfp_open": false,
-        "city": "Columbus",
-        "country": "USA",
-        "end_date": "2020-07-26",
-        "kind": "conference",
-        "name": "PyOhio",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-07-25",
-        "state": "Ohio",
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.pyohio.org/2020/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Austin",
@@ -206,7 +189,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2020-07-26",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Granada",
         "country": "Spain",
         "end_date": "2020-10-03",
@@ -464,23 +447,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Dublin",
-        "country": "Ireland",
-        "end_date": "2020-07-26",
-        "kind": "conference",
-        "name": "EuroPython",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-07-23",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://ep2020.europython.eu/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2020-07-12",
         "cfp_open": false,
         "city": "Adelaide",
@@ -563,5 +529,39 @@
             "python"
         ],
         "url": "https://pycon.kr/2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-09-22",
+        "kind": "conference",
+        "name": "Python Machine Learning & GeoPython 2020",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-09-21",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.pythonml.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-09-05",
+        "cfp_open": true,
+        "city": null,
+        "country": null,
+        "end_date": "2020-12-05",
+        "kind": "conference",
+        "name": "Pyjamas Conf",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-12-05",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pyjamas.live/"
     }
 ]
