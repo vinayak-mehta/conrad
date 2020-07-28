@@ -1,37 +1,5 @@
 [
     {
-        "by": "human",
-        "cfp_end_date": "2019-10-01",
-        "cfp_open": false,
-        "city": "Austin",
-        "country": "USA",
-        "end_date": "2020-07-13",
-        "kind": "conference",
-        "name": "SciPy 2020",
-        "source": "https://www.python.org/events/",
-        "start_date": "2020-07-06",
-        "state": "Texas",
-        "tags": "['python']",
-        "url": "https://www.scipy2020.scipy.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Dublin",
-        "country": "Ireland",
-        "end_date": "2020-07-26",
-        "kind": "conference",
-        "name": "EuroPython",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-07-20",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": ""
-    },
-    {
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
@@ -47,55 +15,6 @@
             "python"
         ],
         "url": "https://www.euroscipy.org/"
-    },
-    {
-        "by": "human",
-        "cfp_end_date": "2019-10-01",
-        "cfp_open": false,
-        "city": "Austin",
-        "country": "USA",
-        "end_date": "2021-07-19",
-        "kind": "conference",
-        "name": "SciPy 2021",
-        "source": "https://www.python.org/events/",
-        "start_date": "2021-07-12",
-        "state": "Texas",
-        "tags": "['python']",
-        "url": "https://www.scipy2021.scipy.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2019-12-20",
-        "cfp_open": false,
-        "city": "Pittsburgh",
-        "country": "USA",
-        "end_date": "2020-04-23",
-        "kind": "conference",
-        "name": "PyCon US",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-04-15",
-        "state": "Pennsylvania",
-        "tags": [
-            "python"
-        ],
-        "url": "https://us.pycon.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Berlin",
-        "country": "Germany",
-        "end_date": "2020-10-16",
-        "kind": "conference",
-        "name": "PyConDE & PyData Berlin 2020",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-10-14",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://de.pycon.org"
     },
     {
         "by": "bot",
@@ -118,47 +37,13 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Columbus",
-        "country": "USA",
-        "end_date": "2020-07-26",
-        "kind": "conference",
-        "name": "PyOhio",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-07-25",
-        "state": "Ohio",
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.pyohio.org/2020/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Nashville",
-        "country": "USA",
-        "end_date": "2020-03-08",
-        "kind": "conference",
-        "name": "PyTennessee",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-03-07",
-        "state": "Tennessee",
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.pytennessee.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Austin",
         "country": "USA",
-        "end_date": "2020-05-17",
+        "end_date": "2020-10-25",
         "kind": "conference",
         "name": "PyTexas",
         "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-05-16",
+        "start_date": "2020-10-24",
         "state": "Texas",
         "tags": [
             "python"
@@ -171,11 +56,11 @@
         "cfp_open": false,
         "city": "Florence",
         "country": "Italy",
-        "end_date": "2020-04-05",
+        "end_date": "2020-11-08",
         "kind": "conference",
         "name": "PyCon Italy",
         "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-04-02",
+        "start_date": "2020-11-05",
         "state": null,
         "tags": [
             "python"
@@ -184,134 +69,15 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2020-01-13",
-        "cfp_open": true,
-        "city": "Moscow",
-        "country": "Russia",
-        "end_date": "2020-03-27",
-        "kind": "conference",
-        "name": "Moscow Python Conf ++ 2020",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-03-27",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://conf.python.ru/en/2020"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2019-10-01",
-        "cfp_open": false,
-        "city": "Portland",
-        "country": "USA",
-        "end_date": "2020-02-09",
-        "kind": "conference",
-        "name": "PyCascades",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-02-08",
-        "state": "Oregon",
-        "tags": [
-            "python"
-        ],
-        "url": "https://2020.pycascades.com"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2019-12-27",
-        "cfp_open": true,
-        "city": "Windhoek",
-        "country": "Namibia",
-        "end_date": "2020-02-20",
-        "kind": "conference",
-        "name": "PyCon Namibia",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-02-18",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://na.pycon.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Milano",
-        "country": "Italy",
-        "end_date": "2020-01-28",
-        "kind": "conference",
-        "name": "Microsoft Ignite",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-01-27",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://www.microsoft.com/en-us/ignite"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Milano",
-        "country": "Italy",
-        "end_date": "2020-02-20",
-        "kind": "conference",
-        "name": "ServerlessDays 2020",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-02-20",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://rome.serverlessdays.io/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Bologna",
-        "country": "Italy",
-        "end_date": "2020-03-06",
-        "kind": "conference",
-        "name": "Incontro DevOps",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-05",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.incontrodevops.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Faenza",
-        "country": "Italy",
-        "end_date": "2020-03-13",
-        "kind": "conference",
-        "name": "CSSDay",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-13",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.cssday.it/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Firenze",
         "country": "Italy",
-        "end_date": "2020-03-14",
+        "end_date": "2020-11-21",
         "kind": "conference",
         "name": "QtDay 2020",
         "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-13",
+        "start_date": "2020-11-20",
         "state": null,
         "tags": [
             "technology"
@@ -324,186 +90,16 @@
         "cfp_open": false,
         "city": "Torino",
         "country": "Italy",
-        "end_date": "2020-03-19",
-        "kind": "conference",
-        "name": "CloudConf 2020",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-19",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.cloudconf.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Roma",
-        "country": "Italy",
-        "end_date": "2020-03-28",
-        "kind": "conference",
-        "name": "Codemotion",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-27",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://events.codemotion.com/conferences/rome/2020/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Verona",
-        "country": "Italy",
-        "end_date": "2020-04-02",
-        "kind": "conference",
-        "name": "Ruby Day",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-04-02",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.rubyday.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Verona",
-        "country": "Italy",
-        "end_date": "2020-04-03",
-        "kind": "conference",
-        "name": "VueDay",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-04-03",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.vueday.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Torino",
-        "country": "Italy",
-        "end_date": "2020-04-17",
+        "end_date": "2020-11-28",
         "kind": "conference",
         "name": "DroidCon",
         "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-04-16",
+        "start_date": "2020-11-27",
         "state": null,
         "tags": [
             "technology"
         ],
         "url": "https://it.droidcon.com/2020/it"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Milano",
-        "country": "Italy",
-        "end_date": "2020-04-29",
-        "kind": "conference",
-        "name": "ItaliaSec",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-04-28",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://cyberseries.io/italiasec/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Verona",
-        "country": "Italy",
-        "end_date": "2020-05-13",
-        "kind": "conference",
-        "name": "JSDay",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-05-12",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.jsday.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Verona",
-        "country": "Italy",
-        "end_date": "2020-05-15",
-        "kind": "conference",
-        "name": "PHP Day",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-05-14",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.phpday.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Milano",
-        "country": "Italy",
-        "end_date": "2020-05-16",
-        "kind": "conference",
-        "name": "Voxxed",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-05-16",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://voxxeddays.com/milan/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Verona",
-        "country": "Italy",
-        "end_date": "2020-06-12",
-        "kind": "conference",
-        "name": "Angular Day",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-06-11",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.angularday.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Bergamo",
-        "country": "Italy",
-        "end_date": "2020-06-12",
-        "kind": "conference",
-        "name": "PGDay.IT",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-06-11",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://2020.pgday.it"
     },
     {
         "by": "bot",
@@ -524,36 +120,448 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
+        "cfp_end_date": "2020-01-31",
         "cfp_open": false,
-        "city": "Milano",
-        "country": "Italy",
-        "end_date": "2020-03-26",
+        "city": "Bratislava",
+        "country": "Slovakia",
+        "end_date": "2020-09-13",
         "kind": "conference",
-        "name": "European Immersive Computing Summit 2020",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-03-25",
+        "name": "PyCon SK",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-09-11",
         "state": null,
         "tags": [
-            "technology"
+            "python"
         ],
-        "url": "https://eicsummit.com/"
+        "url": "https://2020.pycon.sk/"
     },
     {
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Milano",
-        "country": "Italy",
-        "end_date": "2020-02-07",
+        "city": "Ljubljana",
+        "country": "Slovenia",
+        "end_date": "2020-09-20",
         "kind": "conference",
-        "name": "IxDA",
+        "name": "DragonPy",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-09-19",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://dragonpy.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-01-15",
+        "cfp_open": false,
+        "city": "Istanbul",
+        "country": "Turkey",
+        "end_date": "2020-09-27",
+        "kind": "conference",
+        "name": "PyCon Turkey",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-09-26",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://tr.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Basel",
+        "country": "Switzerland",
+        "end_date": "2020-09-22",
+        "kind": "conference",
+        "name": "Python Machine Learning Conference",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-09-21",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "http://2020.pythonml.org"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-07-26",
+        "cfp_open": false,
+        "city": "Granada",
+        "country": "Spain",
+        "end_date": "2020-10-03",
+        "kind": "conference",
+        "name": "PyCon ES",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-10-03",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.es.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Warsaw",
+        "country": "Poland",
+        "end_date": "2020-11-11",
+        "kind": "conference",
+        "name": "PyData Warsaw 2020",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2020-11-09",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://pydata.org/warsaw2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Venezia",
+        "country": "Italy",
+        "end_date": "2020-09-12",
+        "kind": "conference",
+        "name": "Agile Business Day",
         "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-02-02",
+        "start_date": "2020-09-11",
         "state": null,
         "tags": [
             "technology"
         ],
-        "url": "https://interaction20.ixda.org/"
+        "url": "https://www.agilebusinessday.com/en/agile-business-day-2-2/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Verona",
+        "country": "Italy",
+        "end_date": "2020-10-16",
+        "kind": "conference",
+        "name": "ReactJSDay",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-10-16",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "http://reactjsday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Bologna",
+        "country": "Italy",
+        "end_date": "2020-10-23",
+        "kind": "conference",
+        "name": "ContainerDay",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-10-22",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.containerday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Firenze",
+        "country": "Italy",
+        "end_date": "2020-10-17",
+        "kind": "conference",
+        "name": "RustLab 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-10-16",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.rustlab.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Firenze",
+        "country": "Italy",
+        "end_date": "2020-10-20",
+        "kind": "conference",
+        "name": "GoLab",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-10-18",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://golab.io/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Montegrotto Terme (PD)",
+        "country": "Italy",
+        "end_date": "2020-10-11",
+        "kind": "conference",
+        "name": "Agile People Camp",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-10-09",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://agilemovement.it/agilepeoplecamp/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "end_date": "2020-11-11",
+        "kind": "conference",
+        "name": "PyData Israel 2020",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2020-11-11",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://pydata.org/events/pydata-israel-2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-08-22",
+        "kind": "conference",
+        "name": "PyData Los Angeles Virtual 2020",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2020-08-22",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://pydata.org/events/pydata-los-angeles-virtual-2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-07-05",
+        "cfp_open": false,
+        "city": "New York",
+        "country": "USA",
+        "end_date": "2020-10-03",
+        "kind": "conference",
+        "name": "PyGotham TV",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-10-02",
+        "state": "New York",
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.pygotham.tv"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-11-15",
+        "kind": "conference",
+        "name": "PyData Global",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2020-11-11",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://global.pydata.org//"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-07-12",
+        "cfp_open": false,
+        "city": "Adelaide",
+        "country": "Australia",
+        "end_date": "2020-09-06",
+        "kind": "conference",
+        "name": "PyConline AU",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-09-04",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.pycon.org.au/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-08-14",
+        "cfp_open": true,
+        "city": "Bengaluru",
+        "country": "India",
+        "end_date": "2020-10-05",
+        "kind": "conference",
+        "name": "PyCon India",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-10-02",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://in.pycon.org/2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-09-30",
+        "cfp_open": true,
+        "city": "Stockholm",
+        "country": "Sweden",
+        "end_date": "2020-11-13",
+        "kind": "conference",
+        "name": "PyCon Sweden",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-11-12",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "http://www.pycon.se"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-07-12",
+        "cfp_open": false,
+        "city": "Adelaide",
+        "country": "Australia",
+        "end_date": "2020-09-04",
+        "kind": "conference",
+        "name": "DjangoCon AU",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-09-04",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.djangocon.com.au/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-03-01",
+        "cfp_open": false,
+        "city": "Porto",
+        "country": "Portugal",
+        "end_date": "2020-09-20",
+        "kind": "conference",
+        "name": "DjangoCon Europe",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-09-16",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.djangocon.eu/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-07-20",
+        "cfp_open": false,
+        "city": "Berlin",
+        "country": "Germany",
+        "end_date": "2020-10-17",
+        "kind": "conference",
+        "name": "JupyterCon",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-10-05",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://jupytercon.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Addis Ababa",
+        "country": "Ethiopia",
+        "end_date": "2020-11-13",
+        "kind": "conference",
+        "name": "DjangoCon Africa",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-11-09",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.djangocon.africa/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-07-14",
+        "cfp_open": false,
+        "city": "Seoul",
+        "country": "South Korea",
+        "end_date": "2020-09-27",
+        "kind": "conference",
+        "name": "PyCon Korea",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-09-26",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.kr/2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-09-22",
+        "kind": "conference",
+        "name": "Python Machine Learning & GeoPython 2020",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-09-21",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.pythonml.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-09-05",
+        "cfp_open": true,
+        "city": null,
+        "country": null,
+        "end_date": "2020-12-05",
+        "kind": "conference",
+        "name": "Pyjamas Conf",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-12-05",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pyjamas.live/"
     }
 ]

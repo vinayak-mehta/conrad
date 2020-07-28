@@ -26,9 +26,6 @@ conrad — Conference Radar
 .. image:: https://img.shields.io/badge/continous%20quality-deepsource-lightgrey
     :target: https://deepsource.io/gh/vinayak-mehta/conrad/?ref=repository-badge
 
-.. image:: https://repl.it/badge/github/vinayak-mehta/conrad
-    :target: https://repl.it/github/vinayak-mehta/conrad
-
 ``conrad`` helps you track conferences and meetups on your terminal!
 
 ---

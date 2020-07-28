@@ -4,8 +4,36 @@ Release History
 master
 ------
 
+0.6.2 (2020-07-28)
+------------------
+
+* Unpin requirements.
+
+0.6.1 (2020-07-10)
+------------------
+
+* Add py38 trove classifier.
+
+0.6.0 (2020-07-10)
+------------------
+
+* [#46](https://github.com/vinayak-mehta/conrad/issues/46) Highlight events on conrad show for which reminders have been set. [225972d](https://github.com/vinayak-mehta/conrad/commit/225972d4ca505832cdcb2009b2c81cd0588d1532) by Vinayak Mehta.
+
+0.5.0 (2020-07-09)
+------------------
+* Add `--id` filter for the `show` command.
+* Automatically set cfp flag to False if date has passed and don't import old events in the `import` command.
+
+
+0.4.0 (2020-05-24)
+------------------
+
 **Improvements**
 
+* Replace `.format` with f-strings! [5d5a917](https://github.com/vinayak-mehta/conrad/commit/5d5a9172231602427d7a959a7f3bbd3508d62a9a)
+* Use [click.get_app_dir](https://github.com/vinayak-mehta/conrad/commit/6f2da95d85a7624568ae47cfe3348adca15629bf) for `CONRAD_HOME`.
+* Fix days left [comparison operators](https://github.com/vinayak-mehta/conrad/commit/b4ffc0d54ded8dd9ae94ecd9202715512264583b).
+* [#100](https://github.com/vinayak-mehta/conrad/issues/100) Use start date when cfp date has passed. [5d5a917](https://github.com/vinayak-mehta/conrad/commit/5d5a9172231602427d7a959a7f3bbd3508d62a9a) by Vinayak Mehta.
 * [#85](https://github.com/vinayak-mehta/conrad/issues/85) Add crawler for awesome-italy-events. [#91](https://github.com/vinayak-mehta/conrad/pull/91) by Vinayak Mehta.
 
 0.3.2 (2019-11-08)
