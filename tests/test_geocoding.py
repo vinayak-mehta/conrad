@@ -1,13 +1,15 @@
-"""-*- coding: utf-8 -*-."""
+# -*- coding: utf-8 -*-
 
-from conrad.utils import standard_address
+from conrad.utils import get_address
+
 
 NYC_ADDRESS = {
-    "townhall": "New York City Hall",
+    "amenity": "New York City Hall",
     "house_number": "260",
     "road": "Broadway",
+    "neighbourhood": "Civic Center",
     "suburb": "Manhattan",
-    "city": "New York",
+    "city": "Manhattan Community Board 1",
     "county": "New York County",
     "state": "New York",
     "postcode": "10000",
@@ -18,10 +20,13 @@ NYC_ADDRESS = {
 }
 
 
-def test_standard_address():
-    """Test standard address geocoding."""
-    bad_place = "doesnotexist"
-    empty = standard_address(bad_place)
-    good_place = "New York"
-    nyc = standard_address(good_place)
-    assert (empty, nyc) == ({}, nyc)
+def test_bad_place():
+    place = "doesnotexist"
+    address = get_address(place)
+    assert address is None
+
+
+def test_good_place():
+    place = "New York"
+    address = get_address(place)
+    assert address == NYC_ADDRESS

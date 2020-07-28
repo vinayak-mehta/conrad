@@ -5,10 +5,6 @@ from .db import engine
 import geopy.exc as geopyexceptions
 from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
-# open street maps nominatim geocoder
-geolocator = Nominatim(user_agent='conrad')
-# Delay between geocoding calls to not run out of calls
-geocode = RateLimiter(geolocator.geocode, min_delay_seconds=5)
 
 
 def initialize_database():
@@ -57,28 +53,21 @@ def validate(input_events):
     return failures
 
 
-"""Function is deliberately made recursive
-    to avoid timeout error
-"""
-def standard_address(place):
-    """Return the standard address
-    as dict given the name of a place
+def get_address(place):
+    geolocator = Nominatim(user_agent="conrad")
+    geocode = RateLimiter(geolocator.geocode, min_delay_seconds=5)
 
-    place (str): name of the place
-    returs (dict): standard address
-    """
+    address = None
     try:
         location = geolocator.geocode(place)
-        if location:
+        if location is not None:
             address = geolocator.reverse(
                 "{lat}, {lon}".format(lat=location.latitude, lon=location.longitude)
             ).raw["address"]
-            address['latitude'] = location.latitude
-            address['longitude'] = location.longitude
-        else:
-            # unable to geocode :(
-            address = {}
-        return address
+            address["latitude"] = location.latitude
+            address["longitude"] = location.longitude
     except geopyexceptions.GeocoderTimedOut:
-        # Timeout try again
-        standard_address(place)
+        # TODO: add 2 retries using tenacity
+        print(f"Geocoder timed out for {place}!")
+
+    return address
