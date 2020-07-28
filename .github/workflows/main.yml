@@ -9,6 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+    - shell: bash
+      env:
+        GOOGLE_SERVICE_ACCOUNT_CREDENTIALS: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_CREDENTIALS }}
+      run: |
+        echo "$GOOGLE_SERVICE_ACCOUNT_CREDENTIALS" > google_service_account_credentials.json
     - id: pycon
       name: Get PyCon events
       uses: ./.github/actions/get-events-action
