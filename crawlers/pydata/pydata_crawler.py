@@ -10,12 +10,13 @@ from ..base import BaseCrawler
 
 
 class PyDataEvent:
-    def __init__(self, name, country, city, start_date, end_date, url):
+    def __init__(self, name, city, country, location, start_date, end_date, url):
         self.name = name
         self.url = url
         self.city = city
         self.state = None
         self.country = country
+        self.location = location
         self.cfp_open = False
         self.cfp_end_date = "1970-01-01"
         self.start_date = start_date
@@ -32,6 +33,7 @@ class PyDataEvent:
             "city": self.city,
             "state": self.state,
             "country": self.country,
+            "location": self.location,
             "cfp_open": self.cfp_open,
             "cfp_end_date": self.cfp_end_date,
             "start_date": self.start_date.strftime(PyDataCrawler.DATE_FORMAT),
@@ -60,16 +62,17 @@ class PyDataCrawler(BaseCrawler):
         content = json.loads(event_article.decode_contents())
 
         try:
-            city, country = content["location"]["name"].split(", ")
-        except (KeyError, ValueError):
-            city = None
-            country = None
+            location = content.get("location", {}).get("name")
+            city, country = location.split(", ")
+        except (KeyError, ValueError, AttributeError):
+            city = country = None
 
         return PyDataEvent(
             name=content["name"],
             url=content["url"],
             city=city,
             country=country,
+            location=location,
             start_date=self._format_date(content["startDate"]),
             end_date=self._format_date(content["endDate"]),
         )

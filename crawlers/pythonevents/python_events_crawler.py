@@ -75,6 +75,7 @@ class PythonEventsCrawler(BaseCrawler):
                 "city": None,
                 "state": None,
                 "country": None,
+                "location": event.get("location"),
                 "cfp_open": False,
                 "cfp_end_date": "1970-01-01",
                 "start_date": start_date,

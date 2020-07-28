@@ -55,6 +55,7 @@ def rebuild_events_table():
             city=event["city"],
             state=event["state"],
             country=event["country"],
+            location=event["location"],
             cfp_open=event["cfp_open"],
             cfp_end_date=dt.datetime.strptime(event["cfp_end_date"], "%Y-%m-%d"),
             start_date=dt.datetime.strptime(event["start_date"], "%Y-%m-%d"),
@@ -70,9 +71,9 @@ def rebuild_events_table():
 
 
 def initialize_conrad():
-    conrad_update = os.path.join(CONRAD_HOME, ".conrad-update")
-    if not os.path.exists(conrad_update):
-        with open(conrad_update, "w") as f:
+    updated_at = os.path.join(CONRAD_HOME, ".updated_at")
+    if not os.path.exists(updated_at):
+        with open(updated_at, "w") as f:
             f.write(dt.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"))
 
     if not os.path.exists(os.path.join(CONRAD_HOME, "conrad.db")):
@@ -91,9 +92,9 @@ def refresh_conrad():
     rebuild_events_table()
 
 
-def update_conrad_update():
-    conrad_update = os.path.join(CONRAD_HOME, ".conrad-update")
-    with open(conrad_update, "w") as f:
+def set_update_timestamp():
+    updated_at = os.path.join(CONRAD_HOME, ".updated_at")
+    with open(updated_at, "w") as f:
         f.write(dt.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"))
 
 
@@ -118,17 +119,17 @@ def clean_old_events():
 
 
 def auto_refresh():
-    conrad_update = os.path.join(CONRAD_HOME, ".conrad-update")
-    if not os.path.exists(conrad_update):
-        update_conrad_update()
+    updated_at = os.path.join(CONRAD_HOME, ".updated_at")
+    if not os.path.exists(updated_at):
+        set_update_timestamp()
 
-    with open(conrad_update, "r") as f:
-        last_update = dt.datetime.strptime(f.read().strip(), "%Y-%m-%dT%H:%M:%S")
+    with open(updated_at, "r") as f:
+        last_updated_at = dt.datetime.strptime(f.read().strip(), "%Y-%m-%dT%H:%M:%S")
 
-    if (dt.datetime.now() - last_update) > dt.timedelta(days=1):
+    if (dt.datetime.now() - last_updated_at) > dt.timedelta(days=1):
         refresh_conrad()
         clean_old_events()
-        update_conrad_update()
+        set_update_timestamp()
 
 
 # https://stackoverflow.com/a/50889894
@@ -293,9 +294,11 @@ def _show(ctx, *args, **kwargs):
     if location:
         filters.append(
             sqlalchemy.or_(
+                Event.name.ilike(f"%{location}%"),
                 Event.city.ilike(f"%{location}%"),
                 Event.state.ilike(f"%{location}%"),
                 Event.country.ilike(f"%{location}%"),
+                Event.location.ilike(f"%{location}%"),
             )
         )
 
