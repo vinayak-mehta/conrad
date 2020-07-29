@@ -43,7 +43,7 @@ def setup_package():
         packages=find_packages(exclude=("tests",)),
         install_requires=requires,
         extras_require={"dev": dev_requires},
-        entry_points={"console_scripts": ["conrad = conrad.cli:cli"]},
+        entry_points={"console_scripts": ["conrad = conrad.__main__:main"]},
         classifiers=[
             # Trove classifiers
             # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
