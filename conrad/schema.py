@@ -34,3 +34,5 @@ _v2 = {
     "kind": {"type": "string", "allowed": ["conference", "meetup"], "required": True},
     "by": {"type": "string", "allowed": ["human", "bot"], "required": True},
 }
+
+latest = eval(f"_v{LATEST}")

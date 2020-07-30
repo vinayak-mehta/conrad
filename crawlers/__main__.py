@@ -4,7 +4,6 @@ import sys
 import inspect
 
 from . import *
-from .schema import LATEST
 
 
 def main():
@@ -19,10 +18,7 @@ def main():
         Crawler = eval(crawler[0])
         c = Crawler()
         c.get_events()
-
-        versions = list(map(str, range(1, int(LATEST) + 1)))
-        for v in versions:
-            c.export(f"data/v{v}/{filename}_events.json", version=v)
+        c.export(f"data/{filename}.json")
     else:
         print("Crawler not found!")
 

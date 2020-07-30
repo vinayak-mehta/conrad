@@ -6,7 +6,7 @@ import datetime as dt
 
 from cerberus import Validator
 
-from .schema import _v1, _v2, LATEST
+from conrad.schema import latest
 
 
 class EventValidator(Validator):
@@ -32,25 +32,13 @@ class BaseCrawler(object):
     def get_events(self):
         pass
 
-    def export(self, filename, version="2"):
-        _schema = eval(f"_v{LATEST}")
-
-        if version == LATEST:
-            v = EventValidator(_schema)
-            for event in self.events:
-                v.validate(event)
-                if v.errors:
-                    for key, val in v.errors.items():
-                        print(f"{event['name']} - {key}: {val}")
-
-        events = []
+    def export(self, filename):
+        v = EventValidator(latest)
         for event in self.events:
-            _event = dict({k: v for k, v in event.items() if k in _schema.keys()})
-            events.append(_event)
-
-        export_dir = os.path.dirname(filename)
-        if not os.path.exists(export_dir):
-            os.makedirs(export_dir)
+            v.validate(event)
+            if v.errors:
+                for key, val in v.errors.items():
+                    print(f"{event['name']} - {key}: {val}")
 
         with open(filename, "w") as f:
             f.write(json.dumps(events, indent=4, sort_keys=True))

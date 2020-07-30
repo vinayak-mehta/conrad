@@ -12,6 +12,7 @@ import geopy.exc as geopyexceptions
 from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
 
+from .schema import *
 from .db import engine
 from . import __version__, CONRAD_HOME
 
@@ -167,3 +168,14 @@ def get_address(place):
         print(f"Geocoder timed out for {place}!")
 
     return address
+
+
+def apply_schema(events, version=LATEST):
+    schema = eval("_v{version}")
+    _events = []
+
+    for event in events:
+        _event = dict({k: v for k, v in event.items() if k in schema.keys()})
+        _events.append(_event)
+
+    return _events
