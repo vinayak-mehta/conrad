@@ -479,9 +479,8 @@ def _import(ctx, *args, **kwargs):
         old_events.append(e)
 
     removed = len(events) - len(old_events)
-    if removed > 0:
-        s = "s" if removed > 1 else ""
-        click.echo(f"Removed {removed} old event{s}!")
+    s = "s" if removed != 1 else ""
+    click.echo(f"Removed {removed} old event{s}!")
 
     pattern = "[0-9]"
     new_events = []
@@ -514,7 +513,7 @@ def _import(ctx, *args, **kwargs):
             new_events.append(ie)
     old_events.extend(new_events)
 
-    s = "s" if len(new_events) > 1 else ""
+    s = "s" if len(new_events) != 1 else ""
     click.echo(f"Added {len(new_events)} new event{s}!")
     with open(events_path, "w") as f:
         f.write(json.dumps(old_events, indent=4, sort_keys=True))
