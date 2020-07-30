@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import os
 import json
 import datetime as dt
 
@@ -41,4 +40,4 @@ class BaseCrawler(object):
                     print(f"{event['name']} - {key}: {val}")
 
         with open(filename, "w") as f:
-            f.write(json.dumps(events, indent=4, sort_keys=True))
+            f.write(json.dumps(self.events, indent=4, sort_keys=True))
