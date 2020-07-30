@@ -7,7 +7,7 @@ import requests
 from ..base import BaseCrawler
 
 
-class ItalyEventsCrawler(BaseCrawler):
+class ItalyCrawler(BaseCrawler):
     def get_events(self):
         response = requests.get(
             "https://raw.githubusercontent.com/ildoc/awesome-italy-events/master/data/2020.json"

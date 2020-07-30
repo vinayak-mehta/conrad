@@ -475,6 +475,7 @@ def _import(ctx, *args, **kwargs):
     for e in events:
         event_end_date = dt.datetime.strptime(e["end_date"], "%Y-%m-%d")
         if event_end_date < now:
+            print(f"Removing {e['name']}")
             continue
 
         cfp_end_date = dt.datetime.strptime(e["cfp_end_date"], "%Y-%m-%d")

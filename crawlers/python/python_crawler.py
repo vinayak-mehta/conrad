@@ -9,7 +9,7 @@ from google.oauth2.service_account import Credentials
 from ..base import BaseCrawler
 
 
-class PythonEventsCrawler(BaseCrawler):
+class PythonCrawler(BaseCrawler):
     def get_events(self):
         credentials = Credentials.from_service_account_file(
             "google_service_account_credentials.json",
