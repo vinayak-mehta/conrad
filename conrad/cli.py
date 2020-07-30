@@ -29,16 +29,18 @@ def set_default_pager():
 def get_events():
     click.echo("Fetching latest events!")
 
+    events_filename = eval(f'f{LATEST}')
     response = requests.get(
-        "https://raw.githubusercontent.com/vinayak-mehta/conrad/master/data/events.json",
+        f"https://raw.githubusercontent.com/vinayak-mehta/conrad/master/data/{events_filename}",
         timeout=5
     )
-    with open(os.path.join(CONRAD_HOME, "events.json"), "w") as f:
+    with open(os.path.join(CONRAD_HOME, events_filename), "w") as f:
         f.write(json.dumps(response.json()))
 
 
 def rebuild_events_table():
-    with open(os.path.join(CONRAD_HOME, "events.json"), "r") as f:
+    events_filename = eval(f'f{LATEST}')
+    with open(os.path.join(CONRAD_HOME, events_filename), "r") as f:
         events = json.load(f)
 
     session = Session()
