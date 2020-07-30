@@ -17,10 +17,10 @@ requires = [
     "Click>=7.0",
     "cli-helpers>=1.2.1",
     "colorama>=0.4.1",
+    "geopy>=2.0.0",
     "requests>=2.22.0",
     "SQLAlchemy>=1.3.10",
-    "textdistance>=4.1.5",
-    "geopy>=1.20.0"
+    "textdistance>=4.1.5"
 ]
 dev_requires = [
     "Sphinx>=2.2.1",
