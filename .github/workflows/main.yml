@@ -10,26 +10,26 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - id: pycon
-      name: Get PyCon events action step
+      name: Get PyCon events
       uses: ./.github/actions/get-events-action
       with:
         crawler-name: 'PyConCrawler'
     - id: PyData
-      name: Get PyData events action step
+      name: Get PyData events
       uses: ./.github/actions/get-events-action
       with:
         crawler-name: 'PyDataCrawler'
     # - id: papercall
-    #   name: Get Papercall events action step
+    #   name: Get Papercall events
     #   uses: ./.github/actions/get-events-action
     #   with:
     #     crawler-name: 'PapercallCrawler'
     - id: Italy
-      name: Get Italy events action step
+      name: Get Italy events
       uses: ./.github/actions/get-events-action
       with:
         crawler-name: 'ItalyCrawler'
-    - name: Create pull request action step
+    - name: Create pull request
       uses: peter-evans/create-pull-request@v1.6.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
