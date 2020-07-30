@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 
-LATEST = "2"
+LATEST = "1"
 
-_v1 = {
+f1 = "events.json"
+v1 = {
     "name": {"type": "string", "minlength": 1, "required": True},
     "url": {"type": "string", "minlength": 1, "required": True},
     "city": {"type": "string", "minlength": 1, "required": True},
@@ -18,7 +19,8 @@ _v1 = {
     "by": {"type": "string", "allowed": ["human", "bot"], "required": True},
 }
 
-_v2 = {
+f2 = "events_v2.json"
+v2 = {
     "name": {"type": "string", "minlength": 1, "required": True},
     "url": {"type": "string", "minlength": 1, "required": True},
     "city": {"type": "string", "required": True, "nullable": True},
@@ -35,4 +37,4 @@ _v2 = {
     "by": {"type": "string", "allowed": ["human", "bot"], "required": True},
 }
 
-latest = eval(f"_v{LATEST}")
+latest = eval(f"v{LATEST}")

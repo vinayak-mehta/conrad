@@ -14,9 +14,10 @@ from colorama import Fore, Style
 from cli_helpers import tabular_output
 
 from . import __version__, CONRAD_HOME
+from .schema import *
 from .db import engine, Session
 from .models import Base, Event, Reminder
-from .utils import initialize_database, validate
+from .utils import apply_schema, initialize_database, validate_events
 
 
 def set_default_pager():
@@ -436,17 +437,17 @@ def _remind(ctx, *args, **kwargs):
 @click.pass_context
 def _import(ctx, *args, **kwargs):
     file = kwargs["file"]
-    EVENTS_PATH = os.path.join(os.getcwd(), "data", "events.json")
 
     if file is None:
         raise click.UsageError("No file provided!")
+
     if not os.path.exists(file):
         raise click.UsageError("File does not exist!")
 
     with open(file, "r") as f:
         input_events = json.load(f)
 
-    failures = validate(input_events)
+    failures = validate_events(input_events, version=LATEST)
     if len(failures) > 0:
         raise click.UsageError(
             "The following validations failed!\n{}".format(
@@ -457,12 +458,16 @@ def _import(ctx, *args, **kwargs):
             )
         )
 
-    with open(EVENTS_PATH, "r") as f:
-        old_events = json.load(f)
+    events_path = os.path.join(os.getcwd(), "data", f"{eval(f'f{LATEST}')}")
+    try:
+        with open(events_path, "r") as f:
+            events = json.load(f)
+    except (IOError, ValueError, KeyError, FileNotFoundError):
+        events = []
 
     now = dt.datetime.now()
-    events = []
-    for e in old_events:
+    old_events = []
+    for e in events:
         event_end_date = dt.datetime.strptime(e["end_date"], "%Y-%m-%d")
         if event_end_date < now:
             continue
@@ -471,10 +476,12 @@ def _import(ctx, *args, **kwargs):
         if cfp_end_date < now:
             e["cfp_open"] = False
 
-        events.append(e)
-    removed = len(old_events) - len(events)
-    s = "s" if removed > 1 else ""
-    click.echo(f"Removed {removed} old event{s}!")
+        old_events.append(e)
+
+    removed = len(events) - len(old_events)
+    if removed > 0:
+        s = "s" if removed > 1 else ""
+        click.echo(f"Removed {removed} old event{s}!")
 
     pattern = "[0-9]"
     new_events = []
@@ -488,26 +495,33 @@ def _import(ctx, *args, **kwargs):
             ie["cfp_open"] = False
 
         match = False
-        for e in events:
+        for oe in old_events:
             input_event_name = ie["name"].replace(" ", "").lower()
             input_event_name = re.sub(pattern, "", input_event_name)
 
-            event_name = e["name"].replace(" ", "").lower()
-            event_name = re.sub(pattern, "", event_name)
+            old_event_name = oe["name"].replace(" ", "").lower()
+            old_event_name = re.sub(pattern, "", old_event_name)
 
             similarity = textdistance.levenshtein.normalized_similarity(
-                input_event_name, event_name
+                input_event_name, old_event_name
             )
             if similarity > 0.9:
-                click.echo(f"Updating {e['name']}")
-                e.update(ie)
+                click.echo(f"Updating {oe['name']}")
+                oe.update(ie)
                 match = True
         if not match:
             click.echo(f"Adding {ie['name']}")
             new_events.append(ie)
-    events.extend(new_events)
+    old_events.extend(new_events)
 
     s = "s" if len(new_events) > 1 else ""
     click.echo(f"Added {len(new_events)} new event{s}!")
-    with open(EVENTS_PATH, "w") as f:
-        f.write(json.dumps(events, indent=4, sort_keys=True))
+    with open(events_path, "w") as f:
+        f.write(json.dumps(old_events, indent=4, sort_keys=True))
+
+    for version in reversed(range(1, int(LATEST))):
+        old_events = apply_schema(old_events, version=version)
+
+        events_path = os.path.join(os.getcwd(), "data", f"{eval(f'f{version}')}")
+        with open(events_path, "w") as f:
+            f.write(json.dumps(old_events, indent=4, sort_keys=True))
