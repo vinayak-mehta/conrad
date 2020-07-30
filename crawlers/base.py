@@ -1,26 +1,12 @@
 # -*- coding: utf-8 -*-
 
+import os
 import json
 import datetime as dt
 
 from cerberus import Validator
 
-
-schema = {
-    "name": {"type": "string", "minlength": 1, "required": True},
-    "url": {"type": "string", "minlength": 1, "required": True},
-    "city": {"type": "string", "minlength": 1, "required": True},
-    "state": {"type": "string", "required": True, "nullable": True},
-    "country": {"type": "string", "minlength": 1, "required": True},
-    "cfp_open": {"type": "boolean", "required": True},
-    "cfp_end_date": {"is_date": True, "type": "string", "required": True},
-    "start_date": {"is_date": True, "type": "string", "required": True},
-    "end_date": {"is_date": True, "type": "string", "required": True},
-    "source": {"type": "string", "minlength": 1, "required": True},
-    "tags": {"type": "list", "minlength": 1, "required": True},
-    "kind": {"type": "string", "allowed": ["conference", "meetup"], "required": True},
-    "by": {"type": "string", "allowed": ["human", "bot"], "required": True},
-}
+from .schema import _v1, _v2, LATEST
 
 
 class EventValidator(Validator):
@@ -46,13 +32,25 @@ class BaseCrawler(object):
     def get_events(self):
         pass
 
-    def export(self, filename):
-        v = EventValidator(schema)
+    def export(self, filename, version="2"):
+        _schema = eval(f"_v{LATEST}")
+
+        if version == LATEST:
+            v = EventValidator(_schema)
+            for event in self.events:
+                v.validate(event)
+                if v.errors:
+                    for key, val in v.errors.items():
+                        print(f"{event['name']} - {key}: {val}")
+
+        events = []
         for event in self.events:
-            v.validate(event)
-            if v.errors:
-                for key, val in v.errors.items():
-                    print(f"{event['name']} - {key}: {val}")
+            _event = dict({k: v for k, v in event.items() if k in _schema.keys()})
+            events.append(_event)
+
+        export_dir = os.path.dirname(filename)
+        if not os.path.exists(export_dir):
+            os.makedirs(export_dir)
 
         with open(filename, "w") as f:
-            f.write(json.dumps(self.events, indent=4, sort_keys=True))
+            f.write(json.dumps(events, indent=4, sort_keys=True))
