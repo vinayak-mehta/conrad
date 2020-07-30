@@ -519,8 +519,9 @@ def _import(ctx, *args, **kwargs):
         f.write(json.dumps(old_events, indent=4, sort_keys=True))
 
     for version in reversed(range(1, int(LATEST))):
-        old_events = apply_schema(old_events, version=version)
+        events = old_events.copy()
+        events = apply_schema(events, version=version)
 
         events_path = os.path.join(os.getcwd(), "data", f"{eval(f'f{version}')}")
         with open(events_path, "w") as f:
-            f.write(json.dumps(old_events, indent=4, sort_keys=True))
+            f.write(json.dumps(events, indent=4, sort_keys=True))
