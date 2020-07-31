@@ -1,0 +1,59 @@
+[
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-08-22",
+        "kind": "conference",
+        "location": "",
+        "name": "PyData Los Angeles Virtual 2020",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2020-08-22",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://pydata.org/events/pydata-los-angeles-virtual-2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Warsaw",
+        "country": "Poland",
+        "end_date": "2020-11-11",
+        "kind": "conference",
+        "location": "Warsaw, Poland",
+        "name": "PyData Warsaw 2020",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2020-11-09",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://pydata.org/warsaw2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-11-15",
+        "kind": "conference",
+        "location": "",
+        "name": "PyData Global",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2020-11-11",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://global.pydata.org//"
+    }
+]
