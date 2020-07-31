@@ -1,0 +1,362 @@
+[
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-08-30",
+        "kind": "conference",
+        "location": "Tokyo, Japan",
+        "name": "PyCon JP 2020",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-08-28",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.jp/2020"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-09-07",
+        "kind": "conference",
+        "location": "International Conference Hall ,No.1, University Road, Tainan City 701, Taiwan",
+        "name": "PyCon TW 2020",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-09-05",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "http://pycon.tw/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-09-14",
+        "kind": "conference",
+        "location": "Bratislava, Slovakia",
+        "name": "PyCon SK 2020",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-09-11",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.pycon.sk/en/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-09-21",
+        "kind": "conference",
+        "location": "Porto, Portugal",
+        "name": "DjangoCon Europe 2020",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-09-16",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.djangocon.eu/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-09-21",
+        "kind": "conference",
+        "location": "Ljubljana, Slovenia",
+        "name": "DragonPy 2020",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-09-19",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://dragonpy.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-09-21",
+        "kind": "conference",
+        "location": "Kota Kinabalu, Sabah, Malaysia",
+        "name": "PyCon APAC 2020",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-09-19",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.my"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-09-26",
+        "kind": "conference",
+        "location": "Copenhagen, Denmark",
+        "name": "Django Day Copenhagen",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-09-25",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://djangoday.dk/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-09-28",
+        "kind": "conference",
+        "location": "Albert Long Hall, at Bogazici University Istanbul",
+        "name": "PyCon Turkey",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-09-26",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://tr.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-10-06",
+        "kind": "conference",
+        "location": "Bangalore, India",
+        "name": "PyCon India 2020",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-10-02",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://in.pycon.org/2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-10-08",
+        "kind": "conference",
+        "location": null,
+        "name": "PyCon Estonia 20",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-10-08",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.ee"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-10-17",
+        "kind": "conference",
+        "location": "Berlin, Germany",
+        "name": "PyConDE & PyData Berlin 2020",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-10-14",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://de.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-10-24",
+        "kind": "conference",
+        "location": "Rapperswil, Switzerland",
+        "name": "Swiss Python Summit",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-10-23",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.python-summit.ch/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-11-03",
+        "kind": "conference",
+        "location": "Caxias do Sul, RS, Brazil",
+        "name": "Python Brasil 2020",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-10-28",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": null
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-11-01",
+        "kind": "conference",
+        "location": null,
+        "name": "SciPy Japan 2020",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-10-30",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.scipyjapan.scipy.org"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-11-02",
+        "kind": "conference",
+        "location": "London, UK",
+        "name": "PyData London 2020",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-10-30",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pydata.org/london2020"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-11-09",
+        "kind": "conference",
+        "location": "Florence, Italy",
+        "name": "PyCon Italia 2020",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-11-05",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "http://pycon.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-11-25",
+        "kind": "conference",
+        "location": "Mannheim, Germany",
+        "name": "enterPy",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-11-23",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.enterpy.de/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-05-21",
+        "kind": "conference",
+        "location": "Pittsburgh, PA, USA",
+        "name": "PyCon US 2021",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2021-05-12",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://us.pycon.org/2021/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-07-19",
+        "kind": "conference",
+        "location": "Austin, TX, US",
+        "name": "SciPy 2021",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2021-07-12",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.scipy2021.scipy.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-08-02",
+        "kind": "conference",
+        "location": "Dublin, Ireland",
+        "name": "EuroPython 2021",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2021-07-26",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.europython.eu/"
+    }
+]
