@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+import os
+import json
 import datetime as dt
 
 from bs4 import BeautifulSoup
@@ -11,8 +13,12 @@ from ..base import BaseCrawler
 
 class PythonCrawler(BaseCrawler):
     def get_events(self):
-        credentials = Credentials.from_service_account_file(
-            "google_service_account_credentials.json",
+        service_account_info = os.environ.get("GOOGLE_SERVICE_ACCOUNT_CREDENTIALS")
+        if service_account_info is None:
+            raise ValueError("Could not find service account info!")
+
+        credentials = Credentials.from_service_account_info(
+            json.loads(service_account_info),
             scopes=[
                 "https://www.googleapis.com/auth/calendar",
                 "https://www.googleapis.com/auth/calendar.readonly",
