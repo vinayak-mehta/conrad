@@ -13,12 +13,8 @@ from ..base import BaseCrawler
 
 class PythonCrawler(BaseCrawler):
     def get_events(self):
-        service_account_info = os.environ.get("GOOGLE_SERVICE_ACCOUNT_CREDENTIALS")
-        if service_account_info is None:
-            raise ValueError("Could not find service account info!")
-
-        credentials = Credentials.from_service_account_info(
-            json.loads(service_account_info),
+        credentials = Credentials.from_service_account_file(
+            "google_service_account_credentials.json",
             scopes=[
                 "https://www.googleapis.com/auth/calendar",
                 "https://www.googleapis.com/auth/calendar.readonly",
