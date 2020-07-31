@@ -8,7 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - shell: bash
+    - name: Save google service account credentials
+      shell: bash
       env:
         GOOGLE_SERVICE_ACCOUNT_CREDENTIALS: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_CREDENTIALS }}
       run: 'echo "$GOOGLE_SERVICE_ACCOUNT_CREDENTIALS" > google_service_account_credentials.json'
@@ -17,26 +18,26 @@ jobs:
       uses: ./.github/actions/get-events-action
       with:
         crawler-name: 'PythonCrawler'
-    # - id: pycon
-    #   name: Get PyCon events
-    #   uses: ./.github/actions/get-events-action
-    #   with:
-    #     crawler-name: 'PyConCrawler'
-    # - id: pydata
-    #   name: Get PyData events
-    #   uses: ./.github/actions/get-events-action
-    #   with:
-    #     crawler-name: 'PyDataCrawler'
+    - id: pycon
+      name: Get PyCon events
+      uses: ./.github/actions/get-events-action
+      with:
+        crawler-name: 'PyConCrawler'
+    - id: pydata
+      name: Get PyData events
+      uses: ./.github/actions/get-events-action
+      with:
+        crawler-name: 'PyDataCrawler'
     # - id: papercall
     #   name: Get Papercall events
     #   uses: ./.github/actions/get-events-action
     #   with:
     #     crawler-name: 'PapercallCrawler'
-    # - id: Italy
-    #   name: Get Italy events
-    #   uses: ./.github/actions/get-events-action
-    #   with:
-    #     crawler-name: 'ItalyCrawler'
+    - id: Italy
+      name: Get Italy events
+      uses: ./.github/actions/get-events-action
+      with:
+        crawler-name: 'ItalyCrawler'
     - name: Create pull request
       uses: peter-evans/create-pull-request@v1.6.0
       env:
