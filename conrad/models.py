@@ -18,6 +18,7 @@ class Event(Base):
     city = Column(String(STR_LEN))
     state = Column(String(STR_LEN))
     country = Column(String(STR_LEN))
+    location = Column(String(STR_LEN))
     cfp_open = Column(Boolean, default=False)
     cfp_end_date = Column(DateTime)
     start_date = Column(DateTime)

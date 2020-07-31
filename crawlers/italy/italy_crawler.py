@@ -23,6 +23,7 @@ class ItalyCrawler(BaseCrawler):
                 "city": event["location"],
                 "state": None,
                 "country": "Italy",
+                "location": event["location"],
                 "cfp_open": False,
                 "cfp_end_date": "1970-01-01",
                 "start_date": event["startDate"],

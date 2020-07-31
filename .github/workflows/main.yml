@@ -1,7 +1,6 @@
 name: Get events
 on:
-  schedule:
-    - cron: '0 0 * * 1,4'
+  workflow_dispatch:
 
 jobs:
   get_events:
@@ -9,26 +8,33 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - id: pycon
-      name: Get PyCon events
+    - id: python
+      name: Get Python events
       uses: ./.github/actions/get-events-action
+      env:
+        GOOGLE_SERVICE_ACCOUNT_CREDENTIALS: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_CREDENTIALS }}
       with:
-        crawler-name: 'PyConCrawler'
-    - id: PyData
-      name: Get PyData events
-      uses: ./.github/actions/get-events-action
-      with:
-        crawler-name: 'PyDataCrawler'
+        crawler-name: 'PythonCrawler'
+    # - id: pycon
+    #   name: Get PyCon events
+    #   uses: ./.github/actions/get-events-action
+    #   with:
+    #     crawler-name: 'PyConCrawler'
+    # - id: pydata
+    #   name: Get PyData events
+    #   uses: ./.github/actions/get-events-action
+    #   with:
+    #     crawler-name: 'PyDataCrawler'
     # - id: papercall
     #   name: Get Papercall events
     #   uses: ./.github/actions/get-events-action
     #   with:
     #     crawler-name: 'PapercallCrawler'
-    - id: Italy
-      name: Get Italy events
-      uses: ./.github/actions/get-events-action
-      with:
-        crawler-name: 'ItalyCrawler'
+    # - id: Italy
+    #   name: Get Italy events
+    #   uses: ./.github/actions/get-events-action
+    #   with:
+    #     crawler-name: 'ItalyCrawler'
     - name: Create pull request
       uses: peter-evans/create-pull-request@v1.6.0
       env:

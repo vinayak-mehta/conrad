@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-LATEST = "1"
+LATEST = "2"
 
 f1 = "events.json"
 v1 = {
