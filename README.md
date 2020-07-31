@@ -4,7 +4,7 @@
 
 # conrad — Conference Radar
 
-[![Workflow Status](https://github.com/vinayak-mehta/conrad/workflows/Get%20events/badge.svg)](https://github.com/vinayak-mehta/conrad/actions) [![Documentation Status](https://readthedocs.org/projects/conference-radar/badge/?version=latest)](https://conference-radar.readthedocs.io/en/latest/) [![image](https://img.shields.io/pypi/v/conference-radar.svg)](https://pypi.org/project/conference-radar/) [![image](https://img.shields.io/pypi/pyversions/conference-radar.svg)](https://pypi.org/project/conference-radar/) [![image](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black) [![image](https://img.shields.io/badge/continous%20quality-deepsource-lightgrey)](https://deepsource.io/gh/vinayak-mehta/conrad/?ref=repository-badge)
+[![Workflow Status](https://github.com/vinayak-mehta/conrad/workflows/Get%20events/badge.svg)](https://github.com/vinayak-mehta/conrad/actions) [![Documentation Status](https://readthedocs.org/projects/conference-radar/badge/?version=latest)](https://conference-radar.readthedocs.io/en/latest/) [![image](https://img.shields.io/pypi/v/conference-radar.svg)](https://pypi.org/project/conference-radar/) [![image](https://img.shields.io/pypi/pyversions/conference-radar.svg)](https://pypi.org/project/conference-radar/) [![image](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 
 `conrad` helps you track conferences and meetups on your terminal!
 
@@ -40,10 +40,11 @@ The event list is maintained in `data/events.json`. This list is continuously up
 
 Sources:
 
-- http://papercall.io
 - https://pydata.org/event-schedule
 - https://github.com/ildoc/awesome-italy-events
 - https://github.com/python-organizers/conferences
+- https://wiki.python.org/moin/PythonEventsCalendar
+- http://papercall.io (soon)
 
 ### Set reminders
 
@@ -114,9 +115,7 @@ $ conrad refresh
 
 ## Contributing
 
-The [Contributor's Guide](https://github.com/vinayak-mehta/conrad/blob/master/CONTRIBUTING.md) has detailed information about guidelines around contributions.
-
-You can add new crawlers and events to `conrad`:
+The [Contributor's Guide](https://github.com/vinayak-mehta/conrad/blob/master/CONTRIBUTING.md) has detailed information about guidelines around contributions. You can add new crawlers and events to `conrad`:
 
 - [Adding a crawler](https://conference-radar.readthedocs.io/en/latest/dev/adding-crawlers.html)
 - [Adding new events](https://conference-radar.readthedocs.io/en/latest/dev/adding-events.html)

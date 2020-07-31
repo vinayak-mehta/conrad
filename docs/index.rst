@@ -23,9 +23,6 @@ conrad — Conference Radar
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/ambv/black
 
-.. image:: https://img.shields.io/badge/continous%20quality-deepsource-lightgrey
-    :target: https://deepsource.io/gh/vinayak-mehta/conrad/?ref=repository-badge
-
 ``conrad`` helps you track conferences and meetups on your terminal!
 
 ---
@@ -41,7 +38,7 @@ Why conrad?
 
 - 📅 Never miss CFP deadlines again. ``conrad remind`` can remind you every time you open a terminal!
 - 📊 Query and explore events using tags, names, locations, and dates. ``conrad show --cfp`` will tell you about events where the CFP is open!
-- 🤖 Crawlers upsert (update + insert) events once a week!
+- 🤖 Crawlers update events twice a week! (Monday and Thursday at 00:00 UTC)
 
 Installation
 ------------
@@ -50,10 +47,82 @@ You can simply use pip to install ``conrad``::
 
     $ pip install conference-radar
 
+Features
+--------
+
+Continuous updates
+^^^^^^^^^^^^^^^^^^
+
+The event list is maintained in ``data/events.json``. This list is continuously updated by the available ``crawlers`` using GitHub Actions.
+
+Sources:
+
+- https://pydata.org/event-schedule
+- https://github.com/ildoc/awesome-italy-events
+- https://github.com/python-organizers/conferences
+- https://wiki.python.org/moin/PythonEventsCalendar
+- http://papercall.io (soon)
+
+Set reminders
+^^^^^^^^^^^^^
+
+You can set CFP reminders so that you never miss a deadline! The color changes based on event proximity::
+
+    $ conrad remind -i 6bb714
+    $ conrad remind
+
+.. image:: _static/remind.png
+
+.. note:: Add ``conrad remind`` to your shell startup file so that you get a reminder every time you open a new terminal!
+
+Query and explore
+^^^^^^^^^^^^^^^^^
+
+You can query and explore the event database using various filters.
+
+Look at events which have an open call for proposals (CFP)::
+
+    $ conrad show --cfp
+
+.. image:: _static/show-cfp.png
+
+Look at conferences using a tag::
+
+    $ conrad show --tag python
+
+.. image:: _static/show-tag.png
+
+Look at conferences using a name::
+
+    $ conrad show --name pycon
+
+.. image:: _static/show-name.png
+
+Look at conferences in a city, state or country::
+
+    $ conrad show --location usa
+
+.. image:: _static/show-location.png
+
+Look at conferences based on when they're happening::
+
+    $ conrad show --date ">= 2019-10-01" --date "<= 2020-01-01"
+
+.. image:: _static/show-date.png
+
+Refresh event database
+^^^^^^^^^^^^^^^^^^^^^^
+
+You can get the latest events using::
+
+    $ conrad refresh
+
+.. image:: _static/refresh.png
+
 Contributing
 ------------
 
-The `Contributor's Guide <https://github.com/vinayak-mehta/conrad/blob/master/CONTRIBUTING.md>`_ has detailed information about guidelines around contributions. You can add new crawlers and events to ``conrad``!
+The `Contributor's Guide <https://github.com/vinayak-mehta/conrad/blob/master/CONTRIBUTING.md>`_ has detailed information about guidelines around contributions. You can add new crawlers and events to ``conrad``:
 
 .. toctree::
    :maxdepth: 2
