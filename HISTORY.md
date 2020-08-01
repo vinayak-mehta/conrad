@@ -13,7 +13,7 @@ master
 * [#142](https://github.com/vinayak-mehta/conrad/issues/142) Add support for multiple event schema versions. [#143](https://github.com/vinayak-mehta/conrad/pull/143) by Vinayak Mehta.
 * [#37](https://github.com/vinayak-mehta/conrad/issues/37) Add nominatim geocoder util to standardize location. [#102](https://github.com/vinayak-mehta/conrad/pull/102) by [Sangarshanan](https://github.com/Sangarshanan).
 * [#36](https://github.com/vinayak-mehta/conrad/issues/36) Add check for new conrad version. [#61](https://github.com/vinayak-mehta/conrad/pull/61) by [Abhi Baireddy](https://github.com/abhi-baireddy) and Vinayak Mehta.
-* Add `--kind` filter to show. [#137](https://github.com/vinayak-mehta/conrad/pull/137) by Vinayak Mehta.
+* Add `--kind` filter for the `show` command. [#137](https://github.com/vinayak-mehta/conrad/pull/137) by Vinayak Mehta.
 * [d3db41b](https://github.com/vinayak-mehta/conrad/commit/d3db41b777ab5a0b3d6734bbde33865842304854) Update .readthedocs.yml and remove requirements.txt
 * Change auto-refresh interval from 1 day to 1 week.
 
@@ -30,13 +30,17 @@ master
 0.6.0 (2020-07-10)
 ------------------
 
+**Improvements**
+
 * [#46](https://github.com/vinayak-mehta/conrad/issues/46) Highlight events on conrad show for which reminders have been set. [225972d](https://github.com/vinayak-mehta/conrad/commit/225972d4ca505832cdcb2009b2c81cd0588d1532) by Vinayak Mehta.
 
 0.5.0 (2020-07-09)
 ------------------
+
+**Improvements**
+
 * Add `--id` filter for the `show` command.
 * Automatically set cfp flag to False if date has passed and don't import old events in the `import` command.
-
 
 0.4.0 (2020-05-24)
 ------------------
