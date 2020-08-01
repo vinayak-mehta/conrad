@@ -20,6 +20,9 @@ from .models import Base, Event, Reminder
 from .utils import apply_schema, initialize_database, validate_events
 
 
+DATE_FMT = "%Y-%m-%dT%H:%M:%S"
+
+
 def set_default_pager():
     os_environ_pager = os.environ.get("PAGER")
     if os_environ_pager == "less":
@@ -70,11 +73,15 @@ def rebuild_events_table():
     session.close()
 
 
-def initialize_conrad():
+def set_update_timestamp(overwrite=False):
     updated_at = os.path.join(CONRAD_HOME, ".updated_at")
-    if not os.path.exists(updated_at):
+    if overwrite or not os.path.exists(updated_at):
         with open(updated_at, "w") as f:
-            f.write(dt.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"))
+            f.write(dt.datetime.now().strftime(DATE_FMT))
+
+
+def initialize_conrad():
+    set_update_timestamp()
 
     if not os.path.exists(os.path.join(CONRAD_HOME, "conrad.db")):
         get_events()
@@ -90,12 +97,7 @@ def refresh_conrad():
         Event.__table__.drop(engine)
         Base.metadata.tables["event"].create(bind=engine)
     rebuild_events_table()
-
-
-def set_update_timestamp():
-    updated_at = os.path.join(CONRAD_HOME, ".updated_at")
-    with open(updated_at, "w") as f:
-        f.write(dt.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"))
+    set_update_timestamp(overwrite=True)
 
 
 def clean_old_events():
@@ -119,17 +121,16 @@ def clean_old_events():
 
 
 def auto_refresh():
-    updated_at = os.path.join(CONRAD_HOME, ".updated_at")
-    if not os.path.exists(updated_at):
-        set_update_timestamp()
-
-    with open(updated_at, "r") as f:
-        last_updated_at = dt.datetime.strptime(f.read().strip(), "%Y-%m-%dT%H:%M:%S")
+    try:
+        updated_at = os.path.join(CONRAD_HOME, ".updated_at")
+        with open(updated_at, "r") as f:
+            last_updated_at = dt.datetime.strptime(f.read().strip(), DATE_FMT)
+    except (IOError, FileNotFoundError):
+        last_updated_at = dt.datetime.strptime("1970-01-01T00:00:00", DATE_FMT)
 
     if (dt.datetime.now() - last_updated_at) > dt.timedelta(days=7):
         refresh_conrad()
         clean_old_events()
-        set_update_timestamp()
 
 
 # https://stackoverflow.com/a/50889894
@@ -303,9 +304,15 @@ def _show(ctx, *args, **kwargs):
         )
 
     session = Session()
-    events = list(
-        session.query(Event).filter(*filters).order_by(Event.start_date).all()
-    )
+    try:
+        events = list(
+            session.query(Event).filter(*filters).order_by(Event.start_date).all()
+        )
+    except sqlalchemy.exc.OperationalError:
+        refresh_conrad()
+        events = list(
+            session.query(Event).filter(*filters).order_by(Event.start_date).all()
+        )
 
     if len(events) > 0:
         header = [
