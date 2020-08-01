@@ -198,7 +198,7 @@ bypass_auto_refresh = make_exclude_hook_command(auto_refresh)
 @click.version_option(version=__version__)
 @click.pass_context
 def cli(ctx, *args, **kwargs):
-    """conrad: Track conferences and meetups on your terminal!"""
+    """conrad: Track conferences and meetups on your terminal."""
     set_default_pager()
 
 

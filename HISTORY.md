@@ -4,6 +4,13 @@ Release History
 master
 ------
 
+0.7.1 (2020-08-01)
+------------------
+
+**Bugfixes**
+
+* [#147](https://github.com/vinayak-mehta/conrad/issues/147) conrad show throws sqlalchemy.exc.OperationalError on upgrading to 0.7.0. [83f4e3b](https://github.com/vinayak-mehta/conrad/commit/83f4e3b4ebaa0be581418039dfcbb5ce89327194) by Vinayak Mehta.
+
 0.7.0 (2020-08-01)
 ------------------
 

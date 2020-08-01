@@ -6,7 +6,7 @@
 
 [![Workflow Status](https://github.com/vinayak-mehta/conrad/workflows/Get%20events/badge.svg)](https://github.com/vinayak-mehta/conrad/actions) [![Documentation Status](https://readthedocs.org/projects/conference-radar/badge/?version=latest)](https://conference-radar.readthedocs.io/en/latest/) [![image](https://img.shields.io/pypi/v/conference-radar.svg)](https://pypi.org/project/conference-radar/) [![image](https://img.shields.io/pypi/pyversions/conference-radar.svg)](https://pypi.org/project/conference-radar/) [![image](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 
-`conrad` helps you track conferences and meetups on your terminal!
+`conrad` helps you track conferences and meetups on your terminal.
 
 ---
 

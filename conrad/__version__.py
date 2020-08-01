@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-VERSION = (0, 7, 0)
+VERSION = (0, 7, 1)
 PRERELEASE = None  # alpha, beta or rc
 REVISION = None
 
@@ -15,7 +15,7 @@ def generate_version(version, prerelease=None, revision=None):
 
 
 __title__ = "conference-radar"
-__description__ = "Track conferences and meetups on your terminal!"
+__description__ = "Track conferences and meetups on your terminal."
 __url__ = "https://github.com/vinayak-mehta/conrad"
 __version__ = generate_version(VERSION, prerelease=PRERELEASE, revision=REVISION)
 __author__ = "Vinayak Mehta"
