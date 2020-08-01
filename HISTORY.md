@@ -4,6 +4,13 @@ Release History
 master
 ------
 
+0.8.0 (2020-08-01)
+------------------
+
+**Bugfixes**
+
+* New release because 0.7.1 doesn't show up as latest on PyPI.
+
 0.7.1 (2020-08-01)
 ------------------
 
