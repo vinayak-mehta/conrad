@@ -126,7 +126,7 @@ def auto_refresh():
     with open(updated_at, "r") as f:
         last_updated_at = dt.datetime.strptime(f.read().strip(), "%Y-%m-%dT%H:%M:%S")
 
-    if (dt.datetime.now() - last_updated_at) > dt.timedelta(days=1):
+    if (dt.datetime.now() - last_updated_at) > dt.timedelta(days=7):
         refresh_conrad()
         clean_old_events()
         set_update_timestamp()

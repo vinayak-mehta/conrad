@@ -4,6 +4,19 @@ Release History
 master
 ------
 
+0.7.0 (2020-08-01)
+------------------
+
+**Improvements**
+
+* [#138](https://github.com/vinayak-mehta/conrad/issues/138) Add crawler for [Python events calendar](https://wiki.python.org/moin/PythonEventsCalendar). [#139](https://github.com/vinayak-mehta/conrad/pull/139) by Vinayak Mehta.
+* [#142](https://github.com/vinayak-mehta/conrad/issues/142) Add support for multiple event schema versions. [#143](https://github.com/vinayak-mehta/conrad/pull/143) by Vinayak Mehta.
+* [#37](https://github.com/vinayak-mehta/conrad/issues/37) Add nominatim geocoder util to standardize location. [#102](https://github.com/vinayak-mehta/conrad/pull/102) by [Sangarshanan](https://github.com/Sangarshanan).
+* [#36](https://github.com/vinayak-mehta/conrad/issues/36) Add check for new conrad version. [#61](https://github.com/vinayak-mehta/conrad/pull/61) by [Abhi Baireddy](https://github.com/abhi-baireddy) and Vinayak Mehta.
+* Add `--kind` filter to show. [#137](https://github.com/vinayak-mehta/conrad/pull/137) by Vinayak Mehta.
+* [d3db41b](https://github.com/vinayak-mehta/conrad/commit/d3db41b777ab5a0b3d6734bbde33865842304854) Update .readthedocs.yml and remove requirements.txt
+* Change auto-refresh interval from 1 day to 1 week.
+
 0.6.2 (2020-07-28)
 ------------------
 
