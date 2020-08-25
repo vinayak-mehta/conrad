@@ -181,6 +181,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Accra",
+        "country": "Ghana",
+        "end_date": "2020-08-08",
+        "kind": "conference",
+        "location": "Accra, Ghana",
+        "name": "PyCon Africa",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-08-04",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://africa.pycon.org/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2020-07-12",
         "cfp_open": false,
         "city": "Adelaide",
@@ -362,7 +380,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2020-08-14",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Bengaluru",
         "country": "India",
         "end_date": "2020-10-05",

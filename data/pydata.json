@@ -3,39 +3,20 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2020-08-22",
+        "city": "Eindhoven",
+        "country": "Netherlands",
+        "end_date": "2020-10-09",
         "kind": "conference",
-        "location": "",
-        "name": "PyData Los Angeles Virtual 2020",
+        "location": "Eindhoven, Netherlands",
+        "name": "PyData Eindhoven",
         "source": "https://pydata.org/event-schedule/",
-        "start_date": "2020-08-22",
+        "start_date": "2020-10-07",
         "state": null,
         "tags": [
             "python",
             "pydata"
         ],
-        "url": "https://pydata.org/events/pydata-los-angeles-virtual-2020/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Warsaw",
-        "country": "Poland",
-        "end_date": "2020-11-11",
-        "kind": "conference",
-        "location": "Warsaw, Poland",
-        "name": "PyData Warsaw 2020",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2020-11-09",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://pydata.org/warsaw2020/"
+        "url": "https://eindhoven.pydata.org/"
     },
     {
         "by": "bot",
@@ -55,5 +36,24 @@
             "pydata"
         ],
         "url": "https://global.pydata.org//"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-11-29",
+        "kind": "conference",
+        "location": "Taipei",
+        "name": "PyData Taipei",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2020-11-27",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://pydata.org/taipei2020/"
     }
 ]
