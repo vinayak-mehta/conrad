@@ -382,24 +382,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2020-07-12",
-        "cfp_open": false,
-        "city": "Adelaide",
-        "country": "Australia",
-        "end_date": "2020-09-04",
-        "kind": "conference",
-        "location": "Adelaide, Australia",
-        "name": "DjangoCon AU",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-09-04",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2020.djangocon.com.au/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2020-03-01",
         "cfp_open": false,
         "city": "Porto",
@@ -512,24 +494,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2020-08-30",
-        "kind": "conference",
-        "location": "Online",
-        "name": "PyCon JP 2020",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2020-08-28",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycon.jp/2020"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2020-09-07",
         "kind": "conference",
         "location": "International Conference Hall ,No.1, University Road, Tainan City 701, Taiwan",
@@ -550,7 +514,7 @@
         "country": null,
         "end_date": "2020-09-21",
         "kind": "conference",
-        "location": "Kota Kinabalu, Sabah, Malaysia",
+        "location": "Online",
         "name": "PyCon APAC 2020",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
         "start_date": "2020-09-19",
@@ -568,7 +532,7 @@
         "country": null,
         "end_date": "2020-09-26",
         "kind": "conference",
-        "location": "Copenhagen, Denmark",
+        "location": "Online & Copenhagen, Denmark",
         "name": "Django Day Copenhagen",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
         "start_date": "2020-09-25",
@@ -584,9 +548,9 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2020-10-08",
+        "end_date": "2020-10-09",
         "kind": "conference",
-        "location": null,
+        "location": "Online",
         "name": "PyCon Estonia 20",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
         "start_date": "2020-10-08",
@@ -602,12 +566,12 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2020-11-03",
+        "end_date": "2020-11-09",
         "kind": "conference",
-        "location": "Caxias do Sul, RS, Brazil",
+        "location": "Online",
         "name": "Python Brasil 2020",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2020-10-28",
+        "start_date": "2020-11-02",
         "state": null,
         "tags": [
             "python"
@@ -620,9 +584,9 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2020-11-01",
+        "end_date": "2020-11-03",
         "kind": "conference",
-        "location": null,
+        "location": "Online",
         "name": "SciPy Japan 2020",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
         "start_date": "2020-10-30",
@@ -640,7 +604,7 @@
         "country": null,
         "end_date": "2020-11-25",
         "kind": "conference",
-        "location": "Mannheim, Germany",
+        "location": "Heidelberg, Germany",
         "name": "enterPy",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
         "start_date": "2020-11-23",
@@ -728,12 +692,12 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2020-10-09",
+        "end_date": "2020-11-20",
         "kind": "conference",
         "location": "Online",
         "name": "Online Python Web Global Summit'20",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2020-10-08",
+        "start_date": "2020-11-19",
         "state": null,
         "tags": [
             "python"
@@ -748,7 +712,7 @@
         "country": null,
         "end_date": "2020-11-16",
         "kind": "conference",
-        "location": "Atlanta, Georgia, United States and Online",
+        "location": "Online",
         "name": "PyHPC 2020: 9th Workshop on Python for,High-Performance and Scientific Computing",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
         "start_date": "2020-11-15",
@@ -795,5 +759,41 @@
             "pydata"
         ],
         "url": "https://pydata.org/taipei2020/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-01-31",
+        "cfp_open": false,
+        "city": "Bratislava",
+        "country": "Slovakia",
+        "end_date": "2020-09-13",
+        "kind": "conference",
+        "location": "Bratislava, Slovakia",
+        "name": "PyCon SK",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-09-11",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2020.pycon.sk/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Ljubljana",
+        "country": "Slovenia",
+        "end_date": "2020-09-20",
+        "kind": "conference",
+        "location": "Ljubljana, Slovenia",
+        "name": "DragonPy",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-09-19",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://dragonpy.com/"
     }
 ]
