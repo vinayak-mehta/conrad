@@ -43,7 +43,9 @@ class PyConCrawler(BaseCrawler):
                 "city": city,
                 "state": state,
                 "country": country,
-                "location": ", ".join(filter(lambda x: x is not None, [city, state, country])),
+                "location": ", ".join(
+                    filter(lambda x: x is not None, [city, state, country])
+                ),
                 "cfp_open": cfp_open,
                 "cfp_end_date": cfp_end_date,
                 "start_date": event["Start Date"],

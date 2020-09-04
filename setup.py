@@ -20,12 +20,9 @@ requires = [
     "geopy>=2.0.0",
     "requests>=2.22.0",
     "SQLAlchemy>=1.3.10",
-    "textdistance>=4.1.5"
+    "textdistance>=4.1.5",
 ]
-dev_requires = [
-    "Sphinx>=2.2.1",
-    "pytest>=3.8.0"
-]
+dev_requires = ["Sphinx>=2.2.1", "pytest>=3.8.0"]
 dev_requires = dev_requires + requires
 
 

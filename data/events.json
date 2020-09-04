@@ -20,23 +20,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Florence",
-        "country": "Italy",
-        "end_date": "2020-11-08",
-        "kind": "conference",
-        "name": "PyCon Italy",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-11-05",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.pycon.it/en/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Firenze",
         "country": "Italy",
         "end_date": "2020-11-21",
@@ -83,40 +66,6 @@
             "technology"
         ],
         "url": "https://www.romhack.io/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2020-01-31",
-        "cfp_open": false,
-        "city": "Bratislava",
-        "country": "Slovakia",
-        "end_date": "2020-09-13",
-        "kind": "conference",
-        "name": "PyCon SK",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-09-11",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2020.pycon.sk/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Ljubljana",
-        "country": "Slovenia",
-        "end_date": "2020-09-20",
-        "kind": "conference",
-        "name": "DragonPy",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-09-19",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://dragonpy.com/"
     },
     {
         "by": "bot",
@@ -603,40 +552,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2020-10-17",
-        "kind": "conference",
-        "name": "PyConDE & PyData Berlin 2020",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2020-10-14",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://de.pycon.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2020-10-24",
-        "kind": "conference",
-        "name": "Swiss Python Summit",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2020-10-23",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.python-summit.ch/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2020-11-03",
         "kind": "conference",
         "name": "Python Brasil 2020",
@@ -664,23 +579,6 @@
             "python"
         ],
         "url": "https://www.scipyjapan.scipy.org"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2020-11-02",
-        "kind": "conference",
-        "name": "PyData London 2020",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2020-10-30",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pydata.org/london2020"
     },
     {
         "by": "bot",

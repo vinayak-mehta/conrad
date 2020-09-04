@@ -53,7 +53,9 @@ class PythonCrawler(BaseCrawler):
             )
 
         for event in events:
-            if "canceled" in event["summary"].lower():
+            if any(
+                [word in event["summary"].lower() for word in ["cancel", "postpone"]]
+            ):
                 continue
 
             try:

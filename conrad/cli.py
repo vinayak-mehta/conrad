@@ -32,17 +32,17 @@ def set_default_pager():
 def get_events():
     click.echo("Fetching latest events!")
 
-    events_filename = eval(f'f{LATEST}')
+    events_filename = eval(f"f{LATEST}")
     response = requests.get(
         f"https://raw.githubusercontent.com/vinayak-mehta/conrad/master/data/{events_filename}",
-        timeout=5
+        timeout=5,
     )
     with open(os.path.join(CONRAD_HOME, events_filename), "w") as f:
         f.write(json.dumps(response.json()))
 
 
 def rebuild_events_table():
-    events_filename = eval(f'f{LATEST}')
+    events_filename = eval(f"f{LATEST}")
     with open(os.path.join(CONRAD_HOME, events_filename), "r") as f:
         events = json.load(f)
 
@@ -216,14 +216,10 @@ def _refresh(ctx, *args, **kwargs):
 
 @cli.command("show", short_help="Show all saved events.")
 @click.option(
-    "--id",
-    "-i",
-    help="Show event with a particular id.",
+    "--id", "-i", help="Show event with a particular id.",
 )
 @click.option(
-    "--kind",
-    "-k",
-    help="Show kind of event, conference or meetup.",
+    "--kind", "-k", help="Show kind of event, conference or meetup.",
 )
 @click.option(
     "--cfp",
@@ -342,7 +338,12 @@ def _show(ctx, *args, **kwargs):
 
             # highlight event which has a reminder set
             if event.id in rids:
-                event_output = list(map(lambda x: f"{Fore.WHITE}{Style.BRIGHT}{x}{Style.RESET_ALL}", event_output))
+                event_output = list(
+                    map(
+                        lambda x: f"{Fore.WHITE}{Style.BRIGHT}{x}{Style.RESET_ALL}",
+                        event_output,
+                    )
+                )
 
             events_output.append(event_output)
         session.close()
@@ -399,9 +400,7 @@ def _remind(ctx, *args, **kwargs):
                 else:
                     style = ""
 
-                days_left_output = (
-                    f"{style}{days_left_output}{Style.RESET_ALL}"
-                )
+                days_left_output = f"{style}{days_left_output}{Style.RESET_ALL}"
 
                 reminders_output.append(
                     [

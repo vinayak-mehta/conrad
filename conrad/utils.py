@@ -73,8 +73,7 @@ def conrad_self_version_check():
         # Determine if we need to refresh the state
         if "last_check" in state.state and "pypi_version" in state.state:
             last_check = dt.datetime.strptime(
-                state.state["last_check"],
-                SELFCHECK_DATE_FMT
+                state.state["last_check"], SELFCHECK_DATE_FMT
             )
             if (current_time - last_check).total_seconds() < 7 * 24 * 60 * 60:
                 pypi_version = state.state["pypi_version"]
@@ -99,8 +98,7 @@ def conrad_self_version_check():
             )
     except Exception:
         logger.debug(
-            "There was an error checking the latest version of conrad",
-            exc_info=True,
+            "There was an error checking the latest version of conrad", exc_info=True,
         )
 
 
