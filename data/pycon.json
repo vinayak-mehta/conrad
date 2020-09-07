@@ -488,7 +488,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2020-09-05",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": null,
         "country": null,
         "end_date": "2020-12-05",

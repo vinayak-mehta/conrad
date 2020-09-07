@@ -328,24 +328,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2020-07-12",
-        "cfp_open": false,
-        "city": "Adelaide",
-        "country": "Australia",
-        "end_date": "2020-09-06",
-        "kind": "conference",
-        "location": "Adelaide, Australia",
-        "name": "PyConline AU",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-09-04",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2020.pycon.org.au/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2020-08-14",
         "cfp_open": false,
         "city": "Bengaluru",
@@ -473,7 +455,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2020-09-05",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": null,
         "country": null,
         "end_date": "2020-12-05",
@@ -487,24 +469,6 @@
             "python"
         ],
         "url": "https://pyjamas.live/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2020-09-07",
-        "kind": "conference",
-        "location": "International Conference Hall ,No.1, University Road, Tainan City 701, Taiwan",
-        "name": "PyCon TW 2020",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2020-09-05",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "http://pycon.tw/"
     },
     {
         "by": "bot",
