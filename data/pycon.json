@@ -470,7 +470,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2020-09-30",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Stockholm",
         "country": "Sweden",
         "end_date": "2020-11-13",
@@ -484,6 +484,24 @@
             "python"
         ],
         "url": "http://www.pycon.se"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-10-24",
+        "cfp_open": true,
+        "city": null,
+        "country": null,
+        "end_date": "2020-11-15",
+        "kind": "conference",
+        "location": "",
+        "name": "PyCon Indonesia",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-11-14",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.id/"
     },
     {
         "by": "bot",
