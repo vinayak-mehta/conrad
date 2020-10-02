@@ -69,57 +69,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Roma",
-        "country": "Italy",
-        "end_date": "2020-09-26",
-        "kind": "conference",
-        "name": "RomHack",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-09-26",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://www.romhack.io/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2020-01-15",
-        "cfp_open": false,
-        "city": "Istanbul",
-        "country": "Turkey",
-        "end_date": "2020-09-27",
-        "kind": "conference",
-        "name": "PyCon Turkey",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-09-26",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://tr.pycon.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Basel",
-        "country": "Switzerland",
-        "end_date": "2020-09-22",
-        "kind": "conference",
-        "name": "Python Machine Learning Conference",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-09-21",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "http://2020.pythonml.org"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2020-07-26",
         "cfp_open": false,
         "city": "Granada",
@@ -311,7 +260,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2020-09-30",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Stockholm",
         "country": "Sweden",
         "end_date": "2020-11-13",
@@ -324,23 +273,6 @@
             "python"
         ],
         "url": "http://www.pycon.se"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2020-03-01",
-        "cfp_open": false,
-        "city": "Porto",
-        "country": "Portugal",
-        "end_date": "2020-09-20",
-        "kind": "conference",
-        "name": "DjangoCon Europe",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-09-16",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2020.djangocon.eu/"
     },
     {
         "by": "bot",
@@ -378,40 +310,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2020-07-14",
-        "cfp_open": false,
-        "city": "Seoul",
-        "country": "South Korea",
-        "end_date": "2020-09-27",
-        "kind": "conference",
-        "name": "PyCon Korea",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-09-26",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycon.kr/2020/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2020-09-22",
-        "kind": "conference",
-        "name": "Python Machine Learning & GeoPython 2020",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-09-21",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2020.pythonml.org/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2020-09-05",
         "cfp_open": false,
         "city": null,
@@ -426,40 +324,6 @@
             "python"
         ],
         "url": "https://pyjamas.live/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2020-09-21",
-        "kind": "conference",
-        "name": "PyCon APAC 2020",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2020-09-19",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycon.my"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2020-09-26",
-        "kind": "conference",
-        "name": "Django Day Copenhagen",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2020-09-25",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://djangoday.dk/"
     },
     {
         "by": "bot",
@@ -586,23 +450,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2020-09-23",
-        "kind": "conference",
-        "name": "GeoPython 2020 & PyML 2020",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2020-09-21",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "http://2020.geopython.net"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2020-11-20",
         "kind": "conference",
         "name": "Online Python Web Global Summit'20",
@@ -669,19 +516,19 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Ljubljana",
-        "country": "Slovenia",
-        "end_date": "2020-09-20",
+        "cfp_end_date": "2020-10-24",
+        "cfp_open": true,
+        "city": null,
+        "country": null,
+        "end_date": "2020-11-15",
         "kind": "conference",
-        "name": "DragonPy",
+        "name": "PyCon Indonesia",
         "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-09-19",
+        "start_date": "2020-11-14",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://dragonpy.com/"
+        "url": "https://pycon.id/"
     }
 ]
