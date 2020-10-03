@@ -69,23 +69,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2020-07-26",
-        "cfp_open": false,
-        "city": "Granada",
-        "country": "Spain",
-        "end_date": "2020-10-03",
-        "kind": "conference",
-        "name": "PyCon ES",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-10-03",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2020.es.pycon.org/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Warsaw",
@@ -204,23 +187,6 @@
             "pydata"
         ],
         "url": "https://pydata.org/events/pydata-israel-2020/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2020-07-05",
-        "cfp_open": false,
-        "city": "New York",
-        "country": "USA",
-        "end_date": "2020-10-03",
-        "kind": "conference",
-        "name": "PyGotham TV",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-10-02",
-        "state": "New York",
-        "tags": [
-            "python"
-        ],
-        "url": "https://2020.pygotham.tv"
     },
     {
         "by": "bot",
@@ -411,38 +377,34 @@
         "url": "https://us.pycon.org/2021/"
     },
     {
-        "by": "bot",
+        "by": "human",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-07-19",
+        "city": "Austin",
+        "country": "US",
+        "end_date": "2021-07-12",
         "kind": "conference",
         "name": "SciPy 2021",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-07-12",
-        "state": null,
-        "tags": [
-            "python"
-        ],
+        "source": "https://www.python.org/events/python-events",
+        "start_date": "2021-07-18",
+        "state": "TX",
+        "tags": "['python']",
         "url": "https://www.scipy2021.scipy.org/"
     },
     {
-        "by": "bot",
+        "by": "human",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-08-02",
+        "city": "Dublin",
+        "country": "Ireland",
+        "end_date": "2021-07-26",
         "kind": "conference",
         "name": "EuroPython 2021",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-07-26",
+        "source": "https://www.python.org/events/python-events",
+        "start_date": "2021-08-01",
         "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.europython.eu/"
+        "tags": "['python']",
+        "url": "https://ep2020.europython.eu/"
     },
     {
         "by": "bot",
@@ -530,5 +492,20 @@
             "python"
         ],
         "url": "https://pycon.id/"
+    },
+    {
+        "by": "human",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Berlin",
+        "country": "Germany",
+        "end_date": "2021-10-15",
+        "kind": "conference",
+        "name": "PyConDE & PyData Berlin 2021",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2021-10-13",
+        "state": null,
+        "tags": "['python']",
+        "url": "https://de.pycon.org"
     }
 ]
