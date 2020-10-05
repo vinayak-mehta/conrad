@@ -69,23 +69,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2020-07-26",
-        "cfp_open": false,
-        "city": "Granada",
-        "country": "Spain",
-        "end_date": "2020-10-03",
-        "kind": "conference",
-        "name": "PyCon ES",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-10-03",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2020.es.pycon.org/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Warsaw",
@@ -207,23 +190,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2020-07-05",
-        "cfp_open": false,
-        "city": "New York",
-        "country": "USA",
-        "end_date": "2020-10-03",
-        "kind": "conference",
-        "name": "PyGotham TV",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-10-02",
-        "state": "New York",
-        "tags": [
-            "python"
-        ],
-        "url": "https://2020.pygotham.tv"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": null,
@@ -239,23 +205,6 @@
             "pydata"
         ],
         "url": "https://global.pydata.org//"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2020-08-14",
-        "cfp_open": false,
-        "city": "Bengaluru",
-        "country": "India",
-        "end_date": "2020-10-05",
-        "kind": "conference",
-        "name": "PyCon India",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-10-02",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://in.pycon.org/2020/"
     },
     {
         "by": "bot",
@@ -530,5 +479,22 @@
             "python"
         ],
         "url": "https://pycon.id/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2020-10-06",
+        "kind": "conference",
+        "name": "PyCon India 2020",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-10-02",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://in.pycon.org/2020/"
     }
 ]
