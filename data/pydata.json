@@ -3,25 +3,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Eindhoven",
-        "country": "Netherlands",
-        "end_date": "2020-10-09",
-        "kind": "conference",
-        "location": "Eindhoven, Netherlands",
-        "name": "PyData Eindhoven",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2020-10-07",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://eindhoven.pydata.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": null,
         "country": null,
         "end_date": "2020-11-15",

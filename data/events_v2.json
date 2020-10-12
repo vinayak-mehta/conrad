@@ -166,24 +166,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Montegrotto Terme (PD)",
-        "country": "Italy",
-        "end_date": "2020-10-11",
-        "kind": "conference",
-        "location": "Montegrotto Terme (PD)",
-        "name": "Agile People Camp",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-10-09",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://agilemovement.it/agilepeoplecamp/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Tel Aviv",
         "country": "Israel",
         "end_date": "2020-11-11",
@@ -289,24 +271,6 @@
             "python"
         ],
         "url": "https://pyjamas.live/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2020-10-09",
-        "kind": "conference",
-        "location": "Online",
-        "name": "PyCon Estonia 20",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2020-10-08",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycon.ee"
     },
     {
         "by": "bot",
@@ -451,25 +415,6 @@
             "python"
         ],
         "url": "https://www.pyhpc.io/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Eindhoven",
-        "country": "Netherlands",
-        "end_date": "2020-10-09",
-        "kind": "conference",
-        "location": "Eindhoven, Netherlands",
-        "name": "PyData Eindhoven",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2020-10-07",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://eindhoven.pydata.org/"
     },
     {
         "by": "bot",
