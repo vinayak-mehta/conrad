@@ -1,6 +1,6 @@
 # VS Code
 .vscode/
-
+.idea
 # Database
 *conrad.db
 

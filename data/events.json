@@ -326,38 +326,34 @@
         "url": "https://us.pycon.org/2021/"
     },
     {
-        "by": "bot",
+        "by": "human",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-07-19",
+        "city": "Austin",
+        "country": "US",
+        "end_date": "2021-07-12",
         "kind": "conference",
         "name": "SciPy 2021",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-07-12",
-        "state": null,
-        "tags": [
-            "python"
-        ],
+        "source": "https://www.python.org/events/python-events",
+        "start_date": "2021-07-18",
+        "state": "TX",
+        "tags": "['python']",
         "url": "https://www.scipy2021.scipy.org/"
     },
     {
-        "by": "bot",
+        "by": "human",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-08-02",
+        "city": "Dublin",
+        "country": "Ireland",
+        "end_date": "2021-07-26",
         "kind": "conference",
         "name": "EuroPython 2021",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-07-26",
+        "source": "https://www.python.org/events/python-events",
+        "start_date": "2021-08-01",
         "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.europython.eu/"
+        "tags": "['python']",
+        "url": "https://ep2020.europython.eu/"
     },
     {
         "by": "bot",
@@ -427,5 +423,20 @@
             "python"
         ],
         "url": "https://pycon.id/"
+    },
+    {
+        "by": "human",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Berlin",
+        "country": "Germany",
+        "end_date": "2021-10-15",
+        "kind": "conference",
+        "name": "PyConDE & PyData Berlin 2021",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2021-10-13",
+        "state": null,
+        "tags": "['python']",
+        "url": "https://de.pycon.org"
     }
 ]
