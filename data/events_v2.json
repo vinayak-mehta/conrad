@@ -112,24 +112,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Firenze",
-        "country": "Italy",
-        "end_date": "2020-10-20",
-        "kind": "conference",
-        "location": "Firenze",
-        "name": "GoLab",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-10-18",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://golab.io/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Tel Aviv",
         "country": "Israel",
         "end_date": "2020-11-11",
