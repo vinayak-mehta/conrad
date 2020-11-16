@@ -37,61 +37,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2020-11-15",
-        "kind": "conference",
-        "location": "",
-        "name": "PyData Global",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2020-11-11",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://global.pydata.org//"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2020-09-30",
-        "cfp_open": false,
-        "city": "Stockholm",
-        "country": "Sweden",
-        "end_date": "2020-11-13",
-        "kind": "conference",
-        "location": "Stockholm, Sweden",
-        "name": "PyCon Sweden",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-11-12",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "http://www.pycon.se"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Addis Ababa",
-        "country": "Ethiopia",
-        "end_date": "2020-11-13",
-        "kind": "conference",
-        "location": "Addis Ababa, Ethiopia",
-        "name": "DjangoCon Africa",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-11-09",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2020.djangocon.africa/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2020-09-05",
         "cfp_open": false,
         "city": null,
@@ -204,24 +149,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2020-11-16",
-        "kind": "conference",
-        "location": "Online",
-        "name": "PyHPC 2020: 9th Workshop on Python for,High-Performance and Scientific Computing",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2020-11-15",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.pyhpc.io/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2020-11-29",
         "kind": "conference",
         "location": "Taipei",
@@ -237,20 +164,20 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2020-10-24",
+        "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2020-11-15",
+        "end_date": "2020-12-16",
         "kind": "conference",
-        "location": "",
-        "name": "PyCon Indonesia",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-11-14",
+        "location": "Dar es Salaam, Tanzania",
+        "name": "PyCon Tanzania 2020",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2020-12-14",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://pycon.id/"
+        "url": "http://pycon.or.tz/"
     }
 ]
