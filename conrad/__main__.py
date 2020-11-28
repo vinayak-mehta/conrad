@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
 
 from .utils import conrad_self_version_check
+from conrad.cli import cli
 
 
 __all__ = ("main",)
 
 
 def main():
-    from conrad.cli import cli
-
     conrad_self_version_check()
     cli()
 
