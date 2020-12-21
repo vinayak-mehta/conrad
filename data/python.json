@@ -5,17 +5,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2020-11-20",
+        "end_date": "2021-01-01",
         "kind": "conference",
         "location": "Online",
-        "name": "Online Python Web Global Summit'20",
+        "name": "Python Pizza New Year's Party",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2020-11-19",
+        "start_date": "2020-12-31",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://python.geekle.us/"
+        "url": "https://hamburg.python.pizza/"
     },
     {
         "by": "bot",
@@ -23,17 +23,71 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2020-12-16",
+        "end_date": "2021-02-01",
         "kind": "conference",
-        "location": "Dar es Salaam, Tanzania",
-        "name": "PyCon Tanzania 2020",
+        "location": "Online",
+        "name": "BelPy 2021",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2020-12-14",
+        "start_date": "2021-01-30",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "http://pycon.or.tz/"
+        "url": "http://belpy.in/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-02-22",
+        "kind": "conference",
+        "location": "Online",
+        "name": "PyCascades 2021",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2021-02-19",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2021.pycascades.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-03-21",
+        "kind": "conference",
+        "location": "Douala, Cameroon",
+        "name": "PyCon Cameroon 2021",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2021-03-18",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "http://pythoncm.org/pycon/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-04-24",
+        "kind": "conference",
+        "location": null,
+        "name": " GeoPython 2021",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2021-04-22",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "http://2021.geopython.net/"
     },
     {
         "by": "bot",
@@ -43,7 +97,7 @@
         "country": null,
         "end_date": "2021-05-21",
         "kind": "conference",
-        "location": "Pittsburgh, PA, USA",
+        "location": "Online",
         "name": "PyCon US 2021",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
         "start_date": "2021-05-12",
@@ -88,6 +142,24 @@
             "python"
         ],
         "url": "https://www.europython.eu/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2022-02-20",
+        "kind": "conference",
+        "location": null,
+        "name": "PyCon Namibia 2022",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2022-02-17",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://na.pycon.org/"
     },
     {
         "by": "bot",

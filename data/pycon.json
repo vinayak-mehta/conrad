@@ -520,5 +520,23 @@
             "python"
         ],
         "url": "https://pyjamas.live/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2020-12-20",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-12-01",
+        "kind": "conference",
+        "location": "",
+        "name": "Python Pizza New Years Party",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-12-31",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://hamburg.python.pizza/"
     }
 ]
