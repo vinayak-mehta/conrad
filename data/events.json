@@ -3,74 +3,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Firenze",
-        "country": "Italy",
-        "end_date": "2020-11-21",
-        "kind": "conference",
-        "name": "QtDay 2020",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-11-20",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://www.qtday.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Torino",
-        "country": "Italy",
-        "end_date": "2020-11-28",
-        "kind": "conference",
-        "name": "DroidCon",
-        "source": "https://github.com/ildoc/awesome-italy-events",
-        "start_date": "2020-11-27",
-        "state": null,
-        "tags": [
-            "technology"
-        ],
-        "url": "https://it.droidcon.com/2020/it"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2020-09-05",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2020-12-05",
-        "kind": "conference",
-        "name": "Pyjamas Conf",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2020-12-05",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pyjamas.live/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2020-11-25",
-        "kind": "conference",
-        "name": "enterPy",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2020-11-23",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.enterpy.de/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": null,
         "country": null,
         "end_date": "2021-05-21",
@@ -120,20 +52,20 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
+        "cfp_end_date": "2020-12-20",
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2020-11-20",
+        "end_date": "2021-12-01",
         "kind": "conference",
-        "name": "Online Python Web Global Summit'20",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2020-11-19",
+        "name": "Python Pizza New Years Party",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2020-12-31",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://python.geekle.us/"
+        "url": "https://hamburg.python.pizza/"
     },
     {
         "by": "bot",
@@ -141,17 +73,16 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2020-11-29",
+        "end_date": "2021-02-01",
         "kind": "conference",
-        "name": "PyData Taipei",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2020-11-27",
+        "name": "BelPy 2021",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2021-01-30",
         "state": null,
         "tags": [
-            "python",
-            "pydata"
+            "python"
         ],
-        "url": "https://pydata.org/taipei2020/"
+        "url": "http://belpy.in/"
     },
     {
         "by": "bot",
@@ -159,15 +90,66 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2020-12-16",
+        "end_date": "2021-02-22",
         "kind": "conference",
-        "name": "PyCon Tanzania 2020",
+        "name": "PyCascades 2021",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2020-12-14",
+        "start_date": "2021-02-19",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "http://pycon.or.tz/"
+        "url": "https://2021.pycascades.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-03-21",
+        "kind": "conference",
+        "name": "PyCon Cameroon 2021",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2021-03-18",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "http://pythoncm.org/pycon/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-04-24",
+        "kind": "conference",
+        "name": " GeoPython 2021",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2021-04-22",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "http://2021.geopython.net/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2022-02-20",
+        "kind": "conference",
+        "name": "PyCon Namibia 2022",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2022-02-17",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://na.pycon.org/"
     }
 ]
