@@ -73,23 +73,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-02-01",
-        "kind": "conference",
-        "name": "BelPy 2021",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-01-30",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "http://belpy.in/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2021-02-22",
         "kind": "conference",
         "name": "PyCascades 2021",
@@ -151,5 +134,22 @@
             "python"
         ],
         "url": "https://na.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-03-26",
+        "kind": "conference",
+        "name": "Python Web Conference 2021",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2021-03-22",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pythonwebconference.com"
     }
 ]
