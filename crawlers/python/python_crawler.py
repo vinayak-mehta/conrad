@@ -41,7 +41,7 @@ class PythonCrawler(BaseCrawler):
                     )
                     .execute()
                 )
-                events.extend([event for event in event_page["items"]])
+                events.extend(list(event_page["items"]))
 
                 page_token = event_page.get("nextPageToken")
                 if not page_token:

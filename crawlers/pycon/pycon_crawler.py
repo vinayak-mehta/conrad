@@ -32,11 +32,7 @@ class PyConCrawler(BaseCrawler):
             cfp_end_date = (
                 event["Talk Deadline"] if event["Talk Deadline"] else "1970-01-01"
             )
-            cfp_open = (
-                True
-                if dt.datetime.now() < dt.datetime.strptime(cfp_end_date, "%Y-%m-%d")
-                else False
-            )
+            cfp_open = dt.datetime.now() < dt.datetime.strptime(cfp_end_date, "%Y-%m-%d")
             e = {
                 "name": event["Subject"],
                 "url": event["Website URL"],
