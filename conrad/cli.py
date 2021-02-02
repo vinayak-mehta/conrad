@@ -18,6 +18,7 @@ from .schema import *
 from .db import engine, Session
 from .models import Base, Event, Reminder
 from .utils import apply_schema, initialize_database, validate_events
+from .display import get_optimal_name_length
 
 
 DATE_FMT = "%Y-%m-%dT%H:%M:%S"
@@ -324,10 +325,18 @@ def _show(ctx, *args, **kwargs):
         events_output = []
 
         rids = [r.id for r in session.query(Reminder).all()]
+        optimal_name_length, optimal_name_length_no_url = get_optimal_name_length(events)
+        minimum_name_length = 20 #chars
         for event in events:
+            if optimal_name_length < minimum_name_length:
+                name_to_use = event.name[:optimal_name_length_no_url]
+            elif len(event.name) <= optimal_name_length:
+                name_to_use = event.name
+            else:
+                name_to_use = event.name[:optimal_name_length]
             event_output = [
                 event.id,
-                event.name,
+                name_to_use,
                 event.url,
                 event.city,
                 event.state,
@@ -344,10 +353,13 @@ def _show(ctx, *args, **kwargs):
                         event_output,
                     )
                 )
-
+            if optimal_name_length < minimum_name_length:
+                event_output.pop(2)
             events_output.append(event_output)
         session.close()
 
+        if optimal_name_length < minimum_name_length:
+            header.remove("Website")
         formatted = tabular_output.format_output(
             events_output, header, format_name="ascii"
         )
