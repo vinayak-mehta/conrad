@@ -19,7 +19,6 @@ from .db import engine, Session
 from .models import Base, Event, Reminder
 from .utils import apply_schema, initialize_database, validate_events
 
-
 DATE_FMT = "%Y-%m-%dT%H:%M:%S"
 
 
@@ -88,7 +87,6 @@ def initialize_conrad():
         initialize_database()
         rebuild_events_table()
 
-
 def refresh_conrad():
     get_events()
     if not os.path.exists(os.path.join(CONRAD_HOME, "conrad.db")):
@@ -98,6 +96,35 @@ def refresh_conrad():
         Base.metadata.tables["event"].create(bind=engine)
     rebuild_events_table()
     set_update_timestamp(overwrite=True)
+    update_remind()
+
+def update_remind():
+    # get events
+    session = Session()
+    events = list(
+            session.query(Event).all()
+        )
+
+    # get reminders
+    session = Session()
+    reminders = list(
+        session.query(Event, Reminder)
+        .filter(Event.id == Reminder.id)
+        .order_by(Event.start_date)
+        .all()
+    )
+    
+    # update relevant reminders
+    for reminder, _ in reminders:
+        id_in_events = False
+        for event in events:
+            if reminder.id == event.id:
+                id_in_events = True
+        if not id_in_events:
+            # Delete event from reminders if it no longer exists in events
+            session.query(Reminder).filter(Reminder.id == reminder.id).delete()
+    session.commit()
+    session.close()
 
 
 def clean_old_events():
@@ -344,7 +371,6 @@ def _show(ctx, *args, **kwargs):
                         event_output,
                     )
                 )
-
             events_output.append(event_output)
         session.close()
 
