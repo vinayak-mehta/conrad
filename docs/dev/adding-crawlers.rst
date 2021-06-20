@@ -7,10 +7,9 @@ Adding a crawler
 
 Currently, ``conrad`` has crawlers for:
 
-- http://papercall.io
 - https://pydata.org/event-schedule
-- https://github.com/ildoc/awesome-italy-events
 - https://github.com/python-organizers/conferences
+- https://wiki.python.org/moin/PythonEventsCalendar
 
 There are two steps you need to do for adding a crawler to ``conrad``, writing a crawler and then scheduling the crawler.
 
@@ -21,59 +20,30 @@ Writing a crawler
 
 All crawlers are present in the ``crawlers`` package at the root of the `GitHub repository <https://github.com/vinayak-mehta/conrad>`_.
 
-This is how the ``crawlers`` package is structured::
+You can use the ``generate`` command to generate the base code for your crawler::
 
-    $ tree crawlers
-    .
-    ├── base.py
-    ├── __init__.py
-    ├── __main__.py
-    ├── papercall
-    │   ├── __init__.py
-    │   └── papercall_crawler.py
-    └── pycon
-        ├── __init__.py
-        └── pycon_crawler.py
+    $ conrad generate crawler Creepy
+        create	crawlers/creepy/creepy_crawler.py
 
-Let's say we want to add a new crawler for a website called "Creepy". We'll start by creating a new module called ``creepy`` at the same level as the other crawler modules (``papercall`` and ``pycon``). This new module should contain two files, ``__init__.py`` and ``creepy_crawler.py``.
+And then add your crawling code to the generated file which will be used to populate the events list::
 
-The new ``crawlers`` directory structure::
-
-    $ tree crawlers
-    .
-    ├── base.py
-    ├── creepy
-    │   ├── creepy_crawler.py
-    │   └── __init__.py
-    ├── __init__.py
-    ├── __main__.py
-    ├── papercall
-    │   ├── __init__.py
-    │   └── papercall_crawler.py
-    └── pycon
-        ├── __init__.py
-        └── pycon_crawler.py
-
-Next, we need to add a class called ``CreepyCrawler`` to ``creepy_crawler.py`` which will contain our crawling logic, in its ``get_events`` method::
-
-    class CreepyCrawler(BaseCrawler):
+    class ConfsTechCrawler(BaseCrawler):
         def get_events(self):
-            # Populate a list of events using a crawling logic
+            # Populate this list of events using your code
             events = []
+
+            # YOUR CODE HERE
 
             # Extend the self.events list with the new list
             self.events.extend(events)
 
-Finally, we need to add an import for our ``CreepyCrawler`` class to the ``crawlers`` package's ``__init__.py``::
 
-    from .creepy.creepy_crawler import CreepyCrawler
-
-Now that we have written our crawler, we just need to schedule it!
+After you're finished writing your crawling code, you just need to schedule it.
 
 Scheduling the crawler
 ----------------------
 
-To schedule our ``CreepyCrawler``, we need to update the `workflow definition <https://github.com/vinayak-mehta/conrad/blob/master/.github/workflows/main.yml>`_, by adding the following step (before the "Create pull request" step) to the ``get_events`` job::
+To schedule the newly added ``CreepyCrawler``, you need to update the `workflow definition <https://github.com/vinayak-mehta/conrad/blob/master/.github/workflows/main.yml>`_, by adding the following step (before the "Create pull request" step) to the ``get_events`` job::
 
     - id: source_name
       name: Get Creepy events action step
@@ -81,4 +51,4 @@ To schedule our ``CreepyCrawler``, we need to update the `workflow definition <h
       with:
         crawler-name: 'CreepyCrawler'
 
-And that's it, our crawler is now scheduled!
+Finally, you can raise a PR, which after getting merged can start populating the events list every Monday and Thursday.

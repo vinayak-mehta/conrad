@@ -17,7 +17,7 @@ from . import __version__, CONRAD_HOME
 from .schema import *
 from .db import engine, Session
 from .models import Base, Event, Reminder
-from .utils import apply_schema, initialize_database, validate_events
+from .utils import apply_schema, initialize_database, validate_events, mkdir
 
 
 DATE_FMT = "%Y-%m-%dT%H:%M:%S"
@@ -216,10 +216,14 @@ def _refresh(ctx, *args, **kwargs):
 
 @cli.command("show", short_help="Show all saved events.")
 @click.option(
-    "--id", "-i", help="Show event with a particular id.",
+    "--id",
+    "-i",
+    help="Show event with a particular id.",
 )
 @click.option(
-    "--kind", "-k", help="Show kind of event, conference or meetup.",
+    "--kind",
+    "-k",
+    help="Show kind of event, conference or meetup.",
 )
 @click.option(
     "--cfp",
@@ -440,6 +444,55 @@ def _remind(ctx, *args, **kwargs):
                 session.close()
 
                 click.echo("Reminder removed!")
+
+
+@cli.command("generate", short_help="Set and display reminders.")
+@click.argument("entity")
+@click.argument("entity_name")
+@click.pass_context
+def _generate(ctx, *args, **kwargs):
+    SUPPORTED_ENTITIES = ["crawler"]
+
+    entity = kwargs["entity"]
+
+    if entity not in SUPPORTED_ENTITIES:
+        click.UsageError(f"Entity '{entity}' not supported")
+
+    entity_name = kwargs["entity_name"]
+    entity_name_snake_case = re.sub(r"(?<!^)(?=[A-Z])", "_", entity_name).lower()
+
+    crawler_dir = f"crawlers/{entity_name_snake_case}"
+    mkdir(crawler_dir)
+
+    with open(os.path.join(crawler_dir, "__init__.py"), "w") as f:
+        f.write("# -*- coding: utf-8 -*-\n")
+
+    crawler_content = f"""# -*- coding: utf-8 -*-
+
+from ..base import BaseCrawler
+
+
+class {entity_name}Crawler(BaseCrawler):
+    def get_events(self):
+        # Populate this list of events using your code
+        events = []
+
+        # YOUR CODE HERE
+
+        # Extend the self.events list with the new list
+        self.events.extend(events)
+"""
+
+    crawler_path = os.path.join(crawler_dir, f"{entity_name_snake_case}_crawler.py")
+    with open(crawler_path, "w") as f:
+        f.write(crawler_content)
+
+    with open("crawlers/__init__.py", "a") as f:
+        f.write(
+            f"from .{entity_name_snake_case}.{entity_name_snake_case}_crawler import {entity_name}Crawler"
+        )
+
+    click.echo(f"\t{click.style('create', fg='green', bold=True)}\t{crawler_path}")
 
 
 @bypass_auto_refresh
