@@ -46,13 +46,12 @@ jobs:
       - name: Create pull request
         uses: peter-evans/create-pull-request@v3
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          COMMIT_MESSAGE: Add latest events
-          COMMIT_AUTHOR_EMAIL: vinayak-mehta@users.noreply.github.com
-          COMMIT_AUTHOR_NAME: Vinayak Mehta
-          PULL_REQUEST_TITLE: "[WIP] Add latest events"
-          PULL_REQUEST_BODY: Here's the latest event list!
-          PULL_REQUEST_ASSIGNEES: vinayak-mehta
-          PULL_REQUEST_REVIEWERS: vinayak-mehta
-          PULL_REQUEST_BRANCH: add-events
-          BRANCH_SUFFIX: short-commit-hash
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Add latest events
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          title: "[WIP] Add latest events"
+          body: Here's the latest event list!
+          assignees: vinayak-mehta
+          reviewers: vinayak-mehta
+          branch: add-events
+          branch-suffix: short-commit-hash
