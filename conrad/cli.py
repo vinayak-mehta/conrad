@@ -530,7 +530,9 @@ def _run(ctx, *args, **kwargs):
         crawler_data_path = f"data/{filename}.json"
         c.export(crawler_data_path)
 
-        click.echo(f"\t{click.style('save', fg='green', bold=True)}\t{crawler_data_path}")
+        click.echo(
+            f"\t{click.style('save', fg='green', bold=True)}\t{crawler_data_path}"
+        )
     else:
         print("Crawler not found!")
 
@@ -590,13 +592,17 @@ def _import(ctx, *args, **kwargs):
     pattern = "[0-9]"
     new_events = []
     for ie in input_events:
+        if ie["end_date"] is None:
+            continue
+
         event_end_date = dt.datetime.strptime(ie["end_date"], "%Y-%m-%d")
         if event_end_date < now:
             continue
 
-        cfp_end_date = dt.datetime.strptime(ie["cfp_end_date"], "%Y-%m-%d")
-        if cfp_end_date < now:
-            ie["cfp_open"] = False
+        if ie["cfp_end_date"] is not None:
+            cfp_end_date = dt.datetime.strptime(ie["cfp_end_date"], "%Y-%m-%d")
+            if cfp_end_date < now:
+                ie["cfp_open"] = False
 
         match = False
         for oe in old_events:
