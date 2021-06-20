@@ -7,6 +7,7 @@ Adding a crawler
 
 Currently, ``conrad`` has crawlers for:
 
+- https://confs.tech
 - https://pydata.org/event-schedule
 - https://github.com/python-organizers/conferences
 - https://wiki.python.org/moin/PythonEventsCalendar
@@ -27,7 +28,7 @@ You can use the ``generate`` command to generate the base code for your crawler:
 
 And then add your crawling code to the generated file which will be used to populate the events list::
 
-    class ConfsTechCrawler(BaseCrawler):
+    class CreepyCrawler(BaseCrawler):
         def get_events(self):
             # Populate this list of events using your code
             events = []

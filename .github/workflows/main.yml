@@ -1,7 +1,10 @@
 name: Get events
 on:
-  schedule:
-    - cron: "0 0 * * 1,4"
+  # schedule:
+  #   - cron: "0 0 * * 1,4"
+  push:
+    branches:
+      - "master"
 
 jobs:
   get_events:
@@ -29,6 +32,11 @@ jobs:
         uses: ./.github/actions/get-events-action
         with:
           crawler-name: "PyData"
+      - id: confs_tech
+        name: Get confs.tech events
+        uses: ./.github/actions/get-events-action
+        with:
+          crawler-name: "ConfsTech"
       - name: Create pull request
         uses: peter-evans/create-pull-request@v3
         with:
