@@ -11,7 +11,7 @@ jobs:
     name: Get events
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Save google service account credentials
         shell: bash
         env:
@@ -44,7 +44,7 @@ jobs:
       #   with:
       #     crawler-name: "ItalyCrawler"
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v2
+        uses: peter-evans/create-pull-request@v3
         env:
           token: ${{ secrets.GITHUB_TOKEN }}
           title: "[WIP] Add latest events"
