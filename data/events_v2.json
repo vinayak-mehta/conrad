@@ -5,24 +5,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-05-21",
-        "kind": "conference",
-        "location": "Online",
-        "name": "PyCon US 2021",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-05-12",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://us.pycon.org/2021/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2021-07-19",
         "kind": "conference",
         "location": "Austin, TX, US",
@@ -77,60 +59,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-02-22",
-        "kind": "conference",
-        "location": "Online",
-        "name": "PyCascades 2021",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-02-19",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2021.pycascades.com/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-03-21",
-        "kind": "conference",
-        "location": "Douala, Cameroon",
-        "name": "PyCon Cameroon 2021",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-03-18",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "http://pythoncm.org/pycon.html"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-04-24",
-        "kind": "conference",
-        "location": null,
-        "name": " GeoPython 2021",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-04-22",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "http://2021.geopython.net/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2022-02-20",
         "kind": "conference",
         "location": null,
@@ -142,23 +70,5 @@
             "python"
         ],
         "url": "https://na.pycon.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-03-26",
-        "kind": "conference",
-        "location": "Global, but organizers based in US",
-        "name": "Python Web Conference 2021",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-03-22",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pythonwebconference.com"
     }
 ]
