@@ -44,15 +44,11 @@ jobs:
       #   with:
       #     crawler-name: "ItalyCrawler"
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v2
         env:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: Add latest events
-          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           title: "[WIP] Add latest events"
           body: Here's the latest event list!
-          assignees: vinayak-mehta
-          reviewers: vinayak-mehta
-          branch: add-events
-          branch-suffix: short-commit-hash
+          commit-message: Add latest events
+          branch: "add-events-${{ github.ref }}"
           base: master
