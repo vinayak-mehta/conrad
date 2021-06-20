@@ -37,6 +37,10 @@ And then add your crawling code to the generated file which will be used to popu
             # Extend the self.events list with the new list
             self.events.extend(events)
 
+You can use the ``run`` command to see if your data is getting saved in the format specified in :ref:`adding-events`::
+
+    $ conrad run crawler Creepy
+        save	data/creepy.json
 
 After you're finished writing your crawling code, you just need to schedule it.
 
