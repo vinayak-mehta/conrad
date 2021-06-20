@@ -46,6 +46,8 @@ class ConfsTechCrawler(BaseCrawler):
                     city = conference.get("city")
                     country = conference.get("country")
 
+                    cfp_end_date = conference.get("cfpEndDate") if conference.get("cfpEndDate") is not None else "1970-01-01"
+
                     conference_data = {
                         "name": conference.get("name"),
                         "url": conference.get("url"),
@@ -56,7 +58,7 @@ class ConfsTechCrawler(BaseCrawler):
                             filter(lambda x: x is not None, [city, country])
                         ),
                         "cfp_open": False,
-                        "cfp_end_date": conference.get("cfpEndDate"),
+                        "cfp_end_date": cfp_end_date,
                         "start_date": conference.get("startDate"),
                         "end_date": conference.get("endDate"),
                         "source": "https://confs.tech",

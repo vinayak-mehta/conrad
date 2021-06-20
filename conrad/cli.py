@@ -579,9 +579,10 @@ def _import(ctx, *args, **kwargs):
             print(f"Removing {e['name']}")
             continue
 
-        cfp_end_date = dt.datetime.strptime(e["cfp_end_date"], "%Y-%m-%d")
-        if cfp_end_date < now:
-            e["cfp_open"] = False
+        if e["cfp_end_date"] is not None:
+            cfp_end_date = dt.datetime.strptime(e["cfp_end_date"], "%Y-%m-%d")
+            if cfp_end_date < now:
+                e["cfp_open"] = False
 
         old_events.append(e)
 
