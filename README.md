@@ -40,6 +40,7 @@ The event list is maintained in `data/events.json`. This list is continuously up
 
 Sources:
 
+- https://confs.tech
 - https://pydata.org/event-schedule
 - https://github.com/python-organizers/conferences
 - https://wiki.python.org/moin/PythonEventsCalendar

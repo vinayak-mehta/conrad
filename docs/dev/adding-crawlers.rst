@@ -7,6 +7,7 @@ Adding a crawler
 
 Currently, ``conrad`` has crawlers for:
 
+- https://confs.tech
 - https://pydata.org/event-schedule
 - https://github.com/python-organizers/conferences
 - https://wiki.python.org/moin/PythonEventsCalendar
