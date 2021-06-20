@@ -57,7 +57,7 @@ master_doc = "index"
 
 # General information about the project.
 project = u"conference-radar"
-copyright = u"2020, Vinayak Mehta"
+copyright = u"2021, Vinayak Mehta"
 author = u"Vinayak Mehta"
 
 # The version info for the project you're documenting, acts as replacement for

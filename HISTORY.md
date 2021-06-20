@@ -4,6 +4,9 @@ Release History
 master
 ------
 
+0.9.0 (2021-06-21)
+------------------
+
 **Improvements**
 
 * Add `generate` and `run` commands to make crawler addition easy.
