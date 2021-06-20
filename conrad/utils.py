@@ -98,7 +98,8 @@ def conrad_self_version_check():
             )
     except Exception:
         logger.debug(
-            "There was an error checking the latest version of conrad", exc_info=True,
+            "There was an error checking the latest version of conrad",
+            exc_info=True,
         )
 
 
@@ -162,3 +163,8 @@ def validate_events(input_events, version=LATEST):
             break
 
     return failures
+
+
+def mkdir(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
