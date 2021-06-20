@@ -18,17 +18,17 @@ jobs:
         name: Get Python events
         uses: ./.github/actions/get-events-action
         with:
-          crawler-name: "PythonCrawler"
+          crawler-name: "Python"
       - id: pycon
         name: Get PyCon events
         uses: ./.github/actions/get-events-action
         with:
-          crawler-name: "PyConCrawler"
+          crawler-name: "PyCon"
       - id: pydata
         name: Get PyData events
         uses: ./.github/actions/get-events-action
         with:
-          crawler-name: "PyDataCrawler"
+          crawler-name: "PyData"
       - name: Create pull request
         uses: peter-evans/create-pull-request@v3
         with:

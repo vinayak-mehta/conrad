@@ -2,8 +2,10 @@
 
 import os
 import re
+import sys
 import json
 import hashlib
+import inspect
 import datetime as dt
 
 import click
@@ -12,6 +14,9 @@ import sqlalchemy
 import textdistance
 from colorama import Fore, Style
 from cli_helpers import tabular_output
+
+import crawlers
+from crawlers import *
 
 from . import __version__, CONRAD_HOME
 from .schema import *
@@ -446,7 +451,7 @@ def _remind(ctx, *args, **kwargs):
                 click.echo("Reminder removed!")
 
 
-@cli.command("generate", short_help="Set and display reminders.")
+@cli.command("generate", short_help="Generate skeleton crawler code.")
 @click.argument("entity")
 @click.argument("entity_name")
 @click.pass_context
@@ -493,6 +498,41 @@ class {entity_name}Crawler(BaseCrawler):
         )
 
     click.echo(f"\t{click.style('create', fg='green', bold=True)}\t{crawler_path}")
+
+
+@cli.command("run", short_help="Run crawler code.")
+@click.argument("entity")
+@click.argument("entity_name")
+@click.pass_context
+def _run(ctx, *args, **kwargs):
+    SUPPORTED_ENTITIES = ["crawler"]
+
+    entity = kwargs["entity"]
+
+    if entity not in SUPPORTED_ENTITIES:
+        click.UsageError(f"Entity '{entity}' not supported")
+
+    entity_name = kwargs["entity_name"]
+    entity_name_snake_case = re.sub(r"(?<!^)(?=[A-Z])", "_", entity_name).lower()
+
+    crawler = [
+        m[0]
+        for m in inspect.getmembers(crawlers, inspect.isclass)
+        if m[1].__module__.startswith("crawlers") and m[0] == f"{entity_name}Crawler"
+    ]
+    if len(crawler):
+        filename = crawler[0].lower().replace("crawler", "")
+
+        Crawler = eval(crawler[0])
+        c = Crawler()
+        c.get_events()
+
+        crawler_data_path = f"data/{filename}.json"
+        c.export(crawler_data_path)
+
+        click.echo(f"\t{click.style('save', fg='green', bold=True)}\t{crawler_data_path}")
+    else:
+        print("Crawler not found!")
 
 
 @bypass_auto_refresh
