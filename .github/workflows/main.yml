@@ -29,17 +29,6 @@ jobs:
         uses: ./.github/actions/get-events-action
         with:
           crawler-name: "PyDataCrawler"
-      # - id: papercall
-      #   name: Get Papercall events
-      #   uses: ./.github/actions/get-events-action
-      #   with:
-      #     crawler-name: 'PapercallCrawler'
-      # TODO: remove
-      # - id: Italy
-      #   name: Get Italy events
-      #   uses: ./.github/actions/get-events-action
-      #   with:
-      #     crawler-name: "ItalyCrawler"
       - name: Create pull request
         uses: peter-evans/create-pull-request@v3
         with:
