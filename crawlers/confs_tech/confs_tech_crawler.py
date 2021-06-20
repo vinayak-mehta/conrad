@@ -19,7 +19,7 @@ class ConfsTechCrawler(BaseCrawler):
         # Populate this list of events using your code
         events = []
 
-        git.Git("/tmp").clone("https://github.com/tech-conferences/conference-data.git")
+        git.Git("/tmp").clone("https://github.com/tech-conferences/conference-data.git", depth=1)
 
         data_path = "/tmp/conference-data"
         mkdir(data_path)
