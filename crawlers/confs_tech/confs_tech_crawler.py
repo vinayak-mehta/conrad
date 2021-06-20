@@ -60,7 +60,7 @@ class ConfsTechCrawler(BaseCrawler):
                         "start_date": conference.get("startDate"),
                         "end_date": conference.get("endDate"),
                         "source": "https://confs.tech",
-                        "tags": f"['{tag}']",
+                        "tags": [tag],
                         "kind": "conference",
                         "by": "bot",
                     }
