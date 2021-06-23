@@ -19,7 +19,9 @@ class ConfsTechCrawler(BaseCrawler):
         # Populate this list of events using your code
         events = []
 
-        git.Git("/tmp").clone("https://github.com/tech-conferences/conference-data.git", depth=1)
+        git.Git("/tmp").clone(
+            "https://github.com/tech-conferences/conference-data.git", depth=1
+        )
 
         data_path = "/tmp/conference-data"
         mkdir(data_path)
@@ -46,7 +48,11 @@ class ConfsTechCrawler(BaseCrawler):
                     city = conference.get("city")
                     country = conference.get("country")
 
-                    cfp_end_date = conference.get("cfpEndDate") if conference.get("cfpEndDate") is not None else "1970-01-01"
+                    cfp_end_date = (
+                        conference.get("cfpEndDate")
+                        if conference.get("cfpEndDate") is not None
+                        else "1970-01-01"
+                    )
 
                     conference_data = {
                         "name": conference.get("name"),

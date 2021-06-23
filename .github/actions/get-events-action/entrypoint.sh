@@ -1,7 +1,6 @@
 #!/bin/sh -l
 
-pip install -r requirements-crawl.txt
-pip install .
+python -m pip install ".[all]"
 
 python -m conrad run crawler $1
 

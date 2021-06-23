@@ -15,8 +15,20 @@ import textdistance
 from colorama import Fore, Style
 from cli_helpers import tabular_output
 
-import crawlers
-from crawlers import *
+try:
+    import bs4
+    import git
+    import pandas
+    import cerberus
+    import googleapiclient
+except ImportError:
+    _HAS_CRAWL_REQUIREMENTS = False
+else:
+    _HAS_CRAWL_REQUIREMENTS = True
+
+if _HAS_CRAWL_REQUIREMENTS:
+    import crawlers
+    from crawlers import *
 
 from . import __version__, CONRAD_HOME
 from .schema import *
@@ -505,6 +517,12 @@ class {entity_name}Crawler(BaseCrawler):
 @click.argument("entity_name")
 @click.pass_context
 def _run(ctx, *args, **kwargs):
+    if not _HAS_CRAWL_REQUIREMENTS:
+        raise click.UsageError(
+            "To run crawlers, please install the requirements with\n"
+            "'pip install --upgrade conference-radar[crawl]'."
+        )
+
     SUPPORTED_ENTITIES = ["crawler"]
 
     entity = kwargs["entity"]

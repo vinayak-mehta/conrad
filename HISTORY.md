@@ -4,6 +4,13 @@ Release History
 master
 ------
 
+0.9.1 (2021-06-24)
+------------------
+
+**Bugfixes**
+
+* Fix `ImportError` caused by missing crawl requirements.
+
 0.9.0 (2021-06-21)
 ------------------
 

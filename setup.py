@@ -23,7 +23,19 @@ requires = [
     "textdistance>=4.1.5",
 ]
 dev_requires = ["Sphinx>=2.2.1", "pytest>=3.8.0"]
+crawl_requires = [
+    "beautifulsoup4>=4.8.1",
+    "Cerberus>=1.3.2",
+    "dateparser>=0.7.2",
+    "GitPython>=3.1.18",
+    "google-api-python-client>=1.10.0",
+    "pandas>=0.25.2",
+    "pyOpenSSL>=19.0.0",
+    "requests>=2.22.0",
+    "textdistance>=4.1.5",
+]
 dev_requires = dev_requires + requires
+all_requires = crawl_requires + dev_requires
 
 
 def setup_package():
@@ -39,7 +51,7 @@ def setup_package():
         license=about["__license__"],
         packages=find_packages(exclude=("tests",)),
         install_requires=requires,
-        extras_require={"dev": dev_requires},
+        extras_require={"all": all_requires, "dev": dev_requires},
         entry_points={"console_scripts": ["conrad = conrad.__main__:main"]},
         classifiers=[
             # Trove classifiers
