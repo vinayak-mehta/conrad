@@ -2503,6 +2503,42 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2021-07-19",
+        "cfp_open": false,
+        "city": "Seattle, WA",
+        "country": "U.S.A.",
+        "end_date": "2021-11-04",
+        "kind": "conference",
+        "location": "Seattle, WA, U.S.A.",
+        "name": "CascadiaJS",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-03",
+        "state": null,
+        "tags": [
+            "javascript"
+        ],
+        "url": "https://2021.cascadiajs.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-06-23",
+        "kind": "conference",
+        "location": "",
+        "name": "Ionic Conf",
+        "source": "https://confs.tech",
+        "start_date": "2021-06-23",
+        "state": null,
+        "tags": [
+            "javascript"
+        ],
+        "url": "https://ionic.io/ioniconf"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2020-10-30",
         "cfp_open": false,
         "city": "Tokyo",
@@ -3439,6 +3475,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2021-07-15",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-08-07",
+        "kind": "conference",
+        "location": "",
+        "name": "The Raku Conference",
+        "source": "https://confs.tech",
+        "start_date": "2021-08-07",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://conf.raku.org"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2021-06-04",
         "cfp_open": false,
         "city": null,
@@ -4120,6 +4174,24 @@
             "general"
         ],
         "url": "https://devternity.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Pocono Manor, PA",
+        "country": "U.S.A.",
+        "end_date": "2021-10-22",
+        "kind": "conference",
+        "location": "Pocono Manor, PA, U.S.A.",
+        "name": "Tech Bash",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-19",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://www.techbash.com"
     },
     {
         "by": "bot",
@@ -5146,6 +5218,24 @@
             "networking"
         ],
         "url": "https://techupforwomen.com/event-details"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-24",
+        "kind": "conference",
+        "location": "",
+        "name": "EFWeek",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-18",
+        "state": null,
+        "tags": [
+            "networking"
+        ],
+        "url": "https://freelancersweek.org"
     },
     {
         "by": "bot",
@@ -6553,6 +6643,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2021-08-31",
+        "cfp_open": false,
+        "city": "Vilnius",
+        "country": "Lithuania",
+        "end_date": "2021-09-09",
+        "kind": "conference",
+        "location": "Vilnius, Lithuania",
+        "name": "TestCon",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-07",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://testcon.lt"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Houston, TX",
@@ -6802,6 +6910,24 @@
             "devops"
         ],
         "url": "https://devopscon.io/singapore"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-07-31",
+        "cfp_open": false,
+        "city": "Buffalo, NY",
+        "country": "U.S.A.",
+        "end_date": "2021-10-14",
+        "kind": "conference",
+        "location": "Buffalo, NY, U.S.A.",
+        "name": "DevOps Days Buffalo",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-13",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://devopsdays.org/events/2021-buffalo/welcome"
     },
     {
         "by": "bot",
@@ -7756,6 +7882,24 @@
             "security"
         ],
         "url": "https://cybersecai.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-08-08",
+        "kind": "conference",
+        "location": "",
+        "name": "DEF CON",
+        "source": "https://confs.tech",
+        "start_date": "2021-08-05",
+        "state": null,
+        "tags": [
+            "security"
+        ],
+        "url": "https://defcon.org"
     },
     {
         "by": "bot",
