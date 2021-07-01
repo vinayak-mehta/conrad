@@ -800,23 +800,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2021-05-31",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-07-01",
-        "kind": "conference",
-        "name": "WeAreDevelopers World Congress",
-        "source": "https://confs.tech",
-        "start_date": "2021-06-28",
-        "state": null,
-        "tags": [
-            "general"
-        ],
-        "url": "https://www.wearedevelopers.com/world-congress"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": null,
@@ -1151,7 +1134,7 @@
         "start_date": "2021-09-27",
         "state": null,
         "tags": [
-            "general"
+            "devops"
         ],
         "url": "https://events.linuxfoundation.org/open-source-summit-north-america/"
     },
@@ -1482,8 +1465,8 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Riga",
-        "country": "Latvia",
+        "city": null,
+        "country": null,
         "end_date": "2021-12-11",
         "kind": "conference",
         "name": "DevTernity",
@@ -1647,23 +1630,6 @@
             "ios"
         ],
         "url": "https://www.swiftleeds.co.uk"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2021-05-23",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-06-30",
-        "kind": "conference",
-        "name": "Prisma Day",
-        "source": "https://confs.tech",
-        "start_date": "2021-06-29",
-        "state": null,
-        "tags": [
-            "typescript"
-        ],
-        "url": "https://www.prisma.io/day"
     },
     {
         "by": "bot",
@@ -1868,40 +1834,6 @@
             "elixir"
         ],
         "url": "https://www.elixirconf.eu"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2021-05-31",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-06-29",
-        "kind": "conference",
-        "name": "Devopsdays NL",
-        "source": "https://confs.tech",
-        "start_date": "2021-06-29",
-        "state": null,
-        "tags": [
-            "devops"
-        ],
-        "url": "https://devopsdays.org/events/2021-amsterdam/welcome/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Zurich",
-        "country": "Switzerland",
-        "end_date": "2021-06-30",
-        "kind": "conference",
-        "name": "DevOps Fusion",
-        "source": "https://confs.tech",
-        "start_date": "2021-06-30",
-        "state": null,
-        "tags": [
-            "devops"
-        ],
-        "url": "https://devops-fusion.com"
     },
     {
         "by": "bot",
@@ -2791,17 +2723,119 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
+        "city": "Washington, D.C.",
+        "country": "U.S.A.",
+        "end_date": "2021-09-17",
+        "kind": "conference",
+        "name": "Devopsdays",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-16",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://devopsdays.org/events/2021-washington-dc/welcome"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-07-09",
+        "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-06-30",
+        "end_date": "2021-10-21",
         "kind": "conference",
-        "name": "Thrive-WiSE Micro Conference",
+        "name": "DevNet Create",
         "source": "https://confs.tech",
-        "start_date": "2021-06-30",
+        "start_date": "2021-10-19",
         "state": null,
         "tags": [
             "general"
         ],
-        "url": "https://www.thrive-wise.org/micro-conference-2021"
+        "url": "https://developer.cisco.com/devnetcreate/2021/home"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Reston, VA",
+        "country": "U.S.A.",
+        "end_date": "2021-10-30",
+        "kind": "conference",
+        "name": "Northern Virginia Software Symposium",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-29",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://nofluffjuststuff.com/reston"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Aurora, CO",
+        "country": "U.S.A.",
+        "end_date": "2021-10-29",
+        "kind": "conference",
+        "name": "CppCon",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-24",
+        "state": null,
+        "tags": [
+            "cpp"
+        ],
+        "url": "https://cppcon.org"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-08-01",
+        "cfp_open": false,
+        "city": "Chicago, IL",
+        "country": "U.S.A.",
+        "end_date": "2021-12-10",
+        "kind": "conference",
+        "name": "jConf.dev",
+        "source": "https://confs.tech",
+        "start_date": "2021-12-08",
+        "state": null,
+        "tags": [
+            "java"
+        ],
+        "url": "https://2021.jconf.dev"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "end_date": "2021-10-05",
+        "kind": "conference",
+        "name": "JSWORLD Conference",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-04",
+        "state": null,
+        "tags": [
+            "javascript"
+        ],
+        "url": "https://jsworldconference.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-07-15",
+        "cfp_open": false,
+        "city": "Atlanta, GA",
+        "country": "U.S.A.",
+        "end_date": "2021-11-10",
+        "kind": "conference",
+        "name": "CONNECT.TECH",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-08",
+        "state": null,
+        "tags": [
+            "javascript"
+        ],
+        "url": "https://2021.connect.tech"
     }
 ]
