@@ -2837,5 +2837,73 @@
             "javascript"
         ],
         "url": "https://2021.connect.tech"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Minneapolis, MN",
+        "country": "U.S.A.",
+        "end_date": "2021-08-26",
+        "kind": "conference",
+        "name": "NDC Minnesota",
+        "source": "https://confs.tech",
+        "start_date": "2021-08-24",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://ndcminnesota.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Berlin",
+        "country": "Germany",
+        "end_date": "2021-12-08",
+        "kind": "conference",
+        "name": "ML Conference Berlin",
+        "source": "https://confs.tech",
+        "start_date": "2021-12-06",
+        "state": null,
+        "tags": [
+            "data"
+        ],
+        "url": "https://mlconference.ai/berlin"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Berlin",
+        "country": "Germany",
+        "end_date": "2021-12-08",
+        "kind": "conference",
+        "name": "Voice Conference",
+        "source": "https://confs.tech",
+        "start_date": "2021-12-06",
+        "state": null,
+        "tags": [
+            "data"
+        ],
+        "url": "https://voicecon.net"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-09-01",
+        "cfp_open": false,
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "end_date": "2021-10-04",
+        "kind": "conference",
+        "name": "Vue Global",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-01",
+        "state": null,
+        "tags": [
+            "javascript"
+        ],
+        "url": "https://vuejs.amsterdam"
     }
 ]
