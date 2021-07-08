@@ -109,6 +109,42 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2021-07-16",
+        "cfp_open": false,
+        "city": "Denver, CO",
+        "country": "U.S.A.",
+        "end_date": "2021-11-10",
+        "kind": "conference",
+        "location": "Denver, CO, U.S.A.",
+        "name": "RubyConf",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-08",
+        "state": null,
+        "tags": [
+            "ruby"
+        ],
+        "url": "http://rubyconf.org"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-06-30",
+        "cfp_open": false,
+        "city": "Houston, TX",
+        "country": "U.S.A.",
+        "end_date": "2021-09-24",
+        "kind": "conference",
+        "location": "Houston, TX, U.S.A.",
+        "name": "Into the Box",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-23",
+        "state": null,
+        "tags": [
+            "cfml"
+        ],
+        "url": "https://intothebox.org"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": null,
@@ -523,6 +559,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2021-07-11",
+        "cfp_open": false,
+        "city": "Austin, TX",
+        "country": "U.S.A.",
+        "end_date": "2021-10-13",
+        "kind": "conference",
+        "location": "Austin, TX, U.S.A.",
+        "name": "ElixirConf",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-12",
+        "state": null,
+        "tags": [
+            "elixir"
+        ],
+        "url": "https://2021.elixirconf.com"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": null,
@@ -736,6 +790,24 @@
             "product"
         ],
         "url": "http://p3x.io"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Birmingham",
+        "country": "U.K.",
+        "end_date": "2021-11-18",
+        "kind": "conference",
+        "location": "Birmingham, U.K.",
+        "name": "Canvas X",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-18",
+        "state": null,
+        "tags": [
+            "product"
+        ],
+        "url": "https://canvasconference.co.uk"
     },
     {
         "by": "bot",
@@ -1348,6 +1420,24 @@
             "php"
         ],
         "url": "https://api-platform.com/con/2021"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Austin, TX",
+        "country": "U.S.A.",
+        "end_date": "2021-10-16",
+        "kind": "conference",
+        "location": "Austin, TX, U.S.A.",
+        "name": "Longhorn PHP",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-14",
+        "state": null,
+        "tags": [
+            "php"
+        ],
+        "url": "https://www.longhornphp.com"
     },
     {
         "by": "bot",
@@ -2667,60 +2757,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-07-16",
-        "kind": "conference",
-        "location": "",
-        "name": "Devopsdays Pozna\u0144",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-15",
-        "state": null,
-        "tags": [
-            "devops"
-        ],
-        "url": "https://devopsdays.org/events/2021-poznan/welcome/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-07-17",
-        "kind": "conference",
-        "location": "",
-        "name": "Devopsdays Washington, D.C.",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-16",
-        "state": null,
-        "tags": [
-            "devops"
-        ],
-        "url": "https://devopsdays.org/events/2021-washington-dc/welcome/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-07-18",
-        "kind": "conference",
-        "location": "",
-        "name": "Devopsdays Istanbul",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-18",
-        "state": null,
-        "tags": [
-            "devops"
-        ],
-        "url": "https://devopsdays.org/events/2021-istanbul/welcome/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Minneapolis, MN",
         "country": "U.S.A.",
         "end_date": "2021-07-21",
@@ -2791,24 +2827,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Dallas, TX",
-        "country": "U.S.A.",
-        "end_date": "2021-08-26",
-        "kind": "conference",
-        "location": "Dallas, TX, U.S.A.",
-        "name": "Devopsdays Dallas",
-        "source": "https://confs.tech",
-        "start_date": "2021-08-25",
-        "state": null,
-        "tags": [
-            "devops"
-        ],
-        "url": "https://devopsdays.org/events/2021-dallas/welcome/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2021-05-31",
         "cfp_open": false,
         "city": "Zurich",
@@ -2845,6 +2863,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2021-08-13",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-10",
+        "kind": "conference",
+        "location": "",
+        "name": "Devopsdays Blumenau",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-09",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://devopsdays.org/events/2021-blumenau/welcome/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Washington, D.C.",
@@ -2852,7 +2888,7 @@
         "end_date": "2021-09-17",
         "kind": "conference",
         "location": "Washington, D.C., U.S.A.",
-        "name": "Devopsdays",
+        "name": "Devopsdays Washington, D.C.",
         "source": "https://confs.tech",
         "start_date": "2021-09-16",
         "state": null,
@@ -2860,6 +2896,24 @@
             "devops"
         ],
         "url": "https://devopsdays.org/events/2021-washington-dc/welcome"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-18",
+        "kind": "conference",
+        "location": "",
+        "name": "Devopsdays Istanbul",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-18",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://devopsdays.org/events/2021-istanbul/welcome/"
     },
     {
         "by": "bot",
@@ -2878,24 +2932,6 @@
             "devops"
         ],
         "url": "https://devopsdays.org/events/2021-houston/welcome/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Bogota",
-        "country": "Colombia",
-        "end_date": "2021-09-23",
-        "kind": "conference",
-        "location": "Bogota, Colombia",
-        "name": "Devopsdays Bogot\u00e1",
-        "source": "https://confs.tech",
-        "start_date": "2021-09-22",
-        "state": null,
-        "tags": [
-            "devops"
-        ],
-        "url": "https://devopsdays.org/events/2021-bogota/welcome/"
     },
     {
         "by": "bot",
@@ -3007,6 +3043,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-05",
+        "kind": "conference",
+        "location": "",
+        "name": "Devopsdays Pozna\u0144",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-04",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://devopsdays.org/events/2021-poznan/welcome/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2021-02-26",
         "cfp_open": false,
         "city": null,
@@ -3050,7 +3104,7 @@
         "end_date": "2021-10-14",
         "kind": "conference",
         "location": "Buffalo, NY, U.S.A.",
-        "name": "DevOps Days Buffalo",
+        "name": "Devopsdays Buffalo",
         "source": "https://confs.tech",
         "start_date": "2021-10-13",
         "state": null,
@@ -3094,6 +3148,24 @@
             "devops"
         ],
         "url": "https://www.dashcon.io"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Melbourne",
+        "country": "Australia",
+        "end_date": "2021-10-29",
+        "kind": "conference",
+        "location": "Melbourne, Australia",
+        "name": "Devopsdays Melbourne",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-28",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://devopsdays.org/events/2021-melbourne/welcome/"
     },
     {
         "by": "bot",
@@ -3148,6 +3220,24 @@
             "devops"
         ],
         "url": "https://devopscon.io/singapore"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Bogota",
+        "country": "Colombia",
+        "end_date": "2021-11-25",
+        "kind": "conference",
+        "location": "Bogota, Colombia",
+        "name": "Devopsdays Bogot\u00e1",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-24",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://devopsdays.org/events/2021-bogota/welcome/"
     },
     {
         "by": "bot",
@@ -4069,6 +4159,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Wellington",
+        "country": "New Zealand",
+        "end_date": "2021-08-06",
+        "kind": "conference",
+        "location": "Wellington, New Zealand",
+        "name": "New Zealand Game Developers Conference",
+        "source": "https://confs.tech",
+        "start_date": "2021-08-04",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://nzgdc.com"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2021-06-30",
         "cfp_open": false,
         "city": null,
@@ -4210,6 +4318,24 @@
             "general"
         ],
         "url": "https://reliablewebsummit.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Denver, CO",
+        "country": "U.S.A.",
+        "end_date": "2021-08-28",
+        "kind": "conference",
+        "location": "Denver, CO, U.S.A.",
+        "name": "Mile High Software Testing Conference",
+        "source": "https://confs.tech",
+        "start_date": "2021-08-27",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://www.milehightesting.com"
     },
     {
         "by": "bot",
@@ -4377,6 +4503,24 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
+        "city": "Auckland",
+        "country": "New Zealand",
+        "end_date": "2021-09-22",
+        "kind": "conference",
+        "location": "Auckland, New Zealand",
+        "name": "Full Stack Day",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-21",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://www.fullstackday.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
         "city": "Copenhagen",
         "country": "Denmark",
         "end_date": "2021-09-22",
@@ -4462,6 +4606,24 @@
             "general"
         ],
         "url": "https://conference.eurostarsoftwaretesting.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-30",
+        "kind": "conference",
+        "location": "",
+        "name": "Geekfest",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-29",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://geekfest.bellevent.ca/become-a-sponsor/about-overview.html"
     },
     {
         "by": "bot",
@@ -4557,6 +4719,24 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
+        "city": "Lagos",
+        "country": "Nigeria",
+        "end_date": "2021-10-16",
+        "kind": "conference",
+        "location": "Lagos, Nigeria",
+        "name": "CONCATENATE",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-09",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://www.concatenate.dev"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
         "city": "Portland, OR",
         "country": "U.S.A.",
         "end_date": "2021-10-13",
@@ -4624,6 +4804,24 @@
             "general"
         ],
         "url": "https://infoshare.pl"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Kongsberg",
+        "country": "Norway",
+        "end_date": "2021-10-20",
+        "kind": "conference",
+        "location": "Kongsberg, Norway",
+        "name": "NDC Tech Town",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-17",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://ndctechtown.com"
     },
     {
         "by": "bot",
@@ -4789,6 +4987,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2021-07-30",
+        "cfp_open": false,
+        "city": "Santa Clara, CA",
+        "country": "U.S.A.",
+        "end_date": "2021-11-11",
+        "kind": "conference",
+        "location": "Santa Clara, CA, U.S.A.",
+        "name": "AWE USA",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-09",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://www.awexr.com"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2021-07-09",
         "cfp_open": false,
         "city": null,
@@ -4822,6 +5038,24 @@
             "general"
         ],
         "url": "https://live360events.com/events/orlando-2021/Home.aspx"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Oslo",
+        "country": "Norway",
+        "end_date": "2021-12-03",
+        "kind": "conference",
+        "location": "Oslo, Norway",
+        "name": "NDC Oslo",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-29",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://ndcoslo.com"
     },
     {
         "by": "bot",
@@ -5110,6 +5344,24 @@
             "java"
         ],
         "url": "https://makeit.si/index.php/en"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-12",
+        "kind": "conference",
+        "location": "",
+        "name": "I Code Java Africa",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-12",
+        "state": null,
+        "tags": [
+            "java"
+        ],
+        "url": "https://j-sa.co"
     },
     {
         "by": "bot",
@@ -5794,6 +6046,24 @@
             "data"
         ],
         "url": "https://odsc.com/apac"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Lisboa",
+        "country": "Portugal",
+        "end_date": "2021-11-04",
+        "kind": "conference",
+        "location": "Lisboa, Portugal",
+        "name": "Web Summit; Developers & Data",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-01",
+        "state": null,
+        "tags": [
+            "data"
+        ],
+        "url": "https://websummit.com/themes/developers-and-data"
     },
     {
         "by": "bot",
@@ -7545,6 +7815,24 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
+        "city": "Las Vegas, NV",
+        "country": "U.S.A.",
+        "end_date": "2021-08-05",
+        "kind": "conference",
+        "location": "Las Vegas, NV, U.S.A.",
+        "name": "BlackHat USA",
+        "source": "https://confs.tech",
+        "start_date": "2021-07-31",
+        "state": null,
+        "tags": [
+            "security"
+        ],
+        "url": "https://blackhat.com/us-21"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
         "city": null,
         "country": null,
         "end_date": "2021-08-08",
@@ -7594,6 +7882,24 @@
             "security"
         ],
         "url": "https://events.linuxfoundation.org/linux-security-summit-europe/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-07-11",
+        "cfp_open": false,
+        "city": "Seattle, WA",
+        "country": "U.S.A.",
+        "end_date": "2021-10-01",
+        "kind": "conference",
+        "location": "Seattle, WA, U.S.A.",
+        "name": "Linux Security Summit",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-29",
+        "state": null,
+        "tags": [
+            "security"
+        ],
+        "url": "https://events.linuxfoundation.org/linux-security-summit-north-america"
     },
     {
         "by": "bot",
