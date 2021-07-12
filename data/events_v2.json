@@ -163,24 +163,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2021-05-15",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-07-10",
-        "kind": "conference",
-        "location": "",
-        "name": "Hardwear.io Security Trainings & Conference USA",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-05",
-        "state": null,
-        "tags": [
-            "iot"
-        ],
-        "url": "https://hardwear.io/usa-2021"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2021-06-13",
         "cfp_open": false,
         "city": "Seattle, WA",
@@ -1913,24 +1895,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-07-10",
-        "kind": "conference",
-        "location": "",
-        "name": "Devopsdays Porto Alegre",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-10",
-        "state": null,
-        "tags": [
-            "devops"
-        ],
-        "url": "https://devopsdays.org/events/2021-porto-alegre/welcome/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2021-10-05",
         "kind": "conference",
         "location": "",
@@ -3364,5 +3328,132 @@
             "security"
         ],
         "url": "https://events.linuxfoundation.org/linux-security-summit-north-america"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-30",
+        "kind": "conference",
+        "location": "",
+        "name": "PyData Global 2021",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2021-10-28",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://pydata.org/global2021/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-07-11",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-10",
+        "kind": "conference",
+        "location": "",
+        "name": "Haskell Love",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-10",
+        "state": null,
+        "tags": [
+            "networking"
+        ],
+        "url": "https://haskell.love"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Houston, TX",
+        "country": "U.S.A.",
+        "end_date": "2021-10-15",
+        "kind": "conference",
+        "location": "Houston, TX, U.S.A.",
+        "name": "Community Summit North America",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-12",
+        "state": null,
+        "tags": [
+            "networking"
+        ],
+        "url": "https://www.summitna.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-08-31",
+        "cfp_open": false,
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "end_date": "2021-11-25",
+        "kind": "conference",
+        "location": "Tel Aviv, Israel",
+        "name": "DevOpsDays Tel Aviv",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-24",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://tlvcommunity.dev/devopsdays"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Munich",
+        "country": "Germany",
+        "end_date": "2021-12-02",
+        "kind": "conference",
+        "location": "Munich, Germany",
+        "name": "DevOps Conference Munich",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-29",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://devopscon.io/munich"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-08",
+        "kind": "conference",
+        "location": "",
+        "name": "JCON",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-05",
+        "state": null,
+        "tags": [
+            "java"
+        ],
+        "url": "https://jcon.one"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "London",
+        "country": "U.K.",
+        "end_date": "2021-09-17",
+        "kind": "conference",
+        "location": "London, U.K.",
+        "name": "CITYJS Conference",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-17",
+        "state": null,
+        "tags": [
+            "javascript"
+        ],
+        "url": "https://cityjsconf.org"
     }
 ]
