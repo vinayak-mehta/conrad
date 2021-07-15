@@ -4321,6 +4321,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-08-20",
+        "kind": "conference",
+        "location": "",
+        "name": "REFACTR.TECH",
+        "source": "https://confs.tech",
+        "start_date": "2021-08-18",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://www.refactr.tech"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2021-03-31",
         "cfp_open": false,
         "city": "Melbourne",
@@ -4372,6 +4390,24 @@
             "general"
         ],
         "url": "https://ndcminnesota.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-07-30",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-08-27",
+        "kind": "conference",
+        "location": "",
+        "name": "International Conference on Cloud Computing and eGovernance",
+        "source": "https://confs.tech",
+        "start_date": "2021-08-26",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://iccceg.org"
     },
     {
         "by": "bot",
@@ -4557,24 +4593,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Atlanta, GA",
-        "country": "U.S.A.",
-        "end_date": "2021-09-17",
-        "kind": "conference",
-        "location": "Atlanta, GA, U.S.A.",
-        "name": "REFACTR.TECH",
-        "source": "https://confs.tech",
-        "start_date": "2021-09-15",
-        "state": null,
-        "tags": [
-            "general"
-        ],
-        "url": "https://refactr.tech"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Auckland",
         "country": "New Zealand",
         "end_date": "2021-09-22",
@@ -4593,24 +4611,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Copenhagen",
-        "country": "Denmark",
-        "end_date": "2021-09-22",
-        "kind": "conference",
-        "location": "Copenhagen, Denmark",
-        "name": "GOTO Copenhagen",
-        "source": "https://confs.tech",
-        "start_date": "2021-09-21",
-        "state": null,
-        "tags": [
-            "general"
-        ],
-        "url": "https://gotocph.com"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": null,
         "country": null,
         "end_date": "2021-09-24",
@@ -4624,6 +4624,24 @@
             "general"
         ],
         "url": "https://wildwesthackinfest.com/deadwood"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-23",
+        "kind": "conference",
+        "location": "",
+        "name": "UIG-Tagung",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-23",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://www.kompetenzzentrum-usability.digital/events/uig-tagung-2021"
     },
     {
         "by": "bot",
@@ -4750,6 +4768,24 @@
             "general"
         ],
         "url": "http://qafest.com/en"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-08-31",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-04",
+        "kind": "conference",
+        "location": "",
+        "name": "LinuxConf [ZA]",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-04",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://linuxconf.co.za"
     },
     {
         "by": "bot",
@@ -5059,6 +5095,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "end_date": "2021-11-12",
+        "kind": "conference",
+        "location": "Copenhagen, Denmark",
+        "name": "GOTO Copenhagen",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-08",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://gotocph.com"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2021-07-30",
         "cfp_open": false,
         "city": "Santa Clara, CA",
@@ -5128,6 +5182,24 @@
             "general"
         ],
         "url": "https://ndcoslo.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-10-29",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-12-03",
+        "kind": "conference",
+        "location": "",
+        "name": "Embedded Fest",
+        "source": "https://confs.tech",
+        "start_date": "2021-12-03",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://embeddedfest.com"
     },
     {
         "by": "bot",
@@ -6139,6 +6211,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2021-08-31",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-05",
+        "kind": "conference",
+        "location": "",
+        "name": "PostgresConf South Africa",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-05",
+        "state": null,
+        "tags": [
+            "data"
+        ],
+        "url": "https://postgresconf.org/conferences/SouthAfrica2021"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Lisboa",
@@ -7077,6 +7167,24 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
+        "city": "Vinnytsia",
+        "country": "Ukraine",
+        "end_date": "2021-08-21",
+        "kind": "conference",
+        "location": "Vinnytsia, Ukraine",
+        "name": "VinnytsiaJS",
+        "source": "https://confs.tech",
+        "start_date": "2021-08-21",
+        "state": null,
+        "tags": [
+            "javascript"
+        ],
+        "url": "https://vinnytsiajs.org"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
         "city": "Brooklyn, NY",
         "country": "U.S.A.",
         "end_date": "2021-09-10",
@@ -7504,6 +7612,24 @@
             "ios"
         ],
         "url": "https://www.swiftleeds.co.uk"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-07-12",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-08",
+        "kind": "conference",
+        "location": "",
+        "name": "Mobiconf",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-07",
+        "state": null,
+        "tags": [
+            "ios"
+        ],
+        "url": "https://2021.mobiconf.org"
     },
     {
         "by": "bot",
@@ -8566,6 +8692,24 @@
             "python"
         ],
         "url": "https://in.pycon.org/2021"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-08-16",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-08",
+        "kind": "conference",
+        "location": "",
+        "name": "PyConZA",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-07",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://za.pycon.org"
     },
     {
         "by": "bot",
