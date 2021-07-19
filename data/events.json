@@ -5,23 +5,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-07-16",
-        "kind": "conference",
-        "name": "Scipy",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-12",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://scipy2021.scipy.org"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2021-08-01",
         "kind": "conference",
         "name": "EuroPython",
@@ -457,23 +440,6 @@
             "android"
         ],
         "url": "https://www.sf.droidcon.com"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Barcelona",
-        "country": "Spain",
-        "end_date": "2021-07-16",
-        "kind": "conference",
-        "name": "JSCAMP",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-15",
-        "state": null,
-        "tags": [
-            "javascript"
-        ],
-        "url": "https://jscamp.tech"
     },
     {
         "by": "bot",
@@ -2128,23 +2094,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-07-16",
-        "kind": "conference",
-        "name": "Apache Airflow Summit",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-08",
-        "state": null,
-        "tags": [
-            "data"
-        ],
-        "url": "https://airflowsummit.org"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Columbus, OH",
         "country": "U.S.A.",
         "end_date": "2021-07-23",
@@ -3331,5 +3280,39 @@
             "python"
         ],
         "url": "https://za.pycon.org"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-24",
+        "kind": "conference",
+        "name": "Italian LaravelDay",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-24",
+        "state": null,
+        "tags": [
+            "php"
+        ],
+        "url": "https://2021.laravelday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-07",
+        "kind": "conference",
+        "name": "P99 CONF",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-06",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://www.p99conf.io"
     }
 ]
