@@ -1477,24 +1477,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2021-04-15",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-07-22",
-        "kind": "conference",
-        "location": "",
-        "name": "Agile",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-19",
-        "state": null,
-        "tags": [
-            "leadership"
-        ],
-        "url": "https://www.agilealliance.org/agile2021"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": null,
@@ -1852,42 +1834,6 @@
             "devops"
         ],
         "url": "https://devopsdays.org/events/2021-istanbul/welcome/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Minneapolis, MN",
-        "country": "U.S.A.",
-        "end_date": "2021-07-21",
-        "kind": "conference",
-        "location": "Minneapolis, MN, U.S.A.",
-        "name": "Devopsdays Minneapolis",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-20",
-        "state": null,
-        "tags": [
-            "devops"
-        ],
-        "url": "https://devopsdays.org/events/2021-minneapolis/welcome/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-07-21",
-        "kind": "conference",
-        "location": "",
-        "name": "Devopsdays Portland",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-20",
-        "state": null,
-        "tags": [
-            "devops"
-        ],
-        "url": "https://devopsdays.org/events/2021-portland/welcome/"
     },
     {
         "by": "bot",
@@ -3509,5 +3455,41 @@
             "general"
         ],
         "url": "https://www.p99conf.io"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Berlin",
+        "country": "Germany",
+        "end_date": "2021-09-15",
+        "kind": "conference",
+        "location": "Berlin, Germany",
+        "name": "Das gro\u00dfe Trainingsevent f\u00fcr Softwarearchitektur",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-13",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://software-architecture-summit.de/berlin"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-09-15",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-11-12",
+        "kind": "conference",
+        "location": "",
+        "name": "angularday",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-12",
+        "state": null,
+        "tags": [
+            "javascript"
+        ],
+        "url": "https://2021.angularday.it"
     }
 ]
