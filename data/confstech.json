@@ -1283,24 +1283,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-09-24",
-        "kind": "conference",
-        "location": "",
-        "name": "Italian LaravelDay",
-        "source": "https://confs.tech",
-        "start_date": "2021-09-24",
-        "state": null,
-        "tags": [
-            "php"
-        ],
-        "url": "https://2021.laravelday.it/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2021-01-22",
         "kind": "conference",
         "location": "",
@@ -1474,6 +1456,24 @@
             "php"
         ],
         "url": "https://api-platform.com/con/2021"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-24",
+        "kind": "conference",
+        "location": "",
+        "name": "Italian LaravelDay",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-24",
+        "state": null,
+        "tags": [
+            "php"
+        ],
+        "url": "https://2021.laravelday.it/"
     },
     {
         "by": "bot",
@@ -2937,6 +2937,24 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
+        "city": "Berlin",
+        "country": "Germany",
+        "end_date": "2021-09-15",
+        "kind": "conference",
+        "location": "Berlin, Germany",
+        "name": "Das gro\u00dfe Trainingsevent f\u00fcr Softwarearchitektur",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-13",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://software-architecture-summit.de/berlin"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
         "city": "Washington, D.C.",
         "country": "U.S.A.",
         "end_date": "2021-09-17",
@@ -3331,21 +3349,21 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
+        "cfp_end_date": "2021-06-01",
         "cfp_open": false,
-        "city": "Berlin",
-        "country": "Germany",
-        "end_date": "2021-09-15",
+        "city": null,
+        "country": null,
+        "end_date": "2021-08-05",
         "kind": "conference",
-        "location": "Berlin, Germany",
-        "name": "Das gro\u00dfe Trainingsevent f\u00fcr Softwarearchitektur",
+        "location": "",
+        "name": "Cloud-Native Days with Kubernetes",
         "source": "https://confs.tech",
-        "start_date": "2021-09-13",
+        "start_date": "2021-08-04",
         "state": null,
         "tags": [
             "devops"
         ],
-        "url": "https://software-architecture-summit.de/berlin"
+        "url": "https://www.mediaopsevents.com/cloudnative2021"
     },
     {
         "by": "bot",
@@ -4825,6 +4843,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-07",
+        "kind": "conference",
+        "location": "",
+        "name": "P99 CONF",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-06",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://www.p99conf.io"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2021-05-27",
         "cfp_open": false,
         "city": null,
@@ -5279,17 +5315,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-10-07",
+        "end_date": "2021-08-31",
         "kind": "conference",
         "location": "",
-        "name": "P99 CONF",
+        "name": "betterCode Wasm",
         "source": "https://confs.tech",
-        "start_date": "2021-10-06",
+        "start_date": "2021-08-31",
         "state": null,
         "tags": [
             "general"
         ],
-        "url": "https://www.p99conf.io"
+        "url": "https://wasm.bettercode.eu"
     },
     {
         "by": "bot",
@@ -6334,6 +6370,24 @@
             "data"
         ],
         "url": "https://2021.doag.org/de/home"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "San Francisco, CA",
+        "country": "U.S.A.",
+        "end_date": "2021-11-18",
+        "kind": "conference",
+        "location": "San Francisco, CA, U.S.A.",
+        "name": "ODSC West",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-16",
+        "state": null,
+        "tags": [
+            "data"
+        ],
+        "url": "https://odsc.com/california"
     },
     {
         "by": "bot",
@@ -7525,6 +7579,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2021-09-15",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-11-12",
+        "kind": "conference",
+        "location": "",
+        "name": "angularday",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-12",
+        "state": null,
+        "tags": [
+            "javascript"
+        ],
+        "url": "https://2021.angularday.it"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Mumbai",
@@ -7558,24 +7630,6 @@
             "javascript"
         ],
         "url": "https://xtremejs.dev/2021/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2021-09-15",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-11-12",
-        "kind": "conference",
-        "location": "",
-        "name": "angularday",
-        "source": "https://confs.tech",
-        "start_date": "2021-11-12",
-        "state": null,
-        "tags": [
-            "javascript"
-        ],
-        "url": "https://2021.angularday.it"
     },
     {
         "by": "bot",
@@ -7882,6 +7936,24 @@
             "rust"
         ],
         "url": "https://events.linuxfoundation.org/cloud-native-rust-day/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-13",
+        "kind": "conference",
+        "location": "",
+        "name": "betterCode Rust",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-13",
+        "state": null,
+        "tags": [
+            "rust"
+        ],
+        "url": "https://rust.bettercode.eu"
     },
     {
         "by": "bot",

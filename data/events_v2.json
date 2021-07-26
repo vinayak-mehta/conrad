@@ -469,24 +469,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2021-03-05",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-07-23",
-        "kind": "conference",
-        "location": "",
-        "name": "Global Scope",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-23",
-        "state": null,
-        "tags": [
-            "javascript"
-        ],
-        "url": "https://www.webdirections.org/globalscope"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Columbus, OH",
@@ -2161,24 +2143,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Columbus, OH",
-        "country": "U.S.A.",
-        "end_date": "2021-07-23",
-        "kind": "conference",
-        "location": "Columbus, OH, U.S.A.",
-        "name": "Women in Analytics Conference",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-21",
-        "state": null,
-        "tags": [
-            "data"
-        ],
-        "url": "https://womeninanalytics.com/conference"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2021-04-05",
         "cfp_open": false,
         "city": null,
@@ -3491,5 +3455,77 @@
             "javascript"
         ],
         "url": "https://2021.angularday.it"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-06-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-08-05",
+        "kind": "conference",
+        "location": "",
+        "name": "Cloud-Native Days with Kubernetes",
+        "source": "https://confs.tech",
+        "start_date": "2021-08-04",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://www.mediaopsevents.com/cloudnative2021"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-08-31",
+        "kind": "conference",
+        "location": "",
+        "name": "betterCode Wasm",
+        "source": "https://confs.tech",
+        "start_date": "2021-08-31",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://wasm.bettercode.eu"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "San Francisco, CA",
+        "country": "U.S.A.",
+        "end_date": "2021-11-18",
+        "kind": "conference",
+        "location": "San Francisco, CA, U.S.A.",
+        "name": "ODSC West",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-16",
+        "state": null,
+        "tags": [
+            "data"
+        ],
+        "url": "https://odsc.com/california"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-13",
+        "kind": "conference",
+        "location": "",
+        "name": "betterCode Rust",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-13",
+        "state": null,
+        "tags": [
+            "rust"
+        ],
+        "url": "https://rust.bettercode.eu"
     }
 ]
