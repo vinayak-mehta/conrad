@@ -617,12 +617,12 @@
         "cfp_open": false,
         "city": "London",
         "country": "U.K.",
-        "end_date": "2021-10-22",
+        "end_date": "2021-10-25",
         "kind": "conference",
         "location": "London, U.K.",
         "name": "React Advanced London",
         "source": "https://confs.tech",
-        "start_date": "2021-10-20",
+        "start_date": "2021-10-22",
         "state": null,
         "tags": [
             "javascript"
@@ -2143,42 +2143,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2021-04-05",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-07-28",
-        "kind": "conference",
-        "location": "",
-        "name": "Kafka Summit APAC",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-27",
-        "state": null,
-        "tags": [
-            "data"
-        ],
-        "url": "https://www.kafka-summit.org/events/kafka-summit-apac-2021"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2021-06-14",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-07-29",
-        "kind": "conference",
-        "location": "",
-        "name": "Conf42: Machine Learning",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-29",
-        "state": null,
-        "tags": [
-            "data"
-        ],
-        "url": "https://www.conf42.com/ml2021"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2021-05-01",
         "cfp_open": false,
         "city": null,
@@ -2669,12 +2633,12 @@
         "cfp_open": false,
         "city": "Amsterdam",
         "country": "Netherlands",
-        "end_date": "2021-10-05",
+        "end_date": "2021-10-06",
         "kind": "conference",
         "location": "Amsterdam, Netherlands",
-        "name": "JSWORLD Conference",
+        "name": "JSWorld Conference",
         "source": "https://confs.tech",
-        "start_date": "2021-10-04",
+        "start_date": "2021-10-05",
         "state": null,
         "tags": [
             "javascript"
@@ -3527,5 +3491,113 @@
             "rust"
         ],
         "url": "https://rust.bettercode.eu"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-29",
+        "kind": "conference",
+        "location": "",
+        "name": "Business of Software",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-27",
+        "state": null,
+        "tags": [
+            "product"
+        ],
+        "url": "https://businessofsoftware.org"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Edinburgh",
+        "country": "Scotland",
+        "end_date": "2021-10-23",
+        "kind": "conference",
+        "location": "Edinburgh, Scotland",
+        "name": "ScotlandPHP",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-22",
+        "state": null,
+        "tags": [
+            "php"
+        ],
+        "url": "https://conference.scotlandphp.co.uk/2021"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-07-31",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-08",
+        "kind": "conference",
+        "location": "",
+        "name": "containerday Digital Edition",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-08",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://2021.containerday.it"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-08-12",
+        "kind": "conference",
+        "location": "",
+        "name": "Moar Serverless!!",
+        "source": "https://confs.tech",
+        "start_date": "2021-08-12",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://moarserverless.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-29",
+        "kind": "conference",
+        "location": "",
+        "name": "JSworld Conference Africa",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-29",
+        "state": null,
+        "tags": [
+            "javascript"
+        ],
+        "url": "https://africa.jsworldconference.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-08-20",
+        "cfp_open": false,
+        "city": "The Hague",
+        "country": "Netherlands",
+        "end_date": "2021-10-29",
+        "kind": "conference",
+        "location": "The Hague, Netherlands",
+        "name": "Hardwear.io Security Trainings and Conference Netherlands",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-25",
+        "state": null,
+        "tags": [
+            "iot"
+        ],
+        "url": "https://hardwear.io/netherlands-2021"
     }
 ]
