@@ -390,6 +390,20 @@ def _show(ctx, *args, **kwargs):
 @click.option("--id", "-i", default=None, help="Conference identifier.")
 @click.pass_context
 def _remind(ctx, *args, **kwargs):
+    def get_days_left(event):
+        start = dt.datetime.now()
+        cfp_days_left = (event.cfp_end_date - start).days
+        event_days_left = (event.start_date - start).days
+
+        if event.cfp_open and cfp_days_left >= 0:
+            days_left = cfp_days_left
+        elif event_days_left >= 0:
+            days_left = event_days_left
+        else:
+            days_left = -1
+
+        return days_left, event.cfp_open
+
     initialize_conrad()
 
     _id = kwargs["id"]
@@ -414,18 +428,13 @@ def _remind(ctx, *args, **kwargs):
             reminders_output = []
 
             for reminder, __ in reminders:
-                start = dt.datetime.now()
-                cfp_days_left = (reminder.cfp_end_date - start).days
-                event_days_left = (reminder.start_date - start).days
+                days_left, cfp_open = get_days_left(reminder)
 
-                if reminder.cfp_open and cfp_days_left >= 0:
-                    days_left = cfp_days_left
+                if cfp_open and days_left >= 0:
                     days_left_output = f"{days_left} days left to cfp deadline!"
-                elif event_days_left >= 0:
-                    days_left = event_days_left
+                elif days_left >= 0:
                     days_left_output = f"{days_left} days left!"
                 else:
-                    days_left = -1
                     days_left_output = "Event ended."
 
                 if days_left >= 30:
@@ -434,15 +443,8 @@ def _remind(ctx, *args, **kwargs):
                     style = "yellow"
                 elif 10 > days_left >= 0:
                     style = "red"
-                else:
-                    style = ""
 
-                days_left_output = (
-                    f"[bold][{style}]{days_left_output}[/{style}][/bold]"
-                    if len(style) > 0
-                    else days_left_output
-                )
-
+                days_left_output = f"[bold][{style}]{days_left_output}[/{style}][/bold]"
                 reminder_output = [
                     reminder.id,
                     reminder.name,
@@ -458,22 +460,28 @@ def _remind(ctx, *args, **kwargs):
             if has_less():
                 console_kwargs["styles"] = True
 
-            with console.pager(console_kwargs):
+            with console.pager(**console_kwargs):
                 console.print(table)
         else:
             click.echo("No reminders found!")
     else:
         try:
             session = Session()
-            if session.query(Event).filter(Event.id == _id).first() is None:
+            event = session.query(Event).filter(Event.id == _id).first()
+            if event is None:
                 click.echo("Event not found!")
             else:
-                reminder = Reminder(id=_id)
-                session.add(reminder)
-                session.commit()
-                session.close()
+                days_left, __ = get_days_left(event)
 
-                click.echo("Reminder set!")
+                if days_left == -1:
+                    click.echo("Event ended.")
+                else:
+                    reminder = Reminder(id=event.id)
+                    session.add(reminder)
+                    session.commit()
+                    session.close()
+
+                    click.echo("Reminder set!")
         except sqlalchemy.exc.IntegrityError:
             session.rollback()
 
