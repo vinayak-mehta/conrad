@@ -1,24 +1,6 @@
 [
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-08-01",
-        "kind": "conference",
-        "location": "",
-        "name": "EuroPython",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-26",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://ep2021.europython.eu"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2020-12-20",
         "cfp_open": false,
         "city": null,
@@ -1819,24 +1801,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2021-05-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-07-31",
-        "kind": "conference",
-        "location": "",
-        "name": "Devopsdays Medell\u00edn",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-30",
-        "state": null,
-        "tags": [
-            "devops"
-        ],
-        "url": "https://devopsdays.org/events/2021-medellin/welcome/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2021-04-30",
         "cfp_open": false,
         "city": null,
@@ -3599,5 +3563,23 @@
             "iot"
         ],
         "url": "https://hardwear.io/netherlands-2021"
+    },
+    {
+        "by": "human",
+        "cfp_end_date": "2021-09-01",
+        "cfp_open": true,
+        "city": "Online",
+        "country": "Online",
+        "end_date": "2021-11-10",
+        "kind": "conference",
+        "location": "Online",
+        "name": "Packaging Con 2021",
+        "source": "Twitter",
+        "start_date": "2021-11-09",
+        "state": "Online",
+        "tags": [
+            "packaging"
+        ],
+        "url": "https://packaging-con.org"
     }
 ]
