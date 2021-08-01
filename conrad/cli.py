@@ -4,6 +4,7 @@ import os
 import re
 import sys
 import json
+import shutil
 import hashlib
 import inspect
 import datetime as dt
@@ -12,8 +13,8 @@ import click
 import requests
 import sqlalchemy
 import textdistance
-from colorama import Fore, Style
-from cli_helpers import tabular_output
+from rich.table import Table
+from rich.console import Console
 
 try:
     import bs4
@@ -40,9 +41,12 @@ from .utils import apply_schema, initialize_database, validate_events, mkdir
 DATE_FMT = "%Y-%m-%dT%H:%M:%S"
 
 
+def has_less():
+    return shutil.which("less")
+
+
 def set_default_pager():
-    os_environ_pager = os.environ.get("PAGER")
-    if os_environ_pager == "less":
+    if has_less() is not None:
         os.environ["LESS"] = "-SRXF"
 
 
@@ -332,16 +336,18 @@ def _show(ctx, *args, **kwargs):
         )
 
     if len(events) > 0:
-        header = [
-            "id",
-            "Name",
-            "Website",
-            "City",
-            "State",
-            "Country",
-            "Start Date",
-            "End Date",
-        ]
+        console = Console()
+        table = Table(show_header=True, header_style="bold magenta")
+
+        table.add_column("id")
+        table.add_column("Name")
+        table.add_column("Website")
+        table.add_column("City")
+        table.add_column("State")
+        table.add_column("Country")
+        table.add_column("Start Date")
+        table.add_column("End Date")
+
         events_output = []
 
         rids = [r.id for r in session.query(Reminder).all()]
@@ -361,18 +367,21 @@ def _show(ctx, *args, **kwargs):
             if event.id in rids:
                 event_output = list(
                     map(
-                        lambda x: f"{Fore.WHITE}{Style.BRIGHT}{x}{Style.RESET_ALL}",
+                        lambda x: f"[bold][green]{x}[/green][/bold]",
                         event_output,
                     )
                 )
 
-            events_output.append(event_output)
+            table.add_row(*event_output)
+
         session.close()
 
-        formatted = tabular_output.format_output(
-            events_output, header, format_name="ascii"
-        )
-        click.echo_via_pager("\n".join(formatted))
+        console_kwargs = {}
+        if has_less():
+            console_kwargs["styles"] = True
+
+        with console.pager(**console_kwargs):
+            console.print(table)
     else:
         click.echo("No events found!")
 
@@ -381,6 +390,20 @@ def _show(ctx, *args, **kwargs):
 @click.option("--id", "-i", default=None, help="Conference identifier.")
 @click.pass_context
 def _remind(ctx, *args, **kwargs):
+    def get_days_left(event):
+        start = dt.datetime.now()
+        cfp_days_left = (event.cfp_end_date - start).days
+        event_days_left = (event.start_date - start).days
+
+        if event.cfp_open and cfp_days_left >= 0:
+            days_left = cfp_days_left
+        elif event_days_left >= 0:
+            days_left = event_days_left
+        else:
+            days_left = -1
+
+        return days_left, event.cfp_open
+
     initialize_conrad()
 
     _id = kwargs["id"]
@@ -394,63 +417,71 @@ def _remind(ctx, *args, **kwargs):
             .all()
         )
         if len(reminders) > 0:
-            header = ["id", "Name", "Start Date", "Days Left"]
+            console = Console()
+            table = Table(show_header=True, header_style="bold magenta")
+
+            table.add_column("id")
+            table.add_column("Name")
+            table.add_column("Start Date")
+            table.add_column("Days Left")
+
             reminders_output = []
 
             for reminder, __ in reminders:
-                start = dt.datetime.now()
-                cfp_days_left = (reminder.cfp_end_date - start).days
-                event_days_left = (reminder.start_date - start).days
+                days_left, cfp_open = get_days_left(reminder)
 
-                if reminder.cfp_open and cfp_days_left >= 0:
-                    days_left = cfp_days_left
+                if cfp_open and days_left >= 0:
                     days_left_output = f"{days_left} days left to cfp deadline!"
-                elif event_days_left >= 0:
-                    days_left = event_days_left
+                elif days_left >= 0:
                     days_left_output = f"{days_left} days left!"
                 else:
-                    days_left = -1
                     days_left_output = "Event ended."
 
                 if days_left >= 30:
-                    style = f"{Fore.GREEN}{Style.BRIGHT}"
+                    style = "green"
                 elif 30 > days_left >= 10:
-                    style = f"{Fore.YELLOW}{Style.BRIGHT}"
+                    style = "yellow"
                 elif 10 > days_left >= 0:
-                    style = f"{Fore.RED}{Style.BRIGHT}"
-                else:
-                    style = ""
+                    style = "red"
 
-                days_left_output = f"{style}{days_left_output}{Style.RESET_ALL}"
+                days_left_output = f"[bold][{style}]{days_left_output}[/{style}][/bold]"
+                reminder_output = [
+                    reminder.id,
+                    reminder.name,
+                    reminder.start_date.strftime("%Y-%m-%d"),
+                    days_left_output,
+                ]
 
-                reminders_output.append(
-                    [
-                        reminder.id,
-                        reminder.name,
-                        reminder.start_date.strftime("%Y-%m-%d"),
-                        days_left_output,
-                    ]
-                )
+                table.add_row(*reminder_output)
+
             session.close()
 
-            formatted = tabular_output.format_output(
-                reminders_output, header, format_name="ascii"
-            )
-            click.echo("\n".join(formatted))
+            console_kwargs = {}
+            if has_less():
+                console_kwargs["styles"] = True
+
+            with console.pager(**console_kwargs):
+                console.print(table)
         else:
             click.echo("No reminders found!")
     else:
         try:
             session = Session()
-            if session.query(Event).filter(Event.id == _id).first() is None:
+            event = session.query(Event).filter(Event.id == _id).first()
+            if event is None:
                 click.echo("Event not found!")
             else:
-                reminder = Reminder(id=_id)
-                session.add(reminder)
-                session.commit()
-                session.close()
+                days_left, __ = get_days_left(event)
 
-                click.echo("Reminder set!")
+                if days_left == -1:
+                    click.echo("Event ended.")
+                else:
+                    reminder = Reminder(id=event.id)
+                    session.add(reminder)
+                    session.commit()
+                    session.close()
+
+                    click.echo("Reminder set!")
         except sqlalchemy.exc.IntegrityError:
             session.rollback()
 
