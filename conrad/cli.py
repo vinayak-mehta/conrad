@@ -337,13 +337,12 @@ def _show(ctx, *args, **kwargs):
 
     if len(events) > 0:
         console = Console()
-        table = Table(show_header=True, header_style="bold magenta")
+        table = Table(show_header=True, header_style="bold magenta", show_lines=True)
 
         table.add_column("id")
         table.add_column("Name")
         table.add_column("Website")
         table.add_column("City")
-        table.add_column("State")
         table.add_column("Country")
         table.add_column("Start Date")
         table.add_column("End Date")
@@ -357,7 +356,6 @@ def _show(ctx, *args, **kwargs):
                 event.name,
                 event.url,
                 event.city,
-                event.state,
                 event.country,
                 event.start_date.strftime("%Y-%m-%d"),
                 event.end_date.strftime("%Y-%m-%d"),
@@ -418,7 +416,7 @@ def _remind(ctx, *args, **kwargs):
         )
         if len(reminders) > 0:
             console = Console()
-            table = Table(show_header=True, header_style="bold magenta")
+            table = Table(show_header=True, header_style="bold magenta", show_lines=True)
 
             table.add_column("id")
             table.add_column("Name")
