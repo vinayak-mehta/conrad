@@ -4,7 +4,12 @@ Release History
 master
 ------
 
-0.10.0 (2021-09-01)
+0.10.1 (2021-08-01)
+-------------------
+
+* Show grid on table and hide state from output.
+
+0.10.0 (2021-08-01)
 -------------------
 
 **Improvements**
