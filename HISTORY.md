@@ -4,6 +4,9 @@ Release History
 master
 ------
 
+0.10.0 (2021-09-01)
+-------------------
+
 **Improvements**
 
 * [#203](https://github.com/vinayak-mehta/conrad/pull/203) Add rich tables.
