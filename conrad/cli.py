@@ -15,8 +15,6 @@ import sqlalchemy
 import textdistance
 from rich.table import Table
 from rich.console import Console
-from colorama import Fore, Style
-from cli_helpers import tabular_output
 
 try:
     import bs4
