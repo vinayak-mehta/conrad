@@ -8,6 +8,10 @@ master
 
 * [#203](https://github.com/vinayak-mehta/conrad/pull/203) Add rich tables.
 
+**Bugfixes**
+
+* Fix reminder deletion bug on auto refresh.
+
 0.9.1 (2021-06-24)
 ------------------
 
