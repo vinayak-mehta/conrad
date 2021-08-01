@@ -41,9 +41,12 @@ from .utils import apply_schema, initialize_database, validate_events, mkdir
 DATE_FMT = "%Y-%m-%dT%H:%M:%S"
 
 
+def has_less():
+    return shutil.which("less")
+
+
 def set_default_pager():
-    less = shutil.which("less")
-    if less is not None:
+    if has_less() is not None:
         os.environ["LESS"] = "-SRXF"
 
 
@@ -373,7 +376,11 @@ def _show(ctx, *args, **kwargs):
 
         session.close()
 
-        with console.pager(styles=True):
+        console_kwargs = {}
+        if has_less():
+            console_kwargs["styles"] = True
+
+        with console.pager(**console_kwargs):
             console.print(table)
     else:
         click.echo("No events found!")
@@ -447,7 +454,11 @@ def _remind(ctx, *args, **kwargs):
 
             session.close()
 
-            with console.pager(styles=True):
+            console_kwargs = {}
+            if has_less():
+                console_kwargs["styles"] = True
+
+            with console.pager(console_kwargs):
                 console.print(table)
         else:
             click.echo("No reminders found!")
