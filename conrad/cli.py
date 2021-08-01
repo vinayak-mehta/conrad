@@ -127,7 +127,7 @@ def clean_old_events():
     now = dt.datetime.now()
     reminders = list(
         session.query(Event, Reminder)
-        .filter(Event.id == Reminder.id, Event.cfp_end_date < now)
+        .filter(Event.id == Reminder.id, Event.end_date < now)
         .all()
     )
     for r, __ in reminders:
