@@ -4,6 +4,7 @@ import os
 import re
 import sys
 import json
+import shutil
 import hashlib
 import inspect
 import datetime as dt
@@ -12,6 +13,8 @@ import click
 import requests
 import sqlalchemy
 import textdistance
+from rich.table import Table
+from rich.console import Console
 from colorama import Fore, Style
 from cli_helpers import tabular_output
 
@@ -41,8 +44,8 @@ DATE_FMT = "%Y-%m-%dT%H:%M:%S"
 
 
 def set_default_pager():
-    os_environ_pager = os.environ.get("PAGER")
-    if os_environ_pager == "less":
+    less = shutil.which("less")
+    if less is not None:
         os.environ["LESS"] = "-SRXF"
 
 
@@ -332,16 +335,18 @@ def _show(ctx, *args, **kwargs):
         )
 
     if len(events) > 0:
-        header = [
-            "id",
-            "Name",
-            "Website",
-            "City",
-            "State",
-            "Country",
-            "Start Date",
-            "End Date",
-        ]
+        console = Console()
+        table = Table(show_header=True, header_style="bold magenta")
+
+        table.add_column("id")
+        table.add_column("Name")
+        table.add_column("Website")
+        table.add_column("City")
+        table.add_column("State")
+        table.add_column("Country")
+        table.add_column("Start Date")
+        table.add_column("End Date")
+
         events_output = []
 
         rids = [r.id for r in session.query(Reminder).all()]
@@ -361,18 +366,17 @@ def _show(ctx, *args, **kwargs):
             if event.id in rids:
                 event_output = list(
                     map(
-                        lambda x: f"{Fore.WHITE}{Style.BRIGHT}{x}{Style.RESET_ALL}",
+                        lambda x: f"[bold][green]{x}[/green][/bold]",
                         event_output,
                     )
                 )
 
-            events_output.append(event_output)
+            table.add_row(*event_output)
+
         session.close()
 
-        formatted = tabular_output.format_output(
-            events_output, header, format_name="ascii"
-        )
-        click.echo_via_pager("\n".join(formatted))
+        with console.pager(styles=True):
+            console.print(table)
     else:
         click.echo("No events found!")
 
@@ -394,7 +398,14 @@ def _remind(ctx, *args, **kwargs):
             .all()
         )
         if len(reminders) > 0:
-            header = ["id", "Name", "Start Date", "Days Left"]
+            console = Console()
+            table = Table(show_header=True, header_style="bold magenta")
+
+            table.add_column("id")
+            table.add_column("Name")
+            table.add_column("Start Date")
+            table.add_column("Days Left")
+
             reminders_output = []
 
             for reminder, __ in reminders:
@@ -413,30 +424,33 @@ def _remind(ctx, *args, **kwargs):
                     days_left_output = "Event ended."
 
                 if days_left >= 30:
-                    style = f"{Fore.GREEN}{Style.BRIGHT}"
+                    style = "green"
                 elif 30 > days_left >= 10:
-                    style = f"{Fore.YELLOW}{Style.BRIGHT}"
+                    style = "yellow"
                 elif 10 > days_left >= 0:
-                    style = f"{Fore.RED}{Style.BRIGHT}"
+                    style = "red"
                 else:
                     style = ""
 
-                days_left_output = f"{style}{days_left_output}{Style.RESET_ALL}"
-
-                reminders_output.append(
-                    [
-                        reminder.id,
-                        reminder.name,
-                        reminder.start_date.strftime("%Y-%m-%d"),
-                        days_left_output,
-                    ]
+                days_left_output = (
+                    f"[bold][{style}]{days_left_output}[/{style}][/bold]"
+                    if len(style) > 0
+                    else days_left_output
                 )
+
+                reminder_output = [
+                    reminder.id,
+                    reminder.name,
+                    reminder.start_date.strftime("%Y-%m-%d"),
+                    days_left_output,
+                ]
+
+                table.add_row(*reminder_output)
+
             session.close()
 
-            formatted = tabular_output.format_output(
-                reminders_output, header, format_name="ascii"
-            )
-            click.echo("\n".join(formatted))
+            with console.pager(styles=True):
+                console.print(table)
         else:
             click.echo("No reminders found!")
     else:

@@ -19,6 +19,7 @@ requires = [
     "colorama>=0.4.1",
     "geopy>=2.0.0",
     "requests>=2.22.0",
+    "rich>=10.6.0",
     "SQLAlchemy>=1.3.10",
     "textdistance>=4.1.5",
 ]
