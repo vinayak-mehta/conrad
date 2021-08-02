@@ -964,7 +964,7 @@
         "start_date": "2021-09-27",
         "state": null,
         "tags": [
-            "devops"
+            "general"
         ],
         "url": "https://events.linuxfoundation.org/open-source-summit-north-america/"
     },
@@ -3382,5 +3382,73 @@
             "packaging"
         ],
         "url": "https://packaging-con.org"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2022-07-18",
+        "kind": "conference",
+        "name": "EuroPython 2022",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2022-07-11",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.europython.eu/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Berlin",
+        "country": "Germany",
+        "end_date": "2021-10-13",
+        "kind": "conference",
+        "name": "API Conference",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-11",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://apiconference.net/berlin"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-07-31",
+        "cfp_open": false,
+        "city": "San Francisco, CA",
+        "country": "U.S.A.",
+        "end_date": "2021-10-7",
+        "kind": "conference",
+        "name": "Demuxed",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-5",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://2021.demuxed.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-08-07",
+        "kind": "conference",
+        "name": ".NET fwdays",
+        "source": "https://confs.tech",
+        "start_date": "2021-08-07",
+        "state": null,
+        "tags": [
+            "dotnet"
+        ],
+        "url": "https://fwdays.com/en/event/dotnet-fwdays-2021"
     }
 ]
