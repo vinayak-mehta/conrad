@@ -416,7 +416,9 @@ def _remind(ctx, *args, **kwargs):
         )
         if len(reminders) > 0:
             console = Console()
-            table = Table(show_header=True, header_style="bold magenta", show_lines=True)
+            table = Table(
+                show_header=True, header_style="bold magenta", show_lines=True
+            )
 
             table.add_column("id")
             table.add_column("Name")

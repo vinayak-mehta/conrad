@@ -61,7 +61,7 @@ class PythonCrawler(BaseCrawler):
             try:
                 soup = BeautifulSoup(event["description"], "html.parser")
                 event_url = soup.find_all("a", href=True)[0]["href"]
-            except IndexError:
+            except (KeyError, IndexError):
                 event_url = None
 
             if "date" in event["start"]:
