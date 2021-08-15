@@ -235,24 +235,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Redmond, WA",
-        "country": "U.S.A.",
-        "end_date": "2021-08-13",
-        "kind": "conference",
-        "location": "Redmond, WA, U.S.A.",
-        "name": "Visual Studio Live! Microsoft Headquarters",
-        "source": "https://confs.tech",
-        "start_date": "2021-08-09",
-        "state": null,
-        "tags": [
-            "dotnet"
-        ],
-        "url": "https://vslive.com/events/redmond-2020/home.aspx"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2021-04-23",
         "cfp_open": false,
         "city": null,
@@ -685,24 +667,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2021-06-30",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-08-06",
-        "kind": "conference",
-        "location": "",
-        "name": "Ignite Innovation - Developer Conference",
-        "source": "https://confs.tech",
-        "start_date": "2021-08-06",
-        "state": null,
-        "tags": [
-            "general"
-        ],
-        "url": "https://www.igniteinnovationfl.com"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2021-06-04",
         "cfp_open": false,
         "city": null,
@@ -1039,7 +1003,7 @@
         "start_date": "2021-09-28",
         "state": null,
         "tags": [
-            "general"
+            "testing"
         ],
         "url": "https://conference.eurostarsoftwaretesting.com/"
     },
@@ -1445,24 +1409,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-08-13",
-        "kind": "conference",
-        "location": "",
-        "name": "Roadmap to Billions Conference",
-        "source": "https://confs.tech",
-        "start_date": "2021-08-12",
-        "state": null,
-        "tags": [
-            "leadership"
-        ],
-        "url": "https://www.blackwomentalktech.com"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2021-09-16",
         "kind": "conference",
         "location": "",
@@ -1801,24 +1747,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2021-04-30",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-08-04",
-        "kind": "conference",
-        "location": "",
-        "name": "GitLab Commit",
-        "source": "https://confs.tech",
-        "start_date": "2021-08-03",
-        "state": null,
-        "tags": [
-            "devops"
-        ],
-        "url": "https://about.gitlab.com/events/commit"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Dallas, TX",
@@ -2083,7 +2011,7 @@
         "start_date": "2021-11-15",
         "state": null,
         "tags": [
-            "devops"
+            "testing"
         ],
         "url": "https://agiletestingdays.com"
     },
@@ -2305,24 +2233,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2021-08-11",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-08-13",
-        "kind": "conference",
-        "location": "",
-        "name": "Kotlin Global Summit by Geekle",
-        "source": "https://confs.tech",
-        "start_date": "2021-08-12",
-        "state": null,
-        "tags": [
-            "kotlin"
-        ],
-        "url": "https://geekle.us/kotlin"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2021-07-19",
         "cfp_open": false,
         "city": "Seattle, WA",
@@ -2341,32 +2251,14 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2021-07-15",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-08-07",
-        "kind": "conference",
-        "location": "",
-        "name": "The Raku Conference",
-        "source": "https://confs.tech",
-        "start_date": "2021-08-07",
-        "state": null,
-        "tags": [
-            "general"
-        ],
-        "url": "https://conf.raku.org"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Pocono Manor, PA",
+        "city": "Mt Pocono, PA",
         "country": "U.S.A.",
         "end_date": "2021-10-22",
         "kind": "conference",
-        "location": "Pocono Manor, PA, U.S.A.",
-        "name": "Tech Bash",
+        "location": "Mt Pocono, PA, U.S.A.",
+        "name": "TechBash",
         "source": "https://confs.tech",
         "start_date": "2021-10-19",
         "state": null,
@@ -2428,24 +2320,6 @@
             "devops"
         ],
         "url": "https://devopsdays.org/events/2021-buffalo/welcome"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-08-08",
-        "kind": "conference",
-        "location": "",
-        "name": "DEF CON",
-        "source": "https://confs.tech",
-        "start_date": "2021-08-05",
-        "state": null,
-        "tags": [
-            "security"
-        ],
-        "url": "https://defcon.org"
     },
     {
         "by": "bot",
@@ -2829,24 +2703,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Wellington",
-        "country": "New Zealand",
-        "end_date": "2021-08-06",
-        "kind": "conference",
-        "location": "Wellington, New Zealand",
-        "name": "New Zealand Game Developers Conference",
-        "source": "https://confs.tech",
-        "start_date": "2021-08-04",
-        "state": null,
-        "tags": [
-            "general"
-        ],
-        "url": "https://nzgdc.com"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Denver, CO",
         "country": "U.S.A.",
         "end_date": "2021-08-28",
@@ -3004,24 +2860,6 @@
             "data"
         ],
         "url": "https://websummit.com/themes/developers-and-data"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Las Vegas, NV",
-        "country": "U.S.A.",
-        "end_date": "2021-08-05",
-        "kind": "conference",
-        "location": "Las Vegas, NV, U.S.A.",
-        "name": "BlackHat USA",
-        "source": "https://confs.tech",
-        "start_date": "2021-07-31",
-        "state": null,
-        "tags": [
-            "security"
-        ],
-        "url": "https://blackhat.com/us-21"
     },
     {
         "by": "bot",
@@ -3386,24 +3224,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2021-06-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-08-05",
-        "kind": "conference",
-        "location": "",
-        "name": "Cloud-Native Days with Kubernetes",
-        "source": "https://confs.tech",
-        "start_date": "2021-08-04",
-        "state": null,
-        "tags": [
-            "devops"
-        ],
-        "url": "https://www.mediaopsevents.com/cloudnative2021"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": null,
@@ -3516,24 +3336,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-08-12",
-        "kind": "conference",
-        "location": "",
-        "name": "Moar Serverless!!",
-        "source": "https://confs.tech",
-        "start_date": "2021-08-12",
-        "state": null,
-        "tags": [
-            "general"
-        ],
-        "url": "https://moarserverless.com"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2021-10-29",
         "kind": "conference",
         "location": "",
@@ -3624,12 +3426,12 @@
         "cfp_open": false,
         "city": "San Francisco, CA",
         "country": "U.S.A.",
-        "end_date": "2021-10-7",
+        "end_date": "2021-10-07",
         "kind": "conference",
         "location": "San Francisco, CA, U.S.A.",
         "name": "Demuxed",
         "source": "https://confs.tech",
-        "start_date": "2021-10-5",
+        "start_date": "2021-10-05",
         "state": null,
         "tags": [
             "devops"
@@ -3642,16 +3444,880 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-08-07",
+        "end_date": "2021-09-13",
+        "kind": "conference",
+        "location": "Online, Australia",
+        "name": "PyConline AU 2021",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2021-09-10",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2021.pycon.org.au/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-13",
+        "kind": "conference",
+        "location": "Damani-Hotel, Dachniy kooperatyv, plot 4, Karolino-Buhaz, Odesa region, Ukraine",
+        "name": "PyCon Odessa 2021",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2021-09-11",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pyconodessa.com/en/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-04",
+        "kind": "conference",
+        "location": "Online",
+        "name": "PyConTW 2021",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2021-10-02",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://tw.pycon.org/2021/en-us/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-23",
+        "kind": "conference",
+        "location": "online",
+        "name": "PyCon Sweden 2021",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2021-10-21",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": null
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-11-08",
+        "kind": "conference",
+        "location": "On line",
+        "name": "PyCon Chile",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2021-11-05",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.cl/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-11-24",
+        "kind": "conference",
+        "location": "Bangkok, Thailand and online",
+        "name": "PyCon APAC 2021",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2021-11-19",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://th.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2022-02-21",
+        "kind": "conference",
+        "location": "\u014ctautahi/Christchurch, Aotearoa/New Zealand",
+        "name": "Kiwi PyCon",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2022-02-18",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "\u201chttps://python.nz/kiwipycon\u201c"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2022-06-06",
+        "kind": "conference",
+        "location": "Florence, Italy",
+        "name": "PyCon Italy 12",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2022-06-02",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.it/en"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2022-09-21",
+        "kind": "conference",
+        "location": "Cardiff City Hall, UK",
+        "name": "PyCon UK 2022",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2022-09-16",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2022.pyconuk.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-08-18",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-15",
         "kind": "conference",
         "location": "",
-        "name": ".NET fwdays",
+        "name": "WeAreDevelopers Live - JavaScript Day",
         "source": "https://confs.tech",
-        "start_date": "2021-08-07",
+        "start_date": "2021-09-15",
+        "state": null,
+        "tags": [
+            "javascript"
+        ],
+        "url": "https://www.wearedevelopers.com/event/javascript-day"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-13",
+        "kind": "conference",
+        "location": "",
+        "name": "Machine Learning Summit",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-11",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://mlsummit.ai"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-11-10",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-12-07",
+        "kind": "conference",
+        "location": "",
+        "name": "WeAreDevelopers Live - Python Day",
+        "source": "https://confs.tech",
+        "start_date": "2021-12-07",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.wearedevelopers.com/event/python-day-1221"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-09-26",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-11-17",
+        "kind": "conference",
+        "location": "",
+        "name": "Haskell eXchange",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-15",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://events.skillsmatter.com/haskellx2021"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-11-17",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-12-15",
+        "kind": "conference",
+        "location": "",
+        "name": "WeAreDevelopers Live - Game Development Day",
+        "source": "https://confs.tech",
+        "start_date": "2021-12-15",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://www.wearedevelopers.com/event/game-development-day"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-10-06",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-11-03",
+        "kind": "conference",
+        "location": "",
+        "name": "WeAreDevelopers Live - Mobile Day",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-03",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://www.wearedevelopers.com/event/mobile-day"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-09-15",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-13",
+        "kind": "conference",
+        "location": "",
+        "name": "WeAreDevelopers Live - Machine Learning Day",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-13",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://www.wearedevelopers.com/event/machine-learning-day-1021"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-08-25",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-22",
+        "kind": "conference",
+        "location": "",
+        "name": "WeAreDevelopers Live - Cloud Day",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-22",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://www.wearedevelopers.com/event/cloud-day"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-08-31",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-26",
+        "kind": "conference",
+        "location": "",
+        "name": "BlaBlaConf",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-22",
+        "state": null,
+        "tags": [
+            "general"
+        ],
+        "url": "https://www.blablaconf.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-11-09",
+        "kind": "conference",
+        "location": "",
+        "name": "LTP DIGITAL USA",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-09",
+        "state": null,
+        "tags": [
+            "product"
+        ],
+        "url": "https://www.leadingtheproduct.com/conference/usa/ltp2021"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Budapest",
+        "country": "Hungary",
+        "end_date": "2021-10-06",
+        "kind": "conference",
+        "location": "Budapest, Hungary",
+        "name": "Amuse",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-04",
+        "state": null,
+        "tags": [
+            "ux"
+        ],
+        "url": "https://amuseconf.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-01",
+        "kind": "conference",
+        "location": "",
+        "name": "WeAreDevelopers Live - Java Day",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-01",
+        "state": null,
+        "tags": [
+            "java"
+        ],
+        "url": "https://www.wearedevelopers.com/event/java-day-0921"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-08-19",
+        "kind": "conference",
+        "location": "",
+        "name": "QA Global Summit Volume 2",
+        "source": "https://confs.tech",
+        "start_date": "2021-08-17",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://geekle.us/qa_volume2"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Vilnius",
+        "country": "Lithuania",
+        "end_date": "2021-09-09",
+        "kind": "conference",
+        "location": "Vilnius, Lithuania",
+        "name": "TestCon Europe",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-07",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "http://www.testcon.lt/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-16",
+        "kind": "conference",
+        "location": "",
+        "name": "Tesena Fest Online",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-16",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://www.tesena.com/en/tesena-fest-online-program-2021/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-21",
+        "kind": "conference",
+        "location": "",
+        "name": "QA Financial Forum New York",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-21",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://www.qa-financial.com/events/the-qa-financial-forum-new-york-2020"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-24",
+        "kind": "conference",
+        "location": "",
+        "name": "ICSTPMA - International Conference on Software Testing Process, Methods and Approaches",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-23",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://waset.org/software-testing-process-methods-and-approaches-conference-in-september-2021-in-london/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Belgrade",
+        "country": "Serbia",
+        "end_date": "2021-09-29",
+        "kind": "conference",
+        "location": "Belgrade, Serbia",
+        "name": "SEETEST (10th edition)",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-27",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://seetest.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "St. Louis, MO",
+        "country": "U.S.A.",
+        "end_date": "2021-09-29",
+        "kind": "conference",
+        "location": "St. Louis, MO, U.S.A.",
+        "name": "STPCon Fall",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-27",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://stpcon.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-01",
+        "kind": "conference",
+        "location": "",
+        "name": "InflectraCon",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-01",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://www.inflectracon.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Sofia",
+        "country": "Bulgaria",
+        "end_date": "2021-10-02",
+        "kind": "conference",
+        "location": "Sofia, Bulgaria",
+        "name": "QA: Challenge Accepted 007",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-02",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://qachallengeaccepted.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Anaheim, CA",
+        "country": "U.S.A.",
+        "end_date": "2021-10-08",
+        "kind": "conference",
+        "location": "Anaheim, CA, U.S.A.",
+        "name": "STARWEST \u2014 The Premier Software Testing & QA Conference",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-03",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://starwest.techwell.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Bratislava",
+        "country": "Slovakia",
+        "end_date": "2021-10-07",
+        "kind": "conference",
+        "location": "Bratislava, Slovakia",
+        "name": "SANAE BEER.EX Software Testing Conference",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-06",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "http://sanae.beer/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-13",
+        "kind": "conference",
+        "location": "",
+        "name": "PNSQC",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-11",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://www.pnsqc.org/2021-conference"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-21",
+        "kind": "conference",
+        "location": "",
+        "name": "HUSTEF - Hungarian Software Testing Forum",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-18",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://hustef.hu/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-22",
+        "kind": "conference",
+        "location": "",
+        "name": "QA & TEST Embedded",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-20",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://embedded.qatest.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "London",
+        "country": "U.K.",
+        "end_date": "2021-10-22",
+        "kind": "conference",
+        "location": "London, U.K.",
+        "name": "ICSSTVV - International Conference on Software System Testing, Validation and Verification",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-21",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://waset.org/software-system-testing-validation-and-verification-conference-in-october-2021-in-london/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-24",
+        "kind": "conference",
+        "location": "",
+        "name": "TestFlix Global Software Testing Binge",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-23",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://www.thetesttribe.com/testflix-2021/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "South Wharf",
+        "country": "Australia",
+        "end_date": "2021-10-28",
+        "kind": "conference",
+        "location": "South Wharf, Australia",
+        "name": "Testing Talks Online",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-28",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://www.testingtalks.com.au/upcoming-events/testing-talks-conference-2021"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-11-04",
+        "kind": "conference",
+        "location": "",
+        "name": "OnlineTestConf Fall",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-03",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://www.onlinetestconf.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Atlanta, GA",
+        "country": "U.S.A.",
+        "end_date": "2021-11-09",
+        "kind": "conference",
+        "location": "Atlanta, GA, U.S.A.",
+        "name": "CAST",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-08",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://associationforsoftwaretesting.org/conference/cast-2021"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Bolzano",
+        "country": "Italy",
+        "end_date": "2021-11-11",
+        "kind": "conference",
+        "location": "Bolzano, Italy",
+        "name": "ASQT",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-11",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "http://www.asqt.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Prague",
+        "country": "Czech Republic",
+        "end_date": "2021-11-12",
+        "kind": "conference",
+        "location": "Prague, Czech Republic",
+        "name": "Testing United",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-11",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://testingunited.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-11-26",
+        "kind": "conference",
+        "location": "",
+        "name": "ParisTestConf (PTC)",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-22",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://paristestconf.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Hainan Island",
+        "country": "China",
+        "end_date": "2021-12-10",
+        "kind": "conference",
+        "location": "Hainan Island, China",
+        "name": "System Testing and Validation (STV) Workshop at IEEE QRS conference",
+        "source": "https://confs.tech",
+        "start_date": "2021-12-06",
+        "state": null,
+        "tags": [
+            "testing"
+        ],
+        "url": "https://www.fokus.fraunhofer.de/en/sqc/event/stv21"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-07-31",
+        "cfp_open": false,
+        "city": "Las Vegas, NV",
+        "country": "U.S.A.",
+        "end_date": "2021-12-10",
+        "kind": "conference",
+        "location": "Las Vegas, NV, U.S.A.",
+        "name": "DevIntersection",
+        "source": "https://confs.tech",
+        "start_date": "2021-12-05",
         "state": null,
         "tags": [
             "dotnet"
         ],
-        "url": "https://fwdays.com/en/event/dotnet-fwdays-2021"
+        "url": "https://devintersection.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-09-30",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-27",
+        "kind": "conference",
+        "location": "",
+        "name": "WeAreDevelopers Live - .NET Day",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-27",
+        "state": null,
+        "tags": [
+            "dotnet"
+        ],
+        "url": "https://www.wearedevelopers.com/event/net-day"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Nashville, TN",
+        "country": "U.S.A.",
+        "end_date": "2021-11-04",
+        "kind": "conference",
+        "location": "Nashville, TN, U.S.A.",
+        "name": "Automation + DevOps Summit",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-02",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://www.automationsummit.org"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-10-13",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-11-10",
+        "kind": "conference",
+        "location": "",
+        "name": "WeAreDevelopers Live - DevOps Day",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-10",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://www.wearedevelopers.com/event/devops-day-1121"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-09-02",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-30",
+        "kind": "conference",
+        "location": "",
+        "name": "WeAreDevelopers Live - Database Day",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-30",
+        "state": null,
+        "tags": [
+            "data"
+        ],
+        "url": "https://www.wearedevelopers.com/event/database-day"
     }
 ]

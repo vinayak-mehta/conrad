@@ -5,6 +5,7 @@ import sys
 import json
 import logging
 import datetime as dt
+from collections import Counter
 from setuptools.version import pkg_resources
 
 import requests
@@ -153,8 +154,11 @@ def validate_events(input_events, version=LATEST):
 
     # check for duplicates
     ie_names = [ie["name"].replace(" ", "").lower() for ie in input_events]
-    if sorted(list(set(ie_names))) != sorted(ie_names):
-        failures.append("Duplicate events found")
+    duplicate_events = [
+        event for event, count in Counter(ie_names).items() if count > 1
+    ]
+    if duplicate_events:
+        failures.append(f"Duplicate events found: {duplicate_events}")
 
     # check if keys exist
     for ie in input_events:
