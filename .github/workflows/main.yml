@@ -1,7 +1,8 @@
 name: Get events
-on:
-  schedule:
-    - cron: "0 0 * * 1,4"
+on: push
+# on:
+#   schedule:
+#     - cron: "0 0 * * 1,4"
 
 jobs:
   get_events:
