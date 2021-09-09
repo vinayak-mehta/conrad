@@ -2287,6 +2287,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2021-09-22",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-11-10",
+        "kind": "conference",
+        "location": "",
+        "name": "Grafana ObservabilityCon",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-08",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://grafana.com/about/events/observabilitycon/2021/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2021-10-13",
         "cfp_open": false,
         "city": null,
@@ -9520,6 +9538,24 @@
             "graphql"
         ],
         "url": "https://neo4j.com/nodes-2021"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-28",
+        "kind": "conference",
+        "location": "",
+        "name": "Enterprise GraphQL Conf",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-28",
+        "state": null,
+        "tags": [
+            "graphql"
+        ],
+        "url": "https://hasura.io/enterprisegraphql"
     },
     {
         "by": "bot",
