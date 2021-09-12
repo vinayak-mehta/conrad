@@ -3840,6 +3840,24 @@
         "cfp_open": false,
         "city": null,
         "country": null,
+        "end_date": "2022-05-05",
+        "kind": "conference",
+        "location": "Salt Lake City, Utah, USA",
+        "name": "PyCon US 2022",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2022-04-27",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://us.pycon.org/2022/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
         "end_date": "2023-04-28",
         "kind": "conference",
         "location": "Salt Lake City, Utah, USA",
