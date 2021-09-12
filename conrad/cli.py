@@ -437,6 +437,7 @@ def _remind(ctx, *args, **kwargs):
                 else:
                     days_left_output = "Event ended."
 
+                style = "white"
                 if days_left >= 30:
                     style = "green"
                 elif 30 > days_left >= 10:
