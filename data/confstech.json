@@ -759,6 +759,24 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
+        "city": "Burlingame, CA",
+        "country": "U.S.A.",
+        "end_date": "2021-11-16",
+        "kind": "conference",
+        "location": "Burlingame, CA, U.S.A.",
+        "name": "ODSC West AIx Summit",
+        "source": "https://confs.tech",
+        "start_date": "2021-11-16",
+        "state": null,
+        "tags": [
+            "data"
+        ],
+        "url": "https://odsc.com/california/aix-west"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
         "city": null,
         "country": null,
         "end_date": "2021-11-18",
@@ -862,24 +880,6 @@
             "data"
         ],
         "url": "https://voicecon.net"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Burlingame, CA",
-        "country": "U.S.A.",
-        "end_date": "2021-11-16",
-        "kind": "conference",
-        "location": "Burlingame, CA, U.S.A.",
-        "name": "ODSC West AIx Summit",
-        "source": "https://confs.tech",
-        "start_date": "2021-11-16",
-        "state": null,
-        "tags": [
-            "data"
-        ],
-        "url": "https://odsc.com/california/aix-west"
     },
     {
         "by": "bot",
@@ -2269,6 +2269,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2021-09-30",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-10-30",
+        "kind": "conference",
+        "location": "",
+        "name": "Software Architecture fwdays conference",
+        "source": "https://confs.tech",
+        "start_date": "2021-10-30",
+        "state": null,
+        "tags": [
+            "devops"
+        ],
+        "url": "https://fwdays.com/en/event/architecture-fwdays-2021"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Nashville, TN",
@@ -3421,6 +3439,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-09",
+        "kind": "conference",
+        "location": "",
+        "name": "DSS Elevate",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-09",
+        "state": null,
+        "tags": [
+            "networking"
+        ],
+        "url": "https://www.datascience.salon/dsse-virtual-2021"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2021-07-11",
         "cfp_open": false,
         "city": null,
@@ -3544,24 +3580,6 @@
             "networking"
         ],
         "url": "https://reinvent.awsevents.com"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-09-09",
-        "kind": "conference",
-        "location": "",
-        "name": "DSS Elevate",
-        "source": "https://confs.tech",
-        "start_date": "2021-09-09",
-        "state": null,
-        "tags": [
-            "networking"
-        ],
-        "url": "https://www.datascience.salon/dsse-virtual-2021"
     },
     {
         "by": "bot",
@@ -3961,24 +3979,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2021-08-01",
-        "cfp_open": false,
-        "city": "Chicago, IL",
-        "country": "U.S.A.",
-        "end_date": "2021-12-10",
-        "kind": "conference",
-        "location": "Chicago, IL, U.S.A.",
-        "name": "jConf.dev",
-        "source": "https://confs.tech",
-        "start_date": "2021-12-08",
-        "state": null,
-        "tags": [
-            "java"
-        ],
-        "url": "https://2021.jconf.dev"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2021-08-05",
         "cfp_open": false,
         "city": "Oslo",
@@ -3994,6 +3994,24 @@
             "java"
         ],
         "url": "https://javazone.no"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-08-01",
+        "cfp_open": false,
+        "city": "Chicago, IL",
+        "country": "U.S.A.",
+        "end_date": "2021-12-10",
+        "kind": "conference",
+        "location": "Chicago, IL, U.S.A.",
+        "name": "jConf.dev",
+        "source": "https://confs.tech",
+        "start_date": "2021-12-08",
+        "state": null,
+        "tags": [
+            "java"
+        ],
+        "url": "https://2021.jconf.dev"
     },
     {
         "by": "bot",
@@ -7509,6 +7527,24 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2021-09-16",
+        "kind": "conference",
+        "location": "",
+        "name": "GatsbyCamp",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-16",
+        "state": null,
+        "tags": [
+            "javascript"
+        ],
+        "url": "https://www.gatsbyjs.com/camp-fall-2021"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
         "city": "London",
         "country": "U.K.",
         "end_date": "2021-09-17",
@@ -8821,24 +8857,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2021-03-29",
-        "cfp_open": false,
-        "city": "Paris",
-        "country": "France",
-        "end_date": "2021-12-03",
-        "kind": "conference",
-        "location": "Paris, France",
-        "name": "SymfonyCon Disneyland Paris",
-        "source": "https://confs.tech",
-        "start_date": "2021-12-02",
-        "state": null,
-        "tags": [
-            "php"
-        ],
-        "url": "https://live.symfony.com/2021-paris-con"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": null,
@@ -8854,6 +8872,24 @@
             "php"
         ],
         "url": "https://php.bettercode.eu"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2021-03-29",
+        "cfp_open": false,
+        "city": "Paris",
+        "country": "France",
+        "end_date": "2021-12-03",
+        "kind": "conference",
+        "location": "Paris, France",
+        "name": "SymfonyCon Disneyland Paris",
+        "source": "https://confs.tech",
+        "start_date": "2021-12-02",
+        "state": null,
+        "tags": [
+            "php"
+        ],
+        "url": "https://live.symfony.com/2021-paris-con"
     },
     {
         "by": "bot",
@@ -9448,6 +9484,24 @@
             "iot"
         ],
         "url": "https://hardwear.io/usa-2021"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Wall, NJ",
+        "country": "U.S.A.",
+        "end_date": "2021-09-10",
+        "kind": "conference",
+        "location": "Wall, NJ, U.S.A.",
+        "name": "Vintage Computer Festival East",
+        "source": "https://confs.tech",
+        "start_date": "2021-09-08",
+        "state": null,
+        "tags": [
+            "iot"
+        ],
+        "url": "https://vcfed.org/wp/festivals/vintage-computer-festival-east"
     },
     {
         "by": "bot",
