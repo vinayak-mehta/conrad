@@ -142,7 +142,7 @@ def apply_schema(events, version=LATEST):
     _events = []
 
     for event in events:
-        _event = dict({k: v for k, v in event.items() if k in schema.keys()})
+        _event = {k: v for k, v in event.items() if k in schema.keys()}
         _events.append(_event)
 
     return _events

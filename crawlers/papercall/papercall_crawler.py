@@ -66,7 +66,7 @@ def parse_page(root):
         tags = [t.string for t in event.select('a[href^="/events?keywords=tags"]')]
 
         today = dateparser.parse("now UTC")
-        cfp_open = False if today > cfp_close else True
+        cfp_open = not today > cfp_close
         try:
             city = location.split(",")[0]
             country = location.split(",")[1]
