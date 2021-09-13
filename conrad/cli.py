@@ -8,6 +8,7 @@ import shutil
 import hashlib
 import inspect
 import datetime as dt
+from collections import Counter
 
 import click
 import requests
@@ -687,3 +688,75 @@ def _import(ctx, *args, **kwargs):
         events_path = os.path.join(os.getcwd(), "data", f"{eval(f'f{version}')}")
         with open(events_path, "w") as f:
             f.write(json.dumps(events, indent=4, sort_keys=True))
+
+
+@cli.command("list", short_help="Generates a list of tags or locations.")
+@click.option(
+    "--tags",
+    "-t",
+    is_flag=True,
+    help="Generates a list of tags.",
+)
+@click.option(
+    "--locations",
+    "-l",
+    default=None,
+    help="Generates a list of locations.",
+)
+@click.pass_context
+def _list(ctx, *args, **kwargs):
+    session = Session()
+
+    def _get_all_events():
+        try:
+            events = list(session.query(Event).all())
+        except sqlalchemy.exc.OperationalError:
+            refresh_conrad()
+            events = list(session.query(Event).all())
+        return events
+
+    if kwargs["tags"]:
+        header = ["Tag", "Number of Events"]
+        tags = ""
+        events = _get_all_events()
+        for event in events:
+            tags += event.tags
+        tags = re.findall(r"[a-zA-Z]+", tags)
+        tags = Counter(tags)
+        output = []
+        for tag in tags:
+            if tag is not None:
+                output.append([tag, tags[tag]])
+        formatted = tabular_output.format_output(output, header, format_name="ascii")
+        click.echo("\n".join(formatted))
+        click.echo(
+            "Tip : Use conrad show --tag tag_name to list events with a particular tag."
+        )
+    elif kwargs["locations"]:
+        location_type = kwargs["locations"]
+        locations = []
+        events = _get_all_events()
+        for event in events:
+            if location_type == "country":
+                header = ["Country", "Number of events"]
+                locations.append(event.country)
+            elif location_type == "state":
+                header = ["State", "Number of events"]
+                locations.append(event.state)
+            elif location_type == "city":
+                header = ["City", "Number of events"]
+                locations.append(event.city)
+            else:
+                raise click.UsageError("Please specify one of country, state or city.")
+        locations = Counter(locations)
+        output = []
+        for loc in locations:
+            if loc is not None:
+                output.append([loc, locations[loc]])
+        formatted = tabular_output.format_output(output, header, format_name="ascii")
+        click.echo("\n".join(formatted))
+        click.echo(
+            "Tip : Use conrad show --location location_name to list events in a particular location."
+        )
+    else:
+        raise click.UsageError("Specify tags or location")
