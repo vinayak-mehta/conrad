@@ -5,53 +5,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-09-21",
-        "kind": "conference",
-        "location": "online",
-        "name": "PyCon India 2021",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-09-17",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://in.pycon.org/2021/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-09-20",
-        "kind": "conference",
-        "location": "On line",
-        "name": "PyWeek 32",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-09-19",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pyweek.org/32/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-10-04",
+        "end_date": "2022-09-17",
         "kind": "conference",
         "location": "Online",
-        "name": "PyConTW 2021",
+        "name": "PyHEP 2022",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-10-02",
+        "start_date": "2022-09-12",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://tw.pycon.org/2021/en-us/"
+        "url": "https://indico.cern.ch/e/PyHEP2022"
     },
     {
         "by": "bot",
@@ -59,12 +23,138 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-10-09",
+        "end_date": "2022-09-19",
         "kind": "conference",
-        "location": "Online",
-        "name": "PyCon ZA 2021",
+        "location": "Cardiff City Hall, UK",
+        "name": "PyCon UK 2022",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-10-07",
+        "start_date": "2022-09-16",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2022.pyconuk.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2022-09-26",
+        "kind": "conference",
+        "location": "Porto, Portugal",
+        "name": "DjangoCon Europe 2022",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2022-09-21",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2022.djangocon.eu/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2022-09-25",
+        "kind": "conference",
+        "location": "Porto, Portugal",
+        "name": "PyCon Portugal 2022",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2022-09-24",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2022.pycon.pt/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2022-09-29",
+        "kind": "conference",
+        "location": "Salta, Argentina",
+        "name": "9th Conference of Scientific Python Latinamerica",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2022-09-26",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pythoncientifico.ar/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2022-10-03",
+        "kind": "conference",
+        "location": null,
+        "name": "PyConEs - Granada",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2022-09-30",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2022.es.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2022-10-14",
+        "kind": "conference",
+        "location": "Dubai, UAE",
+        "name": "PyCon MEA @ Global DevSlam 2022",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2022-10-10",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://globaldevslam.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2022-10-16",
+        "kind": "conference",
+        "location": "Accra, Ghana",
+        "name": "PyCon Ghana 2022",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2022-10-13",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "http://gh.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2022-10-15",
+        "kind": "conference",
+        "location": "Durban, South Africa",
+        "name": "PyCon ZA 2022",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2022-10-13",
         "state": null,
         "tags": [
             "python"
@@ -77,17 +167,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-10-23",
+        "end_date": "2022-10-17",
         "kind": "conference",
-        "location": "online",
-        "name": "PyCon Sweden 2021",
+        "location": "Ariake, Koto City, Tokyo 135-0063, Japan",
+        "name": " PyCon JP 2022",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-10-21",
+        "start_date": "2022-10-14",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": null
+        "url": "https://2022.pycon.jp/"
     },
     {
         "by": "bot",
@@ -95,35 +185,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-11-01",
-        "kind": "conference",
-        "location": "Online",
-        "name": "Plone Conference 2021 Online",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-10-23",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2021.ploneconf.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-10-31",
+        "end_date": "2022-10-26",
         "kind": "conference",
         "location": "Online",
-        "name": "PyData Global 2021",
+        "name": "enterPy 2022",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-10-28",
+        "start_date": "2022-10-25",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://pydata.org/global2021/"
+        "url": "https://www.enterpy.de/"
     },
     {
         "by": "bot",
@@ -131,17 +203,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-11-08",
+        "end_date": "2022-10-29",
         "kind": "conference",
-        "location": "On line",
-        "name": "PyCon Chile",
+        "location": "Texas, USA and Online",
+        "name": "Python at Scale",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-11-05",
+        "start_date": "2022-10-27",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://pycon.cl/"
+        "url": "https://www.pythonatscale.com/"
     },
     {
         "by": "bot",
@@ -149,17 +221,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-11-24",
+        "end_date": "2022-11-05",
         "kind": "conference",
-        "location": "Bangkok, Thailand and online",
-        "name": "PyCon APAC 2021",
+        "location": "Hilton Stockholm Slussen, Guldgr\u00e4nd 8, 104 65 Stockholm, Sweden",
+        "name": "PyCon Sweden",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-11-19",
+        "start_date": "2022-11-03",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://th.pycon.org/"
+        "url": "http://www.pycon.se"
     },
     {
         "by": "bot",
@@ -167,17 +239,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-11-25",
+        "end_date": "2022-11-07",
         "kind": "conference",
-        "location": "Online (Israel)",
-        "name": "Xtreme Python",
+        "location": "Gliwice, Poland",
+        "name": "PyCon PL 2022",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-11-24",
+        "start_date": "2022-11-03",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://xtremepython.dev/"
+        "url": "https://pl.pycon.org/2022/en/"
     },
     {
         "by": "bot",
@@ -185,89 +257,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2022-02-20",
-        "kind": "conference",
-        "location": null,
-        "name": "PyCon Namibia 2022",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2022-02-17",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://na.pycon.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2022-02-21",
-        "kind": "conference",
-        "location": "\u014ctautahi/Christchurch, Aotearoa/New Zealand",
-        "name": "Kiwi PyCon",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2022-02-18",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "\u201chttps://python.nz/kiwipycon\u201c"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2022-05-06",
-        "kind": "conference",
-        "location": "Salt Lake City, Utah, USA",
-        "name": "PyCon US 2022",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2022-04-27",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://us.pycon.org/2022/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2022-06-06",
-        "kind": "conference",
-        "location": "Florence, Italy",
-        "name": "PyCon Italy 12",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2022-06-02",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycon.it/en"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2022-07-18",
+        "end_date": "2022-11-14",
         "kind": "conference",
         "location": "Dublin, Ireland",
-        "name": "EuroPython 2022",
+        "name": "PyCon Ireland 2022",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2022-07-11",
+        "start_date": "2022-11-12",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://www.europython.eu/"
+        "url": "https://python.ie/pycon-2022/"
     },
     {
         "by": "bot",
@@ -275,17 +275,53 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2022-09-21",
+        "end_date": "2022-11-28",
         "kind": "conference",
-        "location": "Cardiff City Hall, UK",
-        "name": "PyCon UK 2022",
+        "location": "Online",
+        "name": "Pyjamas Conf 2022",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2022-09-16",
+        "start_date": "2022-11-26",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://2022.pyconuk.org/"
+        "url": "https://pyjamas.live/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2022-12-04",
+        "kind": "conference",
+        "location": "Online",
+        "name": "PyData Global 2022",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2022-12-01",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pydata.org/global2022/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2022-12-11",
+        "kind": "conference",
+        "location": "Cochabamba, Bolivia",
+        "name": "PyCon Bolivia 2022",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2022-12-09",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://bo.pycon.org/"
     },
     {
         "by": "bot",
