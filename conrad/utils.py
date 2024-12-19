@@ -6,7 +6,7 @@ import json
 import logging
 import datetime as dt
 from collections import Counter
-from setuptools.version import pkg_resources
+from packaging import version
 
 import requests
 import geopy.exc as geopyexceptions
@@ -86,8 +86,8 @@ def conrad_self_version_check():
             # Save that we've performed a check
             state.save(pypi_version, current_time)
 
-        conrad_version = pkg_resources.parse_version(__version__)
-        remote_version = pkg_resources.parse_version(pypi_version)
+        conrad_version = version.parse(__version__)
+        remote_version = version.parse(pypi_version)
 
         if conrad_version < remote_version:
             pip_cmd = "{} -m pip".format(sys.executable)

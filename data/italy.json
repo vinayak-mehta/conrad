@@ -183,11 +183,11 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Milano",
+        "city": "Rome",
         "country": "Italy",
         "end_date": "2020-02-21",
         "kind": "conference",
-        "location": "Milano",
+        "location": "Rome",
         "name": "ServerlessDays 2020",
         "source": "https://github.com/ildoc/awesome-italy-events",
         "start_date": "2020-02-21",
@@ -561,6 +561,24 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
+        "city": "Trento",
+        "country": "Italy",
+        "end_date": "2020-06-06",
+        "kind": "conference",
+        "location": "Trento",
+        "name": "SoCraTes IT 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-06-04",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "http://www.socrates-conference.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
         "city": "Milano",
         "country": "Italy",
         "end_date": "2020-06-05",
@@ -741,6 +759,24 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
+        "city": "Roma",
+        "country": "Italy",
+        "end_date": "2020-09-13",
+        "kind": "conference",
+        "location": "Roma",
+        "name": "Hackmeeting",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-09-10",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.hackmeeting.org/hackit20/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
         "city": "Venezia",
         "country": "Italy",
         "end_date": "2020-09-12",
@@ -772,6 +808,24 @@
             "technology"
         ],
         "url": "https://www.romhack.io/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Roma",
+        "country": "Italy",
+        "end_date": "2020-09-30",
+        "kind": "conference",
+        "location": "Roma",
+        "name": "Level Up",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-09-28",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "http://www.lvlup.it/"
     },
     {
         "by": "bot",
@@ -849,6 +903,24 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
+        "city": "Online",
+        "country": "Italy",
+        "end_date": "2020-10-20",
+        "kind": "conference",
+        "location": "Online",
+        "name": "NG Rome",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-10-20",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://ngrome.io/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
         "city": "Bologna",
         "country": "Italy",
         "end_date": "2020-10-23",
@@ -862,6 +934,42 @@
             "technology"
         ],
         "url": "https://www.containerday.it/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Online",
+        "country": "Italy",
+        "end_date": "2020-11-14",
+        "kind": "conference",
+        "location": "Online",
+        "name": "Agile Days 2020",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-11-13",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://www.agileday.it"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Milano",
+        "country": "Italy",
+        "end_date": "2020-11-16",
+        "kind": "conference",
+        "location": "Milano",
+        "name": "Forum Software Industriale",
+        "source": "https://github.com/ildoc/awesome-italy-events",
+        "start_date": "2020-11-16",
+        "state": null,
+        "tags": [
+            "technology"
+        ],
+        "url": "https://forumsoftwareindustriale.it/"
     },
     {
         "by": "bot",

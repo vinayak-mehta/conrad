@@ -51,7 +51,7 @@ def set_default_pager():
 
 
 def get_events():
-    click.echo("Fetching latest events!")
+    click.echo("Fetching latest events.")
 
     events_filename = eval(f"f{LATEST}")
     response = requests.get(
@@ -228,7 +228,7 @@ def cli(ctx, *args, **kwargs):
 @click.confirmation_option(prompt="Would you like conrad to look for new events?")
 @click.pass_context
 def _refresh(ctx, *args, **kwargs):
-    # TODO: print("10 new events found!")
+    # TODO: print("10 new events found.")
     refresh_conrad()
 
     click.echo("All done! ✨ 🍰 ✨")
@@ -303,11 +303,11 @@ def _show(ctx, *args, **kwargs):
         for d in date:
             cmp, date = d.split(" ")
             if not (">" in cmp or "<" in cmp):
-                raise click.UsageError("Wrong comparison operator!")
+                raise click.UsageError("Wrong comparison operator.")
             try:
                 __ = dt.datetime.strptime(date, "%Y-%m-%d")
             except ValueError:
-                raise click.UsageError("Wrong date format!")
+                raise click.UsageError("Wrong date format.")
             if ">" in cmp:
                 date_filters.append(Event.start_date >= date)
             elif "<" in cmp:
@@ -381,7 +381,7 @@ def _show(ctx, *args, **kwargs):
         with console.pager(**console_kwargs):
             console.print(table)
     else:
-        click.echo("No events found!")
+        click.echo("No events found.")
 
 
 @cli.command("remind", short_help="Set and display reminders.")
@@ -431,9 +431,9 @@ def _remind(ctx, *args, **kwargs):
                 days_left, cfp_open = get_days_left(reminder)
 
                 if cfp_open and days_left >= 0:
-                    days_left_output = f"{days_left} days left to cfp deadline!"
+                    days_left_output = f"{days_left} days left to cfp deadline."
                 elif days_left >= 0:
-                    days_left_output = f"{days_left} days left!"
+                    days_left_output = f"{days_left} days left."
                 else:
                     days_left_output = "Event ended."
 
@@ -464,13 +464,13 @@ def _remind(ctx, *args, **kwargs):
             with console.pager(**console_kwargs):
                 console.print(table)
         else:
-            click.echo("No reminders found!")
+            click.echo("No reminders found.")
     else:
         try:
             session = Session()
             event = session.query(Event).filter(Event.id == _id).first()
             if event is None:
-                click.echo("Event not found!")
+                click.echo("Event not found.")
             else:
                 days_left, __ = get_days_left(event)
 
@@ -482,7 +482,7 @@ def _remind(ctx, *args, **kwargs):
                     session.commit()
                     session.close()
 
-                    click.echo("Reminder set!")
+                    click.echo("Reminder set.")
         except sqlalchemy.exc.IntegrityError:
             session.rollback()
 
@@ -492,7 +492,7 @@ def _remind(ctx, *args, **kwargs):
                 session.commit()
                 session.close()
 
-                click.echo("Reminder removed!")
+                click.echo("Reminder removed.")
 
 
 @cli.command("generate", short_help="Generate skeleton crawler code.")
@@ -584,7 +584,7 @@ def _run(ctx, *args, **kwargs):
             f"\t{click.style('save', fg='green', bold=True)}\t{crawler_data_path}"
         )
     else:
-        print("Crawler not found!")
+        print("Crawler not found.")
 
 
 @bypass_auto_refresh
@@ -595,10 +595,10 @@ def _import(ctx, *args, **kwargs):
     file = kwargs["file"]
 
     if file is None:
-        raise click.UsageError("No file provided!")
+        raise click.UsageError("No file provided.")
 
     if not os.path.exists(file):
-        raise click.UsageError("File does not exist!")
+        raise click.UsageError("File does not exist.")
 
     with open(file, "r") as f:
         input_events = json.load(f)
@@ -638,7 +638,7 @@ def _import(ctx, *args, **kwargs):
 
     removed = len(events) - len(old_events)
     s = "s" if removed != 1 else ""
-    click.echo(f"Removed {removed} old event{s}!")
+    click.echo(f"Removed {removed} old event{s}.")
 
     pattern = "[0-9]"
     new_events = []
@@ -676,7 +676,7 @@ def _import(ctx, *args, **kwargs):
     old_events.extend(new_events)
 
     s = "s" if len(new_events) != 1 else ""
-    click.echo(f"Added {len(new_events)} new event{s}!")
+    click.echo(f"Added {len(new_events)} new event{s}.")
     with open(events_path, "w") as f:
         f.write(json.dumps(old_events, indent=4, sort_keys=True))
 
