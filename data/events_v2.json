@@ -146,7 +146,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2024-12-19",
-        "cfp_open": false,
+        "cfp_open": true,
         "city": "Pittsburgh",
         "country": "USA",
         "end_date": "2025-05-22",
