@@ -11,7 +11,7 @@ from ..base import BaseCrawler
 class PyConCrawler(BaseCrawler):
     def get_events(self):
         df = pandas.read_csv(
-            "https://raw.githubusercontent.com/python-organizers/conferences/master/2020.csv",
+            "https://raw.githubusercontent.com/python-organizers/conferences/refs/heads/main/2025.csv",
             quoting=1,
             encoding="utf-8",
             dtype=str,
