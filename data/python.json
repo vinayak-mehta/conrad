@@ -5,17 +5,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-09-21",
+        "end_date": "2025-02-03",
         "kind": "conference",
-        "location": "online",
-        "name": "PyCon India 2021",
+        "location": "Brussels, Belgium",
+        "name": "Python devroom @ FOSDEM 2025",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-09-17",
+        "start_date": "2025-02-02",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://in.pycon.org/2021/"
+        "url": "https://fosdem.org/2025/schedule/track/python/"
     },
     {
         "by": "bot",
@@ -23,35 +23,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-09-20",
-        "kind": "conference",
-        "location": "On line",
-        "name": "PyWeek 32",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-09-19",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pyweek.org/32/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-10-04",
+        "end_date": "2025-02-23",
         "kind": "conference",
         "location": "Online",
-        "name": "PyConTW 2021",
+        "name": "DjangoCongress JP 2025",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-10-02",
+        "start_date": "2025-02-22",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://tw.pycon.org/2021/en-us/"
+        "url": "https://djangocongress.jp/"
     },
     {
         "by": "bot",
@@ -59,17 +41,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-10-09",
+        "end_date": "2025-02-27",
         "kind": "conference",
-        "location": "Online",
-        "name": "PyCon ZA 2021",
+        "location": "Basel, Switzerland",
+        "name": "GeoPython 2025",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-10-07",
+        "start_date": "2025-02-24",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://za.pycon.org/"
+        "url": "https://2025.geopython.net/"
     },
     {
         "by": "bot",
@@ -77,120 +59,12 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2021-10-23",
+        "end_date": "2025-02-28",
         "kind": "conference",
-        "location": "online",
-        "name": "PyCon Sweden 2021",
+        "location": "Windhoek, Namibia ",
+        "name": "PyCon Namibia",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-10-21",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": null
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-11-01",
-        "kind": "conference",
-        "location": "Online",
-        "name": "Plone Conference 2021 Online",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-10-23",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2021.ploneconf.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-10-31",
-        "kind": "conference",
-        "location": "Online",
-        "name": "PyData Global 2021",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-10-28",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pydata.org/global2021/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-11-08",
-        "kind": "conference",
-        "location": "On line",
-        "name": "PyCon Chile",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-11-05",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycon.cl/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-11-24",
-        "kind": "conference",
-        "location": "Bangkok, Thailand and online",
-        "name": "PyCon APAC 2021",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-11-19",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://th.pycon.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2021-11-25",
-        "kind": "conference",
-        "location": "Online (Israel)",
-        "name": "Xtreme Python",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2021-11-24",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://xtremepython.dev/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2022-02-20",
-        "kind": "conference",
-        "location": null,
-        "name": "PyCon Namibia 2022",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2022-02-17",
+        "start_date": "2025-02-24",
         "state": null,
         "tags": [
             "python"
@@ -203,17 +77,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2022-02-21",
+        "end_date": "2025-03-03",
         "kind": "conference",
-        "location": "\u014ctautahi/Christchurch, Aotearoa/New Zealand",
-        "name": "Kiwi PyCon",
+        "location": "Quezon City, Philippines",
+        "name": "PyCon APAC 2025",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2022-02-18",
+        "start_date": "2025-03-01",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "\u201chttps://python.nz/kiwipycon\u201c"
+        "url": "https://pycon-apac.python.ph/"
     },
     {
         "by": "bot",
@@ -221,17 +95,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2022-05-06",
+        "end_date": "2025-04-08",
         "kind": "conference",
-        "location": "Salt Lake City, Utah, USA",
-        "name": "PyCon US 2022",
+        "location": "Eisenstadt, Austria",
+        "name": "Python Conference Austria 2025",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2022-04-27",
+        "start_date": "2025-04-06",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://us.pycon.org/2022/"
+        "url": "https://at.pycon.org/"
     },
     {
         "by": "bot",
@@ -239,17 +113,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2022-06-06",
+        "end_date": "2025-04-14",
         "kind": "conference",
-        "location": "Florence, Italy",
-        "name": "PyCon Italy 12",
+        "location": "Austin, TX",
+        "name": "PyTexas 2025",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2022-06-02",
+        "start_date": "2025-04-11",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://pycon.it/en"
+        "url": "http://pytexas.org/2025"
     },
     {
         "by": "bot",
@@ -257,17 +131,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2022-07-18",
+        "end_date": "2025-04-26",
         "kind": "conference",
-        "location": "Dublin, Ireland",
-        "name": "EuroPython 2022",
+        "location": "Darmstadt, Germany",
+        "name": "PyCon DE & PyData 2025",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2022-07-11",
+        "start_date": "2025-04-23",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://www.europython.eu/"
+        "url": "https://2025.pycon.de/"
     },
     {
         "by": "bot",
@@ -275,17 +149,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2022-09-21",
+        "end_date": "2025-05-23",
         "kind": "conference",
-        "location": "Cardiff City Hall, UK",
-        "name": "PyCon UK 2022",
+        "location": "Pittsburgh, Pennsylvania, USA",
+        "name": "PyCon US 2025",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2022-09-16",
+        "start_date": "2025-05-14",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://2022.pyconuk.org/"
+        "url": "https://us.pycon.org/"
     },
     {
         "by": "bot",
@@ -293,16 +167,52 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2023-04-28",
+        "end_date": "2025-06-01",
         "kind": "conference",
-        "location": "Salt Lake City, Utah, USA",
-        "name": "PyCon US 2023",
+        "location": "Bologna, Italy",
+        "name": "PyCon Italia 2025",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2023-04-19",
+        "start_date": "2025-05-28",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://us.pycon.org/2023/"
+        "url": "https://2025.pycon.it/en"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-07-21",
+        "kind": "conference",
+        "location": "Prague, Czech Republic",
+        "name": "EuroPython 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-07-14",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://ep2025.europython.eu/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-10-04",
+        "kind": "conference",
+        "location": "Tallinn, Estonia",
+        "name": "PyCon Estonia 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-10-02",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.ee/"
     }
 ]
