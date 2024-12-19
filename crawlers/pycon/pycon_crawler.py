@@ -34,7 +34,7 @@ class PyConCrawler(BaseCrawler):
             )
             cfp_open = (
                 True
-                if dt.datetime.now() <= dt.datetime.strptime(cfp_end_date, "%Y-%m-%d")
+                if dt.datetime.now() <= dt.datetime.strptime(cfp_end_date, "%Y-%m-%d").replace(hour=23, minute=59, second=59, microsecond=999999)
                 else False
             )
             e = {
