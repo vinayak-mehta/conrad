@@ -2,6 +2,7 @@ name: Get events
 on:
   schedule:
     - cron: "0 0 * * 1,4"
+  workflow_dispatch:
 
 jobs:
   get_events:
