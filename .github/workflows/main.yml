@@ -42,5 +42,5 @@ jobs:
           title: "Update events list"
           body: Here's the latest event list!
           commit-message: Update events list
-          branch: "update-events-${{ github.ref }}"
+          branch: "update-events"
           base: master
