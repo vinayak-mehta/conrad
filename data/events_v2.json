@@ -273,36 +273,36 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-07-21",
+        "city": "Prague",
+        "country": "Czechia",
+        "end_date": "2025-07-20",
         "kind": "conference",
-        "location": "Prague, Czech Republic",
-        "name": "EuroPython 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "location": "Prague, Czechia",
+        "name": "EuroPython",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2025-07-14",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://ep2025.europython.eu/"
+        "url": "https://ep2025.europython.eu"
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-10-04",
+        "cfp_end_date": "2025-01-15",
+        "cfp_open": true,
+        "city": "Tallinn",
+        "country": "Estonia",
+        "end_date": "2025-10-03",
         "kind": "conference",
         "location": "Tallinn, Estonia",
-        "name": "PyCon Estonia 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "name": "PyCon Estonia",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2025-10-02",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://pycon.ee/"
+        "url": "https://pycon.ee"
     }
 ]
