@@ -1,27 +1,27 @@
 # -*- coding: utf-8 -*-
 
-import os
-import re
-import sys
-import json
-import shutil
+import datetime as dt
 import hashlib
 import inspect
-import datetime as dt
+import json
+import os
+import re
+import shutil
+import sys
 
 import click
 import requests
 import sqlalchemy
 import textdistance
-from rich.table import Table
 from rich.console import Console
+from rich.table import Table
 
 try:
     import bs4
-    import git
-    import pandas
     import cerberus
+    import git
     import googleapiclient
+    import pandas
 except ImportError:
     _HAS_CRAWL_REQUIREMENTS = False
 else:
@@ -31,12 +31,11 @@ if _HAS_CRAWL_REQUIREMENTS:
     import crawlers
     from crawlers import *
 
-from . import __version__, CONRAD_HOME
-from .schema import *
-from .db import engine, Session
+from . import CONRAD_HOME, __version__
+from .db import Session, engine
 from .models import Base, Event, Reminder
-from .utils import apply_schema, initialize_database, validate_events, mkdir
-
+from .schema import *
+from .utils import apply_schema, initialize_database, mkdir, validate_events
 
 DATE_FMT = "%Y-%m-%dT%H:%M:%S"
 
@@ -425,17 +424,15 @@ def _remind(ctx, *args, **kwargs):
             table.add_column("Start Date")
             table.add_column("Days Left")
 
-            reminders_output = []
-
             for reminder, __ in reminders:
                 days_left, cfp_open = get_days_left(reminder)
 
                 if cfp_open and days_left >= 0:
-                    days_left_output = f"{days_left} days left to cfp deadline."
+                    days_left_output = f"{days_left} days left to cfp deadline"
                 elif days_left >= 0:
-                    days_left_output = f"{days_left} days left."
+                    days_left_output = f"{days_left} days left"
                 else:
-                    days_left_output = "Event ended."
+                    days_left_output = "Event ended"
 
                 style = "white"
                 if days_left >= 30:

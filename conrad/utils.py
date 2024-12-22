@@ -1,22 +1,21 @@
 # -*- coding: utf-8 -*-
 
-import os
-import sys
+import datetime as dt
 import json
 import logging
-import datetime as dt
+import os
+import sys
 from collections import Counter
+
+import geopy.exc as geopyexceptions
+import requests
+from geopy.extra.rate_limiter import RateLimiter
+from geopy.geocoders import Nominatim
 from packaging import version
 
-import requests
-import geopy.exc as geopyexceptions
-from geopy.geocoders import Nominatim
-from geopy.extra.rate_limiter import RateLimiter
-
-from .schema import *
+from . import CONRAD_HOME, __version__
 from .db import engine
-from . import __version__, CONRAD_HOME
-
+from .schema import *
 
 SELFCHECK_DATE_FMT = "%Y-%m-%dT%H:%M:%SZ"
 

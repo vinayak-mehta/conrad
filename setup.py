@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import os
-from setuptools import find_packages
 
+from setuptools import find_packages
 
 here = os.path.abspath(os.path.dirname(__file__))
 about = {}
