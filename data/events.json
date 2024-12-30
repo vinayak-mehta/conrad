@@ -205,14 +205,14 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
+        "cfp_end_date": "2024-12-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-02-03",
+        "city": "Brussels",
+        "country": "Belgium",
+        "end_date": "2025-02-02",
         "kind": "conference",
-        "name": "Python devroom @ FOSDEM 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "name": "Python Devroom @ FOSDEM",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2025-02-02",
         "state": null,
         "tags": [
@@ -304,5 +304,39 @@
             "python"
         ],
         "url": "https://www.pyconweb.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Berlin",
+        "country": "Germany",
+        "end_date": "2025-01-25",
+        "kind": "conference",
+        "name": "PyConWeb",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-01-24",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.pyconweb.com"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2025-03-15",
+        "cfp_open": true,
+        "city": "Eisenstadt",
+        "country": "Austria",
+        "end_date": "2025-04-07",
+        "kind": "conference",
+        "name": "PyCon Austria",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-04-06",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.pyug.at/en/"
     }
 ]
