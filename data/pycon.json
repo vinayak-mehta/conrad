@@ -290,7 +290,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-01-15",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Tallinn",
         "country": "Estonia",
         "end_date": "2025-10-03",

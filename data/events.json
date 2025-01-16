@@ -86,20 +86,21 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2024-12-22",
+        "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Frankfurt",
-        "country": "Germany",
-        "end_date": "2025-04-25",
+        "city": null,
+        "country": null,
+        "end_date": "2025-04-23",
         "kind": "conference",
-        "name": "PyCon DE & PyData",
-        "source": "https://github.com/python-organizers/conferences",
+        "name": "PyCon DE/PyData 2025",
+        "source": "https://pydata.org/event-schedule/",
         "start_date": "2025-04-23",
         "state": null,
         "tags": [
-            "python"
+            "python",
+            "pydata"
         ],
-        "url": "https://2025.pycon.de"
+        "url": "https://2025.pycon.de/"
     },
     {
         "by": "bot",
@@ -274,7 +275,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-01-15",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Tallinn",
         "country": "Estonia",
         "end_date": "2025-10-03",
@@ -389,5 +390,94 @@
             "python"
         ],
         "url": "https://2025.pythonbrasil.org.br/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-09-23",
+        "kind": "conference",
+        "name": "PyCon UK 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-09-19",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2025.pyconuk.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Boston",
+        "country": "USA",
+        "end_date": "2025-03-20",
+        "kind": "conference",
+        "name": "Global Open OnDemand Conference 2025",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2025-03-17",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://www.conference2025.openondemand.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-04-19",
+        "kind": "conference",
+        "name": "PyData Virgina 2025",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2025-04-18",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://pydata.org/virginia2025"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "London",
+        "country": "United Kingdom",
+        "end_date": "2025-06-08",
+        "kind": "conference",
+        "name": "PyData London 2025",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2025-06-06",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://pydata.org/london2025"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Tacoma",
+        "country": "Washington",
+        "end_date": "2025-07-13",
+        "kind": "conference",
+        "name": "SciPy 2025",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2025-06-07",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://www.scipy2025.scipy.org/"
     }
 ]
