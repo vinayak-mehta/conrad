@@ -5,42 +5,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2025-02-24",
-        "kind": "conference",
-        "location": "Hyderabad, Telangana, India",
-        "name": "PyConf Hyderabad 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2025-02-22",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2025.pyconfhyd.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-02-23",
-        "kind": "conference",
-        "location": "Online",
-        "name": "DjangoCongress JP 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2025-02-22",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://djangocongress.jp/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2025-02-27",
         "kind": "conference",
         "location": "Basel, Switzerland",
@@ -239,6 +203,24 @@
         "cfp_open": false,
         "city": null,
         "country": null,
+        "end_date": "2025-06-23",
+        "kind": "conference",
+        "location": "Piau\u00ed, Brazil",
+        "name": "Python Nordeste 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-06-20",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2025.pythonnordeste.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
         "end_date": "2025-07-21",
         "kind": "conference",
         "location": "Prague, Czech Republic",
@@ -250,6 +232,24 @@
             "python"
         ],
         "url": "https://ep2025.europython.eu/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-08-23",
+        "kind": "conference",
+        "location": "Krak\u00f3w, Poland",
+        "name": "EuroSciPy 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-08-18",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://euroscipy.org/2025/"
     },
     {
         "by": "bot",
