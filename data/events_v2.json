@@ -1,42 +1,6 @@
 [
     {
         "by": "bot",
-        "cfp_end_date": "2024-11-15",
-        "cfp_open": false,
-        "city": "Basel",
-        "country": "Switzerland",
-        "end_date": "2025-02-26",
-        "kind": "conference",
-        "location": "Basel, Switzerland",
-        "name": "GeoPython",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2025-02-24",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2025.geopython.net"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2024-11-17",
-        "cfp_open": false,
-        "city": "Windhoek",
-        "country": "Namibia",
-        "end_date": "2025-02-27",
-        "kind": "conference",
-        "location": "Windhoek, Namibia",
-        "name": "PyCon Namibia",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2025-02-24",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://na.pycon.org"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2024-12-15",
         "cfp_open": false,
         "city": "Metro Manila",
@@ -489,5 +453,59 @@
             "python"
         ],
         "url": "https://euroscipy.org/2025/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-02-28",
+        "kind": "conference",
+        "location": "Windhoek, Namibia ",
+        "name": "PyCon Namibia",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-02-24",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://na.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-07-07",
+        "kind": "conference",
+        "location": "Medell\u00edn, Colombia",
+        "name": "PyCon Colombia 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-07-04",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2025.pycon.co/#/en"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-08-18",
+        "kind": "conference",
+        "location": "Seoul, South Korea",
+        "name": "PyCon Korea 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-08-15",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2025.pycon.kr/"
     }
 ]
