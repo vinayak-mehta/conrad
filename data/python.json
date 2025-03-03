@@ -5,42 +5,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2025-02-28",
-        "kind": "conference",
-        "location": "Windhoek, Namibia ",
-        "name": "PyCon Namibia",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2025-02-24",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://na.pycon.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-03-03",
-        "kind": "conference",
-        "location": "Quezon City, Philippines",
-        "name": "PyCon APAC 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2025-03-01",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycon-apac.python.ph/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2025-04-08",
         "kind": "conference",
         "location": "Eisenstadt, Austria",
@@ -142,6 +106,24 @@
             "python"
         ],
         "url": "https://us.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-05-18",
+        "kind": "conference",
+        "location": "St. Petersburg, Russia and Online",
+        "name": "PiterPy 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-05-16",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://piterpy.com/en/"
     },
     {
         "by": "bot",
