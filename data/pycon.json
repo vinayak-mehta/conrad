@@ -182,7 +182,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-02-28",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Vilnius",
         "country": "Lithuania",
         "end_date": "2025-04-25",
