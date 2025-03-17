@@ -5,6 +5,24 @@
         "cfp_open": false,
         "city": null,
         "country": null,
+        "end_date": "2025-03-31",
+        "kind": "conference",
+        "location": "Online",
+        "name": "PyWeek Game Jam 39",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-03-23",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pyweek.org/39/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
         "end_date": "2025-04-08",
         "kind": "conference",
         "location": "Eisenstadt, Austria",
@@ -268,6 +286,24 @@
             "python"
         ],
         "url": "https://euroscipy.org/2025/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-08-31",
+        "kind": "conference",
+        "location": "Athens, Greece",
+        "name": "PyCon Greece 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-08-29",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2025.pycon.gr/en/"
     },
     {
         "by": "bot",
