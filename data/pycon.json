@@ -128,7 +128,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-03-15",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Eisenstadt",
         "country": "Austria",
         "end_date": "2025-04-07",
