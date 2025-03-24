@@ -209,12 +209,12 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-04-28",
+        "city": "Dublin",
+        "country": "Ireland",
+        "end_date": "2025-04-27",
         "kind": "conference",
-        "name": "DjangoCon Europe 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "name": "DjangoCon Europe",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2025-04-23",
         "state": null,
         "tags": [
@@ -241,14 +241,14 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-10-28",
+        "cfp_end_date": "2025-04-27",
+        "cfp_open": true,
+        "city": "Sao Paulo",
+        "country": "Brazil",
+        "end_date": "2025-10-27",
         "kind": "conference",
-        "name": "Python Brasil 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "name": "Python Brasil",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2025-10-21",
         "state": null,
         "tags": [
@@ -258,14 +258,14 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-09-23",
+        "cfp_end_date": "2025-05-11",
+        "cfp_open": true,
+        "city": "Manchester",
+        "country": "United Kingdom",
+        "end_date": "2025-09-22",
         "kind": "conference",
-        "name": "PyCon UK 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "name": "PyCon UK",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2025-09-19",
         "state": null,
         "tags": [
@@ -479,5 +479,107 @@
             "python"
         ],
         "url": "https://2025.pycon.gr/en/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Petaluma",
+        "country": "USA",
+        "end_date": "2025-04-27",
+        "kind": "conference",
+        "name": "North Bay Python",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-04-26",
+        "state": "California",
+        "tags": [
+            "python"
+        ],
+        "url": "https://2025.northbaypython.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Cleveland",
+        "country": "USA",
+        "end_date": "2025-07-27",
+        "kind": "conference",
+        "name": "PyOhio",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-07-26",
+        "state": "Ohio",
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.pyohio.org/2025/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2025-03-31",
+        "cfp_open": true,
+        "city": "Arusha",
+        "country": "Tanzania",
+        "end_date": "2025-08-11",
+        "kind": "conference",
+        "name": "DjangoCon Africa",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-08-11",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2025.djangocon.africa/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2025-04-27",
+        "cfp_open": true,
+        "city": "Chicago",
+        "country": "USA",
+        "end_date": "2025-09-12",
+        "kind": "conference",
+        "name": "DjangoCon US",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-09-08",
+        "state": "Illinois",
+        "tags": [
+            "python"
+        ],
+        "url": "https://2025.djangocon.us"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "T\u0159e\u0161tice",
+        "country": "Czechia",
+        "end_date": "2025-09-14",
+        "kind": "conference",
+        "name": "PyCamp CZ",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-09-12",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycamp.cz/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2025-05-18",
+        "cfp_open": true,
+        "city": "Bengaluru",
+        "country": "India",
+        "end_date": "2025-09-15",
+        "kind": "conference",
+        "name": "PyCon India",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-09-12",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://in.pycon.org/2025/"
     }
 ]
