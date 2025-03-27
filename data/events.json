@@ -329,37 +329,37 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-10-18",
+        "cfp_end_date": "2025-05-31",
+        "cfp_open": true,
+        "city": "Rapperswil",
+        "country": "Switzerland",
+        "end_date": "2025-10-17",
         "kind": "conference",
-        "name": "Swiss Python Summit 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "name": "Swiss Python Summit",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2025-10-16",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://www.python-summit.ch/"
+        "url": "https://www.python-summit.ch"
     },
     {
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-11-01",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "end_date": "2025-10-31",
         "kind": "conference",
         "name": "PyCon Sweden",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2025-10-30",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://pycon.se"
+        "url": "https://pycon.se/"
     },
     {
         "by": "bot",
@@ -465,20 +465,20 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-08-31",
+        "cfp_end_date": "2025-04-20",
+        "cfp_open": true,
+        "city": "Athens",
+        "country": "Greece",
+        "end_date": "2025-08-30",
         "kind": "conference",
-        "name": "PyCon Greece 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "name": "PyCon Greece",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2025-08-29",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://2025.pycon.gr/en/"
+        "url": "https://2025.pycon.gr"
     },
     {
         "by": "bot",
@@ -581,5 +581,39 @@
             "python"
         ],
         "url": "https://in.pycon.org/2025/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2025-03-31",
+        "cfp_open": true,
+        "city": "Cascais",
+        "country": "Portugal",
+        "end_date": "2025-07-26",
+        "kind": "conference",
+        "name": "PyCon Portugal",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-07-24",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2025.pycon.pt/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2025-04-05",
+        "cfp_open": true,
+        "city": null,
+        "country": null,
+        "end_date": "2025-09-07",
+        "kind": "conference",
+        "name": "PyCon Taiwan",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-09-05",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://tw.pycon.org/2025"
     }
 ]
