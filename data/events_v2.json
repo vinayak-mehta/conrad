@@ -420,21 +420,21 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-07-07",
+        "cfp_end_date": "2025-04-06",
+        "cfp_open": true,
+        "city": "Medell\u00edn",
+        "country": "Colombia",
+        "end_date": "2025-07-06",
         "kind": "conference",
         "location": "Medell\u00edn, Colombia",
-        "name": "PyCon Colombia 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "name": "PyCon Colombia",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2025-07-04",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://2025.pycon.co/#/en"
+        "url": "https://2025.pycon.co/#/call-for-proposals"
     },
     {
         "by": "bot",
@@ -471,24 +471,6 @@
             "python"
         ],
         "url": "https://piterpy.com/en/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-03-31",
-        "kind": "conference",
-        "location": "Online",
-        "name": "PyWeek Game Jam 39",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2025-03-23",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pyweek.org/39/"
     },
     {
         "by": "bot",
@@ -547,7 +529,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-03-31",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Arusha",
         "country": "Tanzania",
         "end_date": "2025-08-11",
@@ -619,7 +601,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-03-31",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Cascais",
         "country": "Portugal",
         "end_date": "2025-07-26",
@@ -651,5 +633,23 @@
             "python"
         ],
         "url": "https://tw.pycon.org/2025"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-05-18",
+        "kind": "conference",
+        "location": "Caxias do Sul, RS, Brazil",
+        "name": "PyCaxias 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-05-17",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycaxias.com.br/"
     }
 ]

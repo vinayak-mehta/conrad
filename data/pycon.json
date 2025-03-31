@@ -307,6 +307,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2025-04-06",
+        "cfp_open": true,
+        "city": "Medell\u00edn",
+        "country": "Colombia",
+        "end_date": "2025-07-06",
+        "kind": "conference",
+        "location": "Medell\u00edn, Colombia",
+        "name": "PyCon Colombia",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-07-04",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2025.pycon.co/#/call-for-proposals"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2025-03-05",
         "cfp_open": false,
         "city": "Tacoma",
