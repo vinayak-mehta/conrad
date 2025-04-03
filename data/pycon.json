@@ -307,6 +307,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2025-03-15",
+        "cfp_open": false,
+        "city": "Opatija",
+        "country": "Croatia",
+        "end_date": "2025-07-05",
+        "kind": "conference",
+        "location": "Opatija, Croatia",
+        "name": "Web Summer Camp",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-07-03",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://websummercamp.com/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2025-04-06",
         "cfp_open": true,
         "city": "Medell\u00edn",
@@ -362,7 +380,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-03-31",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Cascais",
         "country": "Portugal",
         "end_date": "2025-07-26",
@@ -416,7 +434,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-03-31",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Arusha",
         "country": "Tanzania",
         "end_date": "2025-08-11",
