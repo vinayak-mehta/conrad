@@ -185,6 +185,24 @@
         "cfp_open": false,
         "city": null,
         "country": null,
+        "end_date": "2025-06-08",
+        "kind": "conference",
+        "location": "Salvador, State of Bahia, Brazil",
+        "name": "AfroPython Conf 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-06-07",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://afropythonconf.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
         "end_date": "2025-06-23",
         "kind": "conference",
         "location": "Piau\u00ed, Brazil",
@@ -340,6 +358,24 @@
             "python"
         ],
         "url": "https://2025.pycon.jp/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-10-02",
+        "kind": "conference",
+        "location": "Paris, France",
+        "name": "PyData Paris 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-09-30",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pydata.org/paris2025"
     },
     {
         "by": "bot",
