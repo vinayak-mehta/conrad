@@ -226,24 +226,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-04-19",
-        "kind": "conference",
-        "name": "PyData Virgina 2025",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2025-04-18",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://pydata.org/virginia2025"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "London",
         "country": "United Kingdom",
         "end_date": "2025-06-08",
@@ -398,7 +380,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-04-20",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Athens",
         "country": "Greece",
         "end_date": "2025-08-30",
@@ -668,5 +650,22 @@
             "python"
         ],
         "url": "https://www.pycon.fr/2025/en/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-10-19",
+        "kind": "conference",
+        "name": "PyBay 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-10-18",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pybay.org/"
     }
 ]
