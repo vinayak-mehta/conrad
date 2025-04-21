@@ -470,7 +470,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-04-20",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Athens",
         "country": "Greece",
         "end_date": "2025-08-30",
