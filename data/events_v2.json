@@ -3,44 +3,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-04-23",
-        "kind": "conference",
-        "location": "Darmstadtium",
-        "name": "PyCon DE/PyData 2025",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2025-04-23",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://2025.pycon.de/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-04-25",
-        "kind": "conference",
-        "location": "Vilnius",
-        "name": "PyCon Lithuania 2025",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2025-04-23",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://pycon.lt/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Sevilla",
         "country": "Espa\u00f1a",
         "end_date": "2025-05-04",
@@ -167,24 +129,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Dublin",
-        "country": "Ireland",
-        "end_date": "2025-04-27",
-        "kind": "conference",
-        "location": "Dublin, Ireland",
-        "name": "DjangoCon Europe",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2025-04-23",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2025.djangocon.eu/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Hiroshima",
         "country": "Japan",
         "end_date": "2025-09-27",
@@ -202,7 +146,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-04-27",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Sao Paulo",
         "country": "Brazil",
         "end_date": "2025-10-27",
@@ -365,21 +309,21 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-08-18",
+        "cfp_end_date": "2025-05-11",
+        "cfp_open": true,
+        "city": "Seoul",
+        "country": "South Korea",
+        "end_date": "2025-08-17",
         "kind": "conference",
         "location": "Seoul, South Korea",
-        "name": "PyCon Korea 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "name": "PyCon Korea",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2025-08-15",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://2025.pycon.kr/"
+        "url": "https://2025.pycon.kr"
     },
     {
         "by": "bot",
@@ -421,24 +365,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Petaluma",
-        "country": "USA",
-        "end_date": "2025-04-27",
-        "kind": "conference",
-        "location": "Petaluma, California, USA",
-        "name": "North Bay Python",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2025-04-26",
-        "state": "California",
-        "tags": [
-            "python"
-        ],
-        "url": "https://2025.northbaypython.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Cleveland",
         "country": "USA",
         "end_date": "2025-07-27",
@@ -474,7 +400,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-04-27",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Chicago",
         "country": "USA",
         "end_date": "2025-09-12",
@@ -697,7 +623,7 @@
         "country": null,
         "end_date": "2025-10-19",
         "kind": "conference",
-        "location": "Mission Bay Conference Center, 94143-3008, 1675 Owens St UNIT 251, San Francisco, CA 94158, USA",
+        "location": "San Francisco, CA, USA",
         "name": "PyBay 2025",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
         "start_date": "2025-10-18",
@@ -706,5 +632,41 @@
             "python"
         ],
         "url": "https://pybay.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-09-16",
+        "kind": "conference",
+        "location": "Dosso, Niger",
+        "name": "PyCon Niger 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-09-13",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://ne.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Puntarenas",
+        "country": "Costa Rica",
+        "end_date": "2025-08-25",
+        "kind": "conference",
+        "location": "Puntarenas, Costa Rica",
+        "name": "PyCon Latam",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-08-21",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pylatam.org"
     }
 ]
