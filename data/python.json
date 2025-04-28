@@ -5,60 +5,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2025-04-26",
-        "kind": "conference",
-        "location": "Darmstadt, Germany",
-        "name": "PyCon DE & PyData 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2025-04-23",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2025.pycon.de/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-04-28",
-        "kind": "conference",
-        "location": "Dublin, Ireland",
-        "name": "DjangoCon Europe 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2025-04-23",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2025.djangocon.eu/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-04-26",
-        "kind": "conference",
-        "location": "Vilnius, Lithuania",
-        "name": "PyCon Lithuania 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2025-04-23",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycon.lt/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2025-05-23",
         "kind": "conference",
         "location": "Pittsburgh, Pennsylvania, USA",
@@ -311,6 +257,42 @@
         "cfp_open": false,
         "city": null,
         "country": null,
+        "end_date": "2025-09-16",
+        "kind": "conference",
+        "location": "Bengaluru, India",
+        "name": "PyCon India 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-09-12",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://in.pycon.org/2025/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-09-16",
+        "kind": "conference",
+        "location": "Dosso, Niger",
+        "name": "PyCon Niger 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-09-13",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://ne.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
         "end_date": "2025-09-23",
         "kind": "conference",
         "location": "Manchester, United Kingdom",
@@ -403,7 +385,7 @@
         "country": null,
         "end_date": "2025-10-19",
         "kind": "conference",
-        "location": "Mission Bay Conference Center, 94143-3008, 1675 Owens St UNIT 251, San Francisco, CA 94158, USA",
+        "location": "San Francisco, CA, USA",
         "name": "PyBay 2025",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
         "start_date": "2025-10-18",

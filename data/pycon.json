@@ -451,6 +451,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2025-05-11",
+        "cfp_open": true,
+        "city": "Seoul",
+        "country": "South Korea",
+        "end_date": "2025-08-17",
+        "kind": "conference",
+        "location": "Seoul, South Korea",
+        "name": "PyCon Korea",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-08-15",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2025.pycon.kr"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2025-04-28",
         "cfp_open": true,
         "city": "Krakow",
@@ -466,6 +484,24 @@
             "python"
         ],
         "url": "https://www.euroscipy.org/2025/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Puntarenas",
+        "country": "Costa Rica",
+        "end_date": "2025-08-25",
+        "kind": "conference",
+        "location": "Puntarenas, Costa Rica",
+        "name": "PyCon Latam",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-08-21",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pylatam.org"
     },
     {
         "by": "bot",
@@ -506,7 +542,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-04-27",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Chicago",
         "country": "USA",
         "end_date": "2025-09-12",
@@ -650,7 +686,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-04-27",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Sao Paulo",
         "country": "Brazil",
         "end_date": "2025-10-27",
