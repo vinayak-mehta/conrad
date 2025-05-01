@@ -470,7 +470,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-04-28",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Krakow",
         "country": "Poland",
         "end_date": "2024-08-22",
@@ -721,8 +721,8 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
+        "cfp_end_date": "2025-07-20",
+        "cfp_open": true,
         "city": "Lyon",
         "country": "France",
         "end_date": "2025-11-02",
