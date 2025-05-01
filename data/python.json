@@ -149,6 +149,24 @@
         "cfp_open": false,
         "city": null,
         "country": null,
+        "end_date": "2025-07-07",
+        "kind": "conference",
+        "location": "Bel\u00e9m, Par\u00e1, Brazil",
+        "name": "Python Norte 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-07-04",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2025.pythonnorte.org/en"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
         "end_date": "2025-07-14",
         "kind": "conference",
         "location": "Tacoma, WA, USA",
@@ -214,6 +232,24 @@
             "python"
         ],
         "url": "https://euroscipy.org/2025/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-08-24",
+        "kind": "conference",
+        "location": "Lom\u00e9, Togo",
+        "name": "PyCon Togo 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-08-23",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycontg.pytogo.org/"
     },
     {
         "by": "bot",
@@ -430,5 +466,41 @@
             "python"
         ],
         "url": "https://pycon.se"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-11-03",
+        "kind": "conference",
+        "location": "Lyon, France",
+        "name": "PyCon FR 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-10-30",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.pycon.fr/2025/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-11-17",
+        "kind": "conference",
+        "location": "Dublin, Ireland",
+        "name": "PyCon Ireland 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-11-15",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.ie/"
     }
 ]

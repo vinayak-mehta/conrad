@@ -566,8 +566,8 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
+        "cfp_end_date": "2025-07-20",
+        "cfp_open": true,
         "city": "Lyon",
         "country": "France",
         "end_date": "2025-11-02",
@@ -631,5 +631,56 @@
             "python"
         ],
         "url": "https://pylatam.org"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-07-07",
+        "kind": "conference",
+        "name": "Python Norte 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-07-04",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2025.pythonnorte.org/en"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-08-24",
+        "kind": "conference",
+        "name": "PyCon Togo 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-08-23",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycontg.pytogo.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-11-17",
+        "kind": "conference",
+        "name": "PyCon Ireland 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-11-15",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.ie/"
     }
 ]
