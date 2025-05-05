@@ -1,23 +1,6 @@
 [
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Sevilla",
-        "country": "Espa\u00f1a",
-        "end_date": "2025-05-04",
-        "kind": "conference",
-        "name": "PyCamp Espa\u00f1a",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2025-05-01",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycamp.es"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2024-12-19",
         "cfp_open": false,
         "city": "Pittsburgh",
