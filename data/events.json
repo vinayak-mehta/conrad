@@ -665,5 +665,23 @@
             "python"
         ],
         "url": "https://pycon.ie/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "end_date": "2025-09-26",
+        "kind": "conference",
+        "name": "PyData Amsterdam 2025",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2025-09-24",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://amsterdam.pydata.org/"
     }
 ]
