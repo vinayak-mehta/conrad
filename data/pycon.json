@@ -452,7 +452,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-05-11",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Seoul",
         "country": "South Korea",
         "end_date": "2025-08-17",
@@ -595,8 +595,26 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Narrm / Melbourne",
+        "country": "Australia",
+        "end_date": "2025-09-16",
+        "kind": "conference",
+        "location": "Narrm / Melbourne, Australia",
+        "name": "PyCon AU",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-09-12",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2025.pycon.org.au/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2025-05-11",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Manchester",
         "country": "United Kingdom",
         "end_date": "2025-09-22",
@@ -656,7 +674,7 @@
         "end_date": "2025-10-19",
         "kind": "conference",
         "location": "Jyv\u00e4skyl\u00e4, Finland",
-        "name": "Plone Conference & PyCon Finland",
+        "name": "Plone Conference",
         "source": "https://github.com/python-organizers/conferences",
         "start_date": "2025-10-13",
         "state": null,
@@ -682,6 +700,24 @@
             "python"
         ],
         "url": "https://www.python-summit.ch"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2025-07-31",
+        "cfp_open": true,
+        "city": "Jyv\u00e4skyl\u00e4",
+        "country": "Finland",
+        "end_date": "2025-10-17",
+        "kind": "conference",
+        "location": "Jyv\u00e4skyl\u00e4, Finland",
+        "name": "PyCon Finland",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-10-17",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://fi.pycon.org"
     },
     {
         "by": "bot",
