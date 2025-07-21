@@ -437,7 +437,7 @@
         "cfp_open": false,
         "city": "Arusha",
         "country": "Tanzania",
-        "end_date": "2025-08-11",
+        "end_date": "2025-08-15",
         "kind": "conference",
         "location": "Arusha, Tanzania",
         "name": "DjangoCon Africa",
@@ -502,6 +502,42 @@
             "python"
         ],
         "url": "https://pylatam.org"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2025-07-15",
+        "cfp_open": false,
+        "city": "Lom\u00e9",
+        "country": "Togo",
+        "end_date": "2025-08-23",
+        "kind": "conference",
+        "location": "Lom\u00e9, Togo",
+        "name": "PyCon Togo",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-08-23",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycontg.pytogo.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2025-06-22",
+        "cfp_open": false,
+        "city": "Nairobi",
+        "country": "Kenya",
+        "end_date": "2025-08-30",
+        "kind": "conference",
+        "location": "Nairobi, Kenya",
+        "name": "PyCon Kenya",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-08-28",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.pycon.ke/"
     },
     {
         "by": "bot",
@@ -578,7 +614,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-05-18",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Bengaluru",
         "country": "India",
         "end_date": "2025-09-15",
@@ -667,6 +703,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2025-06-27",
+        "cfp_open": false,
+        "city": "Johannesburg",
+        "country": "South Africa",
+        "end_date": "2025-10-12",
+        "kind": "conference",
+        "location": "Johannesburg, South Africa",
+        "name": "PyCon Africa",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2025-10-08",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://africa.pycon.org"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2025-07-31",
         "cfp_open": true,
         "city": "Jyv\u00e4skyl\u00e4",
@@ -686,7 +740,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-05-31",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Rapperswil",
         "country": "Switzerland",
         "end_date": "2025-10-17",
@@ -758,7 +812,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-07-20",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Lyon",
         "country": "France",
         "end_date": "2025-11-02",
