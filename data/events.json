@@ -127,23 +127,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2025-11-03",
-        "kind": "conference",
-        "name": "PyCon FR 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2025-10-30",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.pycon.fr/2025/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2025-11-10",
         "kind": "conference",
         "name": "PyCon Chile 2025",
@@ -343,5 +326,22 @@
             "pydata"
         ],
         "url": "https://pydata.org/boston2025/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-02-27",
+        "kind": "conference",
+        "name": "PyCon Namibia 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-02-20",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://na.pycon.org/"
     }
 ]
