@@ -151,10 +151,12 @@ def validate_events(input_events, version=LATEST):
     schema = eval(f"v{version}")
     failures = []
 
-    # check for duplicates
-    ie_names = [ie["name"].replace(" ", "").lower() for ie in input_events]
+    # check for duplicates (name + start_date to allow same conference in different years)
+    ie_identifiers = [
+        (ie["name"].replace(" ", "").lower(), ie["start_date"]) for ie in input_events
+    ]
     duplicate_events = [
-        event for event, count in Counter(ie_names).items() if count > 1
+        event for event, count in Counter(ie_identifiers).items() if count > 1
     ]
     if duplicate_events:
         failures.append(f"Duplicate events found: {duplicate_events}")
