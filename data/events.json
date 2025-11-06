@@ -22,23 +22,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2025-11-06",
-        "kind": "conference",
-        "name": "JupyterCon 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2025-11-03",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://events.linuxfoundation.org/jupytercon/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2026-03-22",
         "kind": "conference",
         "name": "PyCascades 2026",
@@ -66,24 +49,6 @@
             "python"
         ],
         "url": "https://2026.pycon.it/en"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Tel Aviv",
-        "country": "Israel",
-        "end_date": "2025-11-05",
-        "kind": "conference",
-        "name": "PyData Tel Aviv 2025",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2025-11-05",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://pydata.org/telaviv2025"
     },
     {
         "by": "bot",
