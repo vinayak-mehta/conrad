@@ -955,8 +955,8 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
+        "cfp_end_date": "2025-12-19",
+        "cfp_open": true,
         "city": "Long Beach",
         "country": "USA",
         "end_date": "2026-05-19",
@@ -969,7 +969,7 @@
         "tags": [
             "python"
         ],
-        "url": "https://us.pycon.org"
+        "url": "https://us.pycon.org/2026/"
     },
     {
         "by": "bot",
