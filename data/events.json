@@ -92,40 +92,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2025-11-10",
-        "kind": "conference",
-        "name": "PyCon Chile 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2025-11-08",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycon.cl/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-11-09",
-        "kind": "conference",
-        "name": "PyCon mini Tokai 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2025-11-08",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://tokai.pycon.jp/2025/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2025-11-16",
         "kind": "conference",
         "name": "PyCon Wroclaw 2025",
@@ -260,24 +226,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Seattle",
-        "country": "USA",
-        "end_date": "2025-11-09",
-        "kind": "conference",
-        "name": "PyData Seattle",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2025-11-07",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://pydata.org/seattle2025/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Boston",
         "country": "USA",
         "end_date": "2025-12-10",
@@ -345,8 +293,8 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
+        "cfp_end_date": "2025-12-19",
+        "cfp_open": true,
         "city": "Long Beach",
         "country": "USA",
         "end_date": "2026-05-19",
@@ -358,7 +306,7 @@
         "tags": [
             "python"
         ],
-        "url": "https://us.pycon.org"
+        "url": "https://us.pycon.org/2026/"
     },
     {
         "by": "bot",
