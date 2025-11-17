@@ -5,42 +5,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2025-11-16",
-        "kind": "conference",
-        "location": "Concordia Design Wroc\u0142aw I Wynajem biur I Centrum Konferencyjno - Eventowe, wyspa S\u0142odowa 7, 50-266 Wroc\u0142aw, Poland",
-        "name": "PyCon Wroclaw 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2025-11-15",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "http://www.pyconwroclaw.com/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-11-17",
-        "kind": "conference",
-        "location": "Dublin, Ireland",
-        "name": "PyCon Ireland 2025",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2025-11-15",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycon.ie/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2025-11-19",
         "kind": "conference",
         "location": "online",
