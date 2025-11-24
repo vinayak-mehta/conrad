@@ -993,6 +993,24 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
+        "city": "Bologna",
+        "country": "Italy",
+        "end_date": "2026-05-30",
+        "kind": "conference",
+        "location": "Bologna, Italy",
+        "name": "PyCon Italia",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-05-27",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.pycon.it"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
         "city": "Cleveland",
         "country": "USA",
         "end_date": "2026-07-26",
