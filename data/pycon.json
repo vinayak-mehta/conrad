@@ -920,7 +920,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-11-30",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Malate",
         "country": "Manila",
         "end_date": "2026-03-23",
