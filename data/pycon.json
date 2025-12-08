@@ -956,7 +956,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2025-12-07",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Austin",
         "country": "Texas United States",
         "end_date": "2026-04-19",
