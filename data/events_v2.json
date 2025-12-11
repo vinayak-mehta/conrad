@@ -39,44 +39,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-12-09",
-        "kind": "conference",
-        "location": "High Tech Campus",
-        "name": "PyData Eindhoven 2025",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2025-12-09",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://pydata.org/eindhoven2025"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2025-12-11",
-        "kind": "conference",
-        "location": "Online",
-        "name": "PyData Global 2025",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2025-12-09",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://pydata.org/global2025"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Darmstadt",
         "country": "Germany",
         "end_date": "2026-04-17",
@@ -144,25 +106,6 @@
             "python"
         ],
         "url": "https://pycon.gr/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Boston",
-        "country": "USA",
-        "end_date": "2025-12-10",
-        "kind": "conference",
-        "location": "Boston, USA",
-        "name": "PyData Boston 2025",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2025-12-08",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://pydata.org/boston2025/"
     },
     {
         "by": "bot",
@@ -343,5 +286,23 @@
             "python"
         ],
         "url": "https://fosdem.org/2026/schedule/track/python/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2025-12-12",
+        "kind": "conference",
+        "location": "Online",
+        "name": "PyData Global 2025",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2025-12-09",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pydata.org/global2025"
     }
 ]
