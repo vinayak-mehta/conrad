@@ -24,25 +24,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2025-12-09",
-        "kind": "conference",
-        "location": "High Tech Campus",
-        "name": "PyData Eindhoven 2025",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2025-12-09",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://pydata.org/eindhoven2025"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2025-12-11",
         "kind": "conference",
         "location": "Online",
