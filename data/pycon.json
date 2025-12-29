@@ -901,6 +901,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2026-01-15",
+        "cfp_open": true,
+        "city": "Hyderabad",
+        "country": "IND",
+        "end_date": "2026-03-15",
+        "kind": "conference",
+        "location": "Hyderabad, Telangana, IND",
+        "name": "PyConf Hyderabad 2026",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-03-14",
+        "state": "Telangana",
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.pyconfhyd.org/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2025-10-27",
         "cfp_open": false,
         "city": "Vancouver",
