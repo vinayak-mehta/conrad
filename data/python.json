@@ -149,6 +149,24 @@
         "cfp_open": false,
         "city": null,
         "country": null,
+        "end_date": "2026-08-31",
+        "kind": "conference",
+        "location": "Gliwice, Poland",
+        "name": "PyCon PL 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-08-27",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pl.pycon.org/2026/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
         "end_date": "2026-10-14",
         "kind": "conference",
         "location": "Athens , Greece",
