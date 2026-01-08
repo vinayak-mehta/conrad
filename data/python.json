@@ -59,12 +59,30 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2026-03-22",
+        "end_date": "2026-03-24",
+        "kind": "conference",
+        "location": "Malate, Philippines",
+        "name": "PythonAsia 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-03-21",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.pythonasia.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-03-23",
         "kind": "conference",
         "location": "Vancouver, British Columbia, Canada",
         "name": "PyCascades 2026",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-03-20",
+        "start_date": "2026-03-21",
         "state": null,
         "tags": [
             "python"
@@ -77,17 +95,53 @@
         "cfp_open": false,
         "city": null,
         "country": null,
+        "end_date": "2026-04-11",
+        "kind": "conference",
+        "location": "Vilnius, Lithuania",
+        "name": "PyCon Lithuania 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-04-08",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.lt/2026"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
         "end_date": "2026-04-18",
         "kind": "conference",
         "location": "Darmstadt, Germany",
         "name": "PyCon DE & PyData 2026",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-04-13",
+        "start_date": "2026-04-14",
         "state": null,
         "tags": [
             "python"
         ],
         "url": "https://pycon.de/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-04-20",
+        "kind": "conference",
+        "location": "Austin, USA",
+        "name": "PyTexas 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-04-17",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.pytexas.org/2026/"
     },
     {
         "by": "bot",
@@ -113,6 +167,24 @@
         "cfp_open": false,
         "city": null,
         "country": null,
+        "end_date": "2026-05-19",
+        "kind": "conference",
+        "location": "Long Beach, CA, USA",
+        "name": "PyCon US 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-05-13",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://us.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
         "end_date": "2026-05-31",
         "kind": "conference",
         "location": "Bologna, Italy",
@@ -124,6 +196,24 @@
             "python"
         ],
         "url": "https://2026.pycon.it/en"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-07-27",
+        "kind": "conference",
+        "location": "Cleveland, USA",
+        "name": "PyOhio 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-07-25",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": null
     },
     {
         "by": "bot",
@@ -160,6 +250,78 @@
             "python"
         ],
         "url": "https://pl.pycon.org/2026/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-08-30",
+        "kind": "conference",
+        "location": "Nairobi, Kenya",
+        "name": "PyCon Kenya 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-08-28",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.pycon.ke/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-09-19",
+        "kind": "conference",
+        "location": "Chicago, USA",
+        "name": "DjangoCon US 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-09-14",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.djangocon.us/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-10-04",
+        "kind": "conference",
+        "location": "San Francisco, CA, USA",
+        "name": "PyBay 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-10-03",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pybay.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-10-10",
+        "kind": "conference",
+        "location": "Tallinn, Estonia",
+        "name": "PyCon Estonia 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-10-08",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.ee/"
     },
     {
         "by": "bot",
