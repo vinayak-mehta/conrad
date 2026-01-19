@@ -2,7 +2,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2026-01-15",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Hyderabad",
         "country": "IND",
         "end_date": "2026-03-15",
@@ -56,7 +56,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2026-01-15",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Vilnius",
         "country": "Lithuania",
         "end_date": "2026-04-10",
@@ -142,6 +142,24 @@
             "python"
         ],
         "url": "https://2026.pycon.it"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2026-02-15",
+        "cfp_open": true,
+        "city": "Krak\u00f3w",
+        "country": "Poland",
+        "end_date": "2026-07-19",
+        "kind": "conference",
+        "location": "Krak\u00f3w, Poland",
+        "name": "EuroPython",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-07-13",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://ep2026.europython.eu"
     },
     {
         "by": "bot",

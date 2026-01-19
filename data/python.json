@@ -203,6 +203,24 @@
         "cfp_open": false,
         "city": null,
         "country": null,
+        "end_date": "2026-07-20",
+        "kind": "conference",
+        "location": "Krak\u00f3w, Poland",
+        "name": "EuroPython 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-07-13",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://ep2026.europython.eu/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
         "end_date": "2026-07-27",
         "kind": "conference",
         "location": "Cleveland, USA",
@@ -340,5 +358,23 @@
             "python"
         ],
         "url": "https://pycon.gr/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-11-18",
+        "kind": "conference",
+        "location": "Online",
+        "name": "XtremePython 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-11-17",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://xtremepython.dev/"
     }
 ]
