@@ -286,5 +286,23 @@
             "python"
         ],
         "url": "https://pycon.ee"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Athens",
+        "country": "Greece",
+        "end_date": "2026-10-13",
+        "kind": "conference",
+        "location": "Athens, Greece",
+        "name": "PyCon Greece",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-10-12",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.pycon.gr"
     }
 ]
