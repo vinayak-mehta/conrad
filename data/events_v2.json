@@ -93,19 +93,19 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-10-14",
+        "city": "Athens",
+        "country": "Greece",
+        "end_date": "2026-10-13",
         "kind": "conference",
-        "location": "Athens , Greece",
-        "name": "PyCon Greece 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "location": "Athens, Greece",
+        "name": "PyCon Greece",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2026-10-12",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://pycon.gr/"
+        "url": "https://2026.pycon.gr"
     },
     {
         "by": "bot",
@@ -470,5 +470,23 @@
             "python"
         ],
         "url": "https://euroscipy.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-06-11",
+        "kind": "conference",
+        "location": "Basel, Switzerland",
+        "name": "GeoPython 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-06-08",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.geopython.net/"
     }
 ]
