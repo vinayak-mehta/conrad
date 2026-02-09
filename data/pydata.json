@@ -62,6 +62,25 @@
         "cfp_open": false,
         "city": null,
         "country": null,
+        "end_date": "2026-08-15",
+        "kind": "conference",
+        "location": "",
+        "name": "JuliaCon 2026",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2026-08-10",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://juliacon.org/2026/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
         "end_date": "2026-12-10",
         "kind": "conference",
         "location": "",
