@@ -414,7 +414,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2026-02-22",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Krak\u00f3w",
         "country": "Poland",
         "end_date": "2026-07-23",
@@ -479,5 +479,39 @@
             "pydata"
         ],
         "url": "https://juliacon.org/2026/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-03-05",
+        "kind": "conference",
+        "name": "Python Unplugged on PyTV",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-03-04",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://lp.jetbrains.com/python-unplugged/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-10-25",
+        "kind": "conference",
+        "name": "PyHo 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-10-23",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.pythonho.com/"
     }
 ]
