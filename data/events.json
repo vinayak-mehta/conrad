@@ -239,15 +239,15 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
+        "cfp_end_date": "2026-03-16",
+        "cfp_open": true,
         "city": "Chicago",
         "country": "USA",
-        "end_date": "2026-09-18",
+        "end_date": "2026-08-28",
         "kind": "conference",
         "name": "DjangoCon US",
         "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2026-09-14",
+        "start_date": "2026-08-24",
         "state": "Illinois",
         "tags": [
             "python"
