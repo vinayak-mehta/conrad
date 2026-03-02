@@ -163,6 +163,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2026-05-04",
+        "cfp_open": true,
+        "city": "Minneapolis",
+        "country": "USA",
+        "end_date": "2026-07-19",
+        "kind": "conference",
+        "location": "Minneapolis, Minnesota, USA",
+        "name": "SciPy",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-07-13",
+        "state": "Minnesota",
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.scipy2026.scipy.org/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2026-02-22",
         "cfp_open": false,
         "city": "Krak\u00f3w",
