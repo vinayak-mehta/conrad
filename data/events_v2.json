@@ -1,24 +1,6 @@
 [
     {
         "by": "bot",
-        "cfp_end_date": "2025-10-27",
-        "cfp_open": false,
-        "city": "Vancouver",
-        "country": "CAN",
-        "end_date": "2026-03-22",
-        "kind": "conference",
-        "location": "Vancouver, British Columbia, CAN",
-        "name": "PyCascades",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2026-03-21",
-        "state": "British Columbia",
-        "tags": [
-            "python"
-        ],
-        "url": "https://2026.pycascades.com/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Bologna",
@@ -109,24 +91,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2025-11-30",
-        "cfp_open": false,
-        "city": "Malate",
-        "country": "Manila",
-        "end_date": "2026-03-23",
-        "kind": "conference",
-        "location": "Malate, Manila",
-        "name": "PythonAsia",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2026-03-21",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2026.pythonasia.org"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2025-12-07",
         "cfp_open": false,
         "city": "Austin",
@@ -163,8 +127,8 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
+        "cfp_end_date": "2026-04-20",
+        "cfp_open": true,
         "city": "Cleveland",
         "country": "USA",
         "end_date": "2026-07-26",
@@ -235,7 +199,7 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2026-03-16",
+        "cfp_end_date": "2026-03-23",
         "cfp_open": false,
         "city": "Chicago",
         "country": "USA",
@@ -525,5 +489,59 @@
             "python"
         ],
         "url": "https://pycon.pythoncameroon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-03-24",
+        "kind": "conference",
+        "location": "Malate, Philippines",
+        "name": "PythonAsia 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-03-21",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.pythonasia.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-08-23",
+        "kind": "conference",
+        "location": "Accra, Ghana",
+        "name": "PyCon Ghana 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-08-20",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://gh.pycon.org/2026/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2026-04-20",
+        "cfp_open": true,
+        "city": "Cleveland",
+        "country": "USA",
+        "end_date": "2026-07-24",
+        "kind": "conference",
+        "location": "Cleveland, Ohio, USA",
+        "name": "Black Python Devs Leadership Summit",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-07-24",
+        "state": "Ohio",
+        "tags": [
+            "python"
+        ],
+        "url": "https://blackpythondevs.com/bpd-events/black-python-devs-leadership-summit-2026-ohio.html"
     }
 ]
