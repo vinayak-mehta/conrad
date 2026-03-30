@@ -109,6 +109,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2026-04-12",
+        "cfp_open": true,
+        "city": "Warsaw",
+        "country": "Poland",
+        "end_date": "2026-05-09",
+        "kind": "conference",
+        "location": "Warsaw, Poland",
+        "name": "Warsaw Python Pizza",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-05-09",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://warsaw.python.pizza"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2025-12-19",
         "cfp_open": false,
         "city": "Long Beach",
@@ -236,7 +254,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2026-03-23",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Chicago",
         "country": "USA",
         "end_date": "2026-08-28",
