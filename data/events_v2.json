@@ -496,24 +496,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2026-03-24",
-        "kind": "conference",
-        "location": "Malate, Philippines",
-        "name": "PythonAsia 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-03-21",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2026.pythonasia.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2026-08-23",
         "kind": "conference",
         "location": "Accra, Ghana",
@@ -543,5 +525,23 @@
             "python"
         ],
         "url": "https://blackpythondevs.com/bpd-events/black-python-devs-leadership-summit-2026-ohio.html"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2026-04-12",
+        "cfp_open": true,
+        "city": "Warsaw",
+        "country": "Poland",
+        "end_date": "2026-05-09",
+        "kind": "conference",
+        "location": "Warsaw, Poland",
+        "name": "Warsaw Python Pizza",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-05-09",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://warsaw.python.pizza"
     }
 ]
