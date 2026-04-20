@@ -5,60 +5,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2026-04-18",
-        "kind": "conference",
-        "location": "Darmstadt, Germany",
-        "name": "PyCon DE & PyData 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-04-14",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycon.de/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-04-20",
-        "kind": "conference",
-        "location": "Athens, Greece",
-        "name": "DjangoCon Europe 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-04-15",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2026.djangocon.eu/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-04-20",
-        "kind": "conference",
-        "location": "Austin, USA",
-        "name": "PyTexas 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-04-17",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.pytexas.org/2026/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2026-04-21",
         "kind": "conference",
         "location": "Eisenstadt, Austria",
@@ -95,7 +41,7 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2026-05-19",
+        "end_date": "2026-05-20",
         "kind": "conference",
         "location": "Long Beach, CA, USA",
         "name": "PyCon US 2026",
