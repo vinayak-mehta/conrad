@@ -19,24 +19,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2026-01-11",
-        "cfp_open": false,
-        "city": "Darmstadt",
-        "country": "Germany",
-        "end_date": "2026-04-17",
-        "kind": "conference",
-        "location": "Darmstadt, Germany",
-        "name": "PyCon DE & PyData",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2026-04-13",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycon.de"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": null,
@@ -91,24 +73,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2025-12-07",
-        "cfp_open": false,
-        "city": "Austin",
-        "country": "Texas United States",
-        "end_date": "2026-04-19",
-        "kind": "conference",
-        "location": "Austin, Texas United States",
-        "name": "PyTexas",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2026-04-17",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.pytexas.org/2026/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2025-12-19",
         "cfp_open": false,
         "city": "Long Beach",
@@ -128,7 +92,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2026-04-20",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Cleveland",
         "country": "USA",
         "end_date": "2026-07-26",
@@ -423,24 +387,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2026-04-20",
-        "kind": "conference",
-        "location": "Athens, Greece",
-        "name": "DjangoCon Europe 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-04-15",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2026.djangocon.eu/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2026-09-20",
         "kind": "conference",
         "location": "Yaound\u00e9, Cameroon",
@@ -474,7 +420,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2026-04-20",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Cleveland",
         "country": "USA",
         "end_date": "2026-07-24",
