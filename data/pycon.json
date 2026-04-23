@@ -218,7 +218,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2026-04-20",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Cleveland",
         "country": "USA",
         "end_date": "2026-07-24",
@@ -236,7 +236,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2026-04-20",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Cleveland",
         "country": "USA",
         "end_date": "2026-07-26",
@@ -358,5 +358,23 @@
             "python"
         ],
         "url": "https://2026.pycon.gr"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Heidelberg",
+        "country": "Germany",
+        "end_date": "2027-04-22",
+        "kind": "conference",
+        "location": "Heidelberg, Germany",
+        "name": "PyCon DE",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2027-04-20",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2027.pycon.de"
     }
 ]

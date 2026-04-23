@@ -5,24 +5,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2026-04-21",
-        "kind": "conference",
-        "location": "Eisenstadt, Austria",
-        "name": "PyCon Austria 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-04-19",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycon.at/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2026-04-27",
         "kind": "conference",
         "location": "Petaluma, California, USA",
@@ -412,5 +394,23 @@
             "python"
         ],
         "url": "https://xtremepython.dev/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2027-04-23",
+        "kind": "conference",
+        "location": "Heidelberg, Germany",
+        "name": "PyCon DE 2027",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2027-04-20",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "http://pycon.de/"
     }
 ]
