@@ -22,6 +22,7 @@ requires = [
     "rich>=10.6.0",
     "SQLAlchemy>=1.3.10",
     "textdistance>=4.1.5",
+    "packaging>=20.0",
 ]
 dev_requires = ["Sphinx>=2.2.1", "pytest>=3.8.0"]
 crawl_requires = [
