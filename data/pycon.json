@@ -182,7 +182,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2026-05-04",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Minneapolis",
         "country": "USA",
         "end_date": "2026-07-19",

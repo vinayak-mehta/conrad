@@ -507,5 +507,98 @@
             "python"
         ],
         "url": "https://2027.pycon.de"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-06-22",
+        "kind": "conference",
+        "location": "Singapore, Singapore",
+        "name": "PyCon Singapore 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-06-19",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "http://pycon.sg/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-10-29",
+        "kind": "conference",
+        "location": "Amsterdam, The Netherlands",
+        "name": "FastAPI Conf 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-10-28",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://fastapiconf.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-08-12",
+        "kind": "conference",
+        "location": "",
+        "name": "Bioconductor Conference 2026",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2026-08-10",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://bioc2026.bioconductor.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-08-21",
+        "kind": "conference",
+        "location": "",
+        "name": "StanCon 2026",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2026-08-17",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://mc-stan.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-09-11",
+        "kind": "conference",
+        "location": "",
+        "name": "PyData Amsterdam",
+        "source": "https://pydata.org/event-schedule/",
+        "start_date": "2026-09-10",
+        "state": null,
+        "tags": [
+            "python",
+            "pydata"
+        ],
+        "url": "https://amsterdam.pydata.org/conference"
     }
 ]
