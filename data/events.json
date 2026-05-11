@@ -396,23 +396,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2026-04-12",
-        "cfp_open": false,
-        "city": "Warsaw",
-        "country": "Poland",
-        "end_date": "2026-05-09",
-        "kind": "conference",
-        "name": "Warsaw Python Pizza",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2026-05-09",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://warsaw.python.pizza"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": null,
@@ -567,5 +550,39 @@
             "pydata"
         ],
         "url": "https://amsterdam.pydata.org/conference"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-05-28",
+        "kind": "conference",
+        "name": "Python Leiden User Group",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-05-28",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pythonleiden.nl/meeting-2026-05-28.html?py"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-08-18",
+        "kind": "conference",
+        "name": "PyCon Korea 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-08-15",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.pycon.kr/"
     }
 ]
