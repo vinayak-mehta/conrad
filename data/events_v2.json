@@ -55,24 +55,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2025-12-19",
-        "cfp_open": false,
-        "city": "Long Beach",
-        "country": "USA",
-        "end_date": "2026-05-19",
-        "kind": "conference",
-        "location": "Long Beach, California, USA",
-        "name": "PyCon US",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2026-05-13",
-        "state": "California",
-        "tags": [
-            "python"
-        ],
-        "url": "https://us.pycon.org/2026/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2026-04-20",
         "cfp_open": false,
         "city": "Cleveland",

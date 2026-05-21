@@ -5,24 +5,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2026-05-20",
-        "kind": "conference",
-        "location": "Long Beach, CA, USA",
-        "name": "PyCon US 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-05-13",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://us.pycon.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2026-05-31",
         "kind": "conference",
         "location": "Bologna, Italy",
