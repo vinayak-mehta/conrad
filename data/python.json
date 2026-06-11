@@ -5,60 +5,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2026-05-31",
-        "kind": "conference",
-        "location": "Bologna, Italy",
-        "name": "PyCon Italia 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-05-27",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2026.pycon.it/en"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-05-28",
-        "kind": "conference",
-        "location": "Leiden, The Netherlands",
-        "name": "Python Leiden User Group",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-05-28",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pythonleiden.nl/meeting-2026-05-28.html?py"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-06-11",
-        "kind": "conference",
-        "location": "Basel, Switzerland",
-        "name": "GeoPython 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-06-08",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2026.geopython.net/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2026-06-22",
         "kind": "conference",
         "location": "Singapore, Singapore",
@@ -70,6 +16,24 @@
             "python"
         ],
         "url": "http://pycon.sg/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-07-06",
+        "kind": "conference",
+        "location": "Ananindeua, Par\u00e1, Brazil",
+        "name": "Python Norte 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-07-03",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.pythonnorte.org/"
     },
     {
         "by": "bot",
@@ -131,6 +95,24 @@
         "cfp_open": false,
         "city": null,
         "country": null,
+        "end_date": "2026-07-26",
+        "kind": "conference",
+        "location": "Yerevan, Armenia",
+        "name": "PyData PyCon Armenia 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-07-24",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.am/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
         "end_date": "2026-07-27",
         "kind": "conference",
         "location": "Cleveland, USA",
@@ -178,6 +160,42 @@
             "python"
         ],
         "url": "https://gh.pycon.org/2026/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-08-24",
+        "kind": "conference",
+        "location": "Turrialba, Costa Rica",
+        "name": "PyCon Latam 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-08-20",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.pylatam.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-08-29",
+        "kind": "conference",
+        "location": "Chicago, USA",
+        "name": "DjangoCon US 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-08-24",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.djangocon.us/"
     },
     {
         "by": "bot",
@@ -257,24 +275,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2026-09-19",
-        "kind": "conference",
-        "location": "Chicago, USA",
-        "name": "DjangoCon US 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-09-14",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2026.djangocon.us/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2026-09-20",
         "kind": "conference",
         "location": "Yaound\u00e9, Cameroon",
@@ -347,6 +347,24 @@
         "cfp_open": false,
         "city": null,
         "country": null,
+        "end_date": "2026-10-18",
+        "kind": "conference",
+        "location": "Dublin, Ireland",
+        "name": "PyCon Ireland 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-10-17",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.pycon.ie/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
         "end_date": "2026-10-24",
         "kind": "conference",
         "location": "Rapperswil, Switzerland",
@@ -376,6 +394,24 @@
             "python"
         ],
         "url": "https://2026.pythonho.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-10-25",
+        "kind": "conference",
+        "location": "Santa Monica, California, USA",
+        "name": "PyBeach 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-10-24",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.pybeach.org/"
     },
     {
         "by": "bot",

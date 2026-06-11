@@ -163,6 +163,42 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2026-03-31",
+        "cfp_open": false,
+        "city": "Basel",
+        "country": "Switzerland",
+        "end_date": "2026-06-10",
+        "kind": "conference",
+        "location": "Basel, Switzerland",
+        "name": "GeoPython",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-06-08",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.geopython.net/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Singapore",
+        "country": "Singapore",
+        "end_date": "2026-06-21",
+        "kind": "conference",
+        "location": "Singapore, Singapore",
+        "name": "PyCon Singapore",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-06-19",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.sg/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2026-02-15",
         "cfp_open": false,
         "city": "Krak\u00f3w",
@@ -232,6 +268,24 @@
             "python"
         ],
         "url": "https://blackpythondevs.com/bpd-events/black-python-devs-leadership-summit-2026-ohio.html"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2026-05-12",
+        "cfp_open": false,
+        "city": "Medell\u00edn",
+        "country": "Colombia",
+        "end_date": "2026-07-26",
+        "kind": "conference",
+        "location": "Medell\u00edn, Colombia",
+        "name": "PyCon Colombia",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-07-24",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.pycon.co/"
     },
     {
         "by": "bot",
@@ -307,6 +361,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Aveiro",
+        "country": "Portugal",
+        "end_date": "2026-09-05",
+        "kind": "conference",
+        "location": "Aveiro, Portugal",
+        "name": "PyCon Portugal",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-09-03",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.pycon.pt/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2026-07-31",
         "cfp_open": true,
         "city": "San Francisco",
@@ -327,19 +399,19 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Tallinn",
-        "country": "Estonia",
-        "end_date": "2026-10-09",
+        "city": "Kampala",
+        "country": "Uganda",
+        "end_date": "2026-10-11",
         "kind": "conference",
-        "location": "Tallinn, Estonia",
-        "name": "PyCon Estonia",
+        "location": "Kampala, Uganda",
+        "name": "PyCon Africa",
         "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2026-10-08",
+        "start_date": "2026-10-07",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://pycon.ee"
+        "url": "https://africa.pycon.org/"
     },
     {
         "by": "bot",
@@ -358,6 +430,78 @@
             "python"
         ],
         "url": "https://2026.pycon.gr"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2026-08-30",
+        "cfp_open": true,
+        "city": "Dublin",
+        "country": "Ireland",
+        "end_date": "2026-10-17",
+        "kind": "conference",
+        "location": "Dublin, Ireland",
+        "name": "PyCon Ireland",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-10-17",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.pycon.ie/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2026-06-15",
+        "cfp_open": true,
+        "city": "Rapperswil",
+        "country": "Switzerland",
+        "end_date": "2026-10-23",
+        "kind": "conference",
+        "location": "Rapperswil, Switzerland",
+        "name": "Swiss Python Summit",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-10-22",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.python-summit.ch/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Biarritz",
+        "country": "France",
+        "end_date": "2026-11-01",
+        "kind": "conference",
+        "location": "Biarritz, France",
+        "name": "PyConFR",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-10-29",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.pycon.fr/2026/en/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Barcelona",
+        "country": "Spain",
+        "end_date": "2026-11-08",
+        "kind": "conference",
+        "location": "Barcelona, Spain",
+        "name": "PyCon ES",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-11-06",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.es.pycon.org/en/"
     },
     {
         "by": "bot",
