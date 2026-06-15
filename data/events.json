@@ -363,7 +363,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2026-06-15",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Rapperswil",
         "country": "Switzerland",
         "end_date": "2026-10-23",
