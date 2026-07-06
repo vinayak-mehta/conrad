@@ -307,6 +307,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2026-06-14",
+        "cfp_open": false,
+        "city": "Seoul",
+        "country": "South Korea",
+        "end_date": "2026-08-17",
+        "kind": "conference",
+        "location": "Seoul, South Korea",
+        "name": "PyCon Korea 2026",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-08-15",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.pycon.kr/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2026-03-23",
         "cfp_open": false,
         "city": "Chicago",
@@ -433,6 +451,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2026-08-23",
+        "cfp_open": true,
+        "city": "Utrecht",
+        "country": "Netherlands",
+        "end_date": "2026-10-15",
+        "kind": "conference",
+        "location": "Utrecht, Netherlands",
+        "name": "PyCon NL",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-10-15",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.pycon-nl.org"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "2026-08-30",
         "cfp_open": true,
         "city": "Dublin",
@@ -502,6 +538,24 @@
             "python"
         ],
         "url": "https://2026.es.pycon.org/en/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Stockholm",
+        "country": "Sweden",
+        "end_date": "2026-11-20",
+        "kind": "conference",
+        "location": "Stockholm, Sweden",
+        "name": "PyCon Sweden 2026",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-11-19",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.se/"
     },
     {
         "by": "bot",
