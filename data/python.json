@@ -5,17 +5,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2026-07-20",
+        "end_date": "2026-08-10",
         "kind": "conference",
-        "location": "Minneapolis, MN, USA",
-        "name": "SciPy 2026",
+        "location": "Jakarta, Indonesia",
+        "name": "PyCon Indonesia 2026",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-07-13",
+        "start_date": "2026-08-08",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://www.scipy2026.scipy.org/"
+        "url": "https://pycon.id/"
     },
     {
         "by": "bot",
@@ -23,71 +23,17 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2026-07-20",
+        "end_date": "2026-08-16",
         "kind": "conference",
-        "location": "Krak\u00f3w, Poland",
-        "name": "EuroPython 2026",
+        "location": "Fortaleza, Cear\u00e1, Brazil",
+        "name": "Python Nordeste 2026 (PyNE 2026)",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-07-13",
+        "start_date": "2026-08-13",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://ep2026.europython.eu/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-07-24",
-        "kind": "conference",
-        "location": "Krakow, Poland",
-        "name": "EuroSciPy 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-07-18",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://euroscipy.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-07-26",
-        "kind": "conference",
-        "location": "Yerevan, Armenia",
-        "name": "PyData PyCon Armenia 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-07-24",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycon.am/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-07-27",
-        "kind": "conference",
-        "location": "Cleveland, USA",
-        "name": "PyOhio 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-07-25",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": null
+        "url": "https://2026.pythonnordeste.org/"
     },
     {
         "by": "bot",
@@ -142,6 +88,24 @@
             "python"
         ],
         "url": "https://www.pylatam.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-08-24",
+        "kind": "conference",
+        "location": "Hiroshima, Japan",
+        "name": "PyCon JP 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-08-21",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.pycon.jp/"
     },
     {
         "by": "bot",
@@ -509,6 +473,24 @@
         "cfp_open": false,
         "city": null,
         "country": null,
+        "end_date": "2027-02-26",
+        "kind": "conference",
+        "location": "Windhoek, Namibia",
+        "name": "PyCon Namibia 2027",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2027-02-19",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://na.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
         "end_date": "2027-04-23",
         "kind": "conference",
         "location": "Heidelberg, Germany",
@@ -520,5 +502,23 @@
             "python"
         ],
         "url": "http://pycon.de/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2027-04-27",
+        "kind": "conference",
+        "location": "Eisenstadt, Austria",
+        "name": "PyCon Austria 2027 ",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2027-04-25",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.at/"
     }
 ]
