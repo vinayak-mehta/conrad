@@ -559,6 +559,24 @@
     },
     {
         "by": "bot",
+        "cfp_end_date": "2026-08-25",
+        "cfp_open": true,
+        "city": "Istanbul",
+        "country": "Turkey",
+        "end_date": "2026-11-14",
+        "kind": "conference",
+        "location": "Istanbul, Turkey",
+        "name": "Python Pizza Istanbul",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-11-14",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://istanbul.python.pizza/"
+    },
+    {
+        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Stockholm",
@@ -628,5 +646,23 @@
             "python"
         ],
         "url": "https://pycon.lt/2027/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Gliwice",
+        "country": "Poland",
+        "end_date": "2027-08-29",
+        "kind": "conference",
+        "location": "Gliwice, Poland",
+        "name": "PyCon PL",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2027-08-26",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pl.pycon.org/2027"
     }
 ]

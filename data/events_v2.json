@@ -37,21 +37,21 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2026-02-15",
+        "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Gliwice",
         "country": "Poland",
-        "end_date": "2026-08-30",
+        "end_date": "2027-08-29",
         "kind": "conference",
         "location": "Gliwice, Poland",
         "name": "PyCon PL",
         "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2026-08-27",
+        "start_date": "2027-08-26",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://pl.pycon.org/2026"
+        "url": "https://pl.pycon.org/2027"
     },
     {
         "by": "bot",
@@ -179,25 +179,6 @@
             "python"
         ],
         "url": "https://2026.es.pycon.org/en/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-08-15",
-        "kind": "conference",
-        "location": "",
-        "name": "JuliaCon 2026",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2026-08-10",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://juliacon.org/2026/"
     },
     {
         "by": "bot",
@@ -365,24 +346,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2026-06-14",
-        "cfp_open": false,
-        "city": "Seoul",
-        "country": "South Korea",
-        "end_date": "2026-08-17",
-        "kind": "conference",
-        "location": "Seoul, South Korea",
-        "name": "PyCon Korea 2026",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2026-08-15",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2026.pycon.kr/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": null,
@@ -545,24 +508,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-08-16",
-        "kind": "conference",
-        "location": "Fortaleza, Cear\u00e1, Brazil",
-        "name": "Python Nordeste 2026 (PyNE 2026)",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-08-13",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2026.pythonnordeste.org/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2026-05-31",
         "cfp_open": false,
         "city": "Hiroshima",
@@ -668,5 +613,41 @@
             "python"
         ],
         "url": "https://pycon.lt/2027/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-08-18",
+        "kind": "conference",
+        "location": "Seoul, Republic of Korea",
+        "name": "PyCon Korea 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-08-15",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.pycon.kr/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2026-08-25",
+        "cfp_open": true,
+        "city": "Istanbul",
+        "country": "Turkey",
+        "end_date": "2026-11-14",
+        "kind": "conference",
+        "location": "Istanbul, Turkey",
+        "name": "Python Pizza Istanbul",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-11-14",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://istanbul.python.pizza/"
     }
 ]
