@@ -292,13 +292,13 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-10-29",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "end_date": "2026-10-28",
         "kind": "conference",
-        "location": "Amsterdam, The Netherlands",
-        "name": "FastAPI Conf 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "location": "Amsterdam, Netherlands",
+        "name": "FastAPI Conf",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2026-10-28",
         "state": null,
         "tags": [
@@ -616,24 +616,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-08-18",
-        "kind": "conference",
-        "location": "Seoul, Republic of Korea",
-        "name": "PyCon Korea 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-08-15",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2026.pycon.kr/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2026-08-25",
         "cfp_open": true,
         "city": "Istanbul",
@@ -649,5 +631,41 @@
             "python"
         ],
         "url": "https://istanbul.python.pizza/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Long Beach",
+        "country": "USA",
+        "end_date": "2027-05-18",
+        "kind": "conference",
+        "location": "Long Beach, California, USA",
+        "name": "PyCon US",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2027-05-12",
+        "state": "California",
+        "tags": [
+            "python"
+        ],
+        "url": ""
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Cleveland",
+        "country": "USA",
+        "end_date": "2027-07-25",
+        "kind": "conference",
+        "location": "Cleveland, Ohio, USA",
+        "name": "PyOhio",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2027-07-24",
+        "state": "Ohio",
+        "tags": [
+            "python"
+        ],
+        "url": ""
     }
 ]
