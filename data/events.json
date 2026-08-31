@@ -3,23 +3,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Brisbane",
-        "country": "Australia",
-        "end_date": "2026-08-30",
-        "kind": "conference",
-        "name": "PyCon AU",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2026-08-26",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2026.pycon.org.au"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Athens",
         "country": "Greece",
         "end_date": "2026-10-13",
@@ -83,40 +66,6 @@
             "python"
         ],
         "url": "https://pycon.ee/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2026-03-23",
-        "cfp_open": false,
-        "city": "Chicago",
-        "country": "USA",
-        "end_date": "2026-08-28",
-        "kind": "conference",
-        "name": "DjangoCon US",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2026-08-24",
-        "state": "Illinois",
-        "tags": [
-            "python"
-        ],
-        "url": "https://2026.djangocon.us"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-08-30",
-        "kind": "conference",
-        "name": "PyCon Kenya 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-08-28",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.pycon.ke/"
     },
     {
         "by": "bot",
@@ -206,40 +155,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-08-23",
-        "kind": "conference",
-        "name": "PyCon Ghana 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-08-20",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://gh.pycon.org/2026/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-08-30",
-        "kind": "conference",
-        "name": "PyCon Togo 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-08-28",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycontg.pytogo.org/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2026-06-15",
         "cfp_open": false,
         "city": "Rapperswil",
@@ -276,36 +191,18 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-10-29",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "end_date": "2026-10-28",
         "kind": "conference",
-        "name": "FastAPI Conf 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "name": "FastAPI Conf",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2026-10-28",
         "state": null,
         "tags": [
             "python"
         ],
         "url": "https://fastapiconf.com/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-08-21",
-        "kind": "conference",
-        "name": "StanCon 2026",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2026-08-17",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://mc-stan.org/"
     },
     {
         "by": "bot",
@@ -327,25 +224,8 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-08-24",
-        "kind": "conference",
-        "name": "PyCon Latam 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-08-20",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.pylatam.org/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "2026-08-30",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Dublin",
         "country": "Ireland",
         "end_date": "2026-10-17",
@@ -447,7 +327,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2026-08-23",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Utrecht",
         "country": "Netherlands",
         "end_date": "2026-10-15",
@@ -477,23 +357,6 @@
             "python"
         ],
         "url": "https://pycon.se/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2026-05-31",
-        "cfp_open": false,
-        "city": "Hiroshima",
-        "country": "Japan",
-        "end_date": "2026-08-23",
-        "kind": "conference",
-        "name": "PyCon JP",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2026-08-21",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2026.pycon.jp/"
     },
     {
         "by": "bot",
@@ -548,8 +411,8 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
+        "cfp_end_date": "2026-10-19",
+        "cfp_open": true,
         "city": "Chennai",
         "country": "IND",
         "end_date": "2026-12-20",
@@ -582,24 +445,7 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-08-18",
-        "kind": "conference",
-        "name": "PyCon Korea 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-08-15",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2026.pycon.kr/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "2026-08-25",
+        "cfp_end_date": "2026-09-07",
         "cfp_open": true,
         "city": "Istanbul",
         "country": "Turkey",
@@ -613,5 +459,56 @@
             "python"
         ],
         "url": "https://istanbul.python.pizza/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-09-13",
+        "kind": "conference",
+        "name": "PyDay Boyac\u00e1 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-09-12",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.pyday.co/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Long Beach",
+        "country": "USA",
+        "end_date": "2027-05-18",
+        "kind": "conference",
+        "name": "PyCon US",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2027-05-12",
+        "state": "California",
+        "tags": [
+            "python"
+        ],
+        "url": ""
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Cleveland",
+        "country": "USA",
+        "end_date": "2027-07-25",
+        "kind": "conference",
+        "name": "PyOhio",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2027-07-24",
+        "state": "Ohio",
+        "tags": [
+            "python"
+        ],
+        "url": ""
     }
 ]
