@@ -113,6 +113,24 @@
         "cfp_open": false,
         "city": null,
         "country": null,
+        "end_date": "2026-10-19",
+        "kind": "conference",
+        "location": "Taipei City, Taiwan",
+        "name": "PyCon Taiwan",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-10-17",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://tw.pycon.org/2026/en-us"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
         "end_date": "2026-10-24",
         "kind": "conference",
         "location": "Rapperswil, Switzerland",
@@ -259,6 +277,24 @@
         "country": null,
         "end_date": "2026-11-21",
         "kind": "conference",
+        "location": "Online",
+        "name": "Wagtail Space 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-11-18",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://wagtail.org/wagtail-space-2026/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-11-21",
+        "kind": "conference",
         "location": "Wroclaw, Poland",
         "name": "PyCon Wroclaw 2026",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
@@ -268,6 +304,24 @@
             "python"
         ],
         "url": "http://www.pyconwroclaw.com/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-11-22",
+        "kind": "conference",
+        "location": "Dublin, Ireland",
+        "name": "PyCon Ireland 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-11-21",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.pycon.ie/"
     },
     {
         "by": "bot",
