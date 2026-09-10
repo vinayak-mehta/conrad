@@ -578,7 +578,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2026-09-07",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Istanbul",
         "country": "Turkey",
         "end_date": "2026-11-14",

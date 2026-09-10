@@ -493,5 +493,39 @@
             "python"
         ],
         "url": ""
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-10-19",
+        "kind": "conference",
+        "name": "PyCon Taiwan",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-10-17",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://tw.pycon.org/2026/en-us"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-11-21",
+        "kind": "conference",
+        "name": "Wagtail Space 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-11-18",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://wagtail.org/wagtail-space-2026/"
     }
 ]
