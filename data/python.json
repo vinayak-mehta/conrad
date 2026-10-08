@@ -5,60 +5,6 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2026-09-13",
-        "kind": "conference",
-        "location": "Sogamoso, Boyac\u00e1, Colombia",
-        "name": "PyDay Boyac\u00e1 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-09-12",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.pyday.co/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-09-20",
-        "kind": "conference",
-        "location": "Yaound\u00e9, Cameroon",
-        "name": "PyCon Cameroon 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-09-17",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycon.pythoncameroon.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-10-04",
-        "kind": "conference",
-        "location": "San Francisco, CA, USA",
-        "name": "PyBay 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-10-03",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pybay.org/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
         "end_date": "2026-10-12",
         "kind": "conference",
         "location": "Kampala, Uganda",
@@ -124,6 +70,24 @@
             "python"
         ],
         "url": "https://tw.pycon.org/2026/en-us"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-10-24",
+        "kind": "conference",
+        "location": "Panama City, Panama",
+        "name": "PyCon Panam\u00e1 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-10-22",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.pa/2026/"
     },
     {
         "by": "bot",
@@ -365,17 +329,35 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2027-02-26",
+        "end_date": "2027-03-05",
         "kind": "conference",
         "location": "Windhoek, Namibia",
         "name": "PyCon Namibia 2027",
         "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2027-02-19",
+        "start_date": "2027-02-26",
         "state": null,
         "tags": [
             "python"
         ],
         "url": "https://na.pycon.org/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2027-03-14",
+        "kind": "conference",
+        "location": "Bratislava, Slovakia",
+        "name": "PyCon SK 2027",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2027-03-12",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.sk/"
     },
     {
         "by": "bot",
@@ -412,5 +394,23 @@
             "python"
         ],
         "url": "https://pycon.at/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2027-05-26",
+        "kind": "conference",
+        "location": "Luanda, Angola ",
+        "name": "PyCon Angola 2027",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2027-05-20",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://ao.pycon.org/"
     }
 ]

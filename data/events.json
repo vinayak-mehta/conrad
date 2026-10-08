@@ -35,23 +35,6 @@
     },
     {
         "by": "bot",
-        "cfp_end_date": "2026-07-31",
-        "cfp_open": false,
-        "city": "San Francisco",
-        "country": "USA",
-        "end_date": "2026-10-03",
-        "kind": "conference",
-        "name": "PyBay",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2026-10-03",
-        "state": "California",
-        "tags": [
-            "python"
-        ],
-        "url": "https://pybay.org/"
-    },
-    {
-        "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": null,
@@ -83,7 +66,7 @@
             "python",
             "pydata"
         ],
-        "url": "https://pydata.org/events/pydata-global-2/"
+        "url": "https://pydata.org/global2026/"
     },
     {
         "by": "bot",
@@ -93,65 +76,48 @@
         "country": null,
         "end_date": "2026-11-18",
         "kind": "conference",
-        "name": "XtremePython 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "name": "XtremePython",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2026-11-17",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://xtremepython.dev/"
+        "url": "https://xtremepython.dev"
     },
     {
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Barcelona",
-        "country": "Spain",
+        "country": "Espa\u00f1a",
         "end_date": "2026-11-08",
         "kind": "conference",
-        "name": "PyCon ES",
+        "name": "PyConES",
         "source": "https://github.com/python-organizers/conferences",
         "start_date": "2026-11-06",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://2026.es.pycon.org/en/"
+        "url": "https://2026.es.pycon.org/en"
     },
     {
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
+        "city": "Ho",
+        "country": "Ghana",
         "end_date": "2026-10-25",
         "kind": "conference",
-        "name": "PyHo 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "name": "PyHo",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2026-10-23",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://2026.pythonho.com/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-09-20",
-        "kind": "conference",
-        "name": "PyCon Cameroon 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-09-17",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://pycon.pythoncameroon.org/"
+        "url": "https://2026.pythonho.com"
     },
     {
         "by": "bot",
@@ -168,7 +134,7 @@
         "tags": [
             "python"
         ],
-        "url": "https://www.python-summit.ch/"
+        "url": "https://www.python-summit.ch"
     },
     {
         "by": "bot",
@@ -176,11 +142,11 @@
         "cfp_open": false,
         "city": "Heidelberg",
         "country": "Germany",
-        "end_date": "2027-04-24",
+        "end_date": "2027-04-22",
         "kind": "conference",
         "name": "PyCon DE",
         "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2027-04-19",
+        "start_date": "2027-04-20",
         "state": null,
         "tags": [
             "python"
@@ -192,7 +158,7 @@
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
         "city": "Amsterdam",
-        "country": "Netherlands",
+        "country": "The Netherlands",
         "end_date": "2026-10-28",
         "kind": "conference",
         "name": "FastAPI Conf",
@@ -202,25 +168,7 @@
         "tags": [
             "python"
         ],
-        "url": "https://fastapiconf.com/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-09-11",
-        "kind": "conference",
-        "name": "PyData Amsterdam",
-        "source": "https://pydata.org/event-schedule/",
-        "start_date": "2026-09-10",
-        "state": null,
-        "tags": [
-            "python",
-            "pydata"
-        ],
-        "url": "https://amsterdam.pydata.org/conference"
+        "url": "https://fastapiconf.com"
     },
     {
         "by": "bot",
@@ -228,33 +176,33 @@
         "cfp_open": false,
         "city": "Dublin",
         "country": "Ireland",
-        "end_date": "2026-10-17",
+        "end_date": "2026-11-21",
         "kind": "conference",
         "name": "PyCon Ireland",
         "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2026-10-17",
+        "start_date": "2026-11-21",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://2026.pycon.ie/"
+        "url": "https://2026.pycon.ie"
     },
     {
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-10-25",
+        "city": "Santa Monica",
+        "country": "USA",
+        "end_date": "2026-10-24",
         "kind": "conference",
-        "name": "PyBeach 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "name": "PyBeach",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2026-10-24",
-        "state": null,
+        "state": "California",
         "tags": [
             "python"
         ],
-        "url": "https://2026.pybeach.org/"
+        "url": "https://2026.pybeach.org"
     },
     {
         "by": "bot",
@@ -271,7 +219,7 @@
         "tags": [
             "python"
         ],
-        "url": "https://africa.pycon.org/"
+        "url": "https://africa.pycon.org"
     },
     {
         "by": "bot",
@@ -288,31 +236,31 @@
         "tags": [
             "python"
         ],
-        "url": "https://www.pycon.fr/2026/en/"
+        "url": "https://www.pycon.fr/2026/en"
     },
     {
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
+        "city": "Edinburgh",
+        "country": "United Kingdom",
         "end_date": "2026-11-29",
         "kind": "conference",
         "name": "Python E-Commerce Forum",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2026-11-26",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://codehut.co.uk/2026/"
+        "url": "https://codehut.co.uk/2026"
     },
     {
         "by": "bot",
         "cfp_end_date": "2026-08-23",
         "cfp_open": false,
         "city": "Utrecht",
-        "country": "Netherlands",
+        "country": "The Netherlands",
         "end_date": "2026-10-15",
         "kind": "conference",
         "name": "PyCon NL",
@@ -332,65 +280,65 @@
         "country": "Sweden",
         "end_date": "2026-11-20",
         "kind": "conference",
-        "name": "PyCon Sweden 2026",
+        "name": "PyCon Sweden",
         "source": "https://github.com/python-organizers/conferences",
         "start_date": "2026-11-19",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://pycon.se/"
+        "url": "https://pycon.se"
     },
     {
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
+        "city": "Windhoek",
+        "country": "Namibia",
         "end_date": "2027-02-26",
         "kind": "conference",
-        "name": "PyCon Namibia 2027",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "name": "PyCon Namibia",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2027-02-19",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://na.pycon.org/"
+        "url": "https://na.pycon.org"
     },
     {
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
+        "city": "Eisenstadt",
+        "country": "Austria",
         "end_date": "2027-04-27",
         "kind": "conference",
-        "name": "PyCon Austria 2027 ",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "name": "PyCon Austria",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2027-04-25",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://pycon.at/"
+        "url": "https://pycon.at"
     },
     {
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": null,
-        "country": null,
+        "city": "Wroclaw",
+        "country": "Poland",
         "end_date": "2026-11-21",
         "kind": "conference",
-        "name": "PyCon Wroclaw 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "name": "PyCon Wroclaw",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2026-11-20",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "http://www.pyconwroclaw.com/"
+        "url": "https://www.pyconwroclaw.com"
     },
     {
         "by": "bot",
@@ -407,7 +355,7 @@
         "tags": [
             "python"
         ],
-        "url": "https://scipy.in/2026/"
+        "url": "https://scipy.in/2026"
     },
     {
         "by": "bot",
@@ -424,7 +372,7 @@
         "tags": [
             "python"
         ],
-        "url": "https://pycon.lt/2027/"
+        "url": "https://pycon.lt/2027"
     },
     {
         "by": "bot",
@@ -441,24 +389,7 @@
         "tags": [
             "python"
         ],
-        "url": "https://istanbul.python.pizza/"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": null,
-        "country": null,
-        "end_date": "2026-09-13",
-        "kind": "conference",
-        "name": "PyDay Boyac\u00e1 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
-        "start_date": "2026-09-12",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.pyday.co/"
+        "url": "https://istanbul.python.pizza"
     },
     {
         "by": "bot",
@@ -475,7 +406,7 @@
         "tags": [
             "python"
         ],
-        "url": ""
+        "url": "https://us.pycon.org"
     },
     {
         "by": "bot",
@@ -492,7 +423,7 @@
         "tags": [
             "python"
         ],
-        "url": ""
+        "url": "https://www.pyohio.org"
     },
     {
         "by": "bot",
@@ -517,15 +448,168 @@
         "cfp_open": false,
         "city": null,
         "country": null,
-        "end_date": "2026-11-21",
+        "end_date": "2026-11-20",
         "kind": "conference",
-        "name": "Wagtail Space 2026",
-        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "name": "Wagtail Space",
+        "source": "https://github.com/python-organizers/conferences",
         "start_date": "2026-11-18",
         "state": null,
         "tags": [
             "python"
         ],
-        "url": "https://wagtail.org/wagtail-space-2026/"
+        "url": "https://wagtail.org/wagtail-space-2026"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "2026-09-18",
+        "cfp_open": false,
+        "city": "Panam\u00e1 City",
+        "country": "Panam\u00e1",
+        "end_date": "2026-10-23",
+        "kind": "conference",
+        "name": "PyCon Panam\u00e1",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-10-22",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.pa/2026"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2027-03-14",
+        "kind": "conference",
+        "name": "PyCon SK 2027",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2027-03-12",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.sk/"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Luanda",
+        "country": "Angola",
+        "end_date": "2027-05-26",
+        "kind": "conference",
+        "name": "PyCon Angola",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2027-05-20",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://ao.pycon.org"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Ciudad de M\u00e9xico",
+        "country": "MEX",
+        "end_date": "2026-10-10",
+        "kind": "conference",
+        "name": "PyDay M\u00e9xico: CDMX",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-10-10",
+        "state": "CMX",
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.eventbrite.com.mx/e/pyday-mexico-2026-cdmx-tickets-1989262280029"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Taipei",
+        "country": "Taiwan",
+        "end_date": "2026-10-19",
+        "kind": "conference",
+        "name": "PyCon TW",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-10-17",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://tw.pycon.org/2026/en-us"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "San Jose",
+        "country": "USA",
+        "end_date": "2026-10-21",
+        "kind": "conference",
+        "name": "PyTorch Conference",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-10-20",
+        "state": "CA",
+        "tags": [
+            "python"
+        ],
+        "url": "https://pytorch.org/event/pytorch-conference-2026"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Dar es Salaam",
+        "country": "TZA",
+        "end_date": "2026-11-16",
+        "kind": "conference",
+        "name": "PyCon Tanzania",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-11-14",
+        "state": "Tanzania",
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.tz"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": "Dakar",
+        "country": "Senegal",
+        "end_date": "2026-11-28",
+        "kind": "conference",
+        "name": "Pycon Senegambia",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-11-27",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://www.pyconsenegambia.org"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-12-07",
+        "kind": "conference",
+        "name": "PyLadiesCon",
+        "source": "https://github.com/python-organizers/conferences",
+        "start_date": "2026-12-05",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://2026.conference.pyladies.com/en"
     }
 ]
