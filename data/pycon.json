@@ -1406,7 +1406,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2026-11-01",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Chennai",
         "country": "IND",
         "end_date": "2026-12-20",
