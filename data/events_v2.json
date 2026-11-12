@@ -58,24 +58,6 @@
         "by": "bot",
         "cfp_end_date": "1970-01-01",
         "cfp_open": false,
-        "city": "Barcelona",
-        "country": "Espa\u00f1a",
-        "end_date": "2026-11-08",
-        "kind": "conference",
-        "location": "Barcelona, Espa\u00f1a",
-        "name": "PyConES",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2026-11-06",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://2026.es.pycon.org/en"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
         "city": "Heidelberg",
         "country": "Germany",
         "end_date": "2027-04-22",
@@ -89,24 +71,6 @@
             "python"
         ],
         "url": "https://pycon.de"
-    },
-    {
-        "by": "bot",
-        "cfp_end_date": "1970-01-01",
-        "cfp_open": false,
-        "city": "Biarritz",
-        "country": "France",
-        "end_date": "2026-11-01",
-        "kind": "conference",
-        "location": "Biarritz, France",
-        "name": "PyConFR",
-        "source": "https://github.com/python-organizers/conferences",
-        "start_date": "2026-10-29",
-        "state": null,
-        "tags": [
-            "python"
-        ],
-        "url": "https://www.pycon.fr/2026/en"
     },
     {
         "by": "bot",
@@ -201,7 +165,7 @@
     {
         "by": "bot",
         "cfp_end_date": "2026-11-01",
-        "cfp_open": true,
+        "cfp_open": false,
         "city": "Chennai",
         "country": "IND",
         "end_date": "2026-12-20",
@@ -449,5 +413,23 @@
             "python"
         ],
         "url": "https://2026.conference.pyladies.com/en"
+    },
+    {
+        "by": "bot",
+        "cfp_end_date": "1970-01-01",
+        "cfp_open": false,
+        "city": null,
+        "country": null,
+        "end_date": "2026-11-16",
+        "kind": "conference",
+        "location": "Tseung Kwan O, Hong Kong",
+        "name": "PyCon Hong Kong 2026",
+        "source": "https://wiki.python.org/moin/PythonEventsCalendar",
+        "start_date": "2026-11-14",
+        "state": null,
+        "tags": [
+            "python"
+        ],
+        "url": "https://pycon.hk/2026/"
     }
 ]
